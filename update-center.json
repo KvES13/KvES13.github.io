@@ -1,243 +1,41 @@
 updateCenter.post(
 {
-	"connectionCheckUrl":"https://www.google.com/",
-	"deprecations":{},
-	"generationTimestamp":"2024-10-14T15:55:13Z",
-	"id":"nfalco79",
-	"plugins":{
-		"bitbucket-steps":{
-			"buildDate":"Feb 24, 2024",
-			"dependencies":[
-				{
-					"name":"workflow-step-api",
-					"optional":false,
-					"version":"657.v03b_e8115821b_"
-				},
-				{
-					"name":"credentials",
-					"optional":false,
-					"version":"1319.v7eb_51b_3a_c97b_"
-				},
-				{
-					"name":"handy-uri-templates-2-api",
-					"optional":false,
-					"version":"2.1.8-30.v7e777411b_148"
-				},
-				{
-					"name":"jackson2-api",
-					"optional":false,
-					"version":"2.16.1-373.ve709c6871598"
-				},
-				{
-					"name":"script-security",
-					"optional":false,
-					"version":"1326.vdb_c154de8669"
-				}
-			],
-			"developers":[],
-			"excerpt":"Workflow step to get informations about repository hosted at Bitbuket Cloud.",
-			"gav":"com.github.nfalco79:bitbucket-steps:1.0.2",
-			"labels":[],
-			"name":"bitbucket-steps",
-			"popularity":0,
-			"releaseTimestamp":"2024-02-24T19:23:52.00Z",
-			"requiredCore":"2.440.1",
-			"scm":"https://github.com/nfalco79/bitbucket-steps-plugin",
-			"sha1":"Eawi9V2FyGVV5WajRhqj8toCUco=",
-			"sha256":"8HdAYkMDRcFxfKhEKaugCIAgVIAFa4KCP0FIn5rQaSU=",
-			"size":1893859,
-			"title":"Pipelines step for Bitbucket Cloud",
-			"url":"https://repo1.maven.org/maven2/com/github/nfalco79/bitbucket-steps/1.0.2/bitbucket-steps-1.0.2.hpi",
-			"version":"1.0.2",
-			"wiki":"https://github.com/nfalco79/bitbucket-steps-plugin/wiki"
-		},
-		"bitbucket-trait":{
-			"buildDate":"Feb 24, 2024",
-			"dependencies":[
-				{
-					"name":"branch-api",
-					"optional":false,
-					"version":"2.1148.vce12cfcdf090"
-				},
-				{
-					"name":"cloudbees-bitbucket-branch-source",
-					"optional":false,
-					"version":"757.vddedc5f2589a_"
-				},
-				{
-					"name":"git",
-					"optional":false,
-					"version":"5.2.1"
-				}
-			],
-			"developers":[],
-			"excerpt":"Additional traits and build strategy for multi branch project.",
-			"gav":"com.github.nfalco79:bitbucket-trait:1.1.1",
-			"labels":[],
-			"name":"bitbucket-trait",
-			"popularity":0,
-			"releaseTimestamp":"2024-02-24T22:48:00.00Z",
-			"requiredCore":"2.440.1",
-			"scm":"https://github.com/nfalco79/bitbucket-trait-plugin",
-			"sha1":"9dQX4t5wn3DZqgpkIe6uNR9cqWk=",
-			"sha256":"odsT9cX42wi1c4+nvFHb/PnSixqfgJIH9Zd03oK2Zqc=",
-			"size":25559,
-			"title":"Additional Traits and Build strategies",
-			"url":"https://repo1.maven.org/maven2/com/github/nfalco79/bitbucket-trait/1.1.1/bitbucket-trait-1.1.1.hpi",
-			"version":"1.1.1",
-			"wiki":"https://github.com/nfalco79/bitbucket-trait-plugin/wiki"
-		},
-		"branch-properties":{
-			"buildDate":"Oct 10, 2024",
-			"dependencies":[
-				{
-					"name":"branch-api",
-					"optional":false,
-					"version":"2.1178.v969d9eb_c728e"
-				}
-			],
-			"developers":[],
-			"excerpt":"Allows to add action to run a build in a multi-branch projects specifying a different set of parameters for each branch.",
-			"gav":"com.github.nfalco79:branch-properties:1.0.2",
-			"labels":[],
-			"name":"branch-properties",
-			"popularity":0,
-			"releaseTimestamp":"2024-10-10T16:46:22.00Z",
-			"requiredCore":"2.462.3",
-			"scm":"https://github.com/nfalco79/branch-properties-plugin",
-			"sha1":"e+SrKXobo/lI3weRB7Dx0q+uapw=",
-			"sha256":"flLhbWeyvrDkAhODjU3Puw6X9Xc6+GEv315oCeYkvhw=",
-			"size":51571,
-			"title":"Define branch properties for MultiBranch Pipeline Jobs",
-			"url":"https://repo1.maven.org/maven2/com/github/nfalco79/branch-properties/1.0.2/branch-properties-1.0.2.hpi",
-			"version":"1.0.2",
-			"wiki":"https://github.com/nfalco79/branch-properties-plugin/wiki"
-		},
-		"ext-configfiles":{
-			"buildDate":"Feb 24, 2024",
-			"dependencies":[
-				{
-					"name":"config-file-provider",
-					"optional":false,
-					"version":"968.ve1ca_eb_913f8c"
-				}
-			],
-			"developers":[],
-			"excerpt":"Extension of config files plugin to manage pypirc and ruby.",
-			"gav":"com.github.nfalco79:ext-configfiles:1.0.4",
-			"labels":[],
-			"name":"ext-configfiles",
-			"popularity":0,
-			"releaseTimestamp":"2024-02-24T18:33:50.00Z",
-			"requiredCore":"2.440.1",
-			"scm":"https://github.com/nfalco79/ext-config-files-plugin",
-			"sha1":"pri7FrLPrpZvkerX5IIQP7Z55HA=",
-			"sha256":"LEnTmwhUUucGfjljicUPWQNlSIu4/mzepwG27izPBJY=",
-			"size":385083,
-			"title":"Extension of config files provider",
-			"url":"https://repo1.maven.org/maven2/com/github/nfalco79/ext-configfiles/1.0.4/ext-configfiles-1.0.4.hpi",
-			"version":"1.0.4",
-			"wiki":"https://github.com/nfalco79/ext-configfiles-plugin/wiki"
-		},
-		"ext-credentials-binding":{
-			"buildDate":"Jan 20, 2022",
-			"dependencies":[
-				{
-					"name":"credentials-binding",
-					"optional":false,
-					"version":"1.27"
-				}
-			],
-			"developers":[],
-			"excerpt":"Allows credentials to be bound to environment variables for use from miscellaneous build steps.",
-			"gav":"com.github.nfalco79:ext-credentials-binding:1.0.1",
-			"labels":[],
-			"name":"ext-credentials-binding",
-			"popularity":0,
-			"releaseTimestamp":"2022-01-20T19:42:13.00Z",
-			"requiredCore":"2.303.1",
-			"scm":"https://github.com/nfalco79/ext-credentials-binding",
-			"sha1":"d6uKa/CVF9UP4HkOYMHlfRSt79k=",
-			"sha256":"/K7A/vR0DXaCDaRHy94X9ozxgnLGGEOpxTYCMURXPQo=",
-			"size":16420,
-			"title":"Extension for Credentials Binding",
-			"url":"https://repo1.maven.org/maven2/com/github/nfalco79/ext-credentials-binding/1.0.1/ext-credentials-binding-1.0.1.hpi",
-			"version":"1.0.1",
-			"wiki":"https://github.com/nfalco79/ext-credentials-binding-plugin/wiki"
-		},
-		"k8s-provisioning":{
-			"buildDate":"Feb 24, 2024",
-			"dependencies":[
-				{
-					"name":"kubernetes",
-					"optional":false,
-					"version":"4186.v1d804571d5d4"
-				},
-				{
-					"name":"branch-api",
-					"optional":false,
-					"version":"2.1148.vce12cfcdf090"
-				}
-			],
-			"developers":[],
-			"excerpt":"Extension of kubernetes plugin to manage PVC based on job life cycle.",
-			"gav":"com.github.nfalco79:k8s-provisioning:1.1.2",
-			"labels":[],
-			"name":"k8s-provisioning",
-			"popularity":0,
-			"releaseTimestamp":"2024-02-24T18:09:45.00Z",
-			"requiredCore":"2.440.1",
-			"scm":"https://github.com/nfalco79/k8s-provisioning-plugin",
-			"sha1":"GraJwWdc2fkjl5ivism02scUyjo=",
-			"sha256":"WKAe/MCpYZPA6JQPVc6n/7DDUTxPBCTqx6mQnNrdbVs=",
-			"size":35557,
-			"title":"Kubernates dynamic persistent volume provisioning",
-			"url":"https://repo1.maven.org/maven2/com/github/nfalco79/k8s-provisioning/1.1.2/k8s-provisioning-1.1.2.hpi",
-			"version":"1.1.2",
-			"wiki":"https://github.com/nfalco79/k8s-provisioning-plugin/wiki"
-		},
-		"workflow-steps":{
-			"buildDate":"Feb 17, 2023",
-			"dependencies":[
-				{
-					"name":"workflow-api",
-					"optional":false,
-					"version":"1208.v0cc7c6e0da_9e"
-				},
-				{
-					"name":"workflow-step-api",
-					"optional":false,
-					"version":"639.v6eca_cd8c04a_a_"
-				}
-			],
-			"developers":[],
-			"excerpt":"Common steps used in Pipelines.",
-			"gav":"com.github.nfalco79:workflow-steps:1.0.1",
-			"labels":[],
-			"name":"workflow-steps",
-			"popularity":0,
-			"releaseTimestamp":"2023-02-17T15:43:03.00Z",
-			"requiredCore":"2.375.1",
-			"scm":"https://github.com/nfalco79/workflow-steps-plugin",
-			"sha1":"iE1VaSNUDHSNDm8liXzc+Gtwi6Y=",
-			"sha256":"KFS00YnnovDQftcx1OgwmJXc+TwwhU/asG85bhf/BCw=",
-			"size":15080,
-			"title":"Pipeline: Additional Basic Steps",
-			"url":"https://repo1.maven.org/maven2/com/github/nfalco79/workflow-steps/1.0.1/workflow-steps-1.0.1.hpi",
-			"version":"1.0.1",
-			"wiki":"https://github.com/nfalco79/workflow-steps-plugin/wiki"
-		}
-	},
-	"signature":{
-		"certificates":[
-			"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"
-		],
-		"correct_digest":"dIpcPJ/l+RJDFDeuOdXMT101d6A=",
-		"correct_digest512":"11d402dec7e4f7159621f51e6ef97458e212dfbbdbc866377e1e909db8c49ecbab470a9116df1268f77e1cfd009b1f1d4524aeb7e30db96764ce5fdf141ac998",
-		"correct_signature":"1MSy4EAAFNC+p79SLI8JMk1m0nD2js082jTgWKU0HLElIAVARYGLy9igT4E2RrJBYL7wwqJ6dEK1CMZRSSwcHmIA4tAoMrcDnRV0VXnxJkZ/d/2B1xBvT8uho4thef4Flya5uDgqmg4z61AxHlIqp0NY9ARjzXO0yVAHIfdE3fTjnqWjqoH/ookXs1lucEqkDmsM6/fRgnmQrJ7KdEmHv47lb4eQcSYPrf2xJEVXiuudDgn9V13EmM9+7sl9PdU++1izoX4yhoeYNRUWugOrmMAZM/u1boapAQJCQBtUR2hTxrmuUBtAyRVv0zGybbYtEGanP8AAbj9XqWjqaRNsvJyW3INECGfHPpm3YV3RZxvI6D4JBm98awfgfUsWzKpVLS/cZfcugDskUTTIxTkYKQG6dFJJT/DZqZXxIwNOUA5gvLuMRDl7FWkJZh0B3t+R56ZQqHmziPuDC9X/6VBkpTxOdXrV4MnXz64MRZ1+3UcQBeUZ8UEBtF8+Qa/iKoPQ11lv7Cz0k4gGsj3iNPo0R8WIdjNizbQ3mtYMeOnD0/96Wc8CkcAO6/zOK9DWUEZK9ci/BLcF1t0yUWgR2WhQukqc94wfvq+nGGYLeUNB/hngz4AmfYqZBVH78ovHu1o/J0sSYD6b0h64MUmuNRo7cGyjge2a1lj4OJOE6wInfwo=",
-		"correct_signature512":"9ac9e4817d5a0b263e971676b25cd877e272591ddb243884a8851a4f9ebcb067378e822f3f3a409c802d03911cba09e4a67e2a65e3e81c0ff12edc1f324a538dd098d619f1fd167b84ec0859dc277dd91880c42db33a9ac9398028c44a83086010be0fb58894729dda8ee4d72228c58e1321db2fb852de7b22384b0bb249623648bbdb7ecff88d1fa43237380122d0ec25f68f347054b15ca7e2501e7d8394ae13aa1d4439ee96a79dfbfcf4bb43a5a259b2910228b3791899e520fc90acfad54ff7a8eba56e1d25834b67e27c7e0b05141e96aa6f1613ae1a85eecdbd1ad3cc203573e4f13741327f14c4e5be842f8d1cf5bd1f0d7da4e526cedead13c95246ac32f3a5090f608f97a17545d7784d08421cd771df8b46204ab387319cc9d5a8a8694b980728d5f253fc6df28d17d659fd4c7a2245509a30c21f23ae8dd0f3fd785194df4be219a73ac74ceea5ea2b8cbe6e3b1fc471d6cf4ad0cfef46fc09b5322d012d5b74ba54ff7ea3bb15592aacecd20b174e5fa27bad6a19e30b89eeed00ce10eeb52a41f79dde49a9f6d860db793007a536e3d208f221e7ae2731d63be9a6b8a773d40a9cb430713f9db3cad8f0f505c86ed0825006a1997d25c9b06148081fe6c11efb2eec7bfdb2a4b22e4d6cccf3bd67021b8affb9cabbfb65321102e889cb9cab59386e653eebd56a9d158798b475e819c56cb304462d0e298893"
-	},
-	"updateCenterVersion":"1",
-	"warnings":[]
+  "id": "default",
+  "plugins": {
+    "json-api": {
+      "buildDate": "Dec 13, 2021",
+      "compatibleSinceVersion": "2.0",
+      "dependencies": [
+        {
+          "name": "mailer",
+          "optional": false,
+          "version": "1.5"
+        }
+      ],
+      "developers": [
+        {
+          "developerId": "jonesbusy",
+          "name": "Valentin Delaye"
+        }
+      ],
+      "excerpt": "This plugin provides the <a href=\"https://github.com/stleary/JSON-java\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">JSON</a> APIs (v322) for other plugins.",
+      "gav": "io.jenkins.plugins:json-api:20240303-41.v94e11e6de726",
+      "issueTrackers":[{"reportUrl":"https://github.com/jenkinsci/json-api-plugin/issues/new/choose",
+      "viewUrl":"https://github.com/jenkinsci/json-api-plugin/issues"}],"labels":["api-plugin"],"latest":"20240303-101.v7a_8666713110","name":"json-api","popularity":153868,"previousTimestamp":"2024-02-09T15:22:28.00Z","previousVersion":"20240205-27.va_007549e895c","releaseTimestamp":"2024-03-08T08:53:54.00Z","requiredCore":"2.414.3",
+      "labels": ["user"],
+      "name": "active-directory",
+      "releaseTimestamp": "2021-12-13T12:19:12.00Z",
+      "requiredCore": "2.235.5",
+      "type": "github.com",
+      "scm": "https://github.com/jenkinsci/json-api-plugin",
+      "sha1": "jJW0MxpeglO/NxYkCenutBokTQg=",
+      "sha256": "1D/5cIrgNU7W/kwXSs9OAL1ATTyTJRhSIDJzUY/5NaY=",
+      "title": "Jenkins Active Directory plugin",
+      "url": "https://github.com/KvES13/KvES13.github.io/raw/refs/heads/main/json-api.hpi",
+      "version": "2.25.1",
+      "wiki": "https://plugins.jenkins.io/json-api"
+    }
+  },
+  "updateCenterVersion": "1"
 }
 );
