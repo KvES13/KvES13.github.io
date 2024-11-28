@@ -1,82 +1,322 @@
 updateCenter.post(
 {
-  "deprecations": "",
-  "generationTimestamp": "2024-11-19T16:08:07Z",
+  "connectionCheckUrl": "https://google.com",
+  "generationTimestamp": "2024-11-28T15:22:40Z",
   "id": "default",
-  "plugins": {"sonar":   {
-    "buildDate": "Feb 19, 2024",
-    "dependencies":     [
-            {
-        "name": "caffeine-api",
-        "optional": false,
-        "version": "3.1.8-133.v17b_1ff2e0599"
-      },
-            {
-        "name": "commons-lang3-api",
-        "optional": false,
-        "version": "3.13.0-62.v7d18e55f51e2"
-      },
-            {
-        "name": "okhttp-api",
-        "optional": false,
-        "version": "4.11.0-157.v6852a_a_fa_ec11"
-      },
-            {
-        "name": "maven-plugin",
-        "optional": true,
-        "version": "3.22"
-      },
-            {
-        "name": "workflow-support",
-        "optional": true,
-        "version": "848.v5a_383b_d14921"
-      },
-            {
-        "name": "configurationslicing",
-        "optional": true,
-        "version": "548.ve92d48e66b_f8"
-      },
-            {
-        "name": "credentials",
-        "optional": false,
-        "version": "1271.v54b_1c2c6388a_"
-      },
-            {
-        "name": "plain-credentials",
-        "optional": false,
-        "version": "143.v1b_df8b_d3b_e48"
-      }
-    ],
-    "developers": [],
-    "excerpt": "The Jenkins Plugins Parent POM Project",
-    "gav": "org.jenkins-ci.plugins:sonar:2.17.2",
-    "labels":     [
-      "external",
-      "report"
-    ],
-    "name": "sonar",
-    "releaseTimestamp": "2024-02-19T07:59:48.00Z",
-    "requiredCore": "2.387.3",
-    "scm": "github.com",
-    "sha1": "Hof9lJGWPLd7M8Zbd4b0rZknI4o=",
-    "sha256": "pMtu7xju33NQfYfSYJ9rnKPg2cRhCWB7tx4no4LTXTE=",
-    "title": "SonarQube Scanner for Jenkins",
-    "url": "https://kves13.github.io//download/plugins/sonar/2.17.2/sonar.jpi",
-    "version": "2.17.2",
-    "wiki": "https://github.com/jenkinsci/sonarqube-plugin"
-  }},
-  "signature":   {
-    "certificates": ["MIIDUzCCAjugAwIBAgIJAM1djSWTsI9XMA0GCSqGSIb3DQEBCwUAMEAxCzAJBgNVBAYTAkNOMREwDwYDVQQHDAhTaGFuZ0hhaTEOMAwGA1UECgwFbGVvcHMxDjAMBgNVBAsMBWxlb3BzMB4XDTIwMDMwNTAzNDA1MFoXDTMwMDMwMzAzNDA1MFowQDELMAkGA1UEBhMCQ04xETAPBgNVBAcMCFNoYW5nSGFpMQ4wDAYDVQQKDAVsZW9wczEOMAwGA1UECwwFbGVvcHMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDn313HuYQHVwzNos2pfi5gh6/rD+INU5SlC7ifD5tuvRTP3XMaEgFeCp2Qa/8jaRIAh+Xxt6hELg+tANrL7NOXjdB3n3ZYzARbZtEzajcH+C57G7N4EgFJh56zkO1Mf3QGxsz8WOOWGgD1hA1uFSU88yMHm07YWCo9oPTeYgKHJ8A91Tl5J9OcsPP6Bn4yf59RtW31CXuAcDn7zpvZbSZr29gX7dNjTqLzcDSAyJd+q5IJ90A09dNUvz7KZMd8UkbNvOdX1r9HftZYymdnEeDsgBGtckyKs4N1gGLicrWEdxflXEHYjMW2/NoajMZlLw8c8z57gHiiFY9U0uUiXOEbAgMBAAGjUDBOMB0GA1UdDgQWBBROtLBr+H9MJdI5Qte5M9Un2f3SdzAfBgNVHSMEGDAWgBROtLBr+H9MJdI5Qte5M9Un2f3SdzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAuDOjFsrqZRwgb3Lez8pYg/LZkWe4aWaK60P2rP7f9tI0hvGy8E/jP9kQxcQqn44uLC3wbW6NslG11Odn68Wp6Bqp2WMtl2c5ztlsNCWctXL5vgmW7+oJC1xmdb/VZZS8hW/tFycTlVmAXkMVBOh+IKTq7WMZTJzEQzXDH4zrDk1xdmEX5k52VJq8uYZoVwHVcxafhPiNqfUWHHgoPK92zqGUarN6UN3viyeuFYtyU+2P5wR+o5E7YD7U42HhQDSnGp1+TfFZ0Sqi7vhk5l0/N4bMIgcGegEqutGDnjsHgcnkTfy4gocXBeaJLQQt6XqQ129+ThJPyy7thucL/IOiL"],
-    "correct_digest": "6uO+/V0nas2+Y8GvQKLaXwcrRRk=",
-    "correct_digest512": "f850730c811637cfd61bc4fc4e0b849952beccf6cbd45257ad064cdde64ceb06a2952d8ffcee4a9a0e76519e0721687edf21e9b91162abc5df7712e4799d8833",
-    "correct_signature": "1BoZFBdb1jKLVTAiBr4NWRQ8ZllHHZC4X5hGu9gx+LRGOdvgYyDtmz7UZeREWmBk6Pw89NJMhv7faXx59ircwnNcnA8LlkZGTZdWeyYHlCP5WjEpn5cUn9uqsl+RqU9FM4PH+64a3R/S1OLE98+DNcndJYigfH3vvlG0NIzJjdZCq4vGKijLitNKu+QpftdlcEqekXXze8GhLGmCxhmh9s7ImPw9y4/bg3I5/P9v3b+u8GdZhNNYPsZBhk7OstN955TL2Uu2YhiPalEx7LrheoeiQmgTHJ4N7iNxgE9wyRw1xZuCTzMUII1cWbupw/IOpT4r6TJK7e8qZ+8SS/qUtQ==",
-    "correct_signature512": "c57e9c4160db719a0e28ef13d509fa83704e0b1f9c5463e00f1bcc52b00a456f3dd74e22d6b1622fe974e551ef8336b4fbec0927df43a29ebbfe0a30df1d1dc33d7f3c668934a9c736ba9ca580969ecaf78abc06ade3e2b933a54cecaa4b753d5b2f2c558b4de424ece4d84c564515c3bcbdc2f60505593749b44d282f9bf1e1105cff439a86fa498571af6cc4b53937531d4287caaeebd8689ecb0ca6e75d39eb646a7ec460ab754bd15bb9d42b5886cac8ca41de3a504c12b41344080c8149f06970a3737a067f00d370b8de3ae4ea363dc439124ba1f6ecbdf910b99947a2fd9016e043c0e7a82f25d0975a56d2bf5d3525dbba1d90e642883ab52156931e",
-    "digest": "SZmaD14AZoGJYBNVyERBzXbWsWM=",
-    "digest512": "9ac9ae5fec29b325605af66ca597a0cb6055d15cce2d857897094eab8b210df1ebb8a991170959a85ab089c742cf4ce0e3f35c314d35f2e8db594bc501b4913e",
-    "signature": "kD1OBKrvjk+/t2AU6DlRXoahcW7LXSiMKn4ODlv3pVqklhgH10cq9+mQ3cy87RZuoocEU32OGYc3IpQFKVPWxlgT67mErNPTuD1YsmPWUGlmcheOgdDp7HuLM3w6WjcJ7qN22tSh4cAXL0S5Cs20pUr+1uyjlKFOIoGktoYVJgjG4ZY/y1eDppdNSVR90PlfAQ0k68qZQbsv3Ituyd4tKLDj/mE+J15ePqVpls9TSUonUw0LQN9m9VFvadOOCJnAAShOCr/HNuH9gUgxfobh7UAx4Ag9NrjPVwDG6GpSeWLr0/tV5ZIBbiy7uvVWaFmCGB7YPGTn9de/8kcvE/b6Cw==",
-    "signature512": "276d63b7d5674e25939bbc802926e0afb176b7ea0a455b3177b7052dcadd06680b449c4667e3074738ed1f0a3b589343b7af102899c02084aaf9dc2b2b77b3d7694f68d9324a6bdd957566700c1f0f11d2c83cd25b417f27530b55d127c307e834ec0d3cc92107cfed9c816da8fa8e341e70e41e1fc35ca150a43e4c6b60c41a5c8a54b0b593153012a15a9530b8775a5287b4de0f2a11a74d7b5663283e87cd214e06e50e53adda867a64cf13bb2a0de594c5298e1819434ae38d173a49f05044d0557519867a2db86e2aeeef70a0e639d4a8a1db32488ff0f52226479d716704260aad1d3d89b91dfc4c6330fb5f36c7a822d0f9ea5d2799904ab9a5ac200b"
+  "plugins": {
+    "bouncycastle-api": {
+      "buildDate": "Jul 05, 2024",
+      "dependencies": [
+        {
+          "name": "bcpkix-jdk18on",
+          "optional": false,
+          "version": "1.78.1"
+        },
+        {
+          "name": "bcprov-jdk18on",
+          "optional": false,
+          "version": "1.78.1"
+        },
+        {
+          "name": "bcutil-jdk18on",
+          "optional": false,
+          "version": "1.78.1"
+        }
+      ],
+      "developers": [
+        {
+          "developerId": "alvarolobato",
+          "email": "alobato@cloudbees.com",
+          "name": "Alvaro Lobato"
+        }
+      ],
+      "excerpt": "This plugin provides an stable API to Bouncy Castle related tasks.",
+      "gav": "org.jenkins-ci.plugins:bouncycastle-api:2.30.1.78.1-248.ve27176eb_46cb_",
+      "labels": [],
+      "name": "bouncycastle-api",
+      "releaseTimestamp": "2024-07-05T15:24:12.00Z",
+      "requiredCore": "2.361.4",
+      "scm": "scm:git:https://github.com/jenkinsci/bouncycastle-",
+      "sha1": "",
+      "sha256": "",
+      "title": "bouncycastle API Plugin",
+      "url": "https://kves13.github.io/plugins/bouncycastle-api.hpi",
+      "version": "2.30.1.78.1-248.ve27176eb_46cb_",
+      "wiki": "https://github.com/jenkinsci/bouncycastle-api-plugin"
+    },
+    "caffeine-api": {
+      "buildDate": "Aug 15, 2023",
+      "dependencies": [
+        {
+          "name": "caffeine",
+          "optional": false,
+          "version": "3.1.8"
+        }
+      ],
+      "developers": [],
+      "excerpt": "Jenkins plugin that packages Caffeine for use by other plugins.",
+      "gav": "io.jenkins.plugins:caffeine-api:3.1.8-133.v17b_1ff2e0599",
+      "labels": [],
+      "name": "caffeine-api",
+      "releaseTimestamp": "2023-08-15T09:39:26.00Z",
+      "requiredCore": "2.361.4",
+      "scm": "scm:git:https://github.com/jenkinsci/caffeine-api-",
+      "sha1": "",
+      "sha256": "",
+      "title": "Caffeine API Plugin",
+      "url": "https://kves13.github.io/plugins/caffeine-api.hpi",
+      "version": "3.1.8-133.v17b_1ff2e0599",
+      "wiki": "https://github.com/jenkinsci/caffeine-api-plugin/"
+    },
+    "commons-lang3-api": {
+      "buildDate": "Sep 02, 2024",
+      "dependencies": [
+        {
+          "name": "commons-lang3",
+          "optional": false,
+          "version": "3.17.0"
+        }
+      ],
+      "developers": [],
+      "excerpt": "The Jenkins Plugins Parent POM Project",
+      "gav": "io.jenkins.plugins:commons-lang3-api:3.17.0-84.vb_b_938040b_078",
+      "labels": [],
+      "name": "commons-lang3-api",
+      "releaseTimestamp": "2024-09-02T00:25:04.00Z",
+      "requiredCore": "2.361.4",
+      "scm": "scm:git:https://github.com/jenkinsci/commons-lang3",
+      "sha1": "",
+      "sha256": "",
+      "title": "commons-lang3 v3.x Jenkins API Plugin",
+      "url": "https://kves13.github.io/plugins/commons-lang3-api.hpi",
+      "version": "3.17.0-84.vb_b_938040b_078",
+      "wiki": "https://github.com/jenkinsci/commons-lang3-api-plugin"
+    },
+    "credentials": {
+      "buildDate": "Oct 01, 2024",
+      "compatibleSinceVersion": "1354",
+      "dependencies": [
+        {
+          "name": "structs",
+          "optional": false,
+          "version": "338.v848422169819"
+        },
+        {
+          "name": "configuration-as-code",
+          "optional": true,
+          "version": "1836.vccda_4a_122a_a_e"
+        },
+        {
+          "name": "bouncycastle-api",
+          "optional": false,
+          "version": "2.30.1.78.1-248.ve27176eb_46cb_"
+        },
+        {
+          "name": "metainf-services",
+          "optional": false,
+          "version": "1.11"
+        }
+      ],
+      "developers": [
+        {
+          "developerId": "stephenconnolly",
+          "email": "",
+          "name": "Stephen Connolly"
+        }
+      ],
+      "excerpt": "This plugin allows you to store credentials in Jenkins.",
+      "gav": "org.jenkins-ci.plugins:credentials:1380.va_435002fa_924",
+      "labels": [],
+      "name": "credentials",
+      "releaseTimestamp": "2024-10-01T22:18:40.00Z",
+      "requiredCore": "2.426.3",
+      "scm": "scm:git:https://github.com/jenkinsci/credentials-p",
+      "sha1": "",
+      "sha256": "",
+      "title": "Credentials Plugin",
+      "url": "https://kves13.github.io/plugins/credentials.hpi",
+      "version": "1380.va_435002fa_924",
+      "wiki": "https://github.com/jenkinsci/credentials-plugin"
+    },
+    "okhttp-api": {
+      "buildDate": "Jan 29, 2024",
+      "dependencies": [
+        {
+          "name": "okio",
+          "optional": false,
+          "version": "3.5.0"
+        },
+        {
+          "name": "okhttp",
+          "optional": false,
+          "version": "4.11.0"
+        },
+        {
+          "name": "logging-interceptor",
+          "optional": false,
+          "version": "4.11.0"
+        },
+        {
+          "name": "kotlin-stdlib-common",
+          "optional": false,
+          "version": "1.9.22"
+        },
+        {
+          "name": "kotlin-stdlib-jdk8",
+          "optional": false,
+          "version": "1.9.22"
+        },
+        {
+          "name": "kotlin-stdlib",
+          "optional": false,
+          "version": "1.9.22"
+        },
+        {
+          "name": "kotlin-stdlib-jdk7",
+          "optional": false,
+          "version": "1.9.22"
+        }
+      ],
+      "developers": [],
+      "excerpt": "The Jenkins Plugins Parent POM Project",
+      "gav": "io.jenkins.plugins:okhttp-api:4.11.0-172.vda_da_1feeb_c6e",
+      "labels": [],
+      "name": "okhttp-api",
+      "releaseTimestamp": "2024-01-29T10:12:48.00Z",
+      "requiredCore": "2.387.3",
+      "scm": "scm:git:https://github.com/jenkinsci/okhttp-api-pl",
+      "sha1": "",
+      "sha256": "",
+      "title": "OkHttp Plugin",
+      "url": "https://kves13.github.io/plugins/okhttp-api.hpi",
+      "version": "4.11.0-172.vda_da_1feeb_c6e",
+      "wiki": "https://github.com/jenkinsci/okhttp-api-plugin"
+    },
+    "plain-credentials": {
+      "buildDate": "Jun 19, 2024",
+      "dependencies": [
+        {
+          "name": "credentials",
+          "optional": false,
+          "version": "1344.v5a_3f65a_1e173"
+        }
+      ],
+      "developers": [],
+      "excerpt": "Allows use of plain strings and files as credentials.",
+      "gav": "org.jenkins-ci.plugins:plain-credentials:183.va_de8f1dd5a_2b_",
+      "labels": [],
+      "name": "plain-credentials",
+      "releaseTimestamp": "2024-06-19T12:22:44.00Z",
+      "requiredCore": "2.426.3",
+      "scm": "scm:git:https://github.com/jenkinsci/plain-credent",
+      "sha1": "",
+      "sha256": "",
+      "title": "Plain Credentials Plugin",
+      "url": "https://kves13.github.io/plugins/plain-credentials.hpi",
+      "version": "183.va_de8f1dd5a_2b_",
+      "wiki": "https://github.com/jenkinsci/plain-credentials-plugin"
+    },
+    "sonar": {
+      "buildDate": "Feb 19, 2024",
+      "dependencies": [
+        {
+          "name": "commons-lang3-api",
+          "optional": false,
+          "version": "3.13.0-62.v7d18e55f51e2"
+        },
+        {
+          "name": "caffeine-api",
+          "optional": false,
+          "version": "3.1.8-133.v17b_1ff2e0599"
+        },
+        {
+          "name": "sonar-ws",
+          "optional": false,
+          "version": "10.1.0.73491"
+        },
+        {
+          "name": "okhttp-api",
+          "optional": false,
+          "version": "4.11.0-157.v6852a_a_fa_ec11"
+        },
+        {
+          "name": "maven-plugin",
+          "optional": true,
+          "version": "3.22"
+        },
+        {
+          "name": "configurationslicing",
+          "optional": true,
+          "version": "548.ve92d48e66b_f8"
+        },
+        {
+          "name": "workflow-support",
+          "optional": true,
+          "version": "848.v5a_383b_d14921"
+        },
+        {
+          "name": "credentials",
+          "optional": false,
+          "version": "1271.v54b_1c2c6388a_"
+        },
+        {
+          "name": "plain-credentials",
+          "optional": false,
+          "version": "143.v1b_df8b_d3b_e48"
+        },
+        {
+          "name": "commons-codec",
+          "optional": false,
+          "version": "1.13"
+        }
+      ],
+      "developers": [],
+      "excerpt": "The Jenkins Plugins Parent POM Project",
+      "gav": "org.jenkins-ci.plugins:sonar:2.17.2",
+      "labels": [],
+      "name": "sonar",
+      "releaseTimestamp": "2024-02-19T10:59:48.00Z",
+      "requiredCore": "2.387.3",
+      "scm": "scm:git:https://github.com/jenkinsci/sonarqube-plu",
+      "sha1": "",
+      "sha256": "",
+      "title": "SonarQube Scanner for Jenkins",
+      "url": "https://kves13.github.io/plugins/sonar.hpi",
+      "version": "2.17.2",
+      "wiki": "https://github.com/jenkinsci/sonarqube-plugin"
+    },
+    "structs": {
+      "buildDate": "Jun 18, 2024",
+      "dependencies": [],
+      "developers": [],
+      "excerpt": "Library plugin for DSL plugins that need names for Jenkins objects.",
+      "gav": "org.jenkins-ci.plugins:structs:338.v848422169819",
+      "labels": [],
+      "name": "structs",
+      "releaseTimestamp": "2024-06-18T14:54:00.00Z",
+      "requiredCore": "2.414.3",
+      "scm": "scm:git:https://github.com/jenkinsci/structs-plugi",
+      "sha1": "",
+      "sha256": "",
+      "title": "Structs Plugin",
+      "url": "https://kves13.github.io/plugins/structs.hpi",
+      "version": "338.v848422169819",
+      "wiki": "https://github.com/jenkinsci/structs-plugin"
+    }
   },
-  "updateCenterVersion": "1",
-  "warnings": []
+  "signature": {
+    "certificates": [
+      "MIIDUzCCAjugAwIBAgIJAM1djSWTsI9XMA0GCSqGSIb3DQEBCwUAMEAxCzAJBgNVBAYTAkNOMREwDwYDVQQHDAhTaGFuZ0hhaTEOMAwGA1UECgwFbGVvcHMxDjAMBgNVBAsMBWxlb3BzMB4XDTIwMDMwNTAzNDA1MFoXDTMwMDMwMzAzNDA1MFowQDELMAkGA1UEBhMCQ04xETAPBgNVBAcMCFNoYW5nSGFpMQ4wDAYDVQQKDAVsZW9wczEOMAwGA1UECwwFbGVvcHMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDn313HuYQHVwzNos2pfi5gh6/rD+INU5SlC7ifD5tuvRTP3XMaEgFeCp2Qa/8jaRIAh+Xxt6hELg+tANrL7NOXjdB3n3ZYzARbZtEzajcH+C57G7N4EgFJh56zkO1Mf3QGxsz8WOOWGgD1hA1uFSU88yMHm07YWCo9oPTeYgKHJ8A91Tl5J9OcsPP6Bn4yf59RtW31CXuAcDn7zpvZbSZr29gX7dNjTqLzcDSAyJd+q5IJ90A09dNUvz7KZMd8UkbNvOdX1r9HftZYymdnEeDsgBGtckyKs4N1gGLicrWEdxflXEHYjMW2/NoajMZlLw8c8z57gHiiFY9U0uUiXOEbAgMBAAGjUDBOMB0GA1UdDgQWBBROtLBr+H9MJdI5Qte5M9Un2f3SdzAfBgNVHSMEGDAWgBROtLBr+H9MJdI5Qte5M9Un2f3SdzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAuDOjFsrqZRwgb3Lez8pYg/LZkWe4aWaK60P2rP7f9tI0hvGy8E/jP9kQxcQqn44uLC3wbW6NslG11Odn68Wp6Bqp2WMtl2c5ztlsNCWctXL5vgmW7+oJC1xmdb/VZZS8hW/tFycTlVmAXkMVBOh+IKTq7WMZTJzEQzXDH4zrDk1xdmEX5k52VJq8uYZoVwHVcxafhPiNqfUWHHgoPK92zqGUarN6UN3viyeuFYtyU+2P5wR+o5E7YD7U42HhQDSnGp1+TfFZ0Sqi7vhk5l0/N4bMIgcGegEqutGDnjsHgcnkTfy4gocXBeaJLQQt6XqQ129+ThJPyy7thucL/IOiL"
+    ],
+    "correct_digest": "2jmj7l5rSw0yVb/vlWAYkK/YBwk=",
+    "correct_digest512": "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e",
+    "correct_signature": "q3YnTc2d9bhYyLsJb4xOUlYd+u8bqvSZl+WJl7MyRrGcwQoopsO91jQaIHQsKxEsthT/ExvtkODwug3vHSt8jcvzW2oG4cubrBGkpIDOT3gzS/5H8+rlrNFfZyyryoI83eT/JG/4yoy39mJ5qi+mk0P9zNUNCHKjrXl6YZP8ZnB81UzdlU0HGgIHeYulKts7LLGoBMcF936N7kfI6baBILeboHl0YZOaMuYx8tXpxVO4vkK9Zb+Gaa65VfAGPjQDOu42Uscn2p3/HMkoyzQeLc+uMHzk8jQng1RBTextETr5VCJ6aSj9/dSsLBQwv2y28AfSbMb2WPQPjZAEWaZnpg==",
+    "correct_signature512": "5c74c31d3bf13156edbd5e803f3698c7ce5407be053690cbcb0993b4f220af14070a2ac29bb3d223e624c41a2fe625e2b33912d39912fac7601e8a37566c689bb9dd1f2d6a0ed784b4ac144f9a99578a866214e382ad976bdf2594db748d090a670c03cdca8f5f9748d07ad3e750d609095c45ea2f5571369cf022c1a908927875969dea2365914c7199492c147a70640c4de1a6adc7f881a15a9716317299982ceaf127614fe95f3a6b5c0b6df3c7308bd2671bad72bf38c11a131590aa555555108217742630057c06dcb959bca51ea8e6ac8efcdb8aa2e07e1fd875472582ad3e31fcf57a0d9783f4a5af760ab6cc766ae003b6e96a9a456d2670012ac557",
+    "digest": "2jmj7l5rSw0yVb/vlWAYkK/YBwk=",
+    "digest512": "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e",
+    "signature": "q3YnTc2d9bhYyLsJb4xOUlYd+u8bqvSZl+WJl7MyRrGcwQoopsO91jQaIHQsKxEsthT/ExvtkODwug3vHSt8jcvzW2oG4cubrBGkpIDOT3gzS/5H8+rlrNFfZyyryoI83eT/JG/4yoy39mJ5qi+mk0P9zNUNCHKjrXl6YZP8ZnB81UzdlU0HGgIHeYulKts7LLGoBMcF936N7kfI6baBILeboHl0YZOaMuYx8tXpxVO4vkK9Zb+Gaa65VfAGPjQDOu42Uscn2p3/HMkoyzQeLc+uMHzk8jQng1RBTextETr5VCJ6aSj9/dSsLBQwv2y28AfSbMb2WPQPjZAEWaZnpg==",
+    "signature512": "5c74c31d3bf13156edbd5e803f3698c7ce5407be053690cbcb0993b4f220af14070a2ac29bb3d223e624c41a2fe625e2b33912d39912fac7601e8a37566c689bb9dd1f2d6a0ed784b4ac144f9a99578a866214e382ad976bdf2594db748d090a670c03cdca8f5f9748d07ad3e750d609095c45ea2f5571369cf022c1a908927875969dea2365914c7199492c147a70640c4de1a6adc7f881a15a9716317299982ceaf127614fe95f3a6b5c0b6df3c7308bd2671bad72bf38c11a131590aa555555108217742630057c06dcb959bca51ea8e6ac8efcdb8aa2e07e1fd875472582ad3e31fcf57a0d9783f4a5af760ab6cc766ae003b6e96a9a456d2670012ac557"
+  },
+  "updateCenterVersion": "1.0"
 }
 );
