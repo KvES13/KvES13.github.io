@@ -1,9 +1,174 @@
 updateCenter.post(
 {
   "connectionCheckUrl": "https://google.com",
-  "generationTimestamp": "2024-11-28T16:39:20Z",
+  "generationTimestamp": "2024-12-03T16:25:14Z",
   "id": "default",
   "plugins": {
+    "apache-httpcomponents-client-4-api": {
+      "buildDate": "Aug 24, 2023",
+      "dependencies": [
+        {
+          "name": "fluent-hc",
+          "optional": false,
+          "version": "4.5.14"
+        },
+        {
+          "name": "httpasyncclient",
+          "optional": false,
+          "version": "4.1.5"
+        },
+        {
+          "name": "httpasyncclient-cache",
+          "optional": false,
+          "version": "4.1.5"
+        },
+        {
+          "name": "httpclient",
+          "optional": false,
+          "version": "4.5.14"
+        },
+        {
+          "name": "httpclient-cache",
+          "optional": false,
+          "version": "4.5.14"
+        },
+        {
+          "name": "httpcore",
+          "optional": false,
+          "version": "4.4.16"
+        },
+        {
+          "name": "httpcore-nio",
+          "optional": false,
+          "version": "4.4.16"
+        },
+        {
+          "name": "httpmime",
+          "optional": false,
+          "version": "4.5.14"
+        }
+      ],
+      "developers": [
+        {
+          "developerId": "markewaite",
+          "email": "mark.earl.waite@gmail.com",
+          "name": "Mark Waite"
+        }
+      ],
+      "excerpt": "Bundles Apache HttpComponents Client 4.x and allows it to be used by Jenkins plugins",
+      "gav": "org.jenkins-ci.plugins:apache-httpcomponents-client-4-api:4.5.14-208.v438351942757",
+      "name": "apache-httpcomponents-client-4-api",
+      "releaseTimestamp": "2023-08-24T21:28:18.00Z",
+      "requiredCore": "2.387.3",
+      "scm": "scm:git:https://github.com/jenkinsci/apache-httpco",
+      "sha1": "jDHXANudQYg/bCkX0mUUpPCAzwE=",
+      "sha256": "ntDM2iCg6hHiulvimfA7MGkt1aL5/ceFNxRQf9qKzQ8=",
+      "title": "Jenkins Apache HttpComponents Client 4.x API Plugin",
+      "url": "https://kves13.github.io/plugins/apache-httpcomponents-client-4-api.hpi",
+      "version": "4.5.14-208.v438351942757",
+      "wiki": "https://github.com/jenkinsci/apache-httpcomponents-client"
+    },
+    "asm-api": {
+      "buildDate": "Oct 06, 2024",
+      "dependencies": [
+        {
+          "name": "asm",
+          "optional": false,
+          "version": "9.7.1"
+        },
+        {
+          "name": "asm-analysis",
+          "optional": false,
+          "version": "9.7.1"
+        },
+        {
+          "name": "asm-commons",
+          "optional": false,
+          "version": "9.7.1"
+        },
+        {
+          "name": "asm-tree",
+          "optional": false,
+          "version": "9.7.1"
+        },
+        {
+          "name": "asm-util",
+          "optional": false,
+          "version": "9.7.1"
+        }
+      ],
+      "developers": [],
+      "excerpt": "The Jenkins Plugins Parent POM Project",
+      "gav": "io.jenkins.plugins:asm-api:9.7.1-95.v9f552033802a_",
+      "name": "asm-api",
+      "releaseTimestamp": "2024-10-06T12:56:36.00Z",
+      "requiredCore": "2.440.3",
+      "scm": "scm:git:https://github.com/jenkinsci/asm-api-plugi",
+      "sha1": "6xBjpZLTuFZddunFeflRyYRXcp0=",
+      "sha256": "KM6xEXR7guzfc/KGiKjNafVroIghokd17bskovHUNP8=",
+      "title": "ASM API Plugin",
+      "url": "https://kves13.github.io/plugins/asm-api.hpi",
+      "version": "9.7.1-95.v9f552033802a_",
+      "wiki": "https://github.com/jenkinsci/asm-api-plugin"
+    },
+    "authentication-tokens": {
+      "buildDate": "Jul 08, 2024",
+      "dependencies": [
+        {
+          "name": "credentials",
+          "optional": false,
+          "version": "1307.v3757c78f17c3"
+        }
+      ],
+      "developers": [
+        {
+          "developerId": "stephenconnolly",
+          "email": "",
+          "name": "Stephen Connolly"
+        }
+      ],
+      "excerpt": "The Jenkins Plugins Parent POM Project",
+      "gav": "org.jenkins-ci.plugins:authentication-tokens:1.119.v50285141b_7e1",
+      "name": "authentication-tokens",
+      "releaseTimestamp": "2024-07-08T21:37:58.00Z",
+      "requiredCore": "2.387.3",
+      "scm": "scm:git:https://github.com/jenkinsci/authenticatio",
+      "sha1": "QuqWktyYheuRmGRiGydsWLnqPFI=",
+      "sha256": "aElAgGaHpt2aeTLUXYBtXDVcHDW9clp00EAQz/Ip050=",
+      "title": "Authentication Tokens API Plugin",
+      "url": "https://kves13.github.io/plugins/authentication-tokens.hpi",
+      "version": "1.119.v50285141b_7e1",
+      "wiki": "https://github.com/jenkinsci/authentication-tokens-plugin"
+    },
+    "bootstrap5-api": {
+      "buildDate": "Mar 06, 2024",
+      "dependencies": [
+        {
+          "name": "font-awesome-api",
+          "optional": false,
+          "version": "6.5.1-3"
+        }
+      ],
+      "developers": [
+        {
+          "developerId": "uhafner",
+          "email": "ullrich.hafner@gmail.com",
+          "name": "Ullrich Hafner"
+        }
+      ],
+      "excerpt": "Provides Bootstrap 5 for Jenkins plugins.",
+      "gav": "io.jenkins.plugins:bootstrap5-api:5.3.3-1",
+      "name": "bootstrap5-api",
+      "releaseTimestamp": "2024-03-06T19:39:00.00Z",
+      "requiredCore": "2.426.3",
+      "scm": "scm:git:https://github.com/jenkinsci/bootstrap5-ap",
+      "sha1": "lAvG1niTvb5jkZqjUdeGFK/6H00=",
+      "sha256": "4ND3yS2uL3l3wozralslYrcBLRcEiIv/O8F2q9oMsmk=",
+      "title": "Bootstrap 5 API Plugin",
+      "url": "https://kves13.github.io/plugins/bootstrap5-api.hpi",
+      "version": "5.3.3-1",
+      "wiki": "https://github.com/jenkinsci/bootstrap5-api-plugin"
+    },
     "bouncycastle-api": {
       "buildDate": "Jul 05, 2024",
       "dependencies": [
@@ -32,7 +197,9 @@ updateCenter.post(
       ],
       "excerpt": "This plugin provides an stable API to Bouncy Castle related tasks.",
       "gav": "org.jenkins-ci.plugins:bouncycastle-api:2.30.1.78.1-248.ve27176eb_46cb_",
-      "labels": [],
+      "labels": [
+        "library"
+      ],
       "name": "bouncycastle-api",
       "releaseTimestamp": "2024-07-05T15:24:12.00Z",
       "requiredCore": "2.361.4",
@@ -43,6 +210,141 @@ updateCenter.post(
       "url": "https://kves13.github.io/plugins/bouncycastle-api.hpi",
       "version": "2.30.1.78.1-248.ve27176eb_46cb_",
       "wiki": "https://github.com/jenkinsci/bouncycastle-api-plugin"
+    },
+    "build-pipeline-plugin": {
+      "buildDate": "May 17, 2024",
+      "dependencies": [
+        {
+          "name": "mockito-core",
+          "optional": false,
+          "version": ""
+        },
+        {
+          "name": "spock-core",
+          "optional": false,
+          "version": "1.0-groovy-2.4"
+        },
+        {
+          "name": "groovy-all",
+          "optional": false,
+          "version": ""
+        },
+        {
+          "name": "jquery",
+          "optional": false,
+          "version": "1.7.2-1"
+        },
+        {
+          "name": "cglib-nodep",
+          "optional": false,
+          "version": "2.2"
+        },
+        {
+          "name": "objenesis",
+          "optional": false,
+          "version": "3.3"
+        },
+        {
+          "name": "dashboard-view",
+          "optional": true,
+          "version": ""
+        },
+        {
+          "name": "parameterized-trigger",
+          "optional": false,
+          "version": "2.45"
+        },
+        {
+          "name": "matrix-auth",
+          "optional": false,
+          "version": "3.1.5"
+        },
+        {
+          "name": "selenium-firefox-driver",
+          "optional": false,
+          "version": "${selenium.version}"
+        },
+        {
+          "name": "selenium-chrome-driver",
+          "optional": false,
+          "version": "${selenium.version}"
+        },
+        {
+          "name": "selenium-ie-driver",
+          "optional": false,
+          "version": "${selenium.version}"
+        },
+        {
+          "name": "selenium-support",
+          "optional": false,
+          "version": "${selenium.version}"
+        },
+        {
+          "name": "commons-beanutils",
+          "optional": false,
+          "version": ""
+        },
+        {
+          "name": "test-annotations",
+          "optional": false,
+          "version": ""
+        }
+      ],
+      "developers": [
+        {
+          "developerId": "centrum",
+          "email": "plugins@centrumsystems.com.au",
+          "name": "Centrum Systems"
+        },
+        {
+          "developerId": "dalvizu",
+          "email": "alvizu@gmail.com",
+          "name": "Dan Alvizu"
+        }
+      ],
+      "excerpt": "This plugin provides build pipeline functionality to Hudson and Jenkins. This allows a chain of jobs to be visualised in a new view.  Manual jobs in the pipeline can be triggered by a user with the appropriate permissions manually confirming.",
+      "gav": "org.jenkins-ci.plugins:build-pipeline-plugin:2.0.2",
+      "labels": [
+        "builder",
+        "post-build",
+        "ui"
+      ],
+      "name": "build-pipeline-plugin",
+      "releaseTimestamp": "2024-05-17T15:36:16.00Z",
+      "requiredCore": "2.361.4",
+      "scm": "scm:git:https://github.com/jenkinsci/build-pipelin",
+      "sha1": "5W+w26rTI/JZwb3jYPueZQh7zmA=",
+      "sha256": "Fn7YDztwg6zkkLVNLO5T6pLCMD37zM1a6mfopZUPi2w=",
+      "title": "Build Pipeline Plugin",
+      "url": "https://kves13.github.io/plugins/build-pipeline-plugin.hpi",
+      "version": "2.0.2",
+      "wiki": "https://github.com/jenkinsci/build-pipeline-plugin"
+    },
+    "built-on-column": {
+      "buildDate": "Apr 11, 2023",
+      "dependencies": [],
+      "developers": [
+        {
+          "developerId": "voorth",
+          "email": "voorth@xs4all.nl",
+          "name": "Henk van Voorthuijsen"
+        }
+      ],
+      "excerpt": "The Jenkins Plugins Parent POM Project",
+      "gav": "org.jenkins-ci.plugins:built-on-column:1.4",
+      "labels": [
+        "listview-column"
+      ],
+      "name": "built-on-column",
+      "releaseTimestamp": "2023-04-11T18:01:02.00Z",
+      "requiredCore": "2.361.4",
+      "scm": "",
+      "sha1": "96VQSFuHDvQ/rXju6nWtzFYzV1k=",
+      "sha256": "ah0IiueJPMOZ9gAmWwoNBtMb84MBI3vsoCF6XJ8OwFc=",
+      "title": "built-on-column",
+      "url": "https://kves13.github.io/plugins/built-on-column.hpi",
+      "version": "1.4",
+      "wiki": "https://github.com/jenkinsci/built-on-column-plugin"
     },
     "caffeine-api": {
       "buildDate": "Aug 15, 2023",
@@ -56,7 +358,6 @@ updateCenter.post(
       "developers": [],
       "excerpt": "Jenkins plugin that packages Caffeine for use by other plugins.",
       "gav": "io.jenkins.plugins:caffeine-api:3.1.8-133.v17b_1ff2e0599",
-      "labels": [],
       "name": "caffeine-api",
       "releaseTimestamp": "2023-08-15T09:39:26.00Z",
       "requiredCore": "2.361.4",
@@ -67,6 +368,93 @@ updateCenter.post(
       "url": "https://kves13.github.io/plugins/caffeine-api.hpi",
       "version": "3.1.8-133.v17b_1ff2e0599",
       "wiki": "https://github.com/jenkinsci/caffeine-api-plugin/"
+    },
+    "checks-api": {
+      "buildDate": "Sep 04, 2024",
+      "dependencies": [
+        {
+          "name": "plugin-util-api",
+          "optional": false,
+          "version": "4.1.0"
+        },
+        {
+          "name": "commons-text-api",
+          "optional": false,
+          "version": "1.12.0-119.v73ef73f2345d"
+        },
+        {
+          "name": "commons-lang3-api",
+          "optional": false,
+          "version": "3.14.0-76.vda_5591261cfe"
+        },
+        {
+          "name": "display-url-api",
+          "optional": false,
+          "version": "2.204.vf6fddd8a_8b_e9"
+        },
+        {
+          "name": "workflow-step-api",
+          "optional": false,
+          "version": "657.v03b_e8115821b_"
+        },
+        {
+          "name": "workflow-support",
+          "optional": false,
+          "version": "907.v6713a_ed8a_573"
+        }
+      ],
+      "developers": [
+        {
+          "developerId": "xiongkezhi",
+          "email": "august.xkz@gmail.com",
+          "name": "Kezhi Xiong"
+        }
+      ],
+      "excerpt": "Defines an API for Jenkins to publish checks to SCM platforms.",
+      "gav": "io.jenkins.plugins:checks-api:2.2.1",
+      "name": "checks-api",
+      "releaseTimestamp": "2024-09-04T21:51:58.00Z",
+      "requiredCore": "2.426.3",
+      "scm": "scm:git:https://github.com/jenkinsci/checks-api-pl",
+      "sha1": "aGUxSAk11ONvYYKR5rEzU/UqoC8=",
+      "sha256": "LcHlHIbksWwX5mpF2UztnQ7koLJH33ekp5a9PJNHG5g=",
+      "title": "Checks API plugin",
+      "url": "https://kves13.github.io/plugins/checks-api.hpi",
+      "version": "2.2.1",
+      "wiki": "https://github.com/jenkinsci/checks-api-plugin"
+    },
+    "cloudbees-folder": {
+      "buildDate": "Feb 26, 2024",
+      "compatibleSinceVersion": "5.2",
+      "dependencies": [
+        {
+          "name": "ionicons-api",
+          "optional": false,
+          "version": "56.v1b_1c8c49374e"
+        },
+        {
+          "name": "credentials",
+          "optional": true,
+          "version": "1311.vcf0a_900b_37c2"
+        }
+      ],
+      "developers": [],
+      "excerpt": "This plugin allows users to create \"folders\" to organize jobs. Users can define custom taxonomies (like\n    by project type, organization type etc). Folders are nestable and you can define views within folders. Maintained by CloudBees, Inc.",
+      "gav": "org.jenkins-ci.plugins:cloudbees-folder:6.928.v7c780211d66e",
+      "labels": [
+        "ui",
+        "misc"
+      ],
+      "name": "cloudbees-folder",
+      "releaseTimestamp": "2024-02-26T19:12:36.00Z",
+      "requiredCore": "2.444",
+      "scm": "scm:git:https://github.com/jenkinsci/cloudbees-fol",
+      "sha1": "TmjpHhq92klEOVkE5Ee70cypDm8=",
+      "sha256": "krStsXSEUwJtmr790oIIFwad6EkowHPGZt4HpaYZzss=",
+      "title": "Folders Plugin",
+      "url": "https://kves13.github.io/plugins/cloudbees-folder.hpi",
+      "version": "6.928.v7c780211d66e",
+      "wiki": "https://github.com/jenkinsci/cloudbees-folder-plugin"
     },
     "commons-lang3-api": {
       "buildDate": "Sep 02, 2024",
@@ -80,7 +468,6 @@ updateCenter.post(
       "developers": [],
       "excerpt": "The Jenkins Plugins Parent POM Project",
       "gav": "io.jenkins.plugins:commons-lang3-api:3.17.0-84.vb_b_938040b_078",
-      "labels": [],
       "name": "commons-lang3-api",
       "releaseTimestamp": "2024-09-02T00:25:04.00Z",
       "requiredCore": "2.361.4",
@@ -91,6 +478,129 @@ updateCenter.post(
       "url": "https://kves13.github.io/plugins/commons-lang3-api.hpi",
       "version": "3.17.0-84.vb_b_938040b_078",
       "wiki": "https://github.com/jenkinsci/commons-lang3-api-plugin"
+    },
+    "commons-text-api": {
+      "buildDate": "Aug 01, 2024",
+      "dependencies": [
+        {
+          "name": "commons-text",
+          "optional": false,
+          "version": "1.12.0"
+        },
+        {
+          "name": "commons-lang3-api",
+          "optional": false,
+          "version": "3.14.0-76.vda_5591261cfe"
+        }
+      ],
+      "developers": [],
+      "excerpt": "Jenkins Api Plugin to provide org.apache.commons:commons-text:1.12.0.",
+      "gav": "io.jenkins.plugins:commons-text-api:1.12.0-129.v99a_50df237f7",
+      "name": "commons-text-api",
+      "releaseTimestamp": "2024-08-01T15:09:44.00Z",
+      "requiredCore": "2.440.3",
+      "scm": "scm:git:https://github.com/jenkinsci/commons-text-",
+      "sha1": "PehEOhPfJgtGtQv6W2cUGTrIqSE=",
+      "sha256": "Kr6KWMmmogESHtoklMKlx7V1hTbmEwmzM+1yvfuoV8k=",
+      "title": "commons-text API Plugin",
+      "url": "https://kves13.github.io/plugins/commons-text-api.hpi",
+      "version": "1.12.0-129.v99a_50df237f7",
+      "wiki": "https://github.com/jenkinsci/commons-text-api-plugin"
+    },
+    "conditional-buildstep": {
+      "buildDate": "Aug 05, 2023",
+      "dependencies": [
+        {
+          "name": "token-macro",
+          "optional": false,
+          "version": "359.vb_cde11682e0c"
+        },
+        {
+          "name": "run-condition",
+          "optional": false,
+          "version": "1.5"
+        },
+        {
+          "name": "maven-plugin",
+          "optional": true,
+          "version": "3.16"
+        }
+      ],
+      "developers": [
+        {
+          "developerId": "imod",
+          "email": "",
+          "name": "Dominik Bartholdi"
+        },
+        {
+          "developerId": "bap",
+          "email": "bap-jenkins@BapIT.co.uk",
+          "name": "Bap"
+        }
+      ],
+      "excerpt": "A buildstep wrapping any number of other buildsteps, controlling their execution based on a defined condition.",
+      "gav": "org.jenkins-ci.plugins:conditional-buildstep:1.4.3",
+      "labels": [
+        "builder"
+      ],
+      "name": "conditional-buildstep",
+      "releaseTimestamp": "2023-08-05T09:38:20.00Z",
+      "requiredCore": "2.361.4",
+      "scm": "scm:git:https://github.com/jenkinsci/conditional-b",
+      "sha1": "gquXYfYH4OutuY3ViRM1u4RoiOI=",
+      "sha256": "0s5AuGq8Qjcghazgprs3hdFK4n8IJHCd/CorOJGp6Kg=",
+      "title": "Conditional BuildStep",
+      "url": "https://kves13.github.io/plugins/conditional-buildstep.hpi",
+      "version": "1.4.3",
+      "wiki": "https://github.com/jenkinsci/conditional-buildstep-plugin"
+    },
+    "copyartifact": {
+      "buildDate": "Oct 24, 2024",
+      "compatibleSinceVersion": "1.44",
+      "dependencies": [
+        {
+          "name": "maven-plugin",
+          "optional": true,
+          "version": "3.23"
+        },
+        {
+          "name": "structs",
+          "optional": false,
+          "version": "338.v848422169819"
+        },
+        {
+          "name": "apache-httpcomponents-client-4-api",
+          "optional": false,
+          "version": "4.5.14-208.v438351942757"
+        },
+        {
+          "name": "cloudbees-folder",
+          "optional": true,
+          "version": "6.858.v898218f3609d"
+        },
+        {
+          "name": "matrix-project",
+          "optional": true,
+          "version": "822.824.v14451b_c0fd42"
+        }
+      ],
+      "developers": [],
+      "excerpt": "Adds a build step to copy artifacts from another project.",
+      "gav": "org.jenkins-ci.plugins:copyartifact:757.v05365583a_455",
+      "labels": [
+        "builder",
+        "parameter"
+      ],
+      "name": "copyartifact",
+      "releaseTimestamp": "2024-10-24T22:18:32.00Z",
+      "requiredCore": "2.426.3",
+      "scm": "scm:git:https://github.com/jenkinsci/copyartifact-",
+      "sha1": "Lqb51N1N2R0JDQEbi62GN6Um1sM=",
+      "sha256": "u8XcMbHzSxEmhB7ibPib6sBkgJRbgzOsaNfgbKukjxw=",
+      "title": "Copy Artifact Plugin",
+      "url": "https://kves13.github.io/plugins/copyartifact.hpi",
+      "version": "757.v05365583a_455",
+      "wiki": "https://github.com/jenkinsci/copyartifact-plugin"
     },
     "credentials": {
       "buildDate": "Oct 01, 2024",
@@ -126,7 +636,6 @@ updateCenter.post(
       ],
       "excerpt": "This plugin allows you to store credentials in Jenkins.",
       "gav": "org.jenkins-ci.plugins:credentials:1380.va_435002fa_924",
-      "labels": [],
       "name": "credentials",
       "releaseTimestamp": "2024-10-01T22:18:40.00Z",
       "requiredCore": "2.426.3",
@@ -137,6 +646,2211 @@ updateCenter.post(
       "url": "https://kves13.github.io/plugins/credentials.hpi",
       "version": "1380.va_435002fa_924",
       "wiki": "https://github.com/jenkinsci/credentials-plugin"
+    },
+    "credentials-binding": {
+      "buildDate": "Jul 03, 2024",
+      "dependencies": [
+        {
+          "name": "credentials",
+          "optional": false,
+          "version": "1319.v7eb_51b_3a_c97b_"
+        },
+        {
+          "name": "plain-credentials",
+          "optional": false,
+          "version": "179.vc5cb_98f6db_38"
+        },
+        {
+          "name": "workflow-step-api",
+          "optional": false,
+          "version": "657.v03b_e8115821b_"
+        },
+        {
+          "name": "structs",
+          "optional": false,
+          "version": "337.v1b_04ea_4df7c8"
+        },
+        {
+          "name": "ssh-credentials",
+          "optional": false,
+          "version": "337.v395d2403ccd4"
+        }
+      ],
+      "developers": [],
+      "excerpt": "The Jenkins Plugins Parent POM Project",
+      "gav": "org.jenkins-ci.plugins:credentials-binding:681.vf91669a_32e45",
+      "labels": [
+        "buildwrapper"
+      ],
+      "name": "credentials-binding",
+      "releaseTimestamp": "2024-07-03T10:36:38.00Z",
+      "requiredCore": "2.414.3",
+      "scm": "scm:git:https://github.com/jenkinsci/credentials-b",
+      "sha1": "TAjNH6KSPzPFzP4i6wOiJ01UST8=",
+      "sha256": "VkG98O20CBp7suYChRxDOVc56zCqhw6YDR59EuEcY5U=",
+      "title": "Credentials Binding Plugin",
+      "url": "https://kves13.github.io/plugins/credentials-binding.hpi",
+      "version": "681.vf91669a_32e45",
+      "wiki": "https://github.com/jenkinsci/credentials-binding-plugin"
+    },
+    "dashboard-view": {
+      "buildDate": "Nov 11, 2024",
+      "dependencies": [
+        {
+          "name": "ionicons-api",
+          "optional": false,
+          "version": "74.v93d5eb_813d5f"
+        },
+        {
+          "name": "junit",
+          "optional": false,
+          "version": "1303.v05e2505656b_7"
+        },
+        {
+          "name": "matrix-project",
+          "optional": true,
+          "version": "838.v4d7b_7b_f9b_d4b_"
+        }
+      ],
+      "developers": [
+        {
+          "developerId": "TobiX",
+          "email": "tobias-git@23.gs",
+          "name": "Tobias Gruetzmacher"
+        }
+      ],
+      "excerpt": "Jenkins view that shows various cuts of build information via configured portlets.",
+      "gav": "org.jenkins-ci.plugins:dashboard-view:2.521.v339b_a_f4d8da_8",
+      "labels": [
+        "ui"
+      ],
+      "name": "dashboard-view",
+      "releaseTimestamp": "2024-11-11T08:58:14.00Z",
+      "requiredCore": "2.440.3",
+      "scm": "scm:git:https://github.com/jenkinsci/dashboard-vie",
+      "sha1": "f9WKoS3CDUlZHXg4rOuVZjKNX3Q=",
+      "sha256": "PewvcKcxFSe6tc8qR8g9w4g6u+PPLe94o3822xkm98M=",
+      "title": "Dashboard View",
+      "url": "https://kves13.github.io/plugins/dashboard-view.hpi",
+      "version": "2.521.v339b_a_f4d8da_8",
+      "wiki": "https://github.com/jenkinsci/dashboard-view-plugin"
+    },
+    "display-url-api": {
+      "buildDate": "Apr 29, 2024",
+      "dependencies": [],
+      "developers": [
+        {
+          "developerId": "jdumay",
+          "email": "jdumay@cloudbees.com",
+          "name": "James Dumay"
+        }
+      ],
+      "excerpt": "The Jenkins Plugins Parent POM Project",
+      "gav": "org.jenkins-ci.plugins:display-url-api:2.204.vf6fddd8a_8b_e9",
+      "name": "display-url-api",
+      "releaseTimestamp": "2024-04-29T16:43:06.00Z",
+      "requiredCore": "2.361.1",
+      "scm": "scm:git:https://github.com/jenkinsci/display-url-a",
+      "sha1": "jdIPKHao1dU+bOazEa+yKoM3/k8=",
+      "sha256": "ylxOLSJ7BOlcFppyHKt+oqNvIZggGE9TTV3+3GsDSyc=",
+      "title": "Display URL API",
+      "url": "https://kves13.github.io/plugins/display-url-api.hpi",
+      "version": "2.204.vf6fddd8a_8b_e9",
+      "wiki": "https://github.com/jenkinsci/display-url-api-plugin"
+    },
+    "durable-task": {
+      "buildDate": "Nov 22, 2024",
+      "dependencies": [
+        {
+          "name": "lib-durable-task",
+          "optional": false,
+          "version": "48.v72b_86b_9ca_8e1"
+        }
+      ],
+      "developers": [],
+      "excerpt": "Library offering an extension point for processes which can run outside of Jenkins yet be monitored.",
+      "gav": "org.jenkins-ci.plugins:durable-task:581.v299a_5609d767",
+      "labels": [
+        "builder"
+      ],
+      "name": "durable-task",
+      "releaseTimestamp": "2024-11-22T16:51:46.00Z",
+      "requiredCore": "2.440.3",
+      "scm": "scm:git:https://github.com/jenkinsci/durable-task-",
+      "sha1": "88rvKPsuHE8XrrI+3EuAR2h7eF0=",
+      "sha256": "Gug6cu8+zhrr3jUKcE4CXY9/A14bEC0CRMkmqAb8kWs=",
+      "title": "Durable Task Plugin",
+      "url": "https://kves13.github.io/plugins/durable-task.hpi",
+      "version": "581.v299a_5609d767",
+      "wiki": "https://github.com/jenkinsci/durable-task-plugin"
+    },
+    "echarts-api": {
+      "buildDate": "Oct 28, 2024",
+      "dependencies": [
+        {
+          "name": "plugin-util-api",
+          "optional": false,
+          "version": "4.1.0"
+        },
+        {
+          "name": "font-awesome-api",
+          "optional": false,
+          "version": "6.5.2-1"
+        },
+        {
+          "name": "bootstrap5-api",
+          "optional": false,
+          "version": "5.3.3-1"
+        },
+        {
+          "name": "jquery3-api",
+          "optional": false,
+          "version": "3.7.1-2"
+        },
+        {
+          "name": "echarts-build-trends",
+          "optional": false,
+          "version": "4.6.0"
+        },
+        {
+          "name": "jackson2-api",
+          "optional": false,
+          "version": "2.17.0-379.v02de8ec9f64c"
+        }
+      ],
+      "developers": [
+        {
+          "developerId": "uhafner",
+          "email": "ullrich.hafner@gmail.com",
+          "name": "Ullrich Hafner"
+        }
+      ],
+      "excerpt": "Provides ECharts for Jenkins plugins.",
+      "gav": "io.jenkins.plugins:echarts-api:5.5.1-4",
+      "name": "echarts-api",
+      "releaseTimestamp": "2024-10-28T16:40:52.00Z",
+      "requiredCore": "2.426.3",
+      "scm": "scm:git:https://github.com/jenkinsci/echarts-api-p",
+      "sha1": "rl/XlQTUCXsbwnDh8KzlUjtqiF4=",
+      "sha256": "y4H7cJVl56JITaF8vaI58qGlFrbtwzj3Le7jUIYXX+Q=",
+      "title": "ECharts API Plugin",
+      "url": "https://kves13.github.io/plugins/echarts-api.hpi",
+      "version": "5.5.1-4",
+      "wiki": "https://github.com/jenkinsci/echarts-api-plugin"
+    },
+    "eddsa-api": {
+      "buildDate": "May 16, 2024",
+      "dependencies": [
+        {
+          "name": "eddsa",
+          "optional": false,
+          "version": "0.3.0"
+        }
+      ],
+      "developers": [],
+      "excerpt": "The Jenkins Plugins Parent POM Project",
+      "gav": "io.jenkins.plugins:eddsa-api:0.3.0-4.v84c6f0f4969e",
+      "name": "eddsa-api",
+      "releaseTimestamp": "2024-05-16T08:33:26.00Z",
+      "requiredCore": "2.426.3",
+      "scm": "scm:git:https://github.com/jenkinsci/eddsa-api-plu",
+      "sha1": "tmJVMPjSmzcyd2vZ3oXokiXXlrE=",
+      "sha256": "q1attx8x5WJ6xnUcOT6GkpFsG4K/a1+DmfmojP2MuUQ=",
+      "title": "EDDSA API Plugin",
+      "url": "https://kves13.github.io/plugins/eddsa-api.hpi",
+      "version": "0.3.0-4.v84c6f0f4969e",
+      "wiki": "https://github.com/jenkinsci/eddsa-api-plugin"
+    },
+    "envinject": {
+      "buildDate": "Aug 02, 2024",
+      "compatibleSinceVersion": "2.1.4",
+      "dependencies": [
+        {
+          "name": "envinject-api",
+          "optional": false,
+          "version": "1.199.v3ce31253ed13"
+        },
+        {
+          "name": "ivy",
+          "optional": true,
+          "version": "2.2"
+        },
+        {
+          "name": "matrix-project",
+          "optional": false,
+          "version": "789.v57a_725b_63c79"
+        },
+        {
+          "name": "script-security",
+          "optional": false,
+          "version": "1244.ve463715a_f89c"
+        }
+      ],
+      "developers": [
+        {
+          "developerId": "gbois",
+          "email": "gregory.boissinot@gmail.com",
+          "name": "Gregory Boissinot"
+        },
+        {
+          "developerId": "oleg_nenashev",
+          "email": "o.v.nenashev@gmail.com",
+          "name": "Oleg Nenashev"
+        },
+        {
+          "developerId": "NotMyFault",
+          "email": "contact(at)notmyfault.dev",
+          "name": "Alexander Brandes"
+        }
+      ],
+      "excerpt": "The Jenkins Plugins Parent POM Project",
+      "gav": "org.jenkins-ci.plugins:envinject:2.919.v009a_a_1067cd0",
+      "labels": [
+        "buildwrapper",
+        "builder"
+      ],
+      "name": "envinject",
+      "releaseTimestamp": "2024-08-02T16:04:50.00Z",
+      "requiredCore": "2.361.4",
+      "scm": "scm:git:https://github.com/jenkinsci/envinject-plu",
+      "sha1": "Iy1jZN/ixU114xx+u3F1L1AgHOk=",
+      "sha256": "FundKmZEWB5I2ggZhCgV2nOOMp6+pl3LMPxazJwgXrA=",
+      "title": "Environment Injector Plugin",
+      "url": "https://kves13.github.io/plugins/envinject.hpi",
+      "version": "2.919.v009a_a_1067cd0",
+      "wiki": "https://github.com/jenkinsci/envinject-plugin"
+    },
+    "envinject-api": {
+      "buildDate": "Apr 10, 2022",
+      "dependencies": [
+        {
+          "name": "envinject-lib",
+          "optional": false,
+          "version": "1.168.v835cb_a_16513d"
+        },
+        {
+          "name": "jenkins-core",
+          "optional": false,
+          "version": "2.332.1"
+        },
+        {
+          "name": "javax.servlet-api",
+          "optional": false,
+          "version": "3.1.0"
+        },
+        {
+          "name": "jcip-annotations",
+          "optional": true,
+          "version": "1.0"
+        },
+        {
+          "name": "animal-sniffer-annotations",
+          "optional": true,
+          "version": "1.21"
+        },
+        {
+          "name": "commons-logging",
+          "optional": false,
+          "version": "1.2"
+        }
+      ],
+      "developers": [
+        {
+          "developerId": "oleg_nenashev",
+          "email": "",
+          "name": "Oleg Nenashev"
+        },
+        {
+          "developerId": "NotMyFault",
+          "email": "contact@notmyfault.dev",
+          "name": "Alexander Brandes"
+        }
+      ],
+      "excerpt": "The Jenkins Plugins Parent POM Project",
+      "gav": "org.jenkins-ci.plugins:envinject-api:1.199.v3ce31253ed13",
+      "name": "envinject-api",
+      "releaseTimestamp": "2022-04-10T13:04:06.00Z",
+      "requiredCore": "2.332.1",
+      "scm": "",
+      "sha1": "0wjSY3xszj//knwMQOs44HR0O/U=",
+      "sha256": "Rj79Bwsp0IfS24I3IPa0+rE/Fh1A3O6tq/vPZOSkTGA=",
+      "title": "EnvInject API Plugin",
+      "url": "https://kves13.github.io/plugins/envinject-api.hpi",
+      "version": "1.199.v3ce31253ed13",
+      "wiki": "https://github.com/jenkinsci/envinject-api-plugin"
+    },
+    "font-awesome-api": {
+      "buildDate": "Sep 08, 2024",
+      "dependencies": [
+        {
+          "name": "plugin-util-api",
+          "optional": false,
+          "version": "4.1.0"
+        }
+      ],
+      "developers": [
+        {
+          "developerId": "uhafner",
+          "email": "ullrich.hafner@gmail.com",
+          "name": "Ullrich Hafner"
+        }
+      ],
+      "excerpt": "Provides the free fonts of Font Awesome for Jenkins plugins.",
+      "gav": "io.jenkins.plugins:font-awesome-api:6.6.0-2",
+      "name": "font-awesome-api",
+      "releaseTimestamp": "2024-09-08T21:44:42.00Z",
+      "requiredCore": "2.426.3",
+      "scm": "scm:git:https://github.com/jenkinsci/font-awesome-",
+      "sha1": "XqdcUfI+5vvLuC+SGoBJH5C7bzE=",
+      "sha256": "bA1bZog3JAP5jCrWPrMmnToEstTfURpuOLIMHKJTtbA=",
+      "title": "Font Awesome API Plugin",
+      "url": "https://kves13.github.io/plugins/font-awesome-api.hpi",
+      "version": "6.6.0-2",
+      "wiki": "https://github.com/jenkinsci/font-awesome-api-plugin"
+    },
+    "git": {
+      "buildDate": "Oct 04, 2024",
+      "dependencies": [
+        {
+          "name": "structs",
+          "optional": false,
+          "version": "338.v848422169819"
+        },
+        {
+          "name": "git-client",
+          "optional": false,
+          "version": "5.0.0"
+        },
+        {
+          "name": "credentials",
+          "optional": false,
+          "version": "1378.v81ef4269d764"
+        },
+        {
+          "name": "ssh-credentials",
+          "optional": false,
+          "version": "343.v884f71d78167"
+        },
+        {
+          "name": "scm-api",
+          "optional": false,
+          "version": "696.v778d637b_a_762"
+        },
+        {
+          "name": "script-security",
+          "optional": false,
+          "version": "1362.v67dc1f0e1b_b_3"
+        },
+        {
+          "name": "workflow-step-api",
+          "optional": false,
+          "version": "678.v3ee58b_469476"
+        },
+        {
+          "name": "workflow-scm-step",
+          "optional": false,
+          "version": "427.v4ca_6512e7df1"
+        },
+        {
+          "name": "matrix-project",
+          "optional": true,
+          "version": "822.824.v14451b_c0fd42"
+        },
+        {
+          "name": "mailer",
+          "optional": false,
+          "version": "472.vf7c289a_4b_420"
+        },
+        {
+          "name": "credentials-binding",
+          "optional": false,
+          "version": "681.vf91669a_32e45"
+        },
+        {
+          "name": "parameterized-trigger",
+          "optional": true,
+          "version": "806.vf6fff3e28c3e"
+        },
+        {
+          "name": "token-macro",
+          "optional": true,
+          "version": "400.v35420b_922dcb_"
+        },
+        {
+          "name": "promoted-builds",
+          "optional": true,
+          "version": "965.vcda_c6a_e0998f"
+        },
+        {
+          "name": "configuration-as-code",
+          "optional": true,
+          "version": "1850.va_a_8c31d3158b_"
+        }
+      ],
+      "developers": [
+        {
+          "developerId": "markewaite",
+          "email": "mark.earl.waite@gmail.com",
+          "name": "Mark Waite"
+        },
+        {
+          "developerId": "rsandell",
+          "email": "rsandell@cloudbees.com",
+          "name": "Robert Sandell"
+        },
+        {
+          "developerId": "olamy",
+          "email": "olamy@apache.org",
+          "name": "Olivier Lamy"
+        }
+      ],
+      "excerpt": "The Jenkins Plugins Parent POM Project",
+      "gav": "org.jenkins-ci.plugins:git:5.5.2",
+      "labels": [
+        "scm"
+      ],
+      "name": "git",
+      "releaseTimestamp": "2024-10-04T06:59:46.00Z",
+      "requiredCore": "2.440.3",
+      "scm": "scm:git:https://github.com/jenkinsci/git-plugin",
+      "sha1": "gsal836FBMlYpjLYCigA2vsgUC4=",
+      "sha256": "54B/RQRJ2wfUJt5WdAKoaP2nKhWsXhlTEgtCIGIiNqU=",
+      "title": "Git plugin",
+      "url": "https://kves13.github.io/plugins/git.hpi",
+      "version": "5.5.2",
+      "wiki": "https://github.com/jenkinsci/git-plugin"
+    },
+    "git-client": {
+      "buildDate": "Jun 14, 2024",
+      "dependencies": [
+        {
+          "name": "configuration-as-code",
+          "optional": true,
+          "version": "1810.v9b_c30a_249a_4c"
+        },
+        {
+          "name": "gson-api",
+          "optional": false,
+          "version": "2.11.0-41.v019fcf6125dc"
+        },
+        {
+          "name": "mina-sshd-api-common",
+          "optional": false,
+          "version": "2.12.1-113.v4d3ea_5eb_7f72"
+        },
+        {
+          "name": "mina-sshd-api-core",
+          "optional": false,
+          "version": "2.12.1-113.v4d3ea_5eb_7f72"
+        },
+        {
+          "name": "org.eclipse.jgit",
+          "optional": false,
+          "version": "6.10.0.202406032230-r"
+        },
+        {
+          "name": "org.eclipse.jgit.http.apache",
+          "optional": false,
+          "version": "6.10.0.202406032230-r"
+        },
+        {
+          "name": "org.eclipse.jgit.http.server",
+          "optional": false,
+          "version": "6.10.0.202406032230-r"
+        },
+        {
+          "name": "org.eclipse.jgit.lfs",
+          "optional": false,
+          "version": "6.10.0.202406032230-r"
+        },
+        {
+          "name": "org.eclipse.jgit.ssh.apache",
+          "optional": false,
+          "version": "6.10.0.202406032230-r"
+        },
+        {
+          "name": "apache-httpcomponents-client-4-api",
+          "optional": false,
+          "version": "4.5.14-208.v438351942757"
+        },
+        {
+          "name": "credentials",
+          "optional": false,
+          "version": "1337.v60b_d7b_c7b_c9f"
+        },
+        {
+          "name": "script-security",
+          "optional": false,
+          "version": "1341.va_2819b_414686"
+        },
+        {
+          "name": "ssh-credentials",
+          "optional": false,
+          "version": "337.v395d2403ccd4"
+        },
+        {
+          "name": "structs",
+          "optional": false,
+          "version": "337.v1b_04ea_4df7c8"
+        }
+      ],
+      "developers": [
+        {
+          "developerId": "markewaite",
+          "email": "mark.earl.waite@gmail.com",
+          "name": "Mark Waite"
+        },
+        {
+          "developerId": "rsandell",
+          "email": "rsandell@cloudbees.com",
+          "name": "Robert Sandell"
+        },
+        {
+          "developerId": "mramonleon",
+          "email": "rleon@cloudbees.com",
+          "name": "M Ramon Leon"
+        },
+        {
+          "developerId": "olamy",
+          "email": "olamy@apache.org",
+          "name": "Olivier Lamy"
+        }
+      ],
+      "excerpt": "The Jenkins Plugins Parent POM Project",
+      "gav": "org.jenkins-ci.plugins:git-client:5.0.0",
+      "labels": [
+        "library"
+      ],
+      "name": "git-client",
+      "releaseTimestamp": "2024-06-14T08:27:48.00Z",
+      "requiredCore": "2.440.3",
+      "scm": "scm:git:https://github.com/jenkinsci/git-client-pl",
+      "sha1": "UAUfk+snFTrL1BL3FMzRKQnbWwE=",
+      "sha256": "UAkTARupR8nLUuzu6xaR57iGwQMLfZhI0C9scixA4CA=",
+      "title": "Jenkins Git client plugin",
+      "url": "https://kves13.github.io/plugins/git-client.hpi",
+      "version": "5.0.0",
+      "wiki": "https://github.com/jenkinsci/git-client-plugin"
+    },
+    "gitlab-plugin": {
+      "buildDate": "Oct 11, 2024",
+      "compatibleSinceVersion": "1.4.0",
+      "dependencies": [
+        {
+          "name": "caffeine-api",
+          "optional": false,
+          "version": "3.1.8-133.v17b_1ff2e0599"
+        },
+        {
+          "name": "javax-activation-api",
+          "optional": false,
+          "version": "1.2.0-6"
+        },
+        {
+          "name": "jaxb",
+          "optional": false,
+          "version": "2.3.9-1"
+        },
+        {
+          "name": "jersey2-api",
+          "optional": false,
+          "version": "2.42-147.va_28a_44603b_d5"
+        },
+        {
+          "name": "joda-time-api",
+          "optional": false,
+          "version": "2.12.7-29.v5a_b_e3a_82269a_"
+        },
+        {
+          "name": "resteasy-client",
+          "optional": false,
+          "version": "3.15.6.Final"
+        },
+        {
+          "name": "apache-httpcomponents-client-4-api",
+          "optional": false,
+          "version": "4.5.14-208.v438351942757"
+        },
+        {
+          "name": "credentials",
+          "optional": false,
+          "version": "1319.v7eb_51b_3a_c97b_"
+        },
+        {
+          "name": "display-url-api",
+          "optional": false,
+          "version": "2.200.vb_9327d658781"
+        },
+        {
+          "name": "git",
+          "optional": false,
+          "version": "5.2.1"
+        },
+        {
+          "name": "git-client",
+          "optional": false,
+          "version": "4.7.0"
+        },
+        {
+          "name": "jackson2-api",
+          "optional": false,
+          "version": "2.17.0-379.v02de8ec9f64c"
+        },
+        {
+          "name": "matrix-project",
+          "optional": false,
+          "version": "822.824.v14451b_c0fd42"
+        },
+        {
+          "name": "plain-credentials",
+          "optional": true,
+          "version": "179.vc5cb_98f6db_38"
+        },
+        {
+          "name": "scm-api",
+          "optional": false,
+          "version": "676.v886669a_199a_a_"
+        },
+        {
+          "name": "ssh-credentials",
+          "optional": true,
+          "version": "337.v395d2403ccd4"
+        },
+        {
+          "name": "workflow-job",
+          "optional": false,
+          "version": "1385.vb_58b_86ea_fff1"
+        },
+        {
+          "name": "workflow-step-api",
+          "optional": false,
+          "version": "657.v03b_e8115821b_"
+        },
+        {
+          "name": "pojobuilder",
+          "optional": false,
+          "version": "4.3.0"
+        }
+      ],
+      "developers": [
+        {
+          "developerId": "markyjackson-taulia",
+          "email": "marky.r.jackson@gmail.com",
+          "name": "Marky Jackson"
+        }
+      ],
+      "excerpt": "The Jenkins Plugins Parent POM Project",
+      "gav": "org.jenkins-ci.plugins:gitlab-plugin:1.8.2",
+      "labels": [
+        "trigger"
+      ],
+      "name": "gitlab-plugin",
+      "releaseTimestamp": "2024-10-11T13:15:18.00Z",
+      "requiredCore": "2.426.3",
+      "scm": "scm:git:https://github.com/jenkinsci/gitlab-plugin",
+      "sha1": "0rsKdhDgJo1lwOV37AiAdht6ABg=",
+      "sha256": "Bhfd94uJ21pkoXkM7nXZBaY8rk1Gkhoev2fsdY3eNqs=",
+      "title": "GitLab Plugin",
+      "url": "https://kves13.github.io/plugins/gitlab-plugin.hpi",
+      "version": "1.8.2",
+      "wiki": "https://github.com/jenkinsci/gitlab-plugin"
+    },
+    "gson-api": {
+      "buildDate": "May 28, 2024",
+      "dependencies": [
+        {
+          "name": "gson",
+          "optional": false,
+          "version": "2.11.0"
+        }
+      ],
+      "developers": [],
+      "excerpt": "The Jenkins Plugins Parent POM Project",
+      "gav": "io.jenkins.plugins:gson-api:2.11.0-41.v019fcf6125dc",
+      "name": "gson-api",
+      "releaseTimestamp": "2024-05-28T15:27:34.00Z",
+      "requiredCore": "2.426.3",
+      "scm": "scm:git:https://github.com/jenkinsci/gson-api-plug",
+      "sha1": "puOPZYz/KgPNsJZHkzcMifRD8Po=",
+      "sha256": "0B3qsYxK3MgLNKn1B1VHOMbUfrR7r4VjX5YRr0tW/SQ=",
+      "title": "Gson API Plugin",
+      "url": "https://kves13.github.io/plugins/gson-api.hpi",
+      "version": "2.11.0-41.v019fcf6125dc",
+      "wiki": "https://github.com/jenkinsci/gson-api-plugin"
+    },
+    "instance-identity": {
+      "buildDate": "Sep 23, 2024",
+      "dependencies": [
+        {
+          "name": "bouncycastle-api",
+          "optional": false,
+          "version": "2.27"
+        }
+      ],
+      "developers": [],
+      "excerpt": "The Jenkins Plugins Parent POM Project",
+      "gav": "org.jenkins-ci.modules:instance-identity:201.vd2a_b_5a_468a_a_6",
+      "name": "instance-identity",
+      "releaseTimestamp": "2024-09-23T01:00:04.00Z",
+      "requiredCore": "2.361.4",
+      "scm": "scm:git:https://github.com/jenkinsci/instance-iden",
+      "sha1": "ZU3f6kY+onxPNv57bz8/h0/sd2s=",
+      "sha256": "xD3AHiAf03o4pjB9rMhKzmDhYI+WYjaR4dvh/cbYqRE=",
+      "title": "Instance Identity",
+      "url": "https://kves13.github.io/plugins/instance-identity.hpi",
+      "version": "201.vd2a_b_5a_468a_a_6",
+      "wiki": "https://github.com/jenkinsci/instance-identity-plugin"
+    },
+    "ionicons-api": {
+      "buildDate": "May 12, 2024",
+      "dependencies": [],
+      "developers": [
+        {
+          "developerId": "NotMyFault",
+          "email": "",
+          "name": "Alexander Brandes"
+        }
+      ],
+      "excerpt": "The Jenkins Plugins Parent POM Project",
+      "gav": "io.jenkins.plugins:ionicons-api:74.v93d5eb_813d5f",
+      "name": "ionicons-api",
+      "releaseTimestamp": "2024-05-12T19:35:56.00Z",
+      "requiredCore": "2.361.4",
+      "scm": "scm:git:https://github.com/jenkinsci/ionicons-api-",
+      "sha1": "KqttuVcDA7snBH0/UF0u3742ICU=",
+      "sha256": "aBqcwwg6CJ1S7zmCBr/FIdqr88aC7wpXvnPg/t3GLo8=",
+      "title": "Ionicons API",
+      "url": "https://kves13.github.io/plugins/ionicons-api.hpi",
+      "version": "74.v93d5eb_813d5f",
+      "wiki": "https://github.com/jenkinsci/ionicons-api-plugin"
+    },
+    "jackson2-api": {
+      "buildDate": "Mar 18, 2024",
+      "dependencies": [
+        {
+          "name": "jackson-databind",
+          "optional": false,
+          "version": "2.17.0"
+        },
+        {
+          "name": "jackson-datatype-jsr310",
+          "optional": false,
+          "version": "2.17.0"
+        },
+        {
+          "name": "jackson-datatype-jdk8",
+          "optional": false,
+          "version": "2.17.0"
+        },
+        {
+          "name": "jackson-datatype-json-org",
+          "optional": false,
+          "version": "2.17.0"
+        },
+        {
+          "name": "jackson-module-parameter-names",
+          "optional": false,
+          "version": "2.17.0"
+        },
+        {
+          "name": "jackson-core",
+          "optional": false,
+          "version": "2.17.0"
+        },
+        {
+          "name": "jackson-annotations",
+          "optional": false,
+          "version": "2.17.0"
+        },
+        {
+          "name": "jackson-module-jaxb-annotations",
+          "optional": false,
+          "version": "2.17.0"
+        },
+        {
+          "name": "jackson-dataformat-cbor",
+          "optional": false,
+          "version": "2.17.0"
+        },
+        {
+          "name": "jackson-dataformat-xml",
+          "optional": false,
+          "version": "2.17.0"
+        },
+        {
+          "name": "jackson-dataformat-yaml",
+          "optional": false,
+          "version": "2.17.0"
+        },
+        {
+          "name": "javax-activation-api",
+          "optional": false,
+          "version": "1.2.0-6"
+        },
+        {
+          "name": "jaxb",
+          "optional": false,
+          "version": "2.3.9-1"
+        },
+        {
+          "name": "snakeyaml-api",
+          "optional": false,
+          "version": "2.2-111.vc6598e30cc65"
+        },
+        {
+          "name": "json-api",
+          "optional": false,
+          "version": "20231013-17.v1c97069404b_e"
+        }
+      ],
+      "developers": [
+        {
+          "developerId": "stephenconnolly",
+          "email": "",
+          "name": "Stephen Connolly"
+        },
+        {
+          "developerId": "oleg_nenashev",
+          "email": "",
+          "name": "Oleg Nenashev"
+        },
+        {
+          "developerId": "jvz",
+          "email": "",
+          "name": "Matt Sicker"
+        }
+      ],
+      "excerpt": "This plugin exposes the Jackson 2 JSON APIs to other Jenkins plugins.",
+      "gav": "org.jenkins-ci.plugins:jackson2-api:2.17.0-379.v02de8ec9f64c",
+      "name": "jackson2-api",
+      "releaseTimestamp": "2024-03-18T11:39:24.00Z",
+      "requiredCore": "2.401.3",
+      "scm": "scm:git:https://github.com/jenkinsci/jackson2-api-",
+      "sha1": "yJMgXl+1GAiX9sDB5u46B0vR+Nc=",
+      "sha256": "Xi2RlyTaCkfNAb259hTI/JCGLAnOUG2bLKNAJSutIl4=",
+      "title": "Jackson 2 API Plugin",
+      "url": "https://kves13.github.io/plugins/jackson2-api.hpi",
+      "version": "2.17.0-379.v02de8ec9f64c",
+      "wiki": "https://github.com/jenkinsci/jackson2-api-plugin"
+    },
+    "jakarta-activation-api": {
+      "buildDate": "Mar 04, 2024",
+      "dependencies": [
+        {
+          "name": "jakarta.activation-api",
+          "optional": false,
+          "version": "2.1.3"
+        },
+        {
+          "name": "angus-activation",
+          "optional": false,
+          "version": "2.0.2"
+        }
+      ],
+      "developers": [],
+      "excerpt": "Plugin providing the Jakarta Activation API for other plugins",
+      "gav": "io.jenkins.plugins:jakarta-activation-api:2.1.3-1",
+      "name": "jakarta-activation-api",
+      "releaseTimestamp": "2024-03-04T12:35:14.00Z",
+      "requiredCore": "2.361.4",
+      "scm": "scm:git:https://github.com/jenkinsci/jakarta-activ",
+      "sha1": "Vj3GxlcmS8xs34KXs9vvlFJMj0M=",
+      "sha256": "3cPfXYw5oqIIZh1pJ3EgsREzc7BNBuIlBhW+KmVAS4M=",
+      "title": "Jakarta Activation API",
+      "url": "https://kves13.github.io/plugins/jakarta-activation-api.hpi",
+      "version": "2.1.3-1",
+      "wiki": "https://github.com/jenkinsci/jakarta-activation-api-plugi"
+    },
+    "jakarta-mail-api": {
+      "buildDate": "Mar 04, 2024",
+      "dependencies": [
+        {
+          "name": "jakarta-activation-api",
+          "optional": false,
+          "version": "2.1.3-1"
+        },
+        {
+          "name": "jakarta.mail-api",
+          "optional": false,
+          "version": "2.1.3"
+        },
+        {
+          "name": "angus-mail",
+          "optional": false,
+          "version": "2.0.3"
+        }
+      ],
+      "developers": [],
+      "excerpt": "Plugin providing the Jakarta Mail API for other plugins",
+      "gav": "io.jenkins.plugins:jakarta-mail-api:2.1.3-1",
+      "name": "jakarta-mail-api",
+      "releaseTimestamp": "2024-03-04T12:45:50.00Z",
+      "requiredCore": "2.361.4",
+      "scm": "scm:git:https://github.com/jenkinsci/jakarta-mail-",
+      "sha1": "PXjqN4VQMTOUwHdSW4mfcGRNt1g=",
+      "sha256": "hRqyL/Bkf02CuqtOUmxtDds+ZK1JacUWEWs3Tvd45Tk=",
+      "title": "Jakarta Mail API",
+      "url": "https://kves13.github.io/plugins/jakarta-mail-api.hpi",
+      "version": "2.1.3-1",
+      "wiki": "https://github.com/jenkinsci/jakarta-mail-api-plugin"
+    },
+    "javadoc": {
+      "buildDate": "Aug 03, 2024",
+      "dependencies": [],
+      "developers": [],
+      "excerpt": "The Jenkins Plugins Parent POM Project",
+      "gav": "org.jenkins-ci.plugins:javadoc:280.v050b_5c849f69",
+      "name": "javadoc",
+      "releaseTimestamp": "2024-08-03T04:50:48.00Z",
+      "requiredCore": "2.440.3",
+      "scm": "scm:git:https://github.com/jenkinsci/javadoc-plugi",
+      "sha1": "Pf/O6eBowAX5xiZjt7B8A9JD/10=",
+      "sha256": "PQ032QqTmJcQn6drSD9gCHzC+xkvlYHRQyvWrlaaKtQ=",
+      "title": "Javadoc Plugin",
+      "url": "https://kves13.github.io/plugins/javadoc.hpi",
+      "version": "280.v050b_5c849f69",
+      "wiki": "https://github.com/jenkinsci/javadoc-plugin"
+    },
+    "javax-activation-api": {
+      "buildDate": "May 23, 2024",
+      "dependencies": [
+        {
+          "name": "javax.activation",
+          "optional": false,
+          "version": "1.2.0"
+        }
+      ],
+      "developers": [],
+      "excerpt": "Plugin providing the JavaBeans Activation Framework (JAF) API for other plugins",
+      "gav": "io.jenkins.plugins:javax-activation-api:1.2.0-7",
+      "name": "javax-activation-api",
+      "releaseTimestamp": "2024-05-23T17:24:14.00Z",
+      "requiredCore": "2.361.4",
+      "scm": "scm:git:https://github.com/jenkinsci/javax-activat",
+      "sha1": "8BkEq9idqbNMtm8yPGhHE6rw9KI=",
+      "sha256": "xgq3JA3e0hnizTACswV53Zk4MsXUaD3KcQ8PQmd2sGM=",
+      "title": "JavaBeans Activation Framework (JAF) API",
+      "url": "https://kves13.github.io/plugins/javax-activation-api.hpi",
+      "version": "1.2.0-7",
+      "wiki": "https://github.com/jenkinsci/javax-activation-api-plugin"
+    },
+    "jaxb": {
+      "buildDate": "Oct 23, 2023",
+      "dependencies": [
+        {
+          "name": "jaxb-impl",
+          "optional": false,
+          "version": "2.3.9"
+        },
+        {
+          "name": "javax-activation-api",
+          "optional": false,
+          "version": "1.2.0-6"
+        },
+        {
+          "name": "jaxb-api",
+          "optional": false,
+          "version": "2.3.1"
+        }
+      ],
+      "developers": [],
+      "excerpt": "Detached packaging for JAXB for more transparent Java 9+ compatibility",
+      "gav": "io.jenkins.plugins:jaxb:2.3.9-1",
+      "name": "jaxb",
+      "releaseTimestamp": "2023-10-23T12:32:46.00Z",
+      "requiredCore": "2.387.3",
+      "scm": "scm:git:https://github.com/jenkinsci/jaxb-plugin.g",
+      "sha1": "pUR0K4eHgEzchlzddNqCd0B4lJU=",
+      "sha256": "jJ9/mNmWremLel3QzZ0KumYazqG5mjP3V3i6zzmmRlk=",
+      "title": "JAXB plugin",
+      "url": "https://kves13.github.io/plugins/jaxb.hpi",
+      "version": "2.3.9-1",
+      "wiki": "https://github.com/jenkinsci/jaxb-plugin"
+    },
+    "jenkins-multijob-plugin": {
+      "buildDate": "Oct 22, 2024",
+      "dependencies": [
+        {
+          "name": "maven-plugin",
+          "optional": false,
+          "version": "3.23"
+        },
+        {
+          "name": "built-on-column",
+          "optional": false,
+          "version": "1.4"
+        },
+        {
+          "name": "conditional-buildstep",
+          "optional": false,
+          "version": "1.4.3"
+        },
+        {
+          "name": "copyartifact",
+          "optional": true,
+          "version": "722.v0662a_9b_e22a_c"
+        },
+        {
+          "name": "envinject",
+          "optional": false,
+          "version": "2.919.v009a_a_1067cd0"
+        },
+        {
+          "name": "junit",
+          "optional": false,
+          "version": "1256.v002534a_5f33e"
+        },
+        {
+          "name": "matrix-project",
+          "optional": true,
+          "version": "822.v01b_8c85d16d2"
+        },
+        {
+          "name": "parameterized-trigger",
+          "optional": false,
+          "version": "787.v665fcf2a_830b_"
+        },
+        {
+          "name": "token-macro",
+          "optional": false,
+          "version": "400.v35420b_922dcb_"
+        }
+      ],
+      "developers": [
+        {
+          "developerId": "itaior",
+          "email": "itai@tikalk.com",
+          "name": "Itai Or"
+        },
+        {
+          "developerId": "cohencil",
+          "email": "chenc@tikalk.com",
+          "name": "Chen Cohen"
+        },
+        {
+          "developerId": "yorammi",
+          "email": "yorammi@tikalk.com",
+          "name": "Yoram Michaeli"
+        }
+      ],
+      "excerpt": "The Jenkins Plugins Parent POM Project",
+      "gav": "org.jenkins-ci.plugins:jenkins-multijob-plugin:659.v6633374ec624",
+      "labels": [
+        "misc"
+      ],
+      "name": "jenkins-multijob-plugin",
+      "releaseTimestamp": "2024-10-22T20:27:00.00Z",
+      "requiredCore": "2.401.3",
+      "scm": "scm:git:https://github.com:jenkinsci/jenkins-multi",
+      "sha1": "aleuZwyHryzyC7ILhcuzlqcl5bY=",
+      "sha256": "FTrbrJ192Imop+eUk06rWJ3JvBjTA5c5u8gvksTcLsI=",
+      "title": "Jenkins Multijob plugin",
+      "url": "https://kves13.github.io/plugins/jenkins-multijob-plugin.hpi",
+      "version": "659.v6633374ec624",
+      "wiki": "https://github.com/jenkinsci/jenkins-multijob-plugin.git"
+    },
+    "jersey2-api": {
+      "buildDate": "Aug 06, 2024",
+      "dependencies": [
+        {
+          "name": "javax-activation-api",
+          "optional": false,
+          "version": "1.2.0-7"
+        },
+        {
+          "name": "jaxb",
+          "optional": true,
+          "version": "2.3.9-1"
+        },
+        {
+          "name": "jersey-apache-connector",
+          "optional": false,
+          "version": "2.44"
+        },
+        {
+          "name": "jersey-container-servlet",
+          "optional": false,
+          "version": "2.44"
+        },
+        {
+          "name": "jersey-hk2",
+          "optional": false,
+          "version": "2.44"
+        },
+        {
+          "name": "jersey-media-jaxb",
+          "optional": false,
+          "version": "2.44"
+        },
+        {
+          "name": "jersey-media-json-binding",
+          "optional": false,
+          "version": "2.44"
+        },
+        {
+          "name": "jersey-media-json-jackson",
+          "optional": false,
+          "version": "2.44"
+        },
+        {
+          "name": "jersey-media-json-jettison",
+          "optional": false,
+          "version": "2.44"
+        },
+        {
+          "name": "jersey-media-multipart",
+          "optional": false,
+          "version": "2.44"
+        },
+        {
+          "name": "jersey-media-sse",
+          "optional": false,
+          "version": "2.44"
+        },
+        {
+          "name": "apache-httpcomponents-client-4-api",
+          "optional": true,
+          "version": "4.5.14-208.v438351942757"
+        },
+        {
+          "name": "jackson2-api",
+          "optional": true,
+          "version": "2.17.0-379.v02de8ec9f64c"
+        }
+      ],
+      "developers": [],
+      "excerpt": "Plugin providing the JAX-RS 2.1 and Jersey 2 APIs for other plugins",
+      "gav": "io.jenkins.plugins:jersey2-api:2.44-151.v6df377fff741",
+      "name": "jersey2-api",
+      "releaseTimestamp": "2024-08-06T16:57:26.00Z",
+      "requiredCore": "2.401.3",
+      "scm": "scm:git:https://github.com/jenkinsci/jersey2-api-p",
+      "sha1": "CliZ/xDgxCs3m2I/mKOPkVT9wls=",
+      "sha256": "qSIpB6iTRJQ8Ma1lIbLN6NJsoU893JDyd3Nnx8ShnEw=",
+      "title": "Jersey 2 API",
+      "url": "https://kves13.github.io/plugins/jersey2-api.hpi",
+      "version": "2.44-151.v6df377fff741",
+      "wiki": "https://github.com/jenkinsci/jersey2-api-plugin"
+    },
+    "joda-time-api": {
+      "buildDate": "Sep 16, 2024",
+      "dependencies": [
+        {
+          "name": "joda-time",
+          "optional": false,
+          "version": "2.13.0"
+        }
+      ],
+      "developers": [],
+      "excerpt": "The Jenkins Plugins Parent POM Project",
+      "gav": "io.jenkins.plugins:joda-time-api:2.13.0-85.vb_64d1c2921f1",
+      "name": "joda-time-api",
+      "releaseTimestamp": "2024-09-16T05:56:54.00Z",
+      "requiredCore": "2.440.3",
+      "scm": "scm:git:https://github.com/jenkinsci/joda-time-api",
+      "sha1": "QproLWMxoxAa04VR1KImSWXFslQ=",
+      "sha256": "XAsJcPyfxgyn7PKQP8h3xX/kRPyl8a5awH+bGUPxzv0=",
+      "title": "Joda Time API Plugin",
+      "url": "https://kves13.github.io/plugins/joda-time-api.hpi",
+      "version": "2.13.0-85.vb_64d1c2921f1",
+      "wiki": "https://github.com/jenkinsci/joda-time-api-plugin"
+    },
+    "jquery": {
+      "buildDate": "Oct 22, 2024",
+      "dependencies": [
+        {
+          "name": "stapler-adjunct-jquery",
+          "optional": false,
+          "version": "1.12.4-0"
+        }
+      ],
+      "developers": [
+        {
+          "developerId": "kiy0taka",
+          "email": "",
+          "name": "Kiyotaka Oku"
+        },
+        {
+          "developerId": "kohsuke",
+          "email": "",
+          "name": "Kohsuke Kawaguchi"
+        }
+      ],
+      "excerpt": "This plugin provides a stable version of the jQuery Javascript Library",
+      "gav": "org.jenkins-ci.plugins:jquery:1.12.4-3",
+      "labels": [
+        "ui",
+        "library"
+      ],
+      "name": "jquery",
+      "releaseTimestamp": "2024-10-22T14:40:54.00Z",
+      "requiredCore": "2.440.3",
+      "scm": "scm:git:https://github.com/jenkinsci/jquery-plugin",
+      "sha1": "113ffQ1NWhHvBgEXXkUjjcH4j7U=",
+      "sha256": "nCKNrcJPpq+S1L3y4Rb5M8ZfUc4Prkdv+tMvvX8ZdVg=",
+      "title": "jQuery plugin",
+      "url": "https://kves13.github.io/plugins/jquery.hpi",
+      "version": "1.12.4-3",
+      "wiki": "https://github.com/jenkinsci/jquery-plugin"
+    },
+    "jquery3-api": {
+      "buildDate": "Feb 23, 2024",
+      "dependencies": [],
+      "developers": [
+        {
+          "developerId": "uhafner",
+          "email": "ullrich.hafner@gmail.com",
+          "name": "Ullrich Hafner"
+        }
+      ],
+      "excerpt": "Provides jQuery 3.x for Jenkins plugins.",
+      "gav": "io.jenkins.plugins:jquery3-api:3.7.1-2",
+      "name": "jquery3-api",
+      "releaseTimestamp": "2024-02-23T16:56:14.00Z",
+      "requiredCore": "2.426.3",
+      "scm": "scm:git:https://github.com/jenkinsci/jquery3-api-p",
+      "sha1": "klXi1HiZRaUW51iZiDxRRRZxeYQ=",
+      "sha256": "Mi0B4Uo2jjEx/ziNvG/gYquqbLCiu3YbxGUW8ffKEGY=",
+      "title": "JQuery3 API Plugin",
+      "url": "https://kves13.github.io/plugins/jquery3-api.hpi",
+      "version": "3.7.1-2",
+      "wiki": "https://github.com/jenkinsci/jquery3-api-plugin"
+    },
+    "jsch": {
+      "buildDate": "Jan 03, 2024",
+      "dependencies": [
+        {
+          "name": "jsch",
+          "optional": false,
+          "version": "0.2.16"
+        },
+        {
+          "name": "trilead-api",
+          "optional": false,
+          "version": "2.84.v72119de229b_7"
+        },
+        {
+          "name": "ssh-credentials",
+          "optional": false,
+          "version": "305.v8f4381501156"
+        }
+      ],
+      "developers": [
+        {
+          "developerId": "ljader",
+          "email": "",
+          "name": "Lukasz Jader"
+        },
+        {
+          "developerId": "zregvart",
+          "email": "",
+          "name": "Zoran Regvart"
+        },
+        {
+          "developerId": "bpedman",
+          "email": "",
+          "name": "Brandon Pedersen"
+        },
+        {
+          "developerId": "oleg_nenashev",
+          "email": "",
+          "name": "Oleg Nenashev"
+        }
+      ],
+      "excerpt": "The Jenkins Plugins Parent POM Project",
+      "gav": "org.jenkins-ci.plugins:jsch:0.2.16-86.v42e010d9484b_",
+      "labels": [
+        "misc",
+        "library"
+      ],
+      "name": "jsch",
+      "releaseTimestamp": "2024-01-03T15:06:56.00Z",
+      "requiredCore": "2.361.4",
+      "scm": "scm:git:https://github.com/jenkinsci/jsch-plugin.g",
+      "sha1": "M6o44X0Xf6hWk0tsLFHSgdKbs4U=",
+      "sha256": "8Ot/frrzdPcEDmClbM2K9v5HHog5V986T/8RbdoC3BI=",
+      "title": "Jenkins JSch dependency plugin",
+      "url": "https://kves13.github.io/plugins/jsch.hpi",
+      "version": "0.2.16-86.v42e010d9484b_",
+      "wiki": "https://github.com/jenkinsci/jsch-plugin"
+    },
+    "json-api": {
+      "buildDate": "Mar 08, 2024",
+      "dependencies": [
+        {
+          "name": "json",
+          "optional": false,
+          "version": "20240303"
+        }
+      ],
+      "developers": [],
+      "excerpt": "The Jenkins Plugins Parent POM Project",
+      "gav": "io.jenkins.plugins:json-api:20240303-41.v94e11e6de726",
+      "name": "json-api",
+      "releaseTimestamp": "2024-03-08T08:53:40.00Z",
+      "requiredCore": "2.414.3",
+      "scm": "scm:git:https://github.com/jenkinsci/json-api-plug",
+      "sha1": "jJW0MxpeglO/NxYkCenutBokTQg=",
+      "sha256": "1D/5cIrgNU7W/kwXSs9OAL1ATTyTJRhSIDJzUY/5NaY=",
+      "title": "JSON Api Plugin",
+      "url": "https://kves13.github.io/plugins/json-api.hpi",
+      "version": "20240303-41.v94e11e6de726",
+      "wiki": "https://github.com/jenkinsci/json-api-plugin"
+    },
+    "json-path-api": {
+      "buildDate": "Mar 22, 2024",
+      "dependencies": [
+        {
+          "name": "json-path",
+          "optional": false,
+          "version": "2.9.0"
+        },
+        {
+          "name": "asm-api",
+          "optional": false,
+          "version": "9.6-3.v2e1fa_b_338cd7"
+        }
+      ],
+      "developers": [],
+      "excerpt": "The Jenkins Plugins Parent POM Project",
+      "gav": "io.jenkins.plugins:json-path-api:2.9.0-58.v62e3e85b_a_655",
+      "name": "json-path-api",
+      "releaseTimestamp": "2024-03-22T08:56:24.00Z",
+      "requiredCore": "2.426.3",
+      "scm": "scm:git:https://github.com/jenkinsci/json-path-api",
+      "sha1": "Kr86EY5n7h6VKGE0Q59USybK89g=",
+      "sha256": "JoUFqtWcsNkv9MofVnVWxSNRm1IXyj5FkeHUzJsmRvU=",
+      "title": "JSON Path API Plugin",
+      "url": "https://kves13.github.io/plugins/json-path-api.hpi",
+      "version": "2.9.0-58.v62e3e85b_a_655",
+      "wiki": "https://github.com/jenkinsci/json-path-api-plugin"
+    },
+    "junit": {
+      "buildDate": "Nov 09, 2024",
+      "dependencies": [
+        {
+          "name": "parallel-collectors",
+          "optional": false,
+          "version": "2.6.1"
+        },
+        {
+          "name": "bootstrap5-api",
+          "optional": false,
+          "version": "5.3.2-3"
+        },
+        {
+          "name": "checks-api",
+          "optional": false,
+          "version": "2.0.2"
+        },
+        {
+          "name": "echarts-api",
+          "optional": false,
+          "version": "5.4.0-7"
+        },
+        {
+          "name": "ionicons-api",
+          "optional": false,
+          "version": "70.v2959a_b_74e3cf"
+        },
+        {
+          "name": "plugin-util-api",
+          "optional": false,
+          "version": "3.8.0"
+        },
+        {
+          "name": "display-url-api",
+          "optional": false,
+          "version": "2.200.vb_9327d658781"
+        },
+        {
+          "name": "jackson2-api",
+          "optional": false,
+          "version": "2.17.0-379.v02de8ec9f64c"
+        },
+        {
+          "name": "script-security",
+          "optional": false,
+          "version": "1335.vf07d9ce377a_e"
+        },
+        {
+          "name": "workflow-api",
+          "optional": false,
+          "version": "1291.v51fd2a_625da_7"
+        },
+        {
+          "name": "workflow-step-api",
+          "optional": false,
+          "version": "657.v03b_e8115821b_"
+        }
+      ],
+      "developers": [],
+      "excerpt": "Allows JUnit-format test results to be published.",
+      "gav": "org.jenkins-ci.plugins:junit:1309.v0078b_fecd6ed",
+      "labels": [
+        "report"
+      ],
+      "name": "junit",
+      "releaseTimestamp": "2024-11-09T17:18:18.00Z",
+      "requiredCore": "2.414.3",
+      "scm": "scm:git:https://github.com/jenkinsci/junit-plugin.",
+      "sha1": "cSAPQJRW9lU8f6bEzHoEuT+N+MY=",
+      "sha256": "DEywzkPqiNzUCAscD2wHQycWvc9AYyU0WJID6k2PZXE=",
+      "title": "JUnit Plugin",
+      "url": "https://kves13.github.io/plugins/junit.hpi",
+      "version": "1309.v0078b_fecd6ed",
+      "wiki": "https://github.com/jenkinsci/junit-plugin"
+    },
+    "kubernetes": {
+      "buildDate": "Dec 02, 2024",
+      "dependencies": [
+        {
+          "name": "caffeine-api",
+          "optional": false,
+          "version": "3.1.8-133.v17b_1ff2e0599"
+        },
+        {
+          "name": "authentication-tokens",
+          "optional": false,
+          "version": "1.53.v1c90fd9191a_b_"
+        },
+        {
+          "name": "bouncycastle-api",
+          "optional": false,
+          "version": "2.30.1.77-225.v26ea_c9455fd9"
+        },
+        {
+          "name": "cloudbees-folder",
+          "optional": false,
+          "version": "6.858.v898218f3609d"
+        },
+        {
+          "name": "credentials",
+          "optional": false,
+          "version": "1319.v7eb_51b_3a_c97b_"
+        },
+        {
+          "name": "credentials-binding",
+          "optional": false,
+          "version": "657.v2b_19db_7d6e6d"
+        },
+        {
+          "name": "durable-task",
+          "optional": false,
+          "version": "550.v0930093c4b_a_6"
+        },
+        {
+          "name": "jackson2-api",
+          "optional": false,
+          "version": "2.16.1-373.ve709c6871598"
+        },
+        {
+          "name": "kubernetes-client-api",
+          "optional": false,
+          "version": "6.10.0-240.v57880ce8b_0b_2"
+        },
+        {
+          "name": "metrics",
+          "optional": false,
+          "version": "4.2.21-449.v6960d7c54c69"
+        },
+        {
+          "name": "plain-credentials",
+          "optional": false,
+          "version": "143.v1b_df8b_d3b_e48"
+        },
+        {
+          "name": "structs",
+          "optional": false,
+          "version": "337.v1b_04ea_4df7c8"
+        },
+        {
+          "name": "variant",
+          "optional": false,
+          "version": "60.v7290fc0eb_b_cd"
+        },
+        {
+          "name": "workflow-api",
+          "optional": false,
+          "version": "1291.v51fd2a_625da_7"
+        },
+        {
+          "name": "workflow-cps",
+          "optional": true,
+          "version": "3880.vb_ef4b_5cfd270"
+        },
+        {
+          "name": "workflow-durable-task-step",
+          "optional": false,
+          "version": "1331.vc8c2fed35334"
+        },
+        {
+          "name": "workflow-step-api",
+          "optional": false,
+          "version": "657.v03b_e8115821b_"
+        },
+        {
+          "name": "kubernetes-credentials",
+          "optional": false,
+          "version": "0.11"
+        },
+        {
+          "name": "pipeline-model-extensions",
+          "optional": true,
+          "version": "2.2175.v76a_fff0a_2618"
+        }
+      ],
+      "developers": [
+        {
+          "developerId": "carlos",
+          "email": "carlos@apache.org",
+          "name": "Carlos Sanchez"
+        }
+      ],
+      "excerpt": "Jenkins plugin to run dynamic agents in a Kubernetes cluster",
+      "gav": "org.csanchez.jenkins.plugins:kubernetes:4300.vd82c5692b_3a_e",
+      "labels": [
+        "cluster",
+        "cloud"
+      ],
+      "name": "kubernetes",
+      "releaseTimestamp": "2024-12-02T16:59:26.00Z",
+      "requiredCore": "2.426.3",
+      "scm": "scm:git:https://github.com/jenkinsci/kubernetes-pl",
+      "sha1": "e8UeVBzcQ7rx2OnMbP/khWk2KhQ=",
+      "sha256": "dXtbDbBn7obc2PaU30W0p47Fbk8GuqBPeTGT/NGIOW4=",
+      "title": "Kubernetes plugin",
+      "url": "https://kves13.github.io/plugins/kubernetes.hpi",
+      "version": "4300.vd82c5692b_3a_e",
+      "wiki": "https://github.com/jenkinsci/kubernetes-plugin"
+    },
+    "kubernetes-client-api": {
+      "buildDate": "Jan 26, 2024",
+      "compatibleSinceVersion": "6.8.1",
+      "dependencies": [
+        {
+          "name": "kubernetes-client",
+          "optional": false,
+          "version": "6.10.0"
+        },
+        {
+          "name": "openshift-client",
+          "optional": false,
+          "version": "6.10.0"
+        },
+        {
+          "name": "volumesnapshot-client",
+          "optional": false,
+          "version": "6.10.0"
+        },
+        {
+          "name": "jackson2-api",
+          "optional": false,
+          "version": "2.15.3-372.v309620682326"
+        },
+        {
+          "name": "bouncycastle-api",
+          "optional": false,
+          "version": "2.30.1.77-225.v26ea_c9455fd9"
+        },
+        {
+          "name": "okhttp-api",
+          "optional": false,
+          "version": "4.11.0-157.v6852a_a_fa_ec11"
+        }
+      ],
+      "developers": [],
+      "excerpt": "This plugin provides the fabric8.io Kubernetes Client API to plugins.",
+      "gav": "org.jenkins-ci.plugins:kubernetes-client-api:6.10.0-240.v57880ce8b_0b_2",
+      "name": "kubernetes-client-api",
+      "releaseTimestamp": "2024-01-26T16:54:22.00Z",
+      "requiredCore": "2.401.3",
+      "scm": "scm:git:https://github.com/jenkinsci/kubernetes-cl",
+      "sha1": "opfy9h5FSY2/0thDXqgKla2xA3g=",
+      "sha256": "Am0NDBHTOSQ1VPouOoLAU5gwJLFMUuBHAu7g/lahsug=",
+      "title": "Kubernetes Client API Plugin",
+      "url": "https://kves13.github.io/plugins/kubernetes-client-api.hpi",
+      "version": "6.10.0-240.v57880ce8b_0b_2",
+      "wiki": "https://github.com/jenkinsci/kubernetes-client-api-plugin"
+    },
+    "kubernetes-credentials": {
+      "buildDate": "Sep 18, 2024",
+      "compatibleSinceVersion": "190",
+      "dependencies": [
+        {
+          "name": "kubernetes-client-api",
+          "optional": false,
+          "version": "6.10.0-240.v57880ce8b_0b_2"
+        },
+        {
+          "name": "jackson2-api",
+          "optional": false,
+          "version": "2.17.0-379.v02de8ec9f64c"
+        },
+        {
+          "name": "apache-httpcomponents-client-4-api",
+          "optional": false,
+          "version": "4.5.14-208.v438351942757"
+        },
+        {
+          "name": "credentials",
+          "optional": false,
+          "version": "1378.v81ef4269d764"
+        },
+        {
+          "name": "authentication-tokens",
+          "optional": false,
+          "version": "1.119.v50285141b_7e1"
+        },
+        {
+          "name": "plain-credentials",
+          "optional": true,
+          "version": "183.va_de8f1dd5a_2b_"
+        },
+        {
+          "name": "google-oauth-plugin",
+          "optional": true,
+          "version": "1.330.vf5e86021cb_ec"
+        },
+        {
+          "name": "docker-commons",
+          "optional": true,
+          "version": "439.va_3cb_0a_6a_fb_29"
+        }
+      ],
+      "developers": [
+        {
+          "developerId": "max_laverse",
+          "email": "",
+          "name": "Max Laverse"
+        }
+      ],
+      "excerpt": "The Jenkins Plugins Parent POM Project",
+      "gav": "org.jenkinsci.plugins:kubernetes-credentials:190.v03c305394deb_",
+      "name": "kubernetes-credentials",
+      "releaseTimestamp": "2024-09-18T05:38:42.00Z",
+      "requiredCore": "2.426.3",
+      "scm": "scm:git:https://github.com/jenkinsci/kubernetes-cr",
+      "sha1": "jeJeczOIpuz0qL1ZBLR/xW5+X6c=",
+      "sha256": "FcinMqFGkthuTp4x4aIJLyfEWPSJRrVIl+zhEFFDO48=",
+      "title": "Kubernetes Credentials Plugin",
+      "url": "https://kves13.github.io/plugins/kubernetes-credentials.hpi",
+      "version": "190.v03c305394deb_",
+      "wiki": "https://github.com/jenkinsci/kubernetes-credentials-plugi"
+    },
+    "mailer": {
+      "buildDate": "Sep 30, 2024",
+      "dependencies": [
+        {
+          "name": "display-url-api",
+          "optional": false,
+          "version": "2.204.vf6fddd8a_8b_e9"
+        },
+        {
+          "name": "instance-identity",
+          "optional": false,
+          "version": "185.v303dc7c645f9"
+        },
+        {
+          "name": "jakarta-mail-api",
+          "optional": false,
+          "version": "2.1.3-1"
+        }
+      ],
+      "developers": [],
+      "excerpt": "The Jenkins Plugins Parent POM Project",
+      "gav": "org.jenkins-ci.plugins:mailer:488.v0c9639c1a_eb_3",
+      "name": "mailer",
+      "releaseTimestamp": "2024-09-30T08:46:16.00Z",
+      "requiredCore": "2.440.3",
+      "scm": "scm:git:https://github.com/jenkinsci/mailer-plugin",
+      "sha1": "LUoJ3Jr39pswIwF0TbeaR7tQ//A=",
+      "sha256": "KKpOo2XKDO2rXXnp916fzbADwxAN/SNn9OLJUBLHjGg=",
+      "title": "Jenkins Mailer Plugin",
+      "url": "https://kves13.github.io/plugins/mailer.hpi",
+      "version": "488.v0c9639c1a_eb_3",
+      "wiki": "https://github.com/jenkinsci/mailer-plugin"
+    },
+    "matrix-auth": {
+      "buildDate": "Oct 22, 2024",
+      "compatibleSinceVersion": "3.2",
+      "dependencies": [
+        {
+          "name": "configuration-as-code",
+          "optional": true,
+          "version": "1836.vccda_4a_122a_a_e"
+        },
+        {
+          "name": "ionicons-api",
+          "optional": false,
+          "version": "74.v93d5eb_813d5f"
+        },
+        {
+          "name": "cloudbees-folder",
+          "optional": true,
+          "version": "6.858.v898218f3609d"
+        }
+      ],
+      "developers": [],
+      "excerpt": "The Jenkins Plugins Parent POM Project",
+      "gav": "org.jenkins-ci.plugins:matrix-auth:3.2.3",
+      "labels": [
+        "user"
+      ],
+      "name": "matrix-auth",
+      "releaseTimestamp": "2024-10-22T15:53:06.00Z",
+      "requiredCore": "2.426.3",
+      "scm": "scm:git:https://github.com/jenkinsci/matrix-auth-p",
+      "sha1": "fOqLCDGmz1+JD0+E23Ynj6Ye1gw=",
+      "sha256": "ib2elFYwAPWvCcyjy4AXxWohbRtL2ZmveFvdkgJJ0BQ=",
+      "title": "Matrix Authorization Strategy Plugin",
+      "url": "https://kves13.github.io/plugins/matrix-auth.hpi",
+      "version": "3.2.3",
+      "wiki": "https://github.com/jenkinsci/matrix-auth-plugin"
+    },
+    "matrix-project": {
+      "buildDate": "Oct 07, 2024",
+      "dependencies": [
+        {
+          "name": "junit",
+          "optional": false,
+          "version": "1265.v65b_14fa_f12f0"
+        },
+        {
+          "name": "script-security",
+          "optional": false,
+          "version": "1336.vf33a_a_9863911"
+        },
+        {
+          "name": "ionicons-api",
+          "optional": false,
+          "version": "74.v93d5eb_813d5f"
+        }
+      ],
+      "developers": [],
+      "excerpt": "Multi-configuration (matrix) project type.",
+      "gav": "org.jenkins-ci.plugins:matrix-project:839.vff91cd7e3a_b_2",
+      "labels": [
+        "misc"
+      ],
+      "name": "matrix-project",
+      "releaseTimestamp": "2024-10-07T23:48:24.00Z",
+      "requiredCore": "2.440.3",
+      "scm": "scm:git:https://github.com/jenkinsci/matrix-projec",
+      "sha1": "fy+/Om4Rl4Uu5f90TkRJFmgN1Qs=",
+      "sha256": "wCpyR1CHrzr2vNypZQ1nMlPwPYzwU/Z6YPqE3p7G+IQ=",
+      "title": "Matrix Project Plugin",
+      "url": "https://kves13.github.io/plugins/matrix-project.hpi",
+      "version": "839.vff91cd7e3a_b_2",
+      "wiki": "https://github.com/jenkinsci/matrix-project-plugin"
+    },
+    "maven-plugin": {
+      "buildDate": "Oct 23, 2024",
+      "dependencies": [
+        {
+          "name": "javadoc",
+          "optional": false,
+          "version": "280.v050b_5c849f69"
+        },
+        {
+          "name": "mailer",
+          "optional": false,
+          "version": "472.vf7c289a_4b_420"
+        },
+        {
+          "name": "junit",
+          "optional": false,
+          "version": "1296.vb_f538b_c88630"
+        },
+        {
+          "name": "maven-agent",
+          "optional": false,
+          "version": "1.14"
+        },
+        {
+          "name": "maven-interceptor",
+          "optional": false,
+          "version": "1.14"
+        },
+        {
+          "name": "maven2.1-interceptor",
+          "optional": false,
+          "version": "1.2"
+        },
+        {
+          "name": "maven3-agent",
+          "optional": false,
+          "version": "1.14"
+        },
+        {
+          "name": "maven31-agent",
+          "optional": false,
+          "version": "1.14"
+        },
+        {
+          "name": "maven32-agent",
+          "optional": false,
+          "version": "1.14"
+        },
+        {
+          "name": "maven33-agent",
+          "optional": false,
+          "version": "1.14"
+        },
+        {
+          "name": "maven35-agent",
+          "optional": false,
+          "version": "1.14"
+        },
+        {
+          "name": "maven3-interceptor",
+          "optional": false,
+          "version": "1.14"
+        },
+        {
+          "name": "maven31-interceptor",
+          "optional": false,
+          "version": "1.14"
+        },
+        {
+          "name": "maven32-interceptor",
+          "optional": false,
+          "version": "1.14"
+        },
+        {
+          "name": "maven33-interceptor",
+          "optional": false,
+          "version": "1.14"
+        },
+        {
+          "name": "maven35-interceptor",
+          "optional": false,
+          "version": "1.14"
+        },
+        {
+          "name": "maven3-interceptor-commons",
+          "optional": false,
+          "version": "1.14"
+        },
+        {
+          "name": "maven-core",
+          "optional": false,
+          "version": "3.8.3"
+        },
+        {
+          "name": "maven-compat",
+          "optional": false,
+          "version": "3.8.3"
+        },
+        {
+          "name": "maven-repository-metadata",
+          "optional": false,
+          "version": "3.8.3"
+        },
+        {
+          "name": "maven-resolver-provider",
+          "optional": false,
+          "version": "3.8.3"
+        },
+        {
+          "name": "maven-embedder",
+          "optional": false,
+          "version": "3.8.3"
+        },
+        {
+          "name": "plexus-cipher",
+          "optional": false,
+          "version": "2.0"
+        },
+        {
+          "name": "maven-resolver-api",
+          "optional": false,
+          "version": "1.7.3"
+        },
+        {
+          "name": "maven-resolver-impl",
+          "optional": false,
+          "version": "1.7.3"
+        },
+        {
+          "name": "maven-resolver-spi",
+          "optional": false,
+          "version": "1.7.3"
+        },
+        {
+          "name": "maven-resolver-util",
+          "optional": false,
+          "version": "1.7.3"
+        },
+        {
+          "name": "maven-resolver-transport-wagon",
+          "optional": false,
+          "version": "1.7.3"
+        },
+        {
+          "name": "maven-resolver-connector-basic",
+          "optional": false,
+          "version": "1.7.3"
+        },
+        {
+          "name": "org.eclipse.sisu.plexus",
+          "optional": false,
+          "version": "0.3.5"
+        },
+        {
+          "name": "wagon-http",
+          "optional": false,
+          "version": "3.5.3"
+        },
+        {
+          "name": "jsoup",
+          "optional": false,
+          "version": "1.18.1"
+        },
+        {
+          "name": "apache-httpcomponents-client-4-api",
+          "optional": false,
+          "version": "4.5.14-208.v438351942757"
+        },
+        {
+          "name": "jsch",
+          "optional": false,
+          "version": "0.2.16-86.v42e010d9484b_"
+        },
+        {
+          "name": "wagon-file",
+          "optional": false,
+          "version": "3.5.3"
+        },
+        {
+          "name": "wagon-ftp",
+          "optional": false,
+          "version": "3.5.3"
+        },
+        {
+          "name": "wagon-ssh",
+          "optional": false,
+          "version": "3.5.3"
+        },
+        {
+          "name": "wagon-ssh-external",
+          "optional": false,
+          "version": "3.5.3"
+        },
+        {
+          "name": "wagon-provider-api",
+          "optional": false,
+          "version": "3.5.3"
+        },
+        {
+          "name": "maven-reporting-api",
+          "optional": false,
+          "version": "3.1.1"
+        },
+        {
+          "name": "plexus-classworlds",
+          "optional": false,
+          "version": "2.6.0"
+        },
+        {
+          "name": "plexus-utils",
+          "optional": false,
+          "version": "3.4.1"
+        },
+        {
+          "name": "plexus-component-annotations",
+          "optional": false,
+          "version": "2.1.1"
+        },
+        {
+          "name": "lib-jenkins-maven-artifact-manager",
+          "optional": false,
+          "version": "1.2"
+        },
+        {
+          "name": "lib-jenkins-maven-embedder",
+          "optional": false,
+          "version": "3.15"
+        },
+        {
+          "name": "wagon-webdav-jackrabbit",
+          "optional": false,
+          "version": "3.5.3"
+        },
+        {
+          "name": "commons-lang3-api",
+          "optional": false,
+          "version": "3.16.0-82.ve2b_07d659d95"
+        },
+        {
+          "name": "token-macro",
+          "optional": true,
+          "version": "400.v35420b_922dcb_"
+        }
+      ],
+      "developers": [],
+      "excerpt": "The Jenkins Plugins Parent POM Project",
+      "gav": "org.jenkins-ci.main:maven-plugin:3.24",
+      "labels": [
+        "builder"
+      ],
+      "name": "maven-plugin",
+      "releaseTimestamp": "2024-10-23T10:47:26.00Z",
+      "requiredCore": "2.440.3",
+      "scm": "scm:git:https://github.com/jenkinsci/maven-plugin.",
+      "sha1": "gkoXtiQFzdzT9PezSeVOFAKCiXo=",
+      "sha256": "IA+Sx2bATZtgm3QlU+EwQds+JoDgumVaHG5AXlg8ScY=",
+      "title": "Maven Integration plugin",
+      "url": "https://kves13.github.io/plugins/maven-plugin.hpi",
+      "version": "3.24",
+      "wiki": "https://github.com/jenkinsci/maven-plugin"
+    },
+    "metrics": {
+      "buildDate": "Oct 24, 2024",
+      "dependencies": [
+        {
+          "name": "metrics-core",
+          "optional": false,
+          "version": "4.2.21"
+        },
+        {
+          "name": "metrics-servlet",
+          "optional": false,
+          "version": "4.2.21"
+        },
+        {
+          "name": "metrics-healthchecks",
+          "optional": false,
+          "version": "4.2.21"
+        },
+        {
+          "name": "metrics-jvm",
+          "optional": false,
+          "version": "4.2.21"
+        },
+        {
+          "name": "metrics-jmx",
+          "optional": false,
+          "version": "4.2.21"
+        },
+        {
+          "name": "metrics-json",
+          "optional": false,
+          "version": "4.2.21"
+        },
+        {
+          "name": "ionicons-api",
+          "optional": false,
+          "version": "74.v93d5eb_813d5f"
+        },
+        {
+          "name": "jackson2-api",
+          "optional": false,
+          "version": "2.17.0-379.v02de8ec9f64c"
+        },
+        {
+          "name": "variant",
+          "optional": false,
+          "version": "60.v7290fc0eb_b_cd"
+        }
+      ],
+      "developers": [
+        {
+          "developerId": "stephenconnolly",
+          "email": "",
+          "name": "Stephen Connolly"
+        }
+      ],
+      "excerpt": "The Jenkins Plugins Parent POM Project",
+      "gav": "org.jenkins-ci.plugins:metrics:4.2.21-458.vcf496cb_839e4",
+      "name": "metrics",
+      "releaseTimestamp": "2024-10-24T22:13:08.00Z",
+      "requiredCore": "2.440.3",
+      "scm": "scm:git:https://github.com/jenkinsci/metrics-plugi",
+      "sha1": "BLUR4YAovb7k18jH6z31UK2pseE=",
+      "sha256": "IRgf/c7TlxnNZGz8cFrQ3EkPTzv1KbFEL8VJxQ6rPzk=",
+      "title": "Metrics Plugin",
+      "url": "https://kves13.github.io/plugins/metrics.hpi",
+      "version": "4.2.21-458.vcf496cb_839e4",
+      "wiki": "https://github.com/jenkinsci/metrics-plugin"
+    },
+    "mina-sshd-api-common": {
+      "buildDate": "Oct 05, 2024",
+      "dependencies": [
+        {
+          "name": "sshd-common",
+          "optional": false,
+          "version": "2.14.0"
+        },
+        {
+          "name": "eddsa-api",
+          "optional": true,
+          "version": "0.3.0-4.v84c6f0f4969e"
+        },
+        {
+          "name": "bouncycastle-api",
+          "optional": true,
+          "version": "2.30.1.78.1-248.ve27176eb_46cb_"
+        }
+      ],
+      "developers": [
+        {
+          "developerId": "allan_burdajewicz",
+          "email": "allan.burdajewicz@gmail.com",
+          "name": "Allan Burdajewicz"
+        }
+      ],
+      "excerpt": "This plugin provides the Apache Mina SSHD Common library to plugins.",
+      "gav": "io.jenkins.plugins.mina-sshd-api:mina-sshd-api-common:2.14.0-133.vcc091215a_358",
+      "name": "mina-sshd-api-common",
+      "releaseTimestamp": "2024-10-05T04:31:42.00Z",
+      "requiredCore": "2.426.3",
+      "scm": "scm:git:https://github.com/jenkinsci/mina-sshd-api",
+      "sha1": "OpI/bGydS9qTQlvV7P9jB+qq+DE=",
+      "sha256": "Ie58BB4KVZ9EbabNih3akkA/32OUQlRvfRCm51fddTU=",
+      "title": "Mina SSHD API :: Common",
+      "url": "https://kves13.github.io/plugins/mina-sshd-api-common.hpi",
+      "version": "2.14.0-133.vcc091215a_358",
+      "wiki": "https://github.com/jenkinsci/mina-sshd-api-plugin"
+    },
+    "mina-sshd-api-core": {
+      "buildDate": "Oct 05, 2024",
+      "dependencies": [
+        {
+          "name": "mina-sshd-api-common",
+          "optional": false,
+          "version": "2.14.0-133.vcc091215a_358"
+        },
+        {
+          "name": "sshd-core",
+          "optional": false,
+          "version": "2.14.0"
+        },
+        {
+          "name": "ssh-credentials",
+          "optional": true,
+          "version": "337.v395d2403ccd4"
+        }
+      ],
+      "developers": [
+        {
+          "developerId": "allan_burdajewicz",
+          "email": "allan.burdajewicz@gmail.com",
+          "name": "Allan Burdajewicz"
+        }
+      ],
+      "excerpt": "This plugin provides the Apache Mina SSHD Core library to plugins.",
+      "gav": "io.jenkins.plugins.mina-sshd-api:mina-sshd-api-core:2.14.0-133.vcc091215a_358",
+      "name": "mina-sshd-api-core",
+      "releaseTimestamp": "2024-10-05T04:31:42.00Z",
+      "requiredCore": "2.426.3",
+      "scm": "scm:git:https://github.com/jenkinsci/mina-sshd-api",
+      "sha1": "QKQzwTq7kmkTg3+3wt4Zqp+w01s=",
+      "sha256": "ZWyzSlZsK0CyFFnr2m/V+D3sxUlFong8eKjWd785ans=",
+      "title": "Mina SSHD API :: Core",
+      "url": "https://kves13.github.io/plugins/mina-sshd-api-core.hpi",
+      "version": "2.14.0-133.vcc091215a_358",
+      "wiki": "https://github.com/jenkinsci/mina-sshd-api-plugin"
     },
     "okhttp-api": {
       "buildDate": "Jan 29, 2024",
@@ -180,7 +2894,6 @@ updateCenter.post(
       "developers": [],
       "excerpt": "The Jenkins Plugins Parent POM Project",
       "gav": "io.jenkins.plugins:okhttp-api:4.11.0-172.vda_da_1feeb_c6e",
-      "labels": [],
       "name": "okhttp-api",
       "releaseTimestamp": "2024-01-29T10:12:48.00Z",
       "requiredCore": "2.387.3",
@@ -191,6 +2904,49 @@ updateCenter.post(
       "url": "https://kves13.github.io/plugins/okhttp-api.hpi",
       "version": "4.11.0-172.vda_da_1feeb_c6e",
       "wiki": "https://github.com/jenkinsci/okhttp-api-plugin"
+    },
+    "parameterized-trigger": {
+      "buildDate": "May 07, 2024",
+      "dependencies": [
+        {
+          "name": "conditional-buildstep",
+          "optional": true,
+          "version": "1.4.3"
+        },
+        {
+          "name": "matrix-project",
+          "optional": false,
+          "version": "822.824.v14451b_c0fd42"
+        },
+        {
+          "name": "promoted-builds",
+          "optional": true,
+          "version": "892.vd6219fc0a_efb"
+        },
+        {
+          "name": "script-security",
+          "optional": false,
+          "version": "1336.vf33a_a_9863911"
+        },
+        {
+          "name": "subversion",
+          "optional": true,
+          "version": "1256.vee91953217b_6"
+        }
+      ],
+      "developers": [],
+      "excerpt": "The Jenkins Plugins Parent POM Project",
+      "gav": "org.jenkins-ci.plugins:parameterized-trigger:806.vf6fff3e28c3e",
+      "name": "parameterized-trigger",
+      "releaseTimestamp": "2024-05-07T14:31:54.00Z",
+      "requiredCore": "2.426.3",
+      "scm": "scm:git:https://github.com/jenkinsci/parameterized",
+      "sha1": "5xxyPKqvXHO79bz7OmVaLee1rhI=",
+      "sha256": "p3GlzHfhYnCTivKOMRlw7sEyywZmtrmvN0Iq5gbFqvM=",
+      "title": "Jenkins Parameterized Trigger plugin",
+      "url": "https://kves13.github.io/plugins/parameterized-trigger.hpi",
+      "version": "806.vf6fff3e28c3e",
+      "wiki": "https://github.com/jenkinsci/parameterized-trigger-plugin"
     },
     "plain-credentials": {
       "buildDate": "Jun 19, 2024",
@@ -204,7 +2960,6 @@ updateCenter.post(
       "developers": [],
       "excerpt": "Allows use of plain strings and files as credentials.",
       "gav": "org.jenkins-ci.plugins:plain-credentials:183.va_de8f1dd5a_2b_",
-      "labels": [],
       "name": "plain-credentials",
       "releaseTimestamp": "2024-06-19T12:22:44.00Z",
       "requiredCore": "2.426.3",
@@ -215,6 +2970,180 @@ updateCenter.post(
       "url": "https://kves13.github.io/plugins/plain-credentials.hpi",
       "version": "183.va_de8f1dd5a_2b_",
       "wiki": "https://github.com/jenkinsci/plain-credentials-plugin"
+    },
+    "plugin-util-api": {
+      "buildDate": "Feb 23, 2024",
+      "dependencies": [
+        {
+          "name": "codingstyle",
+          "optional": false,
+          "version": "3.42.0"
+        },
+        {
+          "name": "error_prone_annotations",
+          "optional": false,
+          "version": "2.25.0"
+        },
+        {
+          "name": "j2html",
+          "optional": false,
+          "version": "1.4.0"
+        },
+        {
+          "name": "streamex",
+          "optional": false,
+          "version": "0.8.2"
+        },
+        {
+          "name": "workflow-api",
+          "optional": false,
+          "version": "1291.v51fd2a_625da_7"
+        },
+        {
+          "name": "workflow-step-api",
+          "optional": false,
+          "version": "657.v03b_e8115821b_"
+        },
+        {
+          "name": "workflow-support",
+          "optional": false,
+          "version": "865.v43e78cc44e0d"
+        }
+      ],
+      "developers": [
+        {
+          "developerId": "uhafner",
+          "email": "ullrich.hafner@gmail.com",
+          "name": "Ullrich Hafner"
+        }
+      ],
+      "excerpt": "Provides several utility classes that can be used to accelerate plugin development.",
+      "gav": "io.jenkins.plugins:plugin-util-api:4.1.0",
+      "name": "plugin-util-api",
+      "releaseTimestamp": "2024-02-23T18:28:48.00Z",
+      "requiredCore": "2.426.3",
+      "scm": "scm:git:https://github.com/jenkinsci/plugin-util-a",
+      "sha1": "8N+f7Em1Sro1TXYJDxvwwUKrLaA=",
+      "sha256": "Wp4kUjCA0pSjrtESz/JLjCSglVSwOkGZ1Y+C5VC+hP8=",
+      "title": "Plugin Utilities API Plugin",
+      "url": "https://kves13.github.io/plugins/plugin-util-api.hpi",
+      "version": "4.1.0",
+      "wiki": "https://github.com/jenkinsci/plugin-util-api-plugin"
+    },
+    "run-condition": {
+      "buildDate": "Aug 30, 2023",
+      "dependencies": [
+        {
+          "name": "token-macro",
+          "optional": false,
+          "version": "384.vf35b_f26814ec"
+        }
+      ],
+      "developers": [
+        {
+          "developerId": "bap",
+          "email": "bap-jenkins@BapIT.co.uk",
+          "name": "Bap"
+        }
+      ],
+      "excerpt": "The Jenkins Plugins Parent POM Project",
+      "gav": "org.jenkins-ci.plugins:run-condition:1.7",
+      "labels": [
+        "misc"
+      ],
+      "name": "run-condition",
+      "releaseTimestamp": "2023-08-30T06:06:10.00Z",
+      "requiredCore": "2.387.3",
+      "scm": "scm:git:https://github.com/jenkinsci/run-condition",
+      "sha1": "awYd0kpf+Y7Ko7l75rW3p4KYmYw=",
+      "sha256": "2GAfR8Ah+Ma4J1c19cAj/sV7ZRiQKOIauskdQq3QvkI=",
+      "title": "Run Condition Plugin",
+      "url": "https://kves13.github.io/plugins/run-condition.hpi",
+      "version": "1.7",
+      "wiki": "https://github.com/jenkinsci/run-condition-plugin"
+    },
+    "scm-api": {
+      "buildDate": "Jul 26, 2024",
+      "compatibleSinceVersion": "2.0.0",
+      "dependencies": [
+        {
+          "name": "asm-api",
+          "optional": false,
+          "version": "9.6-3.v2e1fa_b_338cd7"
+        },
+        {
+          "name": "structs",
+          "optional": false,
+          "version": "337.v1b_04ea_4df7c8"
+        }
+      ],
+      "developers": [],
+      "excerpt": "The Jenkins Plugins Parent POM Project",
+      "gav": "org.jenkins-ci.plugins:scm-api:696.v778d637b_a_762",
+      "name": "scm-api",
+      "releaseTimestamp": "2024-07-26T21:07:04.00Z",
+      "requiredCore": "2.426.3",
+      "scm": "scm:git:https://github.com/jenkinsci/scm-api-plugi",
+      "sha1": "WgJSnEKqAcqEOtqVxE94I4nicvo=",
+      "sha256": "L3RaZjq+kKwrv1YYbxBpJcBL93tImpGLurx5Q4BxSgc=",
+      "title": "SCM API Plugin",
+      "url": "https://kves13.github.io/plugins/scm-api.hpi",
+      "version": "696.v778d637b_a_762",
+      "wiki": "https://github.com/jenkinsci/scm-api-plugin"
+    },
+    "script-security": {
+      "buildDate": "Nov 13, 2024",
+      "dependencies": [
+        {
+          "name": "groovy-sandbox",
+          "optional": false,
+          "version": "1.34"
+        },
+        {
+          "name": "caffeine-api",
+          "optional": false,
+          "version": "3.1.8-133.v17b_1ff2e0599"
+        }
+      ],
+      "developers": [],
+      "excerpt": "The Jenkins Plugins Parent POM Project",
+      "gav": "org.jenkins-ci.plugins:script-security:1369.v9b_98a_4e95b_2d",
+      "labels": [
+        "security"
+      ],
+      "name": "script-security",
+      "releaseTimestamp": "2024-11-13T20:40:44.00Z",
+      "requiredCore": "2.387.3",
+      "scm": "scm:git:https://github.com/jenkinsci/script-securi",
+      "sha1": "l1npXdcAe3uOUYi/KLgmMAe7Kk8=",
+      "sha256": "v3cf2bFP9qbHa1coMrin+lgk6ypuhzkvbrZAIk9UheQ=",
+      "title": "Script Security Plugin",
+      "url": "https://kves13.github.io/plugins/script-security.hpi",
+      "version": "1369.v9b_98a_4e95b_2d",
+      "wiki": "https://github.com/jenkinsci/script-security-plugin"
+    },
+    "snakeyaml-api": {
+      "buildDate": "Sep 03, 2024",
+      "dependencies": [
+        {
+          "name": "snakeyaml",
+          "optional": false,
+          "version": "2.3"
+        }
+      ],
+      "developers": [],
+      "excerpt": "This plugin packages stock SnakeYAML library",
+      "gav": "io.jenkins.plugins:snakeyaml-api:2.3-123.v13484c65210a_",
+      "name": "snakeyaml-api",
+      "releaseTimestamp": "2024-09-03T08:58:36.00Z",
+      "requiredCore": "2.361.4",
+      "scm": "scm:git:https://github.com/jenkinsci/snakeyaml-api",
+      "sha1": "8ECVezjia/FhomGe5xCJD5phRsY=",
+      "sha256": "1bgaDQz9QR3nba79kbHc3ApXO8W+n/btH0dBH62uE/4=",
+      "title": "SnakeYAML API Plugin",
+      "url": "https://kves13.github.io/plugins/snakeyaml-api.hpi",
+      "version": "2.3-123.v13484c65210a_",
+      "wiki": "https://github.com/jenkinsci/snakeyaml-api-plugin"
     },
     "sonar": {
       "buildDate": "Feb 19, 2024",
@@ -273,7 +3202,10 @@ updateCenter.post(
       "developers": [],
       "excerpt": "The Jenkins Plugins Parent POM Project",
       "gav": "org.jenkins-ci.plugins:sonar:2.17.2",
-      "labels": [],
+      "labels": [
+        "external",
+        "report"
+      ],
       "name": "sonar",
       "releaseTimestamp": "2024-02-19T10:59:48.00Z",
       "requiredCore": "2.387.3",
@@ -285,13 +3217,67 @@ updateCenter.post(
       "version": "2.17.2",
       "wiki": "https://github.com/jenkinsci/sonarqube-plugin"
     },
+    "ssh-credentials": {
+      "buildDate": "Nov 26, 2024",
+      "compatibleSinceVersion": "334.v7732563deee1",
+      "dependencies": [
+        {
+          "name": "trilead-api",
+          "optional": true,
+          "version": "2.147.vb_73cc728a_32e"
+        },
+        {
+          "name": "variant",
+          "optional": false,
+          "version": "60.v7290fc0eb_b_cd"
+        },
+        {
+          "name": "credentials",
+          "optional": false,
+          "version": "1371.vfee6b_095f0a_3"
+        },
+        {
+          "name": "bouncycastle-api",
+          "optional": false,
+          "version": "2.30.1.78.1-248.ve27176eb_46cb_"
+        }
+      ],
+      "developers": [
+        {
+          "developerId": "stephenconnolly",
+          "email": "",
+          "name": "Stephen Connolly"
+        },
+        {
+          "developerId": "oleg_nenashev",
+          "email": "",
+          "name": "Oleg Nenashev"
+        },
+        {
+          "developerId": "jvz",
+          "email": "",
+          "name": "Matt Sicker"
+        }
+      ],
+      "excerpt": "Allows storage of SSH credentials in Jenkins",
+      "gav": "org.jenkins-ci.plugins:ssh-credentials:349.vb_8b_6b_9709f5b_",
+      "name": "ssh-credentials",
+      "releaseTimestamp": "2024-11-26T12:47:00.00Z",
+      "requiredCore": "2.440.3",
+      "scm": "scm:git:https://github.com/jenkinsci/ssh-credentia",
+      "sha1": "KcpolRIKq6YeIsUoaTOH+UWUhe8=",
+      "sha256": "l5TvGG7zNzVSKxkVytlfXREZbJv5yk0ORuCx7wRko+c=",
+      "title": "SSH Credentials Plugin",
+      "url": "https://kves13.github.io/plugins/ssh-credentials.hpi",
+      "version": "349.vb_8b_6b_9709f5b_",
+      "wiki": "https://github.com/jenkinsci/ssh-credentials-plugin"
+    },
     "structs": {
       "buildDate": "Jun 18, 2024",
       "dependencies": [],
       "developers": [],
       "excerpt": "Library plugin for DSL plugins that need names for Jenkins objects.",
       "gav": "org.jenkins-ci.plugins:structs:338.v848422169819",
-      "labels": [],
       "name": "structs",
       "releaseTimestamp": "2024-06-18T14:54:00.00Z",
       "requiredCore": "2.414.3",
@@ -302,6 +3288,363 @@ updateCenter.post(
       "url": "https://kves13.github.io/plugins/structs.hpi",
       "version": "338.v848422169819",
       "wiki": "https://github.com/jenkinsci/structs-plugin"
+    },
+    "token-macro": {
+      "buildDate": "Dec 11, 2023",
+      "dependencies": [
+        {
+          "name": "json-path-api",
+          "optional": false,
+          "version": "2.8.0-5.v07cb_a_1ca_738c"
+        },
+        {
+          "name": "structs",
+          "optional": false,
+          "version": "325.vcb_307d2a_2782"
+        },
+        {
+          "name": "workflow-job",
+          "optional": true,
+          "version": "1326.ve643e00e9220"
+        },
+        {
+          "name": "workflow-api",
+          "optional": true,
+          "version": "1283.v99c10937efcb_"
+        },
+        {
+          "name": "workflow-step-api",
+          "optional": false,
+          "version": "639.v6eca_cd8c04a_a_"
+        }
+      ],
+      "developers": [
+        {
+          "developerId": "kohsuke",
+          "email": "kkawaguchi@cloudbees.com",
+          "name": "Kohsuke Kawaguchi"
+        },
+        {
+          "developerId": "slide_o_mix",
+          "email": "slide.o.mix@gmail.com",
+          "name": "Alex Earl"
+        }
+      ],
+      "excerpt": "This plugin adds reusable macro expansion capability for other plugins to use.",
+      "gav": "org.jenkins-ci.plugins:token-macro:400.v35420b_922dcb_",
+      "name": "token-macro",
+      "releaseTimestamp": "2023-12-11T16:03:26.00Z",
+      "requiredCore": "2.401.3",
+      "scm": "scm:git:https://github.com/jenkinsci/token-macro-p",
+      "sha1": "BahiOb55UmqR6kJDdVaiJAa7Fko=",
+      "sha256": "gicmCIpYk/JIt7uhrqku9t8VNLZKzAoj4vyXbbM0Ocg=",
+      "title": "Token Macro Plugin",
+      "url": "https://kves13.github.io/plugins/token-macro.hpi",
+      "version": "400.v35420b_922dcb_",
+      "wiki": "https://github.com/jenkinsci/token-macro-plugin"
+    },
+    "trilead-api": {
+      "buildDate": "May 29, 2024",
+      "compatibleSinceVersion": "2.0.0",
+      "dependencies": [
+        {
+          "name": "trilead-ssh2",
+          "optional": false,
+          "version": "build-217-jenkins-274.276.v58da_75159cb_7"
+        },
+        {
+          "name": "trilead-putty-extension",
+          "optional": false,
+          "version": "1.2"
+        },
+        {
+          "name": "gson-api",
+          "optional": false,
+          "version": "2.10.1-15.v0d99f670e0a_7"
+        },
+        {
+          "name": "eddsa-api",
+          "optional": false,
+          "version": "0.3.0-4.v84c6f0f4969e"
+        }
+      ],
+      "developers": [
+        {
+          "developerId": "mc1arke",
+          "email": "michael.m.clarke@gmail.com",
+          "name": "Michael Clarke"
+        },
+        {
+          "developerId": "kuisathaverat",
+          "email": "kuisathaverat@gmail.com",
+          "name": "Ivan Fernandez"
+        }
+      ],
+      "excerpt": "This plugin provides access to Trilead without having to bundle Trilead in Jenkins core",
+      "gav": "org.jenkins-ci.plugins:trilead-api:2.147.vb_73cc728a_32e",
+      "name": "trilead-api",
+      "releaseTimestamp": "2024-05-29T16:34:16.00Z",
+      "requiredCore": "2.426.3",
+      "scm": "scm:git:https://github.com/jenkinsci/trilead-api-p",
+      "sha1": "6aPCNcDEbD6RgutQ6cFbUZDjzOk=",
+      "sha256": "JbiFi1lbddsQJI+KLf2+3wSdQ1b5scCWVz+EXJqWLk0=",
+      "title": "Trilead API Plugin",
+      "url": "https://kves13.github.io/plugins/trilead-api.hpi",
+      "version": "2.147.vb_73cc728a_32e",
+      "wiki": "https://github.com/jenkinsci/trilead-api-plugin"
+    },
+    "variant": {
+      "buildDate": "Sep 04, 2023",
+      "dependencies": [],
+      "developers": [],
+      "excerpt": "This user-invisible library plugin allows other multi-modal plugins to behave differently depending on where they run.",
+      "gav": "org.jenkins-ci.plugins:variant:60.v7290fc0eb_b_cd",
+      "name": "variant",
+      "releaseTimestamp": "2023-09-04T09:21:18.00Z",
+      "requiredCore": "2.361.4",
+      "scm": "scm:git:https://github.com/jenkinsci/variant-plugi",
+      "sha1": "JAmYIHZo2nr+CQGU+IcuxAuX+ZY=",
+      "sha256": "rL8a67lgfv4FGLM8nd6b1QwD1qGg+mIlWGXzz5QfpFg=",
+      "title": "Variant Plugin",
+      "url": "https://kves13.github.io/plugins/variant.hpi",
+      "version": "60.v7290fc0eb_b_cd",
+      "wiki": "http://github.com/jenkinsci/variant-plugin"
+    },
+    "workflow-api": {
+      "buildDate": "Aug 13, 2024",
+      "dependencies": [
+        {
+          "name": "workflow-step-api",
+          "optional": false,
+          "version": "678.v3ee58b_469476"
+        },
+        {
+          "name": "scm-api",
+          "optional": false,
+          "version": "696.v778d637b_a_762"
+        }
+      ],
+      "developers": [],
+      "excerpt": "The Jenkins Plugins Parent POM Project",
+      "gav": "org.jenkins-ci.plugins.workflow:workflow-api:1336.vee415d95c521",
+      "labels": [
+        "misc"
+      ],
+      "name": "workflow-api",
+      "releaseTimestamp": "2024-08-13T19:09:52.00Z",
+      "requiredCore": "2.440.3",
+      "scm": "scm:git:https://github.com/jenkinsci/workflow-api-",
+      "sha1": "17uiaJ7WW5P/wydGpzVyeKuLcmo=",
+      "sha256": "LGN5LsetrSd9Bwr9ZclVAXnefDaQqew53l25lp1gNh4=",
+      "title": "Pipeline: API",
+      "url": "https://kves13.github.io/plugins/workflow-api.hpi",
+      "version": "1336.vee415d95c521",
+      "wiki": "https://github.com/jenkinsci/workflow-api-plugin"
+    },
+    "workflow-durable-task-step": {
+      "buildDate": "Nov 07, 2024",
+      "compatibleSinceVersion": "2.40",
+      "dependencies": [
+        {
+          "name": "workflow-step-api",
+          "optional": false,
+          "version": "657.v03b_e8115821b_"
+        },
+        {
+          "name": "durable-task",
+          "optional": false,
+          "version": "550.v0930093c4b_a_6"
+        },
+        {
+          "name": "workflow-api",
+          "optional": false,
+          "version": "1291.v51fd2a_625da_7"
+        },
+        {
+          "name": "workflow-support",
+          "optional": false,
+          "version": "865.v43e78cc44e0d"
+        },
+        {
+          "name": "script-security",
+          "optional": false,
+          "version": "1326.vdb_c154de8669"
+        },
+        {
+          "name": "structs",
+          "optional": false,
+          "version": "337.v1b_04ea_4df7c8"
+        },
+        {
+          "name": "scm-api",
+          "optional": false,
+          "version": "689.v237b_6d3a_ef7f"
+        }
+      ],
+      "developers": [],
+      "excerpt": "Pipeline steps locking agents and workspaces, and running external processes that may survive a Jenkins restart or agent reconnection.",
+      "gav": "org.jenkins-ci.plugins.workflow:workflow-durable-task-step:1378.v6a_3e903058a_3",
+      "labels": [
+        "pipeline",
+        "misc"
+      ],
+      "name": "workflow-durable-task-step",
+      "releaseTimestamp": "2024-11-07T16:16:46.00Z",
+      "requiredCore": "2.440.1",
+      "scm": "scm:git:https://github.com/jenkinsci/workflow-dura",
+      "sha1": "2BfZrcwXcnCAq1lyY4JSlkdKH5A=",
+      "sha256": "VCnp26FmBf9+kcWq6Ri3ScT7exshThib0eOENZR8zp8=",
+      "title": "Pipeline: Nodes and Processes",
+      "url": "https://kves13.github.io/plugins/workflow-durable-task-step.hpi",
+      "version": "1378.v6a_3e903058a_3",
+      "wiki": "https://github.com/jenkinsci/workflow-durable-task-step-p"
+    },
+    "workflow-job": {
+      "buildDate": "Jan 29, 2024",
+      "compatibleSinceVersion": "2.26",
+      "dependencies": [
+        {
+          "name": "ionicons-api",
+          "optional": false,
+          "version": "56.v1b_1c8c49374e"
+        },
+        {
+          "name": "workflow-step-api",
+          "optional": false,
+          "version": "657.v03b_e8115821b_"
+        },
+        {
+          "name": "workflow-api",
+          "optional": false,
+          "version": "1283.v99c10937efcb_"
+        },
+        {
+          "name": "workflow-support",
+          "optional": false,
+          "version": "865.v43e78cc44e0d"
+        }
+      ],
+      "developers": [],
+      "excerpt": "The Jenkins Plugins Parent POM Project",
+      "gav": "org.jenkins-ci.plugins.workflow:workflow-job:1400.v7fd111b_ec82f",
+      "labels": [
+        "misc"
+      ],
+      "name": "workflow-job",
+      "releaseTimestamp": "2024-01-29T20:57:36.00Z",
+      "requiredCore": "2.440",
+      "scm": "scm:git:https://github.com/jenkinsci/workflow-job-",
+      "sha1": "qjCp+oQnOPh9vs8A60D1zK80KTg=",
+      "sha256": "ytLa4Co4b5hXbp9X8gyQQIZeEBd9alvOGwDjfa3OQyQ=",
+      "title": "Pipeline: Job",
+      "url": "https://kves13.github.io/plugins/workflow-job.hpi",
+      "version": "1400.v7fd111b_ec82f",
+      "wiki": "https://github.com/jenkinsci/workflow-job-plugin"
+    },
+    "workflow-scm-step": {
+      "buildDate": "Mar 15, 2024",
+      "dependencies": [
+        {
+          "name": "workflow-step-api",
+          "optional": false,
+          "version": "639.v6eca_cd8c04a_a_"
+        }
+      ],
+      "developers": [],
+      "excerpt": "The Jenkins Plugins Parent POM Project",
+      "gav": "org.jenkins-ci.plugins.workflow:workflow-scm-step:427.v4ca_6512e7df1",
+      "labels": [
+        "misc",
+        "scm-related"
+      ],
+      "name": "workflow-scm-step",
+      "releaseTimestamp": "2024-03-15T10:11:18.00Z",
+      "requiredCore": "2.387.3",
+      "scm": "scm:git:https://github.com/jenkinsci/workflow-scm-",
+      "sha1": "BSBH6xKocVxSPxde6sHXU2jSNdk=",
+      "sha256": "SgbEZn4bxDfokQer2aMWra9R/KT9UE0SpSUZR3fTStg=",
+      "title": "Pipeline: SCM Step",
+      "url": "https://kves13.github.io/plugins/workflow-scm-step.hpi",
+      "version": "427.v4ca_6512e7df1",
+      "wiki": "https://github.com/jenkinsci/workflow-scm-step-plugin"
+    },
+    "workflow-step-api": {
+      "buildDate": "Jul 08, 2024",
+      "dependencies": [
+        {
+          "name": "structs",
+          "optional": false,
+          "version": "337.v1b_04ea_4df7c8"
+        }
+      ],
+      "developers": [],
+      "excerpt": "The Jenkins Plugins Parent POM Project",
+      "gav": "org.jenkins-ci.plugins.workflow:workflow-step-api:678.v3ee58b_469476",
+      "labels": [
+        "misc"
+      ],
+      "name": "workflow-step-api",
+      "releaseTimestamp": "2024-07-08T16:13:40.00Z",
+      "requiredCore": "2.414.3",
+      "scm": "scm:git:https://github.com/jenkinsci/workflow-step",
+      "sha1": "rCbVeqkitth5SmwqG/tiHWjotmk=",
+      "sha256": "QORQEzoJW7nM8Fi2vyz6Pwk4qYifXklNYd+wrepRiz0=",
+      "title": "Pipeline: Step API",
+      "url": "https://kves13.github.io/plugins/workflow-step-api.hpi",
+      "version": "678.v3ee58b_469476",
+      "wiki": "https://github.com/jenkinsci/workflow-step-api-plugin"
+    },
+    "workflow-support": {
+      "buildDate": "Nov 18, 2024",
+      "compatibleSinceVersion": "3.0",
+      "dependencies": [
+        {
+          "name": "workflow-step-api",
+          "optional": false,
+          "version": "678.v3ee58b_469476"
+        },
+        {
+          "name": "workflow-api",
+          "optional": false,
+          "version": "1322.v857eeeea_9902"
+        },
+        {
+          "name": "scm-api",
+          "optional": false,
+          "version": "696.v778d637b_a_762"
+        },
+        {
+          "name": "script-security",
+          "optional": false,
+          "version": "1341.va_2819b_414686"
+        },
+        {
+          "name": "caffeine-api",
+          "optional": false,
+          "version": "3.1.8-133.v17b_1ff2e0599"
+        },
+        {
+          "name": "jboss-marshalling-river",
+          "optional": false,
+          "version": "2.2.1.Final"
+        }
+      ],
+      "developers": [],
+      "excerpt": "The Jenkins Plugins Parent POM Project",
+      "gav": "org.jenkins-ci.plugins.workflow:workflow-support:936.v9fa_77211ca_e1",
+      "labels": [
+        "misc"
+      ],
+      "name": "workflow-support",
+      "releaseTimestamp": "2024-11-18T16:08:44.00Z",
+      "requiredCore": "2.440.3",
+      "scm": "scm:git:https://github.com/jenkinsci/workflow-supp",
+      "sha1": "WyrcH/tfTra2GuMAmAIhAmvGJ/M=",
+      "sha256": "Lfx/nJhOK/zSdTsmr7w/myPHKg3YucJUUHzXd6IUctU=",
+      "title": "Pipeline: Supporting APIs",
+      "url": "https://kves13.github.io/plugins/workflow-support.hpi",
+      "version": "936.v9fa_77211ca_e1",
+      "wiki": "https://github.com/jenkinsci/workflow-support-plugin"
     }
   },
   "signature": {
