@@ -1,7 +1,7 @@
 updateCenter.post(
 {
   "connectionCheckUrl": "https://google.com",
-  "generationTimestamp": "2024-12-03T16:25:14Z",
+  "generationTimestamp": "2024-12-03T17:58:37Z",
   "id": "default",
   "plugins": {
     "apache-httpcomponents-client-4-api": {
@@ -64,7 +64,7 @@ updateCenter.post(
       "sha1": "jDHXANudQYg/bCkX0mUUpPCAzwE=",
       "sha256": "ntDM2iCg6hHiulvimfA7MGkt1aL5/ceFNxRQf9qKzQ8=",
       "title": "Jenkins Apache HttpComponents Client 4.x API Plugin",
-      "url": "https://kves13.github.io/plugins/apache-httpcomponents-client-4-api.hpi",
+      "url": "https://kves13.github.io/plugins/download/apache-httpcomponents-client-4-api/4.5.14-208.v438351942757/apache-httpcomponents-client-4-api.hpi",
       "version": "4.5.14-208.v438351942757",
       "wiki": "https://github.com/jenkinsci/apache-httpcomponents-client"
     },
@@ -107,7 +107,7 @@ updateCenter.post(
       "sha1": "6xBjpZLTuFZddunFeflRyYRXcp0=",
       "sha256": "KM6xEXR7guzfc/KGiKjNafVroIghokd17bskovHUNP8=",
       "title": "ASM API Plugin",
-      "url": "https://kves13.github.io/plugins/asm-api.hpi",
+      "url": "https://kves13.github.io/plugins/download/asm-api/9.7.1-95.v9f552033802a_/asm-api.hpi",
       "version": "9.7.1-95.v9f552033802a_",
       "wiki": "https://github.com/jenkinsci/asm-api-plugin"
     },
@@ -136,7 +136,7 @@ updateCenter.post(
       "sha1": "QuqWktyYheuRmGRiGydsWLnqPFI=",
       "sha256": "aElAgGaHpt2aeTLUXYBtXDVcHDW9clp00EAQz/Ip050=",
       "title": "Authentication Tokens API Plugin",
-      "url": "https://kves13.github.io/plugins/authentication-tokens.hpi",
+      "url": "https://kves13.github.io/plugins/download/authentication-tokens/1.119.v50285141b_7e1/authentication-tokens.hpi",
       "version": "1.119.v50285141b_7e1",
       "wiki": "https://github.com/jenkinsci/authentication-tokens-plugin"
     },
@@ -165,7 +165,7 @@ updateCenter.post(
       "sha1": "lAvG1niTvb5jkZqjUdeGFK/6H00=",
       "sha256": "4ND3yS2uL3l3wozralslYrcBLRcEiIv/O8F2q9oMsmk=",
       "title": "Bootstrap 5 API Plugin",
-      "url": "https://kves13.github.io/plugins/bootstrap5-api.hpi",
+      "url": "https://kves13.github.io/plugins/download/bootstrap5-api/5.3.3-1/bootstrap5-api.hpi",
       "version": "5.3.3-1",
       "wiki": "https://github.com/jenkinsci/bootstrap5-api-plugin"
     },
@@ -207,7 +207,7 @@ updateCenter.post(
       "sha1": "6ze2/L+TglJMeIlC255yFH5Oz1I=",
       "sha256": "BSxDdShFiAapRk1ZpXcULcXIhI4waxnLqGXgJ9GtIDE=",
       "title": "bouncycastle API Plugin",
-      "url": "https://kves13.github.io/plugins/bouncycastle-api.hpi",
+      "url": "https://kves13.github.io/plugins/download/bouncycastle-api/2.30.1.78.1-248.ve27176eb_46cb_/bouncycastle-api.hpi",
       "version": "2.30.1.78.1-248.ve27176eb_46cb_",
       "wiki": "https://github.com/jenkinsci/bouncycastle-api-plugin"
     },
@@ -316,7 +316,7 @@ updateCenter.post(
       "sha1": "5W+w26rTI/JZwb3jYPueZQh7zmA=",
       "sha256": "Fn7YDztwg6zkkLVNLO5T6pLCMD37zM1a6mfopZUPi2w=",
       "title": "Build Pipeline Plugin",
-      "url": "https://kves13.github.io/plugins/build-pipeline-plugin.hpi",
+      "url": "https://kves13.github.io/plugins/download/build-pipeline-plugin/2.0.2/build-pipeline-plugin.hpi",
       "version": "2.0.2",
       "wiki": "https://github.com/jenkinsci/build-pipeline-plugin"
     },
@@ -342,7 +342,7 @@ updateCenter.post(
       "sha1": "96VQSFuHDvQ/rXju6nWtzFYzV1k=",
       "sha256": "ah0IiueJPMOZ9gAmWwoNBtMb84MBI3vsoCF6XJ8OwFc=",
       "title": "built-on-column",
-      "url": "https://kves13.github.io/plugins/built-on-column.hpi",
+      "url": "https://kves13.github.io/plugins/download/built-on-column/1.4/built-on-column.hpi",
       "version": "1.4",
       "wiki": "https://github.com/jenkinsci/built-on-column-plugin"
     },
@@ -365,7 +365,7 @@ updateCenter.post(
       "sha1": "Ib/p/8MagqNXw5k3Fi32bD7SOwY=",
       "sha256": "psYUZVvFBzRb8WtcRhW7CbGiD5NMm/CxXALM6kpcBAA=",
       "title": "Caffeine API Plugin",
-      "url": "https://kves13.github.io/plugins/caffeine-api.hpi",
+      "url": "https://kves13.github.io/plugins/download/caffeine-api/3.1.8-133.v17b_1ff2e0599/caffeine-api.hpi",
       "version": "3.1.8-133.v17b_1ff2e0599",
       "wiki": "https://github.com/jenkinsci/caffeine-api-plugin/"
     },
@@ -419,7 +419,7 @@ updateCenter.post(
       "sha1": "aGUxSAk11ONvYYKR5rEzU/UqoC8=",
       "sha256": "LcHlHIbksWwX5mpF2UztnQ7koLJH33ekp5a9PJNHG5g=",
       "title": "Checks API plugin",
-      "url": "https://kves13.github.io/plugins/checks-api.hpi",
+      "url": "https://kves13.github.io/plugins/download/checks-api/2.2.1/checks-api.hpi",
       "version": "2.2.1",
       "wiki": "https://github.com/jenkinsci/checks-api-plugin"
     },
@@ -452,7 +452,7 @@ updateCenter.post(
       "sha1": "TmjpHhq92klEOVkE5Ee70cypDm8=",
       "sha256": "krStsXSEUwJtmr790oIIFwad6EkowHPGZt4HpaYZzss=",
       "title": "Folders Plugin",
-      "url": "https://kves13.github.io/plugins/cloudbees-folder.hpi",
+      "url": "https://kves13.github.io/plugins/download/cloudbees-folder/6.928.v7c780211d66e/cloudbees-folder.hpi",
       "version": "6.928.v7c780211d66e",
       "wiki": "https://github.com/jenkinsci/cloudbees-folder-plugin"
     },
@@ -475,7 +475,7 @@ updateCenter.post(
       "sha1": "/vn01BALYWBge4bu25pYQ1xR9S0=",
       "sha256": "kLFVIbIa0UYrGKb4iU/xosEIDF05jKi7kowGLJksP8Q=",
       "title": "commons-lang3 v3.x Jenkins API Plugin",
-      "url": "https://kves13.github.io/plugins/commons-lang3-api.hpi",
+      "url": "https://kves13.github.io/plugins/download/commons-lang3-api/3.17.0-84.vb_b_938040b_078/commons-lang3-api.hpi",
       "version": "3.17.0-84.vb_b_938040b_078",
       "wiki": "https://github.com/jenkinsci/commons-lang3-api-plugin"
     },
@@ -503,7 +503,7 @@ updateCenter.post(
       "sha1": "PehEOhPfJgtGtQv6W2cUGTrIqSE=",
       "sha256": "Kr6KWMmmogESHtoklMKlx7V1hTbmEwmzM+1yvfuoV8k=",
       "title": "commons-text API Plugin",
-      "url": "https://kves13.github.io/plugins/commons-text-api.hpi",
+      "url": "https://kves13.github.io/plugins/download/commons-text-api/1.12.0-129.v99a_50df237f7/commons-text-api.hpi",
       "version": "1.12.0-129.v99a_50df237f7",
       "wiki": "https://github.com/jenkinsci/commons-text-api-plugin"
     },
@@ -550,7 +550,7 @@ updateCenter.post(
       "sha1": "gquXYfYH4OutuY3ViRM1u4RoiOI=",
       "sha256": "0s5AuGq8Qjcghazgprs3hdFK4n8IJHCd/CorOJGp6Kg=",
       "title": "Conditional BuildStep",
-      "url": "https://kves13.github.io/plugins/conditional-buildstep.hpi",
+      "url": "https://kves13.github.io/plugins/download/conditional-buildstep/1.4.3/conditional-buildstep.hpi",
       "version": "1.4.3",
       "wiki": "https://github.com/jenkinsci/conditional-buildstep-plugin"
     },
@@ -598,7 +598,7 @@ updateCenter.post(
       "sha1": "Lqb51N1N2R0JDQEbi62GN6Um1sM=",
       "sha256": "u8XcMbHzSxEmhB7ibPib6sBkgJRbgzOsaNfgbKukjxw=",
       "title": "Copy Artifact Plugin",
-      "url": "https://kves13.github.io/plugins/copyartifact.hpi",
+      "url": "https://kves13.github.io/plugins/download/copyartifact/757.v05365583a_455/copyartifact.hpi",
       "version": "757.v05365583a_455",
       "wiki": "https://github.com/jenkinsci/copyartifact-plugin"
     },
@@ -643,7 +643,7 @@ updateCenter.post(
       "sha1": "dWQ/iZTsSQ68VE99w3/O5eliv88=",
       "sha256": "lphsQTbiloZXLi2D3pEnpIOUyNNFQW2zqfVSESmPHa8=",
       "title": "Credentials Plugin",
-      "url": "https://kves13.github.io/plugins/credentials.hpi",
+      "url": "https://kves13.github.io/plugins/download/credentials/1380.va_435002fa_924/credentials.hpi",
       "version": "1380.va_435002fa_924",
       "wiki": "https://github.com/jenkinsci/credentials-plugin"
     },
@@ -689,7 +689,7 @@ updateCenter.post(
       "sha1": "TAjNH6KSPzPFzP4i6wOiJ01UST8=",
       "sha256": "VkG98O20CBp7suYChRxDOVc56zCqhw6YDR59EuEcY5U=",
       "title": "Credentials Binding Plugin",
-      "url": "https://kves13.github.io/plugins/credentials-binding.hpi",
+      "url": "https://kves13.github.io/plugins/download/credentials-binding/681.vf91669a_32e45/credentials-binding.hpi",
       "version": "681.vf91669a_32e45",
       "wiki": "https://github.com/jenkinsci/credentials-binding-plugin"
     },
@@ -731,7 +731,7 @@ updateCenter.post(
       "sha1": "f9WKoS3CDUlZHXg4rOuVZjKNX3Q=",
       "sha256": "PewvcKcxFSe6tc8qR8g9w4g6u+PPLe94o3822xkm98M=",
       "title": "Dashboard View",
-      "url": "https://kves13.github.io/plugins/dashboard-view.hpi",
+      "url": "https://kves13.github.io/plugins/download/dashboard-view/2.521.v339b_a_f4d8da_8/dashboard-view.hpi",
       "version": "2.521.v339b_a_f4d8da_8",
       "wiki": "https://github.com/jenkinsci/dashboard-view-plugin"
     },
@@ -754,7 +754,7 @@ updateCenter.post(
       "sha1": "jdIPKHao1dU+bOazEa+yKoM3/k8=",
       "sha256": "ylxOLSJ7BOlcFppyHKt+oqNvIZggGE9TTV3+3GsDSyc=",
       "title": "Display URL API",
-      "url": "https://kves13.github.io/plugins/display-url-api.hpi",
+      "url": "https://kves13.github.io/plugins/download/display-url-api/2.204.vf6fddd8a_8b_e9/display-url-api.hpi",
       "version": "2.204.vf6fddd8a_8b_e9",
       "wiki": "https://github.com/jenkinsci/display-url-api-plugin"
     },
@@ -780,7 +780,7 @@ updateCenter.post(
       "sha1": "88rvKPsuHE8XrrI+3EuAR2h7eF0=",
       "sha256": "Gug6cu8+zhrr3jUKcE4CXY9/A14bEC0CRMkmqAb8kWs=",
       "title": "Durable Task Plugin",
-      "url": "https://kves13.github.io/plugins/durable-task.hpi",
+      "url": "https://kves13.github.io/plugins/download/durable-task/581.v299a_5609d767/durable-task.hpi",
       "version": "581.v299a_5609d767",
       "wiki": "https://github.com/jenkinsci/durable-task-plugin"
     },
@@ -834,7 +834,7 @@ updateCenter.post(
       "sha1": "rl/XlQTUCXsbwnDh8KzlUjtqiF4=",
       "sha256": "y4H7cJVl56JITaF8vaI58qGlFrbtwzj3Le7jUIYXX+Q=",
       "title": "ECharts API Plugin",
-      "url": "https://kves13.github.io/plugins/echarts-api.hpi",
+      "url": "https://kves13.github.io/plugins/download/echarts-api/5.5.1-4/echarts-api.hpi",
       "version": "5.5.1-4",
       "wiki": "https://github.com/jenkinsci/echarts-api-plugin"
     },
@@ -857,7 +857,7 @@ updateCenter.post(
       "sha1": "tmJVMPjSmzcyd2vZ3oXokiXXlrE=",
       "sha256": "q1attx8x5WJ6xnUcOT6GkpFsG4K/a1+DmfmojP2MuUQ=",
       "title": "EDDSA API Plugin",
-      "url": "https://kves13.github.io/plugins/eddsa-api.hpi",
+      "url": "https://kves13.github.io/plugins/download/eddsa-api/0.3.0-4.v84c6f0f4969e/eddsa-api.hpi",
       "version": "0.3.0-4.v84c6f0f4969e",
       "wiki": "https://github.com/jenkinsci/eddsa-api-plugin"
     },
@@ -916,7 +916,7 @@ updateCenter.post(
       "sha1": "Iy1jZN/ixU114xx+u3F1L1AgHOk=",
       "sha256": "FundKmZEWB5I2ggZhCgV2nOOMp6+pl3LMPxazJwgXrA=",
       "title": "Environment Injector Plugin",
-      "url": "https://kves13.github.io/plugins/envinject.hpi",
+      "url": "https://kves13.github.io/plugins/download/envinject/2.919.v009a_a_1067cd0/envinject.hpi",
       "version": "2.919.v009a_a_1067cd0",
       "wiki": "https://github.com/jenkinsci/envinject-plugin"
     },
@@ -975,7 +975,7 @@ updateCenter.post(
       "sha1": "0wjSY3xszj//knwMQOs44HR0O/U=",
       "sha256": "Rj79Bwsp0IfS24I3IPa0+rE/Fh1A3O6tq/vPZOSkTGA=",
       "title": "EnvInject API Plugin",
-      "url": "https://kves13.github.io/plugins/envinject-api.hpi",
+      "url": "https://kves13.github.io/plugins/download/envinject-api/1.199.v3ce31253ed13/envinject-api.hpi",
       "version": "1.199.v3ce31253ed13",
       "wiki": "https://github.com/jenkinsci/envinject-api-plugin"
     },
@@ -1004,7 +1004,7 @@ updateCenter.post(
       "sha1": "XqdcUfI+5vvLuC+SGoBJH5C7bzE=",
       "sha256": "bA1bZog3JAP5jCrWPrMmnToEstTfURpuOLIMHKJTtbA=",
       "title": "Font Awesome API Plugin",
-      "url": "https://kves13.github.io/plugins/font-awesome-api.hpi",
+      "url": "https://kves13.github.io/plugins/download/font-awesome-api/6.6.0-2/font-awesome-api.hpi",
       "version": "6.6.0-2",
       "wiki": "https://github.com/jenkinsci/font-awesome-api-plugin"
     },
@@ -1116,7 +1116,7 @@ updateCenter.post(
       "sha1": "gsal836FBMlYpjLYCigA2vsgUC4=",
       "sha256": "54B/RQRJ2wfUJt5WdAKoaP2nKhWsXhlTEgtCIGIiNqU=",
       "title": "Git plugin",
-      "url": "https://kves13.github.io/plugins/git.hpi",
+      "url": "https://kves13.github.io/plugins/download/git/5.5.2/git.hpi",
       "version": "5.5.2",
       "wiki": "https://github.com/jenkinsci/git-plugin"
     },
@@ -1228,7 +1228,7 @@ updateCenter.post(
       "sha1": "UAUfk+snFTrL1BL3FMzRKQnbWwE=",
       "sha256": "UAkTARupR8nLUuzu6xaR57iGwQMLfZhI0C9scixA4CA=",
       "title": "Jenkins Git client plugin",
-      "url": "https://kves13.github.io/plugins/git-client.hpi",
+      "url": "https://kves13.github.io/plugins/download/git-client/5.0.0/git-client.hpi",
       "version": "5.0.0",
       "wiki": "https://github.com/jenkinsci/git-client-plugin"
     },
@@ -1351,7 +1351,7 @@ updateCenter.post(
       "sha1": "0rsKdhDgJo1lwOV37AiAdht6ABg=",
       "sha256": "Bhfd94uJ21pkoXkM7nXZBaY8rk1Gkhoev2fsdY3eNqs=",
       "title": "GitLab Plugin",
-      "url": "https://kves13.github.io/plugins/gitlab-plugin.hpi",
+      "url": "https://kves13.github.io/plugins/download/gitlab-plugin/1.8.2/gitlab-plugin.hpi",
       "version": "1.8.2",
       "wiki": "https://github.com/jenkinsci/gitlab-plugin"
     },
@@ -1374,7 +1374,7 @@ updateCenter.post(
       "sha1": "puOPZYz/KgPNsJZHkzcMifRD8Po=",
       "sha256": "0B3qsYxK3MgLNKn1B1VHOMbUfrR7r4VjX5YRr0tW/SQ=",
       "title": "Gson API Plugin",
-      "url": "https://kves13.github.io/plugins/gson-api.hpi",
+      "url": "https://kves13.github.io/plugins/download/gson-api/2.11.0-41.v019fcf6125dc/gson-api.hpi",
       "version": "2.11.0-41.v019fcf6125dc",
       "wiki": "https://github.com/jenkinsci/gson-api-plugin"
     },
@@ -1397,7 +1397,7 @@ updateCenter.post(
       "sha1": "ZU3f6kY+onxPNv57bz8/h0/sd2s=",
       "sha256": "xD3AHiAf03o4pjB9rMhKzmDhYI+WYjaR4dvh/cbYqRE=",
       "title": "Instance Identity",
-      "url": "https://kves13.github.io/plugins/instance-identity.hpi",
+      "url": "https://kves13.github.io/plugins/download/instance-identity/201.vd2a_b_5a_468a_a_6/instance-identity.hpi",
       "version": "201.vd2a_b_5a_468a_a_6",
       "wiki": "https://github.com/jenkinsci/instance-identity-plugin"
     },
@@ -1420,7 +1420,7 @@ updateCenter.post(
       "sha1": "KqttuVcDA7snBH0/UF0u3742ICU=",
       "sha256": "aBqcwwg6CJ1S7zmCBr/FIdqr88aC7wpXvnPg/t3GLo8=",
       "title": "Ionicons API",
-      "url": "https://kves13.github.io/plugins/ionicons-api.hpi",
+      "url": "https://kves13.github.io/plugins/download/ionicons-api/74.v93d5eb_813d5f/ionicons-api.hpi",
       "version": "74.v93d5eb_813d5f",
       "wiki": "https://github.com/jenkinsci/ionicons-api-plugin"
     },
@@ -1529,7 +1529,7 @@ updateCenter.post(
       "sha1": "yJMgXl+1GAiX9sDB5u46B0vR+Nc=",
       "sha256": "Xi2RlyTaCkfNAb259hTI/JCGLAnOUG2bLKNAJSutIl4=",
       "title": "Jackson 2 API Plugin",
-      "url": "https://kves13.github.io/plugins/jackson2-api.hpi",
+      "url": "https://kves13.github.io/plugins/download/jackson2-api/2.17.0-379.v02de8ec9f64c/jackson2-api.hpi",
       "version": "2.17.0-379.v02de8ec9f64c",
       "wiki": "https://github.com/jenkinsci/jackson2-api-plugin"
     },
@@ -1557,7 +1557,7 @@ updateCenter.post(
       "sha1": "Vj3GxlcmS8xs34KXs9vvlFJMj0M=",
       "sha256": "3cPfXYw5oqIIZh1pJ3EgsREzc7BNBuIlBhW+KmVAS4M=",
       "title": "Jakarta Activation API",
-      "url": "https://kves13.github.io/plugins/jakarta-activation-api.hpi",
+      "url": "https://kves13.github.io/plugins/download/jakarta-activation-api/2.1.3-1/jakarta-activation-api.hpi",
       "version": "2.1.3-1",
       "wiki": "https://github.com/jenkinsci/jakarta-activation-api-plugi"
     },
@@ -1590,7 +1590,7 @@ updateCenter.post(
       "sha1": "PXjqN4VQMTOUwHdSW4mfcGRNt1g=",
       "sha256": "hRqyL/Bkf02CuqtOUmxtDds+ZK1JacUWEWs3Tvd45Tk=",
       "title": "Jakarta Mail API",
-      "url": "https://kves13.github.io/plugins/jakarta-mail-api.hpi",
+      "url": "https://kves13.github.io/plugins/download/jakarta-mail-api/2.1.3-1/jakarta-mail-api.hpi",
       "version": "2.1.3-1",
       "wiki": "https://github.com/jenkinsci/jakarta-mail-api-plugin"
     },
@@ -1607,7 +1607,7 @@ updateCenter.post(
       "sha1": "Pf/O6eBowAX5xiZjt7B8A9JD/10=",
       "sha256": "PQ032QqTmJcQn6drSD9gCHzC+xkvlYHRQyvWrlaaKtQ=",
       "title": "Javadoc Plugin",
-      "url": "https://kves13.github.io/plugins/javadoc.hpi",
+      "url": "https://kves13.github.io/plugins/download/javadoc/280.v050b_5c849f69/javadoc.hpi",
       "version": "280.v050b_5c849f69",
       "wiki": "https://github.com/jenkinsci/javadoc-plugin"
     },
@@ -1630,7 +1630,7 @@ updateCenter.post(
       "sha1": "8BkEq9idqbNMtm8yPGhHE6rw9KI=",
       "sha256": "xgq3JA3e0hnizTACswV53Zk4MsXUaD3KcQ8PQmd2sGM=",
       "title": "JavaBeans Activation Framework (JAF) API",
-      "url": "https://kves13.github.io/plugins/javax-activation-api.hpi",
+      "url": "https://kves13.github.io/plugins/download/javax-activation-api/1.2.0-7/javax-activation-api.hpi",
       "version": "1.2.0-7",
       "wiki": "https://github.com/jenkinsci/javax-activation-api-plugin"
     },
@@ -1663,7 +1663,7 @@ updateCenter.post(
       "sha1": "pUR0K4eHgEzchlzddNqCd0B4lJU=",
       "sha256": "jJ9/mNmWremLel3QzZ0KumYazqG5mjP3V3i6zzmmRlk=",
       "title": "JAXB plugin",
-      "url": "https://kves13.github.io/plugins/jaxb.hpi",
+      "url": "https://kves13.github.io/plugins/download/jaxb/2.3.9-1/jaxb.hpi",
       "version": "2.3.9-1",
       "wiki": "https://github.com/jenkinsci/jaxb-plugin"
     },
@@ -1745,7 +1745,7 @@ updateCenter.post(
       "sha1": "aleuZwyHryzyC7ILhcuzlqcl5bY=",
       "sha256": "FTrbrJ192Imop+eUk06rWJ3JvBjTA5c5u8gvksTcLsI=",
       "title": "Jenkins Multijob plugin",
-      "url": "https://kves13.github.io/plugins/jenkins-multijob-plugin.hpi",
+      "url": "https://kves13.github.io/plugins/download/jenkins-multijob-plugin/659.v6633374ec624/jenkins-multijob-plugin.hpi",
       "version": "659.v6633374ec624",
       "wiki": "https://github.com/jenkinsci/jenkins-multijob-plugin.git"
     },
@@ -1828,7 +1828,7 @@ updateCenter.post(
       "sha1": "CliZ/xDgxCs3m2I/mKOPkVT9wls=",
       "sha256": "qSIpB6iTRJQ8Ma1lIbLN6NJsoU893JDyd3Nnx8ShnEw=",
       "title": "Jersey 2 API",
-      "url": "https://kves13.github.io/plugins/jersey2-api.hpi",
+      "url": "https://kves13.github.io/plugins/download/jersey2-api/2.44-151.v6df377fff741/jersey2-api.hpi",
       "version": "2.44-151.v6df377fff741",
       "wiki": "https://github.com/jenkinsci/jersey2-api-plugin"
     },
@@ -1851,7 +1851,7 @@ updateCenter.post(
       "sha1": "QproLWMxoxAa04VR1KImSWXFslQ=",
       "sha256": "XAsJcPyfxgyn7PKQP8h3xX/kRPyl8a5awH+bGUPxzv0=",
       "title": "Joda Time API Plugin",
-      "url": "https://kves13.github.io/plugins/joda-time-api.hpi",
+      "url": "https://kves13.github.io/plugins/download/joda-time-api/2.13.0-85.vb_64d1c2921f1/joda-time-api.hpi",
       "version": "2.13.0-85.vb_64d1c2921f1",
       "wiki": "https://github.com/jenkinsci/joda-time-api-plugin"
     },
@@ -1889,7 +1889,7 @@ updateCenter.post(
       "sha1": "113ffQ1NWhHvBgEXXkUjjcH4j7U=",
       "sha256": "nCKNrcJPpq+S1L3y4Rb5M8ZfUc4Prkdv+tMvvX8ZdVg=",
       "title": "jQuery plugin",
-      "url": "https://kves13.github.io/plugins/jquery.hpi",
+      "url": "https://kves13.github.io/plugins/download/jquery/1.12.4-3/jquery.hpi",
       "version": "1.12.4-3",
       "wiki": "https://github.com/jenkinsci/jquery-plugin"
     },
@@ -1912,7 +1912,7 @@ updateCenter.post(
       "sha1": "klXi1HiZRaUW51iZiDxRRRZxeYQ=",
       "sha256": "Mi0B4Uo2jjEx/ziNvG/gYquqbLCiu3YbxGUW8ffKEGY=",
       "title": "JQuery3 API Plugin",
-      "url": "https://kves13.github.io/plugins/jquery3-api.hpi",
+      "url": "https://kves13.github.io/plugins/download/jquery3-api/3.7.1-2/jquery3-api.hpi",
       "version": "3.7.1-2",
       "wiki": "https://github.com/jenkinsci/jquery3-api-plugin"
     },
@@ -1970,7 +1970,7 @@ updateCenter.post(
       "sha1": "M6o44X0Xf6hWk0tsLFHSgdKbs4U=",
       "sha256": "8Ot/frrzdPcEDmClbM2K9v5HHog5V986T/8RbdoC3BI=",
       "title": "Jenkins JSch dependency plugin",
-      "url": "https://kves13.github.io/plugins/jsch.hpi",
+      "url": "https://kves13.github.io/plugins/download/jsch/0.2.16-86.v42e010d9484b_/jsch.hpi",
       "version": "0.2.16-86.v42e010d9484b_",
       "wiki": "https://github.com/jenkinsci/jsch-plugin"
     },
@@ -1993,7 +1993,7 @@ updateCenter.post(
       "sha1": "jJW0MxpeglO/NxYkCenutBokTQg=",
       "sha256": "1D/5cIrgNU7W/kwXSs9OAL1ATTyTJRhSIDJzUY/5NaY=",
       "title": "JSON Api Plugin",
-      "url": "https://kves13.github.io/plugins/json-api.hpi",
+      "url": "https://kves13.github.io/plugins/download/json-api/20240303-41.v94e11e6de726/json-api.hpi",
       "version": "20240303-41.v94e11e6de726",
       "wiki": "https://github.com/jenkinsci/json-api-plugin"
     },
@@ -2021,7 +2021,7 @@ updateCenter.post(
       "sha1": "Kr86EY5n7h6VKGE0Q59USybK89g=",
       "sha256": "JoUFqtWcsNkv9MofVnVWxSNRm1IXyj5FkeHUzJsmRvU=",
       "title": "JSON Path API Plugin",
-      "url": "https://kves13.github.io/plugins/json-path-api.hpi",
+      "url": "https://kves13.github.io/plugins/download/json-path-api/2.9.0-58.v62e3e85b_a_655/json-path-api.hpi",
       "version": "2.9.0-58.v62e3e85b_a_655",
       "wiki": "https://github.com/jenkinsci/json-path-api-plugin"
     },
@@ -2097,7 +2097,7 @@ updateCenter.post(
       "sha1": "cSAPQJRW9lU8f6bEzHoEuT+N+MY=",
       "sha256": "DEywzkPqiNzUCAscD2wHQycWvc9AYyU0WJID6k2PZXE=",
       "title": "JUnit Plugin",
-      "url": "https://kves13.github.io/plugins/junit.hpi",
+      "url": "https://kves13.github.io/plugins/download/junit/1309.v0078b_fecd6ed/junit.hpi",
       "version": "1309.v0078b_fecd6ed",
       "wiki": "https://github.com/jenkinsci/junit-plugin"
     },
@@ -2220,7 +2220,7 @@ updateCenter.post(
       "sha1": "e8UeVBzcQ7rx2OnMbP/khWk2KhQ=",
       "sha256": "dXtbDbBn7obc2PaU30W0p47Fbk8GuqBPeTGT/NGIOW4=",
       "title": "Kubernetes plugin",
-      "url": "https://kves13.github.io/plugins/kubernetes.hpi",
+      "url": "https://kves13.github.io/plugins/download/kubernetes/4300.vd82c5692b_3a_e/kubernetes.hpi",
       "version": "4300.vd82c5692b_3a_e",
       "wiki": "https://github.com/jenkinsci/kubernetes-plugin"
     },
@@ -2269,7 +2269,7 @@ updateCenter.post(
       "sha1": "opfy9h5FSY2/0thDXqgKla2xA3g=",
       "sha256": "Am0NDBHTOSQ1VPouOoLAU5gwJLFMUuBHAu7g/lahsug=",
       "title": "Kubernetes Client API Plugin",
-      "url": "https://kves13.github.io/plugins/kubernetes-client-api.hpi",
+      "url": "https://kves13.github.io/plugins/download/kubernetes-client-api/6.10.0-240.v57880ce8b_0b_2/kubernetes-client-api.hpi",
       "version": "6.10.0-240.v57880ce8b_0b_2",
       "wiki": "https://github.com/jenkinsci/kubernetes-client-api-plugin"
     },
@@ -2334,7 +2334,7 @@ updateCenter.post(
       "sha1": "jeJeczOIpuz0qL1ZBLR/xW5+X6c=",
       "sha256": "FcinMqFGkthuTp4x4aIJLyfEWPSJRrVIl+zhEFFDO48=",
       "title": "Kubernetes Credentials Plugin",
-      "url": "https://kves13.github.io/plugins/kubernetes-credentials.hpi",
+      "url": "https://kves13.github.io/plugins/download/kubernetes-credentials/190.v03c305394deb_/kubernetes-credentials.hpi",
       "version": "190.v03c305394deb_",
       "wiki": "https://github.com/jenkinsci/kubernetes-credentials-plugi"
     },
@@ -2367,7 +2367,7 @@ updateCenter.post(
       "sha1": "LUoJ3Jr39pswIwF0TbeaR7tQ//A=",
       "sha256": "KKpOo2XKDO2rXXnp916fzbADwxAN/SNn9OLJUBLHjGg=",
       "title": "Jenkins Mailer Plugin",
-      "url": "https://kves13.github.io/plugins/mailer.hpi",
+      "url": "https://kves13.github.io/plugins/download/mailer/488.v0c9639c1a_eb_3/mailer.hpi",
       "version": "488.v0c9639c1a_eb_3",
       "wiki": "https://github.com/jenkinsci/mailer-plugin"
     },
@@ -2404,7 +2404,7 @@ updateCenter.post(
       "sha1": "fOqLCDGmz1+JD0+E23Ynj6Ye1gw=",
       "sha256": "ib2elFYwAPWvCcyjy4AXxWohbRtL2ZmveFvdkgJJ0BQ=",
       "title": "Matrix Authorization Strategy Plugin",
-      "url": "https://kves13.github.io/plugins/matrix-auth.hpi",
+      "url": "https://kves13.github.io/plugins/download/matrix-auth/3.2.3/matrix-auth.hpi",
       "version": "3.2.3",
       "wiki": "https://github.com/jenkinsci/matrix-auth-plugin"
     },
@@ -2440,7 +2440,7 @@ updateCenter.post(
       "sha1": "fy+/Om4Rl4Uu5f90TkRJFmgN1Qs=",
       "sha256": "wCpyR1CHrzr2vNypZQ1nMlPwPYzwU/Z6YPqE3p7G+IQ=",
       "title": "Matrix Project Plugin",
-      "url": "https://kves13.github.io/plugins/matrix-project.hpi",
+      "url": "https://kves13.github.io/plugins/download/matrix-project/839.vff91cd7e3a_b_2/matrix-project.hpi",
       "version": "839.vff91cd7e3a_b_2",
       "wiki": "https://github.com/jenkinsci/matrix-project-plugin"
     },
@@ -2701,7 +2701,7 @@ updateCenter.post(
       "sha1": "gkoXtiQFzdzT9PezSeVOFAKCiXo=",
       "sha256": "IA+Sx2bATZtgm3QlU+EwQds+JoDgumVaHG5AXlg8ScY=",
       "title": "Maven Integration plugin",
-      "url": "https://kves13.github.io/plugins/maven-plugin.hpi",
+      "url": "https://kves13.github.io/plugins/download/maven-plugin/3.24/maven-plugin.hpi",
       "version": "3.24",
       "wiki": "https://github.com/jenkinsci/maven-plugin"
     },
@@ -2770,7 +2770,7 @@ updateCenter.post(
       "sha1": "BLUR4YAovb7k18jH6z31UK2pseE=",
       "sha256": "IRgf/c7TlxnNZGz8cFrQ3EkPTzv1KbFEL8VJxQ6rPzk=",
       "title": "Metrics Plugin",
-      "url": "https://kves13.github.io/plugins/metrics.hpi",
+      "url": "https://kves13.github.io/plugins/download/metrics/4.2.21-458.vcf496cb_839e4/metrics.hpi",
       "version": "4.2.21-458.vcf496cb_839e4",
       "wiki": "https://github.com/jenkinsci/metrics-plugin"
     },
@@ -2809,7 +2809,7 @@ updateCenter.post(
       "sha1": "OpI/bGydS9qTQlvV7P9jB+qq+DE=",
       "sha256": "Ie58BB4KVZ9EbabNih3akkA/32OUQlRvfRCm51fddTU=",
       "title": "Mina SSHD API :: Common",
-      "url": "https://kves13.github.io/plugins/mina-sshd-api-common.hpi",
+      "url": "https://kves13.github.io/plugins/download/mina-sshd-api-common/2.14.0-133.vcc091215a_358/mina-sshd-api-common.hpi",
       "version": "2.14.0-133.vcc091215a_358",
       "wiki": "https://github.com/jenkinsci/mina-sshd-api-plugin"
     },
@@ -2848,7 +2848,7 @@ updateCenter.post(
       "sha1": "QKQzwTq7kmkTg3+3wt4Zqp+w01s=",
       "sha256": "ZWyzSlZsK0CyFFnr2m/V+D3sxUlFong8eKjWd785ans=",
       "title": "Mina SSHD API :: Core",
-      "url": "https://kves13.github.io/plugins/mina-sshd-api-core.hpi",
+      "url": "https://kves13.github.io/plugins/download/mina-sshd-api-core/2.14.0-133.vcc091215a_358/mina-sshd-api-core.hpi",
       "version": "2.14.0-133.vcc091215a_358",
       "wiki": "https://github.com/jenkinsci/mina-sshd-api-plugin"
     },
@@ -2901,7 +2901,7 @@ updateCenter.post(
       "sha1": "LQDObmEWWsY5KP4qJl3yn4BLTMA=",
       "sha256": "aBldaBDsq6/YFsWtZEVBiIdpPX1f139RN5a6qvC1kzA=",
       "title": "OkHttp Plugin",
-      "url": "https://kves13.github.io/plugins/okhttp-api.hpi",
+      "url": "https://kves13.github.io/plugins/download/okhttp-api/4.11.0-172.vda_da_1feeb_c6e/okhttp-api.hpi",
       "version": "4.11.0-172.vda_da_1feeb_c6e",
       "wiki": "https://github.com/jenkinsci/okhttp-api-plugin"
     },
@@ -2944,7 +2944,7 @@ updateCenter.post(
       "sha1": "5xxyPKqvXHO79bz7OmVaLee1rhI=",
       "sha256": "p3GlzHfhYnCTivKOMRlw7sEyywZmtrmvN0Iq5gbFqvM=",
       "title": "Jenkins Parameterized Trigger plugin",
-      "url": "https://kves13.github.io/plugins/parameterized-trigger.hpi",
+      "url": "https://kves13.github.io/plugins/download/parameterized-trigger/806.vf6fff3e28c3e/parameterized-trigger.hpi",
       "version": "806.vf6fff3e28c3e",
       "wiki": "https://github.com/jenkinsci/parameterized-trigger-plugin"
     },
@@ -2967,7 +2967,7 @@ updateCenter.post(
       "sha1": "zIZQ4FkR3g8sXnq/92wR3rbD9MU=",
       "sha256": "lCLqp2XmWR48hFv+ycEF9WAKBYlRopQK7Fvg7XbqgTo=",
       "title": "Plain Credentials Plugin",
-      "url": "https://kves13.github.io/plugins/plain-credentials.hpi",
+      "url": "https://kves13.github.io/plugins/download/plain-credentials/183.va_de8f1dd5a_2b_/plain-credentials.hpi",
       "version": "183.va_de8f1dd5a_2b_",
       "wiki": "https://github.com/jenkinsci/plain-credentials-plugin"
     },
@@ -3026,7 +3026,7 @@ updateCenter.post(
       "sha1": "8N+f7Em1Sro1TXYJDxvwwUKrLaA=",
       "sha256": "Wp4kUjCA0pSjrtESz/JLjCSglVSwOkGZ1Y+C5VC+hP8=",
       "title": "Plugin Utilities API Plugin",
-      "url": "https://kves13.github.io/plugins/plugin-util-api.hpi",
+      "url": "https://kves13.github.io/plugins/download/plugin-util-api/4.1.0/plugin-util-api.hpi",
       "version": "4.1.0",
       "wiki": "https://github.com/jenkinsci/plugin-util-api-plugin"
     },
@@ -3058,7 +3058,7 @@ updateCenter.post(
       "sha1": "awYd0kpf+Y7Ko7l75rW3p4KYmYw=",
       "sha256": "2GAfR8Ah+Ma4J1c19cAj/sV7ZRiQKOIauskdQq3QvkI=",
       "title": "Run Condition Plugin",
-      "url": "https://kves13.github.io/plugins/run-condition.hpi",
+      "url": "https://kves13.github.io/plugins/download/run-condition/1.7/run-condition.hpi",
       "version": "1.7",
       "wiki": "https://github.com/jenkinsci/run-condition-plugin"
     },
@@ -3087,7 +3087,7 @@ updateCenter.post(
       "sha1": "WgJSnEKqAcqEOtqVxE94I4nicvo=",
       "sha256": "L3RaZjq+kKwrv1YYbxBpJcBL93tImpGLurx5Q4BxSgc=",
       "title": "SCM API Plugin",
-      "url": "https://kves13.github.io/plugins/scm-api.hpi",
+      "url": "https://kves13.github.io/plugins/download/scm-api/696.v778d637b_a_762/scm-api.hpi",
       "version": "696.v778d637b_a_762",
       "wiki": "https://github.com/jenkinsci/scm-api-plugin"
     },
@@ -3118,7 +3118,7 @@ updateCenter.post(
       "sha1": "l1npXdcAe3uOUYi/KLgmMAe7Kk8=",
       "sha256": "v3cf2bFP9qbHa1coMrin+lgk6ypuhzkvbrZAIk9UheQ=",
       "title": "Script Security Plugin",
-      "url": "https://kves13.github.io/plugins/script-security.hpi",
+      "url": "https://kves13.github.io/plugins/download/script-security/1369.v9b_98a_4e95b_2d/script-security.hpi",
       "version": "1369.v9b_98a_4e95b_2d",
       "wiki": "https://github.com/jenkinsci/script-security-plugin"
     },
@@ -3141,7 +3141,7 @@ updateCenter.post(
       "sha1": "8ECVezjia/FhomGe5xCJD5phRsY=",
       "sha256": "1bgaDQz9QR3nba79kbHc3ApXO8W+n/btH0dBH62uE/4=",
       "title": "SnakeYAML API Plugin",
-      "url": "https://kves13.github.io/plugins/snakeyaml-api.hpi",
+      "url": "https://kves13.github.io/plugins/download/snakeyaml-api/2.3-123.v13484c65210a_/snakeyaml-api.hpi",
       "version": "2.3-123.v13484c65210a_",
       "wiki": "https://github.com/jenkinsci/snakeyaml-api-plugin"
     },
@@ -3213,7 +3213,7 @@ updateCenter.post(
       "sha1": "Hof9lJGWPLd7M8Zbd4b0rZknI4o=",
       "sha256": "pMtu7xju33NQfYfSYJ9rnKPg2cRhCWB7tx4no4LTXTE=",
       "title": "SonarQube Scanner for Jenkins",
-      "url": "https://kves13.github.io/plugins/sonar.hpi",
+      "url": "https://kves13.github.io/plugins/download/sonar/2.17.2/sonar.hpi",
       "version": "2.17.2",
       "wiki": "https://github.com/jenkinsci/sonarqube-plugin"
     },
@@ -3268,7 +3268,7 @@ updateCenter.post(
       "sha1": "KcpolRIKq6YeIsUoaTOH+UWUhe8=",
       "sha256": "l5TvGG7zNzVSKxkVytlfXREZbJv5yk0ORuCx7wRko+c=",
       "title": "SSH Credentials Plugin",
-      "url": "https://kves13.github.io/plugins/ssh-credentials.hpi",
+      "url": "https://kves13.github.io/plugins/download/ssh-credentials/349.vb_8b_6b_9709f5b_/ssh-credentials.hpi",
       "version": "349.vb_8b_6b_9709f5b_",
       "wiki": "https://github.com/jenkinsci/ssh-credentials-plugin"
     },
@@ -3285,7 +3285,7 @@ updateCenter.post(
       "sha1": "6K9qjPCCLfjiTPLOO+4b0O9jIRI=",
       "sha256": "fK6BGjl4j1ipVHdGMfCiedS/XjJnKDcmioU4Imeor2Y=",
       "title": "Structs Plugin",
-      "url": "https://kves13.github.io/plugins/structs.hpi",
+      "url": "https://kves13.github.io/plugins/download/structs/338.v848422169819/structs.hpi",
       "version": "338.v848422169819",
       "wiki": "https://github.com/jenkinsci/structs-plugin"
     },
@@ -3339,7 +3339,7 @@ updateCenter.post(
       "sha1": "BahiOb55UmqR6kJDdVaiJAa7Fko=",
       "sha256": "gicmCIpYk/JIt7uhrqku9t8VNLZKzAoj4vyXbbM0Ocg=",
       "title": "Token Macro Plugin",
-      "url": "https://kves13.github.io/plugins/token-macro.hpi",
+      "url": "https://kves13.github.io/plugins/download/token-macro/400.v35420b_922dcb_/token-macro.hpi",
       "version": "400.v35420b_922dcb_",
       "wiki": "https://github.com/jenkinsci/token-macro-plugin"
     },
@@ -3389,7 +3389,7 @@ updateCenter.post(
       "sha1": "6aPCNcDEbD6RgutQ6cFbUZDjzOk=",
       "sha256": "JbiFi1lbddsQJI+KLf2+3wSdQ1b5scCWVz+EXJqWLk0=",
       "title": "Trilead API Plugin",
-      "url": "https://kves13.github.io/plugins/trilead-api.hpi",
+      "url": "https://kves13.github.io/plugins/download/trilead-api/2.147.vb_73cc728a_32e/trilead-api.hpi",
       "version": "2.147.vb_73cc728a_32e",
       "wiki": "https://github.com/jenkinsci/trilead-api-plugin"
     },
@@ -3406,7 +3406,7 @@ updateCenter.post(
       "sha1": "JAmYIHZo2nr+CQGU+IcuxAuX+ZY=",
       "sha256": "rL8a67lgfv4FGLM8nd6b1QwD1qGg+mIlWGXzz5QfpFg=",
       "title": "Variant Plugin",
-      "url": "https://kves13.github.io/plugins/variant.hpi",
+      "url": "https://kves13.github.io/plugins/download/variant/60.v7290fc0eb_b_cd/variant.hpi",
       "version": "60.v7290fc0eb_b_cd",
       "wiki": "http://github.com/jenkinsci/variant-plugin"
     },
@@ -3437,7 +3437,7 @@ updateCenter.post(
       "sha1": "17uiaJ7WW5P/wydGpzVyeKuLcmo=",
       "sha256": "LGN5LsetrSd9Bwr9ZclVAXnefDaQqew53l25lp1gNh4=",
       "title": "Pipeline: API",
-      "url": "https://kves13.github.io/plugins/workflow-api.hpi",
+      "url": "https://kves13.github.io/plugins/download/workflow-api/1336.vee415d95c521/workflow-api.hpi",
       "version": "1336.vee415d95c521",
       "wiki": "https://github.com/jenkinsci/workflow-api-plugin"
     },
@@ -3495,7 +3495,7 @@ updateCenter.post(
       "sha1": "2BfZrcwXcnCAq1lyY4JSlkdKH5A=",
       "sha256": "VCnp26FmBf9+kcWq6Ri3ScT7exshThib0eOENZR8zp8=",
       "title": "Pipeline: Nodes and Processes",
-      "url": "https://kves13.github.io/plugins/workflow-durable-task-step.hpi",
+      "url": "https://kves13.github.io/plugins/download/workflow-durable-task-step/1378.v6a_3e903058a_3/workflow-durable-task-step.hpi",
       "version": "1378.v6a_3e903058a_3",
       "wiki": "https://github.com/jenkinsci/workflow-durable-task-step-p"
     },
@@ -3537,7 +3537,7 @@ updateCenter.post(
       "sha1": "qjCp+oQnOPh9vs8A60D1zK80KTg=",
       "sha256": "ytLa4Co4b5hXbp9X8gyQQIZeEBd9alvOGwDjfa3OQyQ=",
       "title": "Pipeline: Job",
-      "url": "https://kves13.github.io/plugins/workflow-job.hpi",
+      "url": "https://kves13.github.io/plugins/download/workflow-job/1400.v7fd111b_ec82f/workflow-job.hpi",
       "version": "1400.v7fd111b_ec82f",
       "wiki": "https://github.com/jenkinsci/workflow-job-plugin"
     },
@@ -3564,7 +3564,7 @@ updateCenter.post(
       "sha1": "BSBH6xKocVxSPxde6sHXU2jSNdk=",
       "sha256": "SgbEZn4bxDfokQer2aMWra9R/KT9UE0SpSUZR3fTStg=",
       "title": "Pipeline: SCM Step",
-      "url": "https://kves13.github.io/plugins/workflow-scm-step.hpi",
+      "url": "https://kves13.github.io/plugins/download/workflow-scm-step/427.v4ca_6512e7df1/workflow-scm-step.hpi",
       "version": "427.v4ca_6512e7df1",
       "wiki": "https://github.com/jenkinsci/workflow-scm-step-plugin"
     },
@@ -3590,7 +3590,7 @@ updateCenter.post(
       "sha1": "rCbVeqkitth5SmwqG/tiHWjotmk=",
       "sha256": "QORQEzoJW7nM8Fi2vyz6Pwk4qYifXklNYd+wrepRiz0=",
       "title": "Pipeline: Step API",
-      "url": "https://kves13.github.io/plugins/workflow-step-api.hpi",
+      "url": "https://kves13.github.io/plugins/download/workflow-step-api/678.v3ee58b_469476/workflow-step-api.hpi",
       "version": "678.v3ee58b_469476",
       "wiki": "https://github.com/jenkinsci/workflow-step-api-plugin"
     },
@@ -3642,7 +3642,7 @@ updateCenter.post(
       "sha1": "WyrcH/tfTra2GuMAmAIhAmvGJ/M=",
       "sha256": "Lfx/nJhOK/zSdTsmr7w/myPHKg3YucJUUHzXd6IUctU=",
       "title": "Pipeline: Supporting APIs",
-      "url": "https://kves13.github.io/plugins/workflow-support.hpi",
+      "url": "https://kves13.github.io/plugins/download/workflow-support/936.v9fa_77211ca_e1/workflow-support.hpi",
       "version": "936.v9fa_77211ca_e1",
       "wiki": "https://github.com/jenkinsci/workflow-support-plugin"
     }
