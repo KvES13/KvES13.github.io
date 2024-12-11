@@ -1,7 +1,7 @@
 updateCenter.post(
 {
  "connectionCheckUrl": "https://google.com",
- "generationTimestamp": "2024-12-11T10:51:57Z",
+ "generationTimestamp": "2024-12-11T11:07:11Z",
  "id": "default",
  "plugins": {
   "bouncycastle-api": {
@@ -42,7 +42,7 @@ updateCenter.post(
    "sha1": "6ze2/L+TglJMeIlC255yFH5Oz1I=",
    "sha256": "BSxDdShFiAapRk1ZpXcULcXIhI4waxnLqGXgJ9GtIDE=",
    "title": "bouncycastle API Plugin",
-   "url": "https:/kves13.github.io/plugins/bouncycastle-api_2.30.1.78.1-248.ve27176eb_46cb_.hpi",
+   "url": "https://kves13.github.io/plugins/bouncycastle-api_2.30.1.78.1-248.ve27176eb_46cb_.hpi",
    "version": "2.30.1.78.1-248.ve27176eb_46cb_",
    "wiki": "https://github.com/jenkinsci/bouncycastle-api-plugin"
   },
@@ -65,7 +65,7 @@ updateCenter.post(
    "sha1": "Ib/p/8MagqNXw5k3Fi32bD7SOwY=",
    "sha256": "psYUZVvFBzRb8WtcRhW7CbGiD5NMm/CxXALM6kpcBAA=",
    "title": "Caffeine API Plugin",
-   "url": "https:/kves13.github.io/plugins/caffeine-api_3.1.8-133.v17b_1ff2e0599.hpi",
+   "url": "https://kves13.github.io/plugins/caffeine-api_3.1.8-133.v17b_1ff2e0599.hpi",
    "version": "3.1.8-133.v17b_1ff2e0599",
    "wiki": "https://github.com/jenkinsci/caffeine-api-plugin"
   },
@@ -88,7 +88,7 @@ updateCenter.post(
    "sha1": "/vn01BALYWBge4bu25pYQ1xR9S0=",
    "sha256": "kLFVIbIa0UYrGKb4iU/xosEIDF05jKi7kowGLJksP8Q=",
    "title": "commons-lang3 v3.x Jenkins API Plugin",
-   "url": "https:/kves13.github.io/plugins/commons-lang3-api_3.17.0-84.vb_b_938040b_078.hpi",
+   "url": "https://kves13.github.io/plugins/commons-lang3-api_3.17.0-84.vb_b_938040b_078.hpi",
    "version": "3.17.0-84.vb_b_938040b_078",
    "wiki": "https://github.com/jenkinsci/commons-lang3-api-plugin"
   },
@@ -133,7 +133,7 @@ updateCenter.post(
    "sha1": "dWQ/iZTsSQ68VE99w3/O5eliv88=",
    "sha256": "lphsQTbiloZXLi2D3pEnpIOUyNNFQW2zqfVSESmPHa8=",
    "title": "Credentials Plugin",
-   "url": "https:/kves13.github.io/plugins/credentials_1380.va_435002fa_924.hpi",
+   "url": "https://kves13.github.io/plugins/credentials_1380.va_435002fa_924.hpi",
    "version": "1380.va_435002fa_924",
    "wiki": "https://github.com/jenkinsci/credentials-plugin/blob/master/docs/RE"
   },
@@ -186,7 +186,7 @@ updateCenter.post(
    "sha1": "LQDObmEWWsY5KP4qJl3yn4BLTMA=",
    "sha256": "aBldaBDsq6/YFsWtZEVBiIdpPX1f139RN5a6qvC1kzA=",
    "title": "OkHttp Plugin",
-   "url": "https:/kves13.github.io/plugins/okhttp-api_4.11.0-172.vda_da_1feeb_c6e.hpi",
+   "url": "https://kves13.github.io/plugins/okhttp-api_4.11.0-172.vda_da_1feeb_c6e.hpi",
    "version": "4.11.0-172.vda_da_1feeb_c6e",
    "wiki": "https://github.com/jenkinsci/okhttp-api-plugin"
   },
@@ -209,7 +209,7 @@ updateCenter.post(
    "sha1": "zIZQ4FkR3g8sXnq/92wR3rbD9MU=",
    "sha256": "lCLqp2XmWR48hFv+ycEF9WAKBYlRopQK7Fvg7XbqgTo=",
    "title": "Plain Credentials Plugin",
-   "url": "https:/kves13.github.io/plugins/plain-credentials_183.va_de8f1dd5a_2b_.hpi",
+   "url": "https://kves13.github.io/plugins/plain-credentials_183.va_de8f1dd5a_2b_.hpi",
    "version": "183.va_de8f1dd5a_2b_",
    "wiki": "https://github.com/jenkinsci/plain-credentials-plugin"
   },
@@ -281,7 +281,7 @@ updateCenter.post(
    "sha1": "Hof9lJGWPLd7M8Zbd4b0rZknI4o=",
    "sha256": "pMtu7xju33NQfYfSYJ9rnKPg2cRhCWB7tx4no4LTXTE=",
    "title": "SonarQube Scanner for Jenkins",
-   "url": "https:/kves13.github.io/plugins/sonar_2.17.2.hpi",
+   "url": "https://kves13.github.io/plugins/sonar_2.17.2.hpi",
    "version": "2.17.2",
    "wiki": "https://github.com/jenkinsci/sonarqube-plugin"
   },
@@ -298,7 +298,7 @@ updateCenter.post(
    "sha1": "6K9qjPCCLfjiTPLOO+4b0O9jIRI=",
    "sha256": "fK6BGjl4j1ipVHdGMfCiedS/XjJnKDcmioU4Imeor2Y=",
    "title": "Structs Plugin",
-   "url": "https:/kves13.github.io/plugins/structs_338.v848422169819.hpi",
+   "url": "https://kves13.github.io/plugins/structs_338.v848422169819.hpi",
    "version": "338.v848422169819",
    "wiki": "https://github.com/jenkinsci/structs-plugin"
   }
@@ -307,10 +307,10 @@ updateCenter.post(
   "certificates": [
    "MIIDBjCCAe6gAwIBAgIHBijUtVrizzANBgkqhkiG9w0BAQsFADAQMQ4wDAYDVQQDEwVJbnRlcjAeFw0yNDEyMDkxMTMxNDFaFw0zNDEyMDkxMTMxNDFaMBUxEzARBgNVBAMTCmplbmtpbnMtdWMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDNSE93BRZlCFQv1XO/f1DV/GcetxHWatUUWgNJd9ne1vDzdZmiKMr3sKG+CfwfJx5hiyUsy4YYpIH3XN/cTC3k99fxdAK2qAftZflzQgzfG+LCYhhRm3I5V2rr0D/zCeZEMsRnEK3CHXTS9gV57rk9xR+clkdq+L/vg9FsBMuEeQtWNztFaTdtMy6IAaTNcEhRvl+bWjfWjP3KAa35PSbt8aaPYb9GuuxQsWADIXXpeWlYJaJW5KsIxgjOu5FMTCf6BPHi3NlSs9qg9olST/cyMbofYdrMWAMqk1R+UJhwU1wi5pWISYs06PU4DuE8IlS5nRHz3ItGL9DiC4wLPJcBAgMBAAGjYDBeMA4GA1UdDwEB/wQEAwIHgDAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBT6hih1G4Kriq8GlXLWk2OECQxfhDANBgkqhkiG9w0BAQsFAAOCAQEAl+eE+0ZYovNslDHeDi3d0VDS1hWnNkwMp6ul9tYugbE5PpTxwcKOAPdPMmis9JyauqZkAmXe0yHr5iR1PKoRjbB6095++/GTvNQs4ZADLacvyHdmjB8l4i4w51ksPIp/kkRcVVSgsU31DObfFDjqX/jKHksbh0Sfmn5Eg79+yFdfS9B9l6Na35DomdquXMnUXDFHcoTH1HVQZGCC1Wcj6xfrMQeO+XtGxxHUXuN0dcaJ9EG6BGvETcE4WCH45qNy6Jv9lQBON5KJWthdY4ITj6TAiAnzkr+GKFT4EGaVGW3oBHXa/CUcsrtVyQ4GSQ0fTFMLp1fyz5WL3cKhNgBhTA=="
   ],
-  "correct_digest": "p6D1AE79OY3Irtv1RMUX3JC15H0=",
-  "correct_digest512": "718457874358f1ef552dd9b8a1f1138f063609529392d859ae84f15790df14cb3c7b6ce4f004d023ea323d7d76f0681970f7371f107ae5d6df0ba5bf218b6885",
-  "correct_signature": "NDCPuKM+H+0LT4qBT42CTRKZg3SxTGBwx1zqvwhT1mZXV3r/apDdfA+yf3gTe3DtXgWtP4wh5XkbiMzMEokbOuBcTVI1BNebnKohR57I5j/sB1UlTA68ipPvbsCtjx0U9IrQ6T9303oT7Jg6xR2928+gJJM5hOE2ystDjnhJCjfY+6EWT0Lies/OmQxCKYaSf2+PdKmdW3OtELXEtD7P130rEenNrUwMHomML9/Xs3IsU340Z+zrAICpbBccbAE+t+44oFavenARyFAR4WMkWQz3R8PBu3fnSCLiNVeoBs2t4M4H25NC/H/1MtUmk63/pfA5ncbJYzKowFHqbBoKEg==",
-  "correct_signature512": "723e33a1ff960cf2bbd8706365e3f3fcac1e895fd171473f9565ec2cbf7a6f0386a743985f909a119e1e56bbfdee560fc5ef8e7600dd05146279ab5018b0784312616ab9b261e5e4fd0e541e9320bff637aaa92d5e72daa447649533ccba59730ac4979f4a43d4530ac725096eda446413d1b1b07854d9089c8400782b90caa4e17d8120828a0be29720c527abd07537681bf76e2d341791c4ca222bfd50fedf37770e4f94c04e32e317a1ded7137b1d21b242627c318e3d0a96232741681570f3f52a27361afe95cfd69514fe5ac7d19faf8f23b225378e94e07ef20182bb3fa5d372f486ea974cf87f370b442ad2db81a0b59d9badf011522c17eb8ed7458a"
+  "correct_digest": "O9x9Ce5BaIHdbA1DO2BDz7OocFU=",
+  "correct_digest512": "07169a0f4e6def2f21d255428605eb9b58f8a190a41e337d0dae778324becb0da5585886caf7cc0628a31e32bbf879dd20f4ce6260a075b7c85a78a706d10917",
+  "correct_signature": "ZgqqlkUhCYi4VJ94CgBLVP9FaGXMSu0VFCk7X006Va/fD0qOcSlriFpVewdfNRjOLATARZ3Q4iYAnOHg/Tii1NO9UheMl0gjfJPS/Ajxew+MTzgyDII8jRMFvnl4+DvLPfMs0FAYVocVu2YXWeKT8RE6drLVGDnN6TC+OveqAKO12IpTHtjLRdzI6VykJnkyNzAnQ+nuxzIhVtobPArGrQDBPpzUVk1gIkPuV7C26EP6ObYyRmsQYJKtEGIgaC43HC4gF0s36V6ce1cjO0rtfcpz575V/FIdqDDfQ3DCARDdUmXfKTIljC0Ab32UVoivf/ckor5N/72kvpjwXiEMnw==",
+  "correct_signature512": "04720dff6c2cb0bc178b3526429d67816a3702fb2bf175eaab9483d3c1e5d1da35311a96e608e70a33940db8aa8cf86b94648ce56d235bea465ff8746e07abfe69b5cb2a3eb4ef1cc6e2b7f55594759c79fb07a7fedbc9bf600d269226752b77d15c61a012974c94d04f752a8d39e51ef6483406a9cad470232f8e890b35000fbc484dfd29748ae9f2cce168b691d41db19a9db516e524a0852c9788ce1d03515a36661ab9c57cd3fc85e50f7d93b65fdbcffdd302752023ab6a3a440afee9a1c404d12de1e243c545300a3f04fbc8d3f4b4af689d33e261699cc290f013830cb03d286cc6b4b88c9db0994661fc82fa92bd75a85176c9421953bcb7c8649a99"
  },
  "updateCenterVersion": "1"
 }
