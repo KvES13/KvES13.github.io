@@ -1,3 +1,91 @@
 updateCenter.post(
-{"connectionCheckUrl":"https://google.com","generationTimestamp":"2024-12-10T18:05:15Z","id":"default","plugins":{"sonar":{"buildDate":"Feb 19, 2024","dependencies":[{"name":"commons-lang3-api","optional":false,"version":"3.13.0-62.v7d18e55f51e2"},{"name":"caffeine-api","optional":false,"version":"3.1.8-133.v17b_1ff2e0599"},{"name":"sonar-ws","optional":false,"version":"10.1.0.73491"},{"name":"okhttp-api","optional":false,"version":"4.11.0-157.v6852a_a_fa_ec11"},{"name":"maven-plugin","optional":true,"version":"3.22"},{"name":"configurationslicing","optional":true,"version":"548.ve92d48e66b_f8"},{"name":"workflow-support","optional":true,"version":"848.v5a_383b_d14921"},{"name":"credentials","optional":false,"version":"1271.v54b_1c2c6388a_"},{"name":"plain-credentials","optional":false,"version":"143.v1b_df8b_d3b_e48"},{"name":"commons-codec","optional":false,"version":"1.13"}],"developers":[],"excerpt":"The Jenkins Plugins Parent POM Project","gav":"org.jenkins-ci.plugins:sonar:2.17.2","labels":["external","report"],"name":"sonar","releaseTimestamp":"2024-02-19T10:59:48.00Z","requiredCore":"2.387.3","scm":"https://github.com/jenkinsci/sonarqube-plugin","sha1":"Hof9lJGWPLd7M8Zbd4b0rZknI4o=","sha256":"pMtu7xju33NQfYfSYJ9rnKPg2cRhCWB7tx4no4LTXTE=","title":"SonarQube Scanner for Jenkins","url":"https:/kves13.github.io/plugins/sonar/2.17.2/sonar.hpi","version":"2.17.2","wiki":"https://github.com/jenkinsci/sonarqube-plugin"}},"signature":{"certificates":["MIIDBjCCAe6gAwIBAgIHBijUtVrizzANBgkqhkiG9w0BAQsFADAQMQ4wDAYDVQQDEwVJbnRlcjAeFw0yNDEyMDkxMTMxNDFaFw0zNDEyMDkxMTMxNDFaMBUxEzARBgNVBAMTCmplbmtpbnMtdWMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDNSE93BRZlCFQv1XO/f1DV/GcetxHWatUUWgNJd9ne1vDzdZmiKMr3sKG+CfwfJx5hiyUsy4YYpIH3XN/cTC3k99fxdAK2qAftZflzQgzfG+LCYhhRm3I5V2rr0D/zCeZEMsRnEK3CHXTS9gV57rk9xR+clkdq+L/vg9FsBMuEeQtWNztFaTdtMy6IAaTNcEhRvl+bWjfWjP3KAa35PSbt8aaPYb9GuuxQsWADIXXpeWlYJaJW5KsIxgjOu5FMTCf6BPHi3NlSs9qg9olST/cyMbofYdrMWAMqk1R+UJhwU1wi5pWISYs06PU4DuE8IlS5nRHz3ItGL9DiC4wLPJcBAgMBAAGjYDBeMA4GA1UdDwEB/wQEAwIHgDAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBT6hih1G4Kriq8GlXLWk2OECQxfhDANBgkqhkiG9w0BAQsFAAOCAQEAl+eE+0ZYovNslDHeDi3d0VDS1hWnNkwMp6ul9tYugbE5PpTxwcKOAPdPMmis9JyauqZkAmXe0yHr5iR1PKoRjbB6095++/GTvNQs4ZADLacvyHdmjB8l4i4w51ksPIp/kkRcVVSgsU31DObfFDjqX/jKHksbh0Sfmn5Eg79+yFdfS9B9l6Na35DomdquXMnUXDFHcoTH1HVQZGCC1Wcj6xfrMQeO+XtGxxHUXuN0dcaJ9EG6BGvETcE4WCH45qNy6Jv9lQBON5KJWthdY4ITj6TAiAnzkr+GKFT4EGaVGW3oBHXa/CUcsrtVyQ4GSQ0fTFMLp1fyz5WL3cKhNgBhTA=="],"correct_digest":"6Uk6Nz3Gq+iT4kkKDNvklJrXxQk=","correct_digest512":"4ab9dceba324b2afd5bd387de0cc9e3f7c825dd312101c05835df3a331e1cbe62c388143f86794910b74f16caa61c2036c2731539b30a8262c120b2f45e57ed1","correct_signature":"wiy6yDlH/DWWjlW9Nlc81OCgJavOjE/CILn7D27HTMxUnsjNN9zmmHVnZCE+2OlhRngycYhsL9xfhwozjh5iE03qlG35KIA8N22HPsyr0DqEwlvlmxbRX/vSnYYaTASulGaYwdNh8SFm0TsqkJcOXFUJootHuaz+6X7ONdsQaRKQ0slznjpsDix5m0bU3FvRz5EbX1gQIG/iRXFaflgn4B5YbNWZZnwkC2DkGfKG85BzXZKnPTLQ9qcAnSLfl7OpECK6UjFm92nwhn7DYSvemjaYzFPLCogOMI/9TnoZQzAJvYuJsxuMLV1JXDNyBnbtY7sGuJTieP2rNOJuPHb6Ow==","correct_signature512":"a01e156653001496e59f8adbb2473db338eac411777fc99699cd91c00e8b87c1cee97e860246631d410df0d6744604653dc07118c0caeae674e98e81846b8147ae1701d05a6cd7ac316cd6e3af907ef25ed17544f3e4284924f19461841f1108f1d4da2d2a01df69398f3add503f608709a30df0a231cd520d0b09d6679b9a467b680c3d2ccfacc67e910f7525bcb307f598ebbcd58dbc574bf8daf61c28be0ce50de11b08afe3dd068d958b9f159629e02d4fdf5698f37f59b1562bff265b5214269cd9c5c5efb3b00592d4f33f4cdc9759eeb8bf994c0d2307816a747f4a72a9f460323b84e046b24399cdcd567d1818160c2dfbeca8c0326adb30068f9e93"},"updateCenterVersion":"1"}
+{
+ "connectionCheckUrl": "https://google.com",
+ "generationTimestamp": "2024-12-11T10:09:53Z",
+ "id": "default",
+ "plugins": {
+  "sonar": {
+   "buildDate": "Feb 19, 2024",
+   "dependencies": [
+    {
+     "name": "commons-lang3-api",
+     "optional": false,
+     "version": "3.13.0-62.v7d18e55f51e2"
+    },
+    {
+     "name": "caffeine-api",
+     "optional": false,
+     "version": "3.1.8-133.v17b_1ff2e0599"
+    },
+    {
+     "name": "sonar-ws",
+     "optional": false,
+     "version": "10.1.0.73491"
+    },
+    {
+     "name": "okhttp-api",
+     "optional": false,
+     "version": "4.11.0-157.v6852a_a_fa_ec11"
+    },
+    {
+     "name": "maven-plugin",
+     "optional": true,
+     "version": "3.22"
+    },
+    {
+     "name": "configurationslicing",
+     "optional": true,
+     "version": "548.ve92d48e66b_f8"
+    },
+    {
+     "name": "workflow-support",
+     "optional": true,
+     "version": "848.v5a_383b_d14921"
+    },
+    {
+     "name": "credentials",
+     "optional": false,
+     "version": "1271.v54b_1c2c6388a_"
+    },
+    {
+     "name": "plain-credentials",
+     "optional": false,
+     "version": "143.v1b_df8b_d3b_e48"
+    },
+    {
+     "name": "commons-codec",
+     "optional": false,
+     "version": "1.13"
+    }
+   ],
+   "developers": [],
+   "excerpt": "The Jenkins Plugins Parent POM Project",
+   "gav": "org.jenkins-ci.plugins:sonar:2.17.2",
+   "labels": [
+    "external",
+    "report"
+   ],
+   "name": "sonar",
+   "releaseTimestamp": "2024-02-19T10:59:48.00Z",
+   "requiredCore": "2.387.3",
+   "scm": "https://github.com/jenkinsci/sonarqube-plugin",
+   "sha1": "Hof9lJGWPLd7M8Zbd4b0rZknI4o=",
+   "sha256": "pMtu7xju33NQfYfSYJ9rnKPg2cRhCWB7tx4no4LTXTE=",
+   "title": "SonarQube Scanner for Jenkins",
+   "url": "https:/kves13.github.io/plugins/sonar/2.17.2/sonar.hpi",
+   "version": "2.17.2",
+   "wiki": "https://github.com/jenkinsci/sonarqube-plugin"
+  }
+ },
+ "signature": {
+  "certificates": [
+   "MIIDBjCCAe6gAwIBAgIHBijUtVrizzANBgkqhkiG9w0BAQsFADAQMQ4wDAYDVQQDEwVJbnRlcjAeFw0yNDEyMDkxMTMxNDFaFw0zNDEyMDkxMTMxNDFaMBUxEzARBgNVBAMTCmplbmtpbnMtdWMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDNSE93BRZlCFQv1XO/f1DV/GcetxHWatUUWgNJd9ne1vDzdZmiKMr3sKG+CfwfJx5hiyUsy4YYpIH3XN/cTC3k99fxdAK2qAftZflzQgzfG+LCYhhRm3I5V2rr0D/zCeZEMsRnEK3CHXTS9gV57rk9xR+clkdq+L/vg9FsBMuEeQtWNztFaTdtMy6IAaTNcEhRvl+bWjfWjP3KAa35PSbt8aaPYb9GuuxQsWADIXXpeWlYJaJW5KsIxgjOu5FMTCf6BPHi3NlSs9qg9olST/cyMbofYdrMWAMqk1R+UJhwU1wi5pWISYs06PU4DuE8IlS5nRHz3ItGL9DiC4wLPJcBAgMBAAGjYDBeMA4GA1UdDwEB/wQEAwIHgDAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBT6hih1G4Kriq8GlXLWk2OECQxfhDANBgkqhkiG9w0BAQsFAAOCAQEAl+eE+0ZYovNslDHeDi3d0VDS1hWnNkwMp6ul9tYugbE5PpTxwcKOAPdPMmis9JyauqZkAmXe0yHr5iR1PKoRjbB6095++/GTvNQs4ZADLacvyHdmjB8l4i4w51ksPIp/kkRcVVSgsU31DObfFDjqX/jKHksbh0Sfmn5Eg79+yFdfS9B9l6Na35DomdquXMnUXDFHcoTH1HVQZGCC1Wcj6xfrMQeO+XtGxxHUXuN0dcaJ9EG6BGvETcE4WCH45qNy6Jv9lQBON5KJWthdY4ITj6TAiAnzkr+GKFT4EGaVGW3oBHXa/CUcsrtVyQ4GSQ0fTFMLp1fyz5WL3cKhNgBhTA=="
+  ],
+  "correct_digest": "kMUIPG1+aWmAfdQGo4W0s38OH/8=",
+  "correct_digest512": "f453ebbe8d155b66b928793eb4b50ebe9e3a26cc7e1c35ff76986a282c077b8c7873d5f0bdf14105f638a06861f0b74db5e5573c905f826e389da2e48918ecfb",
+  "correct_signature": "dyX5Wp7K5X6oFi1yk0izo6/v6O4iG4beOr6FszXXYsrxK4iy7peyCtKtH3Ff449rnQnwlAuW2K65GmnZmhTLG8jjIciGe7b/40q9oVkePpPD1qQ7EhK1ZJdR4M0dZmB/PPsJ5Z+0Eouci6gExR/b2E+DCwmOb/+KMucsmQIduAg74stznm3qchNaMXVsODn2eQN+gm4rNZRp5+6vwJL/jcNrqglnKPm01wgkS6+L5V6qQ3Tz5oQq7OPtm3ZTvc5DuHcSHUE1xtZFNjYup9zeT7qa0nC+/VdYCiLSulnitCZgV4TvuWsOs2eWy30KyMwhyGEs5T+t6qn2K/ZvttxryQ==",
+  "correct_signature512": "c008ffa0924960ddb63aef7922329b7fda9bf3d89a7f63c3deb5b42368173ea0f622783ae22e34449aae5640d4b341dee8c958495996bc54f2bb80d954c43aa65acb996dc36bb722a9f1d1d60934a567bd1ce0dd542f8246ada881269263ba5f7b05b04d89b2d8072b68358bb0c6561635b2ed4c5a58b1ab6aa442653eeb3c254ddc118a34abc98b63105434b863bf1499aa68fbb31b1772468da367dd30f56d946353b4253c704569a4a14fe45d1f6398cd1cf19ea3b5044fa1242abd7da3add91b56fdf4bdb8520e54e38c43b428e4a54c5b5cc1c9f212cd73e54f44f31165b3b7a52d50b8ef42dfe37160a85aa2c203586a3d52e4062ac8db7d46d0845bcd"
+ },
+ "updateCenterVersion": "1"
+}
 );
