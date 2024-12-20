@@ -1,7 +1,7 @@
 updateCenter.post(
 {
  "connectionCheckUrl": "https://google.com",
- "generationTimestamp": "2024-12-20T15:43:56Z",
+ "generationTimestamp": "2024-12-20T15:46:19Z",
  "id": "default",
  "plugins": {
   "apache-httpcomponents-client-4-api": {
@@ -1534,6 +1534,59 @@ updateCenter.post(
    "version": "2.14.0-136.v4d2b_0853615e",
    "wiki": "https://github.com/jenkinsci/mina-sshd-api-plugin"
   },
+  "okhttp-api": {
+   "buildDate": "Jan 29, 2024",
+   "dependencies": [
+    {
+     "name": "okio",
+     "optional": false,
+     "version": "3.5.0"
+    },
+    {
+     "name": "okhttp",
+     "optional": false,
+     "version": "4.11.0"
+    },
+    {
+     "name": "logging-interceptor",
+     "optional": false,
+     "version": "4.11.0"
+    },
+    {
+     "name": "kotlin-stdlib-common",
+     "optional": false,
+     "version": "1.9.22"
+    },
+    {
+     "name": "kotlin-stdlib-jdk8",
+     "optional": false,
+     "version": "1.9.22"
+    },
+    {
+     "name": "kotlin-stdlib",
+     "optional": false,
+     "version": "1.9.22"
+    },
+    {
+     "name": "kotlin-stdlib-jdk7",
+     "optional": false,
+     "version": "1.9.22"
+    }
+   ],
+   "developers": [],
+   "excerpt": "The Jenkins Plugins Parent POM Project",
+   "gav": "io.jenkins.plugins:okhttp-api:4.11.0-172.vda_da_1feeb_c6e",
+   "name": "okhttp-api",
+   "releaseTimestamp": "2024-01-29T10:12:48.00Z",
+   "requiredCore": "2.387.3",
+   "scm": "https://github.com/jenkinsci/okhttp-api-plugin",
+   "sha1": "LQDObmEWWsY5KP4qJl3yn4BLTMA=",
+   "sha256": "aBldaBDsq6/YFsWtZEVBiIdpPX1f139RN5a6qvC1kzA=",
+   "title": "OkHttp Plugin",
+   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/okhttp-api_4.11.0-172.vda_da_1feeb_c6e.hpi",
+   "version": "4.11.0-172.vda_da_1feeb_c6e",
+   "wiki": "https://github.com/jenkinsci/okhttp-api-plugin"
+  },
   "plain-credentials": {
    "buildDate": "Jun 19, 2024",
    "dependencies": [
@@ -1698,6 +1751,78 @@ updateCenter.post(
    "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/snakeyaml-api_2.3-123.v13484c65210a_.hpi",
    "version": "2.3-123.v13484c65210a_",
    "wiki": "https://github.com/jenkinsci/snakeyaml-api-plugin"
+  },
+  "sonar": {
+   "buildDate": "Feb 19, 2024",
+   "dependencies": [
+    {
+     "name": "commons-lang3-api",
+     "optional": false,
+     "version": "3.13.0-62.v7d18e55f51e2"
+    },
+    {
+     "name": "caffeine-api",
+     "optional": false,
+     "version": "3.1.8-133.v17b_1ff2e0599"
+    },
+    {
+     "name": "sonar-ws",
+     "optional": false,
+     "version": "10.1.0.73491"
+    },
+    {
+     "name": "okhttp-api",
+     "optional": false,
+     "version": "4.11.0-157.v6852a_a_fa_ec11"
+    },
+    {
+     "name": "maven-plugin",
+     "optional": true,
+     "version": "3.22"
+    },
+    {
+     "name": "configurationslicing",
+     "optional": true,
+     "version": "548.ve92d48e66b_f8"
+    },
+    {
+     "name": "workflow-support",
+     "optional": true,
+     "version": "848.v5a_383b_d14921"
+    },
+    {
+     "name": "credentials",
+     "optional": false,
+     "version": "1271.v54b_1c2c6388a_"
+    },
+    {
+     "name": "plain-credentials",
+     "optional": false,
+     "version": "143.v1b_df8b_d3b_e48"
+    },
+    {
+     "name": "commons-codec",
+     "optional": false,
+     "version": "1.13"
+    }
+   ],
+   "developers": [],
+   "excerpt": "The Jenkins Plugins Parent POM Project",
+   "gav": "org.jenkins-ci.plugins:sonar:2.17.2",
+   "labels": [
+    "external",
+    "report"
+   ],
+   "name": "sonar",
+   "releaseTimestamp": "2024-02-19T10:59:48.00Z",
+   "requiredCore": "2.387.3",
+   "scm": "https://github.com/jenkinsci/sonarqube-plugin",
+   "sha1": "Hof9lJGWPLd7M8Zbd4b0rZknI4o=",
+   "sha256": "pMtu7xju33NQfYfSYJ9rnKPg2cRhCWB7tx4no4LTXTE=",
+   "title": "SonarQube Scanner for Jenkins",
+   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/sonar_2.17.2.hpi",
+   "version": "2.17.2",
+   "wiki": "https://github.com/jenkinsci/sonarqube-plugin"
   },
   "ssh-credentials": {
    "buildDate": "Nov 26, 2024",
@@ -1972,10 +2097,10 @@ updateCenter.post(
   "certificates": [
    "MIIDBjCCAe6gAwIBAgIHBijUtVrizzANBgkqhkiG9w0BAQsFADAQMQ4wDAYDVQQDEwVJbnRlcjAeFw0yNDEyMDkxMTMxNDFaFw0zNDEyMDkxMTMxNDFaMBUxEzARBgNVBAMTCmplbmtpbnMtdWMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDNSE93BRZlCFQv1XO/f1DV/GcetxHWatUUWgNJd9ne1vDzdZmiKMr3sKG+CfwfJx5hiyUsy4YYpIH3XN/cTC3k99fxdAK2qAftZflzQgzfG+LCYhhRm3I5V2rr0D/zCeZEMsRnEK3CHXTS9gV57rk9xR+clkdq+L/vg9FsBMuEeQtWNztFaTdtMy6IAaTNcEhRvl+bWjfWjP3KAa35PSbt8aaPYb9GuuxQsWADIXXpeWlYJaJW5KsIxgjOu5FMTCf6BPHi3NlSs9qg9olST/cyMbofYdrMWAMqk1R+UJhwU1wi5pWISYs06PU4DuE8IlS5nRHz3ItGL9DiC4wLPJcBAgMBAAGjYDBeMA4GA1UdDwEB/wQEAwIHgDAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBT6hih1G4Kriq8GlXLWk2OECQxfhDANBgkqhkiG9w0BAQsFAAOCAQEAl+eE+0ZYovNslDHeDi3d0VDS1hWnNkwMp6ul9tYugbE5PpTxwcKOAPdPMmis9JyauqZkAmXe0yHr5iR1PKoRjbB6095++/GTvNQs4ZADLacvyHdmjB8l4i4w51ksPIp/kkRcVVSgsU31DObfFDjqX/jKHksbh0Sfmn5Eg79+yFdfS9B9l6Na35DomdquXMnUXDFHcoTH1HVQZGCC1Wcj6xfrMQeO+XtGxxHUXuN0dcaJ9EG6BGvETcE4WCH45qNy6Jv9lQBON5KJWthdY4ITj6TAiAnzkr+GKFT4EGaVGW3oBHXa/CUcsrtVyQ4GSQ0fTFMLp1fyz5WL3cKhNgBhTA=="
   ],
-  "correct_digest": "F/OMELIan92AIw5EQccDV81c80Q=",
-  "correct_digest512": "6e2f48a10605938de53314830d4683a69bce65ac594deacf97efc1ce757d6d906afecc8e3c4aadee9fc49088aa791ab1da234b68bbca3f2500f4c6826cdf98d1",
-  "correct_signature": "D8y27AYfqT3TbS23sMv2LHs5a+XhvOHsK5tu51G2ufiyk2VBJbyn7+B3UMdLOWT3UsPhAbtkso3+YdjcbhwH4mMAPu5pKp2B1lCmCDMmCdq1scG9PKDuGyCNTKY0fQLDYypPscwy1Ix13Iia3DvSTWlndi3ElSiUBtE0asc49U9kjJnRSbjn92M+ZdRgMTVT/HPTtEEiGT7ppMaMFuAh2/WW4URy97NXD57BapTHFFnt0D3fOQgPl9W7MmU9IrercgaWzNRCCmzq+nrDRbSaEvifrxkUCWJL1z89Qb20aGinCj0OUM1Um4FN4/xaVL6TiRgQUE3v/ZDjBc0WVr2xIQ==",
-  "correct_signature512": "89257bc741b87882e312cb8357fdc91f4b167fcdce37c8837b432813253fa3489ffa5e40dc746715d833a66d4bb1f6fbd508c8c6a37291af40ac66b53611c8fe0ccb3d1aeeed1cef79c3df357efd4560b85c67cd8af3871d8cd13466cc7b24c0286557d1c0452ee448dd6e6e2ad5169c95b00ba9ada0bdbfa4f4835bce7eb900b72a154f391ca540e47eb5fcce5ed1cafe0a35ccfca7103db4d7721f2f5d96f6c96a52bb9f0621e042ee904a23325858e759cfa2dc8249eaf4126f7702e1147920735cf102794e3c49f81e619aeeb6d94266e705ff156f55cf32e0cf77dfc2911135fbf99ca2a03b2a3c328eb46a2838e07a68ceee66b413273a730fe767da1f"
+  "correct_digest": "+iLjJZklzBiJGAKZ1zvsu0SKpPw=",
+  "correct_digest512": "a5029935b6d19ff4a79a542f53f8ebcb8554b13ae5aa3f6957a8531fc736faf71dca402fad6a187f05eac1c19bf660a12f060f27f21f014988c2036a1d88b785",
+  "correct_signature": "WPaDh72F1zC6ohTagBQCAIIzZzHmxyJbR+3DZtcdyev72JPpC8I6XoCRUNDIB2oDOpd8zU9kgoiGp0LUuph28/RHVz+jd/Cjutcv39/PQbjEbjm5PHspmG7g7QS5dQ6gKW/jZixSPgZM+sErjAlB505jtZTzNqjL7WkPqdTTzPBgdjUgSV/A52QjlsqLuZj2Kc+hIw25qz/Yq8q6n4gL/Y7PJ2mxi3ZQOwBSCINEliL1q+cbon/MF2lBWS7mLUfH2l1pRmYd2aNrHXv9f5adsGm05QAXuzdw+9ns4OwcjrFXyhHhtoy/c0z7BsUkGSPkz6otunzpka2xOakctTdvTQ==",
+  "correct_signature512": "17737bf04c98b6e2a368adab5f9e9f939914e0932689e0bb24aef931e72a0603cc913b070851354ce1f16c2238163ab041707fdff4ac21f1f1c76ef290f3be44adfe69486560d1d64635db6926e41774b26624807e45fb3cc4ec3afeef5a7f03069bb3cd0cb80299193a7763067f6394c4b173ec27152e1539f3181c8d1f5a1f1bd390c65ff7c8155dc7c1fa10a56b68080684ea4319fbf162a176abf012f45caa630017377875baaec40750d103e100f6c245220e99d60a2126cfe0694c4c6014a4cd03fb621e5b21d03151e67fd1f3331239cf117da9ece22c1d1b7667621cf3b04a391ceecf80597d0a9415b34f10e2014cb116a6fcb998b41591908e0b5a"
  }
 }
 );
