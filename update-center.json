@@ -221,7 +221,7 @@ updateCenter.post(
     }
    ],
    "developers": [],
-   "excerpt": "This plugin allows users to create \"folders\" to organize jobs. Users can define custom taxonomies (like\n    by project type, organization type etc). Folders are nestable and you can define views within folders. Maintained by CloudBees, Inc.",
+   "excerpt": "Folders are nestable and you can define views within folders. Maintained by CloudBees, Inc.",
    "gav": "org.jenkins-ci.plugins:cloudbees-folder:6.928.v7c780211d66e",
    "labels": [
     "ui",
