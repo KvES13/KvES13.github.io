@@ -1,7 +1,7 @@
 updateCenter.post(
 {
  "connectionCheckUrl": "https://google.com",
- "generationTimestamp": "2024-12-20T16:31:07Z",
+ "generationTimestamp": "2024-12-20T17:03:20Z",
  "id": "default",
  "plugins": {
   "cloudbees-folder": {
@@ -20,7 +20,7 @@ updateCenter.post(
     }
    ],
    "developers": [],
-   "excerpt": "This plugin allows users to create \"folders\" to organize jobs. Users can define custom taxonomies (like\n    by project type, organization type etc). Folders are nestable and you can define views within folders. Maintained by CloudBees, Inc.",
+   "excerpt": "This plugin allows users to create \"folders\" to organize jobs. Users can define custom taxonomies (like    by project type, organization type etc). Folders are nestable and you can define views within folders. Maintained by CloudBees, Inc.",
    "gav": "org.jenkins-ci.plugins:cloudbees-folder:6.928.v7c780211d66e",
    "labels": [
     "ui",
@@ -43,10 +43,10 @@ updateCenter.post(
   "certificates": [
    "MIIDBjCCAe6gAwIBAgIHBijUtVrizzANBgkqhkiG9w0BAQsFADAQMQ4wDAYDVQQDEwVJbnRlcjAeFw0yNDEyMDkxMTMxNDFaFw0zNDEyMDkxMTMxNDFaMBUxEzARBgNVBAMTCmplbmtpbnMtdWMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDNSE93BRZlCFQv1XO/f1DV/GcetxHWatUUWgNJd9ne1vDzdZmiKMr3sKG+CfwfJx5hiyUsy4YYpIH3XN/cTC3k99fxdAK2qAftZflzQgzfG+LCYhhRm3I5V2rr0D/zCeZEMsRnEK3CHXTS9gV57rk9xR+clkdq+L/vg9FsBMuEeQtWNztFaTdtMy6IAaTNcEhRvl+bWjfWjP3KAa35PSbt8aaPYb9GuuxQsWADIXXpeWlYJaJW5KsIxgjOu5FMTCf6BPHi3NlSs9qg9olST/cyMbofYdrMWAMqk1R+UJhwU1wi5pWISYs06PU4DuE8IlS5nRHz3ItGL9DiC4wLPJcBAgMBAAGjYDBeMA4GA1UdDwEB/wQEAwIHgDAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBT6hih1G4Kriq8GlXLWk2OECQxfhDANBgkqhkiG9w0BAQsFAAOCAQEAl+eE+0ZYovNslDHeDi3d0VDS1hWnNkwMp6ul9tYugbE5PpTxwcKOAPdPMmis9JyauqZkAmXe0yHr5iR1PKoRjbB6095++/GTvNQs4ZADLacvyHdmjB8l4i4w51ksPIp/kkRcVVSgsU31DObfFDjqX/jKHksbh0Sfmn5Eg79+yFdfS9B9l6Na35DomdquXMnUXDFHcoTH1HVQZGCC1Wcj6xfrMQeO+XtGxxHUXuN0dcaJ9EG6BGvETcE4WCH45qNy6Jv9lQBON5KJWthdY4ITj6TAiAnzkr+GKFT4EGaVGW3oBHXa/CUcsrtVyQ4GSQ0fTFMLp1fyz5WL3cKhNgBhTA=="
   ],
-  "correct_digest": "xcEwgNsP5up66BrRYPoW9UItCTc=",
-  "correct_digest512": "6df1f9d659d7a36e7316ae78998502a7341b4b9b7c67c0eba7e4086bd95c90d80a4340ae3a98bf90d2f27386323c815ae7a9e950acc523f53892dfc962e0d8b9",
-  "correct_signature": "c+HsJku+VFgCiay9BU5GwQH3QL6TB2adSn6fQfhMBp4dn6CVpsH2zJOLsoQHKf876+psmAsIaRj7Ncx/In/Sg7RJC1jFOjsyitfI0yuwgwFYbaB78vXvBh9hcyZFilCdk/+BpUR0qaJHxrVHR6aTWeE6h9t2YmmMQKeGCldHYq5cex+lUKKVWF/9vt9BoceOrZ+3yFgSa/7XQAZcCyFRuMW6KZQSPUFYgpTkdRtt0D51Z99t2CWqqa3DyPZC2Iq+/wphOPV5S3vInHmSLzCNEfQ/QOA7hEXTOpNq52QNnDU+uqgAfEQW9EksC5R5tMyDDTRyC2f0Hog0L3evDmwPkw==",
-  "correct_signature512": "74a33b77e5c456b3938638ea0cfecba5dc6804472ab43084b8106def92fd753ea2bd00cf142b7e7e0b122d2812d39739014341f4d709197af23c28d97fbe2357b32fa134f4695cff7573745cdcffe3872dc06c7d7e1b3faab93b88cd758fad5155208cbeed92a594a09c42770f6a987c9b7175d388b0a1448671c5a3ce9c5f90d31c8726271add4c755aa299f2e66ea5ab6169ce150451098f1616319ccf4c994d960a858a0d2c29c50bf776e6c5fd4861c8dae087252a9a326e628d884a9bf32126f2b976735d877b7f5567fcd49cc70a921a4810ec88cd14a23098e59124a3ca8e1ed23766a5c6358ccea70d0b9b499516ca4a4df2d075d2c54bceccea72d9"
+  "correct_digest": "rhTC5xiWdujTARLQEK2IXkp16MA=",
+  "correct_digest512": "add1b31c2ef2c4a28dbeb4afab35539084ce3fa07c8d4b9fdf664a2bd167e5c1c9ca6b2bd692b64b7e35938c4bf59fbabc6ce29af2b99ddf59bed145389ecad4",
+  "correct_signature": "WO0SNS/ANgTVAht4OQ/p49pFwhsXjXGrkXvbJua2RkRoiToXqAP94x8Q3mSYUZR4adyTnHgOQjOScafTBZTabKRvxE2uq3UU9yKbeUroL3hkMUgI3Nayi3pLEHINrn8hHEr4R/gfiMT1K/TiAEaqWZb7RTS6iUwCjztPPXkvCEHIqqEhBz44jRHMvZdG5WxwVTDbObNiFFqZTIo1Quez+RoeQuwc7+XARJg//m2f3AmX2d/M16xQb3LKd/a7HLEK9xs199h1i2dggGOS3iymTgTEKX4DSZo6O2O7EC2H0VQxWGuJckJoEztGob1JhD26C+Nrdj8jeo7Ut+pkRYd9/w==",
+  "correct_signature512": "92ba00487a45762251b0e65197f632df52c769a2668a095ce6bf7f63113fe27033251ff00dfd7a746d68bbda5f23a02254058b86970858271dcd1997a26ac02871d1cfa37b7bd4ce1e636875693ee3f1ef437c8e0195328999932bffb8c34e7dfdffa33cc0ba2368060469094aaa4c27bd1acc66d495f35821661b2e667b3e1045cbe0a9863d370262ce17b2a3050fc03d1abcb5b2ee15ec095aa70212b4d321508dc38cd49e5ebfc37bb6e555aa6a1d058c7dace88b2cb61523e0c87ac9c74eb8181fbff4e6a06a72b379515c7f5757374639e5728f61d3ac0ab3201037056131a2a9906892016c8eeea24ca2fbf70671ce1f4a51d41db4d2d4202a8cfbeaa1"
  }
 }
 );
