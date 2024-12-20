@@ -1,73 +1,9 @@
 updateCenter.post(
 {
  "connectionCheckUrl": "https://google.com",
- "generationTimestamp": "2024-12-20T16:21:24Z",
+ "generationTimestamp": "2024-12-20T16:31:07Z",
  "id": "default",
  "plugins": {
-  "apache-httpcomponents-client-4-api": {
-   "buildDate": "Aug 24, 2023",
-   "dependencies": [
-    {
-     "name": "fluent-hc",
-     "optional": false,
-     "version": "4.5.14"
-    },
-    {
-     "name": "httpasyncclient",
-     "optional": false,
-     "version": "4.1.5"
-    },
-    {
-     "name": "httpasyncclient-cache",
-     "optional": false,
-     "version": "4.1.5"
-    },
-    {
-     "name": "httpclient",
-     "optional": false,
-     "version": "4.5.14"
-    },
-    {
-     "name": "httpclient-cache",
-     "optional": false,
-     "version": "4.5.14"
-    },
-    {
-     "name": "httpcore",
-     "optional": false,
-     "version": "4.4.16"
-    },
-    {
-     "name": "httpcore-nio",
-     "optional": false,
-     "version": "4.4.16"
-    },
-    {
-     "name": "httpmime",
-     "optional": false,
-     "version": "4.5.14"
-    }
-   ],
-   "developers": [
-    {
-     "developerId": "markewaite",
-     "email": "mark.earl.waite@gmail.com",
-     "name": "Mark Waite"
-    }
-   ],
-   "excerpt": "Bundles Apache HttpComponents Client 4.x and allows it to be used by Jenkins plugins",
-   "gav": "org.jenkins-ci.plugins:apache-httpcomponents-client-4-api:4.5.14-208.v438351942757",
-   "name": "apache-httpcomponents-client-4-api",
-   "releaseTimestamp": "2023-08-24T21:28:18.00Z",
-   "requiredCore": "2.387.3",
-   "scm": "https://github.com/jenkinsci/apache-httpcomponents-client-4-api-plugin",
-   "sha1": "jDHXANudQYg/bCkX0mUUpPCAzwE=",
-   "sha256": "ntDM2iCg6hHiulvimfA7MGkt1aL5/ceFNxRQf9qKzQ8=",
-   "title": "Jenkins Apache HttpComponents Client 4.x API Plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/apache-httpcomponents-client-4-api_4.5.14-208.v438351942757.hpi",
-   "version": "4.5.14-208.v438351942757",
-   "wiki": "https://github.com/jenkinsci/apache-httpcomponents-client-4-api-plu"
-  },
   "cloudbees-folder": {
    "buildDate": "Feb 26, 2024",
    "compatibleSinceVersion": "5.2",
@@ -107,10 +43,10 @@ updateCenter.post(
   "certificates": [
    "MIIDBjCCAe6gAwIBAgIHBijUtVrizzANBgkqhkiG9w0BAQsFADAQMQ4wDAYDVQQDEwVJbnRlcjAeFw0yNDEyMDkxMTMxNDFaFw0zNDEyMDkxMTMxNDFaMBUxEzARBgNVBAMTCmplbmtpbnMtdWMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDNSE93BRZlCFQv1XO/f1DV/GcetxHWatUUWgNJd9ne1vDzdZmiKMr3sKG+CfwfJx5hiyUsy4YYpIH3XN/cTC3k99fxdAK2qAftZflzQgzfG+LCYhhRm3I5V2rr0D/zCeZEMsRnEK3CHXTS9gV57rk9xR+clkdq+L/vg9FsBMuEeQtWNztFaTdtMy6IAaTNcEhRvl+bWjfWjP3KAa35PSbt8aaPYb9GuuxQsWADIXXpeWlYJaJW5KsIxgjOu5FMTCf6BPHi3NlSs9qg9olST/cyMbofYdrMWAMqk1R+UJhwU1wi5pWISYs06PU4DuE8IlS5nRHz3ItGL9DiC4wLPJcBAgMBAAGjYDBeMA4GA1UdDwEB/wQEAwIHgDAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBT6hih1G4Kriq8GlXLWk2OECQxfhDANBgkqhkiG9w0BAQsFAAOCAQEAl+eE+0ZYovNslDHeDi3d0VDS1hWnNkwMp6ul9tYugbE5PpTxwcKOAPdPMmis9JyauqZkAmXe0yHr5iR1PKoRjbB6095++/GTvNQs4ZADLacvyHdmjB8l4i4w51ksPIp/kkRcVVSgsU31DObfFDjqX/jKHksbh0Sfmn5Eg79+yFdfS9B9l6Na35DomdquXMnUXDFHcoTH1HVQZGCC1Wcj6xfrMQeO+XtGxxHUXuN0dcaJ9EG6BGvETcE4WCH45qNy6Jv9lQBON5KJWthdY4ITj6TAiAnzkr+GKFT4EGaVGW3oBHXa/CUcsrtVyQ4GSQ0fTFMLp1fyz5WL3cKhNgBhTA=="
   ],
-  "correct_digest": "1BPwYUVz4guX/JQdAu/8vgOmlrk=",
-  "correct_digest512": "47f4c8ed236441b79edbd054f004714a5a5e13de5137d66ad842b81c8a2bd50755b317d0b4c28be7259f13012db35d3eb17114d2b29a59922e3506a7215abeeb",
-  "correct_signature": "ESmwPZA8VHJo3kuVI6szXPh6zHo4VYZDbRCPZu3X25XStE+orAQlNwJtZXe1YDj1ZsTIh9wj04oMic7I6WqVmEGmJu/tF23inQDo5OKhlCP5ZxLE4UpRHcNdoYTyArkTHPCuD/XEvEjgVdhLs2QImJktg2p+ubZGg842O/YHE1xIsBBzr7Sb8TlGOFdMVdoLczXFOZ68g1H8CkUZVfxuVV1qM88xjXW2zPPgL5rdI0DJ9d9EWjS3TOZxEn7NFuwCY6VpgAH3lwkipG/Fh/LSQ8JNGWeBBrvTfbr59EfJLIkV/9NZV1F4C6QopW7y74DeqFpTyclA8pb1aPIBlP8vQQ==",
-  "correct_signature512": "c1bb6ba22897c68fb4eacd64b2f5e6b5c310b73865735332980140497b154c769182b5ccc4b323ba6dd9704f85849cbc5313a95a75dfecad99c87f4129c97161bf1c4679257c1ae77bd33fa579662c08d6324c62637cc47288dd62375e18a59f3e9fb448ae4b5cfab0ca4344636b8b008839749408c5688c4f4ab34233534747f7d13204b02933bf45bdaef3c0ee1a9dc50a0f6dda613fe6904a2306a1999d69b01ebdab658c8fecfa955e1175eb3bae97a3548c5f777c5d76f23d546d49128c303d6baabfa936fbcb760bc1232792d593eb2e92d6d885ce6de998c94fa450dd394136ef1e472cfc373e0f3eaac5bdb95858429b838cba3321e0c7537270e7d3"
+  "correct_digest": "xcEwgNsP5up66BrRYPoW9UItCTc=",
+  "correct_digest512": "6df1f9d659d7a36e7316ae78998502a7341b4b9b7c67c0eba7e4086bd95c90d80a4340ae3a98bf90d2f27386323c815ae7a9e950acc523f53892dfc962e0d8b9",
+  "correct_signature": "c+HsJku+VFgCiay9BU5GwQH3QL6TB2adSn6fQfhMBp4dn6CVpsH2zJOLsoQHKf876+psmAsIaRj7Ncx/In/Sg7RJC1jFOjsyitfI0yuwgwFYbaB78vXvBh9hcyZFilCdk/+BpUR0qaJHxrVHR6aTWeE6h9t2YmmMQKeGCldHYq5cex+lUKKVWF/9vt9BoceOrZ+3yFgSa/7XQAZcCyFRuMW6KZQSPUFYgpTkdRtt0D51Z99t2CWqqa3DyPZC2Iq+/wphOPV5S3vInHmSLzCNEfQ/QOA7hEXTOpNq52QNnDU+uqgAfEQW9EksC5R5tMyDDTRyC2f0Hog0L3evDmwPkw==",
+  "correct_signature512": "74a33b77e5c456b3938638ea0cfecba5dc6804472ab43084b8106def92fd753ea2bd00cf142b7e7e0b122d2812d39739014341f4d709197af23c28d97fbe2357b32fa134f4695cff7573745cdcffe3872dc06c7d7e1b3faab93b88cd758fad5155208cbeed92a594a09c42770f6a987c9b7175d388b0a1448671c5a3ce9c5f90d31c8726271add4c755aa299f2e66ea5ab6169ce150451098f1616319ccf4c994d960a858a0d2c29c50bf776e6c5fd4861c8dae087252a9a326e628d884a9bf32126f2b976735d877b7f5567fcd49cc70a921a4810ec88cd14a23098e59124a3ca8e1ed23766a5c6358ccea70d0b9b499516ca4a4df2d075d2c54bceccea72d9"
  }
 }
 );
