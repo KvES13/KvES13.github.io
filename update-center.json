@@ -1,218 +1,9 @@
 updateCenter.post(
 {
  "connectionCheckUrl": "https://google.com",
- "generationTimestamp": "2024-12-11T11:07:11Z",
+ "generationTimestamp": "2024-12-20T15:12:41Z",
  "id": "default",
  "plugins": {
-  "bouncycastle-api": {
-   "buildDate": "Jul 05, 2024",
-   "dependencies": [
-    {
-     "name": "bcpkix-jdk18on",
-     "optional": false,
-     "version": "1.78.1"
-    },
-    {
-     "name": "bcprov-jdk18on",
-     "optional": false,
-     "version": "1.78.1"
-    },
-    {
-     "name": "bcutil-jdk18on",
-     "optional": false,
-     "version": "1.78.1"
-    }
-   ],
-   "developers": [
-    {
-     "developerId": "alvarolobato",
-     "email": "alobato@cloudbees.com",
-     "name": "Alvaro Lobato"
-    }
-   ],
-   "excerpt": "This plugin provides an stable API to Bouncy Castle related tasks.",
-   "gav": "org.jenkins-ci.plugins:bouncycastle-api:2.30.1.78.1-248.ve27176eb_46cb_",
-   "labels": [
-    "library"
-   ],
-   "name": "bouncycastle-api",
-   "releaseTimestamp": "2024-07-05T15:24:12.00Z",
-   "requiredCore": "2.361.4",
-   "scm": "https://github.com/jenkinsci/bouncycastle-api-plugin",
-   "sha1": "6ze2/L+TglJMeIlC255yFH5Oz1I=",
-   "sha256": "BSxDdShFiAapRk1ZpXcULcXIhI4waxnLqGXgJ9GtIDE=",
-   "title": "bouncycastle API Plugin",
-   "url": "https://kves13.github.io/plugins/bouncycastle-api_2.30.1.78.1-248.ve27176eb_46cb_.hpi",
-   "version": "2.30.1.78.1-248.ve27176eb_46cb_",
-   "wiki": "https://github.com/jenkinsci/bouncycastle-api-plugin"
-  },
-  "caffeine-api": {
-   "buildDate": "Aug 15, 2023",
-   "dependencies": [
-    {
-     "name": "caffeine",
-     "optional": false,
-     "version": "3.1.8"
-    }
-   ],
-   "developers": [],
-   "excerpt": "Jenkins plugin that packages Caffeine for use by other plugins.",
-   "gav": "io.jenkins.plugins:caffeine-api:3.1.8-133.v17b_1ff2e0599",
-   "name": "caffeine-api",
-   "releaseTimestamp": "2023-08-15T09:39:26.00Z",
-   "requiredCore": "2.361.4",
-   "scm": "https://github.com/jenkinsci/caffeine-api-plugin/",
-   "sha1": "Ib/p/8MagqNXw5k3Fi32bD7SOwY=",
-   "sha256": "psYUZVvFBzRb8WtcRhW7CbGiD5NMm/CxXALM6kpcBAA=",
-   "title": "Caffeine API Plugin",
-   "url": "https://kves13.github.io/plugins/caffeine-api_3.1.8-133.v17b_1ff2e0599.hpi",
-   "version": "3.1.8-133.v17b_1ff2e0599",
-   "wiki": "https://github.com/jenkinsci/caffeine-api-plugin"
-  },
-  "commons-lang3-api": {
-   "buildDate": "Sep 02, 2024",
-   "dependencies": [
-    {
-     "name": "commons-lang3",
-     "optional": false,
-     "version": "3.17.0"
-    }
-   ],
-   "developers": [],
-   "excerpt": "The Jenkins Plugins Parent POM Project",
-   "gav": "io.jenkins.plugins:commons-lang3-api:3.17.0-84.vb_b_938040b_078",
-   "name": "commons-lang3-api",
-   "releaseTimestamp": "2024-09-02T00:25:04.00Z",
-   "requiredCore": "2.361.4",
-   "scm": "https://github.com/jenkinsci/commons-lang3-api-plugin",
-   "sha1": "/vn01BALYWBge4bu25pYQ1xR9S0=",
-   "sha256": "kLFVIbIa0UYrGKb4iU/xosEIDF05jKi7kowGLJksP8Q=",
-   "title": "commons-lang3 v3.x Jenkins API Plugin",
-   "url": "https://kves13.github.io/plugins/commons-lang3-api_3.17.0-84.vb_b_938040b_078.hpi",
-   "version": "3.17.0-84.vb_b_938040b_078",
-   "wiki": "https://github.com/jenkinsci/commons-lang3-api-plugin"
-  },
-  "credentials": {
-   "buildDate": "Oct 01, 2024",
-   "compatibleSinceVersion": "1354",
-   "dependencies": [
-    {
-     "name": "structs",
-     "optional": false,
-     "version": "338.v848422169819"
-    },
-    {
-     "name": "configuration-as-code",
-     "optional": true,
-     "version": "1836.vccda_4a_122a_a_e"
-    },
-    {
-     "name": "bouncycastle-api",
-     "optional": false,
-     "version": "2.30.1.78.1-248.ve27176eb_46cb_"
-    },
-    {
-     "name": "metainf-services",
-     "optional": false,
-     "version": "1.11"
-    }
-   ],
-   "developers": [
-    {
-     "developerId": "stephenconnolly",
-     "email": "",
-     "name": "Stephen Connolly"
-    }
-   ],
-   "excerpt": "This plugin allows you to store credentials in Jenkins.",
-   "gav": "org.jenkins-ci.plugins:credentials:1380.va_435002fa_924",
-   "name": "credentials",
-   "releaseTimestamp": "2024-10-01T22:18:40.00Z",
-   "requiredCore": "2.426.3",
-   "scm": "https://github.com/jenkinsci/credentials-plugin",
-   "sha1": "dWQ/iZTsSQ68VE99w3/O5eliv88=",
-   "sha256": "lphsQTbiloZXLi2D3pEnpIOUyNNFQW2zqfVSESmPHa8=",
-   "title": "Credentials Plugin",
-   "url": "https://kves13.github.io/plugins/credentials_1380.va_435002fa_924.hpi",
-   "version": "1380.va_435002fa_924",
-   "wiki": "https://github.com/jenkinsci/credentials-plugin/blob/master/docs/RE"
-  },
-  "okhttp-api": {
-   "buildDate": "Jan 29, 2024",
-   "dependencies": [
-    {
-     "name": "okio",
-     "optional": false,
-     "version": "3.5.0"
-    },
-    {
-     "name": "okhttp",
-     "optional": false,
-     "version": "4.11.0"
-    },
-    {
-     "name": "logging-interceptor",
-     "optional": false,
-     "version": "4.11.0"
-    },
-    {
-     "name": "kotlin-stdlib-common",
-     "optional": false,
-     "version": "1.9.22"
-    },
-    {
-     "name": "kotlin-stdlib-jdk8",
-     "optional": false,
-     "version": "1.9.22"
-    },
-    {
-     "name": "kotlin-stdlib",
-     "optional": false,
-     "version": "1.9.22"
-    },
-    {
-     "name": "kotlin-stdlib-jdk7",
-     "optional": false,
-     "version": "1.9.22"
-    }
-   ],
-   "developers": [],
-   "excerpt": "The Jenkins Plugins Parent POM Project",
-   "gav": "io.jenkins.plugins:okhttp-api:4.11.0-172.vda_da_1feeb_c6e",
-   "name": "okhttp-api",
-   "releaseTimestamp": "2024-01-29T10:12:48.00Z",
-   "requiredCore": "2.387.3",
-   "scm": "https://github.com/jenkinsci/okhttp-api-plugin",
-   "sha1": "LQDObmEWWsY5KP4qJl3yn4BLTMA=",
-   "sha256": "aBldaBDsq6/YFsWtZEVBiIdpPX1f139RN5a6qvC1kzA=",
-   "title": "OkHttp Plugin",
-   "url": "https://kves13.github.io/plugins/okhttp-api_4.11.0-172.vda_da_1feeb_c6e.hpi",
-   "version": "4.11.0-172.vda_da_1feeb_c6e",
-   "wiki": "https://github.com/jenkinsci/okhttp-api-plugin"
-  },
-  "plain-credentials": {
-   "buildDate": "Jun 19, 2024",
-   "dependencies": [
-    {
-     "name": "credentials",
-     "optional": false,
-     "version": "1344.v5a_3f65a_1e173"
-    }
-   ],
-   "developers": [],
-   "excerpt": "Allows use of plain strings and files as credentials.",
-   "gav": "org.jenkins-ci.plugins:plain-credentials:183.va_de8f1dd5a_2b_",
-   "name": "plain-credentials",
-   "releaseTimestamp": "2024-06-19T12:22:44.00Z",
-   "requiredCore": "2.426.3",
-   "scm": "https://github.com/jenkinsci/plain-credentials-plugin",
-   "sha1": "zIZQ4FkR3g8sXnq/92wR3rbD9MU=",
-   "sha256": "lCLqp2XmWR48hFv+ycEF9WAKBYlRopQK7Fvg7XbqgTo=",
-   "title": "Plain Credentials Plugin",
-   "url": "https://kves13.github.io/plugins/plain-credentials_183.va_de8f1dd5a_2b_.hpi",
-   "version": "183.va_de8f1dd5a_2b_",
-   "wiki": "https://github.com/jenkinsci/plain-credentials-plugin"
-  },
   "sonar": {
    "buildDate": "Feb 19, 2024",
    "dependencies": [
@@ -281,37 +72,20 @@ updateCenter.post(
    "sha1": "Hof9lJGWPLd7M8Zbd4b0rZknI4o=",
    "sha256": "pMtu7xju33NQfYfSYJ9rnKPg2cRhCWB7tx4no4LTXTE=",
    "title": "SonarQube Scanner for Jenkins",
-   "url": "https://kves13.github.io/plugins/sonar_2.17.2.hpi",
+   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/sonar_2.17.2.hpi",
    "version": "2.17.2",
    "wiki": "https://github.com/jenkinsci/sonarqube-plugin"
-  },
-  "structs": {
-   "buildDate": "Jun 18, 2024",
-   "dependencies": [],
-   "developers": [],
-   "excerpt": "Library plugin for DSL plugins that need names for Jenkins objects.",
-   "gav": "org.jenkins-ci.plugins:structs:338.v848422169819",
-   "name": "structs",
-   "releaseTimestamp": "2024-06-18T14:54:00.00Z",
-   "requiredCore": "2.414.3",
-   "scm": "https://github.com/jenkinsci/structs-plugin",
-   "sha1": "6K9qjPCCLfjiTPLOO+4b0O9jIRI=",
-   "sha256": "fK6BGjl4j1ipVHdGMfCiedS/XjJnKDcmioU4Imeor2Y=",
-   "title": "Structs Plugin",
-   "url": "https://kves13.github.io/plugins/structs_338.v848422169819.hpi",
-   "version": "338.v848422169819",
-   "wiki": "https://github.com/jenkinsci/structs-plugin"
   }
  },
+ "updateCenterVersion": "1",
  "signature": {
   "certificates": [
    "MIIDBjCCAe6gAwIBAgIHBijUtVrizzANBgkqhkiG9w0BAQsFADAQMQ4wDAYDVQQDEwVJbnRlcjAeFw0yNDEyMDkxMTMxNDFaFw0zNDEyMDkxMTMxNDFaMBUxEzARBgNVBAMTCmplbmtpbnMtdWMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDNSE93BRZlCFQv1XO/f1DV/GcetxHWatUUWgNJd9ne1vDzdZmiKMr3sKG+CfwfJx5hiyUsy4YYpIH3XN/cTC3k99fxdAK2qAftZflzQgzfG+LCYhhRm3I5V2rr0D/zCeZEMsRnEK3CHXTS9gV57rk9xR+clkdq+L/vg9FsBMuEeQtWNztFaTdtMy6IAaTNcEhRvl+bWjfWjP3KAa35PSbt8aaPYb9GuuxQsWADIXXpeWlYJaJW5KsIxgjOu5FMTCf6BPHi3NlSs9qg9olST/cyMbofYdrMWAMqk1R+UJhwU1wi5pWISYs06PU4DuE8IlS5nRHz3ItGL9DiC4wLPJcBAgMBAAGjYDBeMA4GA1UdDwEB/wQEAwIHgDAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBT6hih1G4Kriq8GlXLWk2OECQxfhDANBgkqhkiG9w0BAQsFAAOCAQEAl+eE+0ZYovNslDHeDi3d0VDS1hWnNkwMp6ul9tYugbE5PpTxwcKOAPdPMmis9JyauqZkAmXe0yHr5iR1PKoRjbB6095++/GTvNQs4ZADLacvyHdmjB8l4i4w51ksPIp/kkRcVVSgsU31DObfFDjqX/jKHksbh0Sfmn5Eg79+yFdfS9B9l6Na35DomdquXMnUXDFHcoTH1HVQZGCC1Wcj6xfrMQeO+XtGxxHUXuN0dcaJ9EG6BGvETcE4WCH45qNy6Jv9lQBON5KJWthdY4ITj6TAiAnzkr+GKFT4EGaVGW3oBHXa/CUcsrtVyQ4GSQ0fTFMLp1fyz5WL3cKhNgBhTA=="
   ],
-  "correct_digest": "O9x9Ce5BaIHdbA1DO2BDz7OocFU=",
-  "correct_digest512": "07169a0f4e6def2f21d255428605eb9b58f8a190a41e337d0dae778324becb0da5585886caf7cc0628a31e32bbf879dd20f4ce6260a075b7c85a78a706d10917",
-  "correct_signature": "ZgqqlkUhCYi4VJ94CgBLVP9FaGXMSu0VFCk7X006Va/fD0qOcSlriFpVewdfNRjOLATARZ3Q4iYAnOHg/Tii1NO9UheMl0gjfJPS/Ajxew+MTzgyDII8jRMFvnl4+DvLPfMs0FAYVocVu2YXWeKT8RE6drLVGDnN6TC+OveqAKO12IpTHtjLRdzI6VykJnkyNzAnQ+nuxzIhVtobPArGrQDBPpzUVk1gIkPuV7C26EP6ObYyRmsQYJKtEGIgaC43HC4gF0s36V6ce1cjO0rtfcpz575V/FIdqDDfQ3DCARDdUmXfKTIljC0Ab32UVoivf/ckor5N/72kvpjwXiEMnw==",
-  "correct_signature512": "04720dff6c2cb0bc178b3526429d67816a3702fb2bf175eaab9483d3c1e5d1da35311a96e608e70a33940db8aa8cf86b94648ce56d235bea465ff8746e07abfe69b5cb2a3eb4ef1cc6e2b7f55594759c79fb07a7fedbc9bf600d269226752b77d15c61a012974c94d04f752a8d39e51ef6483406a9cad470232f8e890b35000fbc484dfd29748ae9f2cce168b691d41db19a9db516e524a0852c9788ce1d03515a36661ab9c57cd3fc85e50f7d93b65fdbcffdd302752023ab6a3a440afee9a1c404d12de1e243c545300a3f04fbc8d3f4b4af689d33e261699cc290f013830cb03d286cc6b4b88c9db0994661fc82fa92bd75a85176c9421953bcb7c8649a99"
- },
- "updateCenterVersion": "1"
+  "correct_digest": "tQYg2OiKutDkyZhQJRzDUbpds6Y=",
+  "correct_digest512": "07c74bee700fdaf0351165b3cf00c130748b3bf5f3738ff3ec8a343841121d0d367d120697ed445f05cc17b86e9d0e90b11b061c77b55474a0c2c7a9e3a04dbb",
+  "correct_signature": "OwWD50ptnuazCsZBpotB8NbKobZU+2+25YCuZuyMV9/8RauCMyBr6I3zNfKguVy8xQvXBzhQ401ypedSCrxjMuVsKr2dpdKT89zkUwSIBLXealSz97TRDB8+P695I3F13+18hq6TtNkYlXNoV1mgxDQjMcvlLq8cswMkentZFBac2LTLRD6zuf/ExoZwkHwXoRMPyL/VF7mVclDgNuw6j1MDA/40vpxSWw3/pr2kRzP9vRI5Jyjsk5ofSVgefPzS9KynifF/YUeT89NrvOHFOHcW+NuWfvACwN4Zlbnz1ngI06nvvuKQUzR7b23N5sYAQagTsWGBjPAD5/iZuaIf9Q==",
+  "correct_signature512": "5fcea1620adcfd89bab74e2ae9a9e7ac3d580170bd8959fa145d8efe8bb8006ec3f41e7e146af99f2c8a720970e498fc7790d13acd09982352dd8f057cba7803de6263ff880b3c76d3bdcfcb9c9b7459ce40ff48384ff7c67452a262af2187b4e634f6e31bbb0c9ca442e72a8bb57b54d997b344dcbb5cc657ebf201ced0d5f57091ac68bc9ab0355cc56b02dfca638fa7bd8ba2f9ccd521d8f768e09920cb2ecb7c3ad93649858aab9f67c035bf61b5275d09519f486384e990b90a726cb3fcda6d083fd6f1b794e9d27c8c7d9d24b60635767c9524b492434fc3cc0f9a1eeffc6faa41ab8096afe2d378bf43b48fdace30b3d951dadab9c16c88cd2d5b817a"
+ }
 }
 );
