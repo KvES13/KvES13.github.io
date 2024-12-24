@@ -1,53 +1,12 @@
 updateCenter.post(
 {
  "connectionCheckUrl": "https://google.com",
- "generationTimestamp": "2024-12-20T17:09:23Z",
+ "generationTimestamp": "2024-12-24T15:18:07Z",
  "id": "default",
  "plugins": {
   "apache-httpcomponents-client-4-api": {
    "buildDate": "Aug 24, 2023",
-   "dependencies": [
-    {
-     "name": "fluent-hc",
-     "optional": false,
-     "version": "4.5.14"
-    },
-    {
-     "name": "httpasyncclient",
-     "optional": false,
-     "version": "4.1.5"
-    },
-    {
-     "name": "httpasyncclient-cache",
-     "optional": false,
-     "version": "4.1.5"
-    },
-    {
-     "name": "httpclient",
-     "optional": false,
-     "version": "4.5.14"
-    },
-    {
-     "name": "httpclient-cache",
-     "optional": false,
-     "version": "4.5.14"
-    },
-    {
-     "name": "httpcore",
-     "optional": false,
-     "version": "4.4.16"
-    },
-    {
-     "name": "httpcore-nio",
-     "optional": false,
-     "version": "4.4.16"
-    },
-    {
-     "name": "httpmime",
-     "optional": false,
-     "version": "4.5.14"
-    }
-   ],
+   "dependencies": [],
    "developers": [
     {
      "developerId": "markewaite",
@@ -64,39 +23,13 @@ updateCenter.post(
    "sha1": "jDHXANudQYg/bCkX0mUUpPCAzwE=",
    "sha256": "ntDM2iCg6hHiulvimfA7MGkt1aL5/ceFNxRQf9qKzQ8=",
    "title": "Jenkins Apache HttpComponents Client 4.x API Plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/apache-httpcomponents-client-4-api_4.5.14-208.v438351942757.hpi",
+   "url": "https://kves13.github.io/plugins/apache-httpcomponents-client-4-api_4.5.14-208.v438351942757.hpi",
    "version": "4.5.14-208.v438351942757",
    "wiki": "https://github.com/jenkinsci/apache-httpcomponents-client-4-api-plu"
   },
   "asm-api": {
    "buildDate": "Oct 06, 2024",
-   "dependencies": [
-    {
-     "name": "asm",
-     "optional": false,
-     "version": "9.7.1"
-    },
-    {
-     "name": "asm-analysis",
-     "optional": false,
-     "version": "9.7.1"
-    },
-    {
-     "name": "asm-commons",
-     "optional": false,
-     "version": "9.7.1"
-    },
-    {
-     "name": "asm-tree",
-     "optional": false,
-     "version": "9.7.1"
-    },
-    {
-     "name": "asm-util",
-     "optional": false,
-     "version": "9.7.1"
-    }
-   ],
+   "dependencies": [],
    "developers": [],
    "excerpt": "The Jenkins Plugins Parent POM Project",
    "gav": "io.jenkins.plugins:asm-api:9.7.1-95.v9f552033802a_",
@@ -107,7 +40,7 @@ updateCenter.post(
    "sha1": "6xBjpZLTuFZddunFeflRyYRXcp0=",
    "sha256": "KM6xEXR7guzfc/KGiKjNafVroIghokd17bskovHUNP8=",
    "title": "ASM API Plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/asm-api_9.7.1-95.v9f552033802a_.hpi",
+   "url": "https://kves13.github.io/plugins/asm-api_9.7.1-95.v9f552033802a_.hpi",
    "version": "9.7.1-95.v9f552033802a_",
    "wiki": "https://github.com/jenkinsci/asm-api-plugin"
   },
@@ -136,13 +69,23 @@ updateCenter.post(
    "sha1": "QuqWktyYheuRmGRiGydsWLnqPFI=",
    "sha256": "aElAgGaHpt2aeTLUXYBtXDVcHDW9clp00EAQz/Ip050=",
    "title": "Authentication Tokens API Plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/authentication-tokens_1.119.v50285141b_7e1.hpi",
+   "url": "https://kves13.github.io/plugins/authentication-tokens_1.119.v50285141b_7e1.hpi",
    "version": "1.119.v50285141b_7e1",
    "wiki": "https://github.com/jenkinsci/authentication-tokens-plugin"
   },
   "bootstrap5-api": {
    "buildDate": "Mar 06, 2024",
    "dependencies": [
+    {
+     "name": "commons-lang3-api",
+     "optional": false,
+     "version": "3.13.0-62.v7d18e55f51e2"
+    },
+    {
+     "name": "commons-text-api",
+     "optional": false,
+     "version": "1.11.0-95.v22a_d30ee5d36"
+    },
     {
      "name": "font-awesome-api",
      "optional": false,
@@ -165,29 +108,13 @@ updateCenter.post(
    "sha1": "lAvG1niTvb5jkZqjUdeGFK/6H00=",
    "sha256": "4ND3yS2uL3l3wozralslYrcBLRcEiIv/O8F2q9oMsmk=",
    "title": "Bootstrap 5 API Plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/bootstrap5-api_5.3.3-1.hpi",
+   "url": "https://kves13.github.io/plugins/bootstrap5-api_5.3.3-1.hpi",
    "version": "5.3.3-1",
    "wiki": "https://github.com/jenkinsci/bootstrap5-api-plugin"
   },
   "bouncycastle-api": {
    "buildDate": "Jul 05, 2024",
-   "dependencies": [
-    {
-     "name": "bcpkix-jdk18on",
-     "optional": false,
-     "version": "1.78.1"
-    },
-    {
-     "name": "bcprov-jdk18on",
-     "optional": false,
-     "version": "1.78.1"
-    },
-    {
-     "name": "bcutil-jdk18on",
-     "optional": false,
-     "version": "1.78.1"
-    }
-   ],
+   "dependencies": [],
    "developers": [
     {
      "developerId": "alvarolobato",
@@ -207,27 +134,62 @@ updateCenter.post(
    "sha1": "6ze2/L+TglJMeIlC255yFH5Oz1I=",
    "sha256": "BSxDdShFiAapRk1ZpXcULcXIhI4waxnLqGXgJ9GtIDE=",
    "title": "bouncycastle API Plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/bouncycastle-api_2.30.1.78.1-248.ve27176eb_46cb_.hpi",
+   "url": "https://kves13.github.io/plugins/bouncycastle-api_2.30.1.78.1-248.ve27176eb_46cb_.hpi",
    "version": "2.30.1.78.1-248.ve27176eb_46cb_",
    "wiki": "https://github.com/jenkinsci/bouncycastle-api-plugin"
+  },
+  "branch-api": {
+   "buildDate": "Dec 18, 2024",
+   "compatibleSinceVersion": "2.0.0",
+   "dependencies": [
+    {
+     "name": "caffeine-api",
+     "optional": false,
+     "version": "3.1.8-133.v17b_1ff2e0599"
+    },
+    {
+     "name": "ionicons-api",
+     "optional": false,
+     "version": "74.v93d5eb_813d5f"
+    },
+    {
+     "name": "cloudbees-folder",
+     "optional": false,
+     "version": "6.901.vb_4c7a_da_75da_3"
+    },
+    {
+     "name": "scm-api",
+     "optional": false,
+     "version": "696.v778d637b_a_762"
+    }
+   ],
+   "developers": [
+    {
+     "developerId": "stephenconnolly",
+     "email": "",
+     "name": "Stephen Connolly"
+    }
+   ],
+   "excerpt": "This plugin provides an API for multiple branch based projects.",
+   "gav": "org.jenkins-ci.plugins:branch-api:2.1202.vc51412f3ed84",
+   "name": "branch-api",
+   "releaseTimestamp": "2024-12-18T19:34:18.00Z",
+   "requiredCore": "2.440.3",
+   "scm": "https://github.com/jenkinsci/branch-api-plugin",
+   "sha1": "PgAEBd9Rx3v8bclAa0Yb8QQTS9Y=",
+   "sha256": "s5MYMHjXYxpO+9uDWCeMA2a5Bv1CfuD6Td311WX46/k=",
+   "title": "Branch API Plugin",
+   "url": "https://kves13.github.io/plugins/branch-api_2.1202.vc51412f3ed84.hpi",
+   "version": "2.1202.vc51412f3ed84",
+   "wiki": "https://github.com/jenkinsci/branch-api-plugin"
   },
   "build-pipeline-plugin": {
    "buildDate": "May 17, 2024",
    "dependencies": [
     {
-     "name": "mockito-core",
-     "optional": false,
-     "version": ""
-    },
-    {
-     "name": "spock-core",
-     "optional": false,
-     "version": "1.0-groovy-2.4"
-    },
-    {
-     "name": "groovy-all",
-     "optional": false,
-     "version": ""
+     "name": "dashboard-view",
+     "optional": true,
+     "version": "2.487.vcf0ff9008a_c0"
     },
     {
      "name": "jquery",
@@ -235,59 +197,14 @@ updateCenter.post(
      "version": "1.7.2-1"
     },
     {
-     "name": "cglib-nodep",
-     "optional": false,
-     "version": "2.2"
-    },
-    {
-     "name": "objenesis",
-     "optional": false,
-     "version": "3.3"
-    },
-    {
-     "name": "dashboard-view",
-     "optional": true,
-     "version": ""
-    },
-    {
-     "name": "parameterized-trigger",
-     "optional": false,
-     "version": "2.45"
-    },
-    {
      "name": "matrix-auth",
      "optional": false,
      "version": "3.1.5"
     },
     {
-     "name": "selenium-firefox-driver",
+     "name": "parameterized-trigger",
      "optional": false,
-     "version": "${selenium.version}"
-    },
-    {
-     "name": "selenium-chrome-driver",
-     "optional": false,
-     "version": "${selenium.version}"
-    },
-    {
-     "name": "selenium-ie-driver",
-     "optional": false,
-     "version": "${selenium.version}"
-    },
-    {
-     "name": "selenium-support",
-     "optional": false,
-     "version": "${selenium.version}"
-    },
-    {
-     "name": "commons-beanutils",
-     "optional": false,
-     "version": ""
-    },
-    {
-     "name": "test-annotations",
-     "optional": false,
-     "version": ""
+     "version": "2.45"
     }
    ],
    "developers": [
@@ -316,7 +233,7 @@ updateCenter.post(
    "sha1": "5W+w26rTI/JZwb3jYPueZQh7zmA=",
    "sha256": "Fn7YDztwg6zkkLVNLO5T6pLCMD37zM1a6mfopZUPi2w=",
    "title": "Build Pipeline Plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/build-pipeline-plugin_2.0.2.hpi",
+   "url": "https://kves13.github.io/plugins/build-pipeline-plugin_2.0.2.hpi",
    "version": "2.0.2",
    "wiki": "https://github.com/jenkinsci/build-pipeline-plugin"
   },
@@ -342,19 +259,13 @@ updateCenter.post(
    "sha1": "96VQSFuHDvQ/rXju6nWtzFYzV1k=",
    "sha256": "ah0IiueJPMOZ9gAmWwoNBtMb84MBI3vsoCF6XJ8OwFc=",
    "title": "built-on-column",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/built-on-column_1.4.hpi",
+   "url": "https://kves13.github.io/plugins/built-on-column_1.4.hpi",
    "version": "1.4",
    "wiki": "https://github.com/jenkinsci/built-on-column-plugin"
   },
   "caffeine-api": {
    "buildDate": "Aug 15, 2023",
-   "dependencies": [
-    {
-     "name": "caffeine",
-     "optional": false,
-     "version": "3.1.8"
-    }
-   ],
+   "dependencies": [],
    "developers": [],
    "excerpt": "Jenkins plugin that packages Caffeine for use by other plugins.",
    "gav": "io.jenkins.plugins:caffeine-api:3.1.8-133.v17b_1ff2e0599",
@@ -365,7 +276,7 @@ updateCenter.post(
    "sha1": "Ib/p/8MagqNXw5k3Fi32bD7SOwY=",
    "sha256": "psYUZVvFBzRb8WtcRhW7CbGiD5NMm/CxXALM6kpcBAA=",
    "title": "Caffeine API Plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/caffeine-api_3.1.8-133.v17b_1ff2e0599.hpi",
+   "url": "https://kves13.github.io/plugins/caffeine-api_3.1.8-133.v17b_1ff2e0599.hpi",
    "version": "3.1.8-133.v17b_1ff2e0599",
    "wiki": "https://github.com/jenkinsci/caffeine-api-plugin"
   },
@@ -373,9 +284,9 @@ updateCenter.post(
    "buildDate": "Sep 04, 2024",
    "dependencies": [
     {
-     "name": "plugin-util-api",
+     "name": "commons-lang3-api",
      "optional": false,
-     "version": "4.1.0"
+     "version": "3.14.0-76.vda_5591261cfe"
     },
     {
      "name": "commons-text-api",
@@ -383,14 +294,9 @@ updateCenter.post(
      "version": "1.12.0-119.v73ef73f2345d"
     },
     {
-     "name": "commons-lang3-api",
+     "name": "plugin-util-api",
      "optional": false,
-     "version": "3.14.0-76.vda_5591261cfe"
-    },
-    {
-     "name": "display-url-api",
-     "optional": false,
-     "version": "2.204.vf6fddd8a_8b_e9"
+     "version": "4.1.0"
     },
     {
      "name": "workflow-step-api",
@@ -401,6 +307,11 @@ updateCenter.post(
      "name": "workflow-support",
      "optional": false,
      "version": "907.v6713a_ed8a_573"
+    },
+    {
+     "name": "display-url-api",
+     "optional": false,
+     "version": "2.204.vf6fddd8a_8b_e9"
     }
    ],
    "developers": [
@@ -419,7 +330,7 @@ updateCenter.post(
    "sha1": "aGUxSAk11ONvYYKR5rEzU/UqoC8=",
    "sha256": "LcHlHIbksWwX5mpF2UztnQ7koLJH33ekp5a9PJNHG5g=",
    "title": "Checks API plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/checks-api_2.2.1.hpi",
+   "url": "https://kves13.github.io/plugins/checks-api_2.2.1.hpi",
    "version": "2.2.1",
    "wiki": "https://github.com/jenkinsci/checks-api-plugin"
   },
@@ -452,19 +363,13 @@ updateCenter.post(
    "sha1": "TmjpHhq92klEOVkE5Ee70cypDm8=",
    "sha256": "krStsXSEUwJtmr790oIIFwad6EkowHPGZt4HpaYZzss=",
    "title": "Folders Plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/cloudbees-folder_6.928.v7c780211d66e.hpi",
+   "url": "https://kves13.github.io/plugins/cloudbees-folder_6.928.v7c780211d66e.hpi",
    "version": "6.928.v7c780211d66e",
    "wiki": "https://github.com/jenkinsci/cloudbees-folder-plugin/"
   },
   "commons-lang3-api": {
    "buildDate": "Sep 02, 2024",
-   "dependencies": [
-    {
-     "name": "commons-lang3",
-     "optional": false,
-     "version": "3.17.0"
-    }
-   ],
+   "dependencies": [],
    "developers": [],
    "excerpt": "The Jenkins Plugins Parent POM Project",
    "gav": "io.jenkins.plugins:commons-lang3-api:3.17.0-84.vb_b_938040b_078",
@@ -475,18 +380,13 @@ updateCenter.post(
    "sha1": "/vn01BALYWBge4bu25pYQ1xR9S0=",
    "sha256": "kLFVIbIa0UYrGKb4iU/xosEIDF05jKi7kowGLJksP8Q=",
    "title": "commons-lang3 v3.x Jenkins API Plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/commons-lang3-api_3.17.0-84.vb_b_938040b_078.hpi",
+   "url": "https://kves13.github.io/plugins/commons-lang3-api_3.17.0-84.vb_b_938040b_078.hpi",
    "version": "3.17.0-84.vb_b_938040b_078",
    "wiki": "https://github.com/jenkinsci/commons-lang3-api-plugin"
   },
   "commons-text-api": {
    "buildDate": "Aug 01, 2024",
    "dependencies": [
-    {
-     "name": "commons-text",
-     "optional": false,
-     "version": "1.12.0"
-    },
     {
      "name": "commons-lang3-api",
      "optional": false,
@@ -503,7 +403,7 @@ updateCenter.post(
    "sha1": "PehEOhPfJgtGtQv6W2cUGTrIqSE=",
    "sha256": "Kr6KWMmmogESHtoklMKlx7V1hTbmEwmzM+1yvfuoV8k=",
    "title": "commons-text API Plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/commons-text-api_1.12.0-129.v99a_50df237f7.hpi",
+   "url": "https://kves13.github.io/plugins/commons-text-api_1.12.0-129.v99a_50df237f7.hpi",
    "version": "1.12.0-129.v99a_50df237f7",
    "wiki": "https://github.com/jenkinsci/commons-text-api-plugin"
   },
@@ -511,9 +411,9 @@ updateCenter.post(
    "buildDate": "Aug 05, 2023",
    "dependencies": [
     {
-     "name": "token-macro",
-     "optional": false,
-     "version": "359.vb_cde11682e0c"
+     "name": "maven-plugin",
+     "optional": true,
+     "version": "3.16"
     },
     {
      "name": "run-condition",
@@ -521,9 +421,9 @@ updateCenter.post(
      "version": "1.5"
     },
     {
-     "name": "maven-plugin",
-     "optional": true,
-     "version": "3.16"
+     "name": "token-macro",
+     "optional": false,
+     "version": "359.vb_cde11682e0c"
     }
    ],
    "developers": [
@@ -550,7 +450,7 @@ updateCenter.post(
    "sha1": "gquXYfYH4OutuY3ViRM1u4RoiOI=",
    "sha256": "0s5AuGq8Qjcghazgprs3hdFK4n8IJHCd/CorOJGp6Kg=",
    "title": "Conditional BuildStep",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/conditional-buildstep_1.4.3.hpi",
+   "url": "https://kves13.github.io/plugins/conditional-buildstep_1.4.3.hpi",
    "version": "1.4.3",
    "wiki": "https://plugins.jenkins.io/conditional-buildstep/"
   },
@@ -562,11 +462,6 @@ updateCenter.post(
      "name": "maven-plugin",
      "optional": true,
      "version": "3.23"
-    },
-    {
-     "name": "structs",
-     "optional": false,
-     "version": "338.v848422169819"
     },
     {
      "name": "apache-httpcomponents-client-4-api",
@@ -582,6 +477,11 @@ updateCenter.post(
      "name": "matrix-project",
      "optional": true,
      "version": "822.824.v14451b_c0fd42"
+    },
+    {
+     "name": "structs",
+     "optional": false,
+     "version": "338.v848422169819"
     }
    ],
    "developers": [],
@@ -598,7 +498,7 @@ updateCenter.post(
    "sha1": "Lqb51N1N2R0JDQEbi62GN6Um1sM=",
    "sha256": "u8XcMbHzSxEmhB7ibPib6sBkgJRbgzOsaNfgbKukjxw=",
    "title": "Copy Artifact Plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/copyartifact_757.v05365583a_455.hpi",
+   "url": "https://kves13.github.io/plugins/copyartifact_757.v05365583a_455.hpi",
    "version": "757.v05365583a_455",
    "wiki": "https://github.com/jenkinsci/copyartifact-plugin"
   },
@@ -606,11 +506,6 @@ updateCenter.post(
    "buildDate": "Oct 01, 2024",
    "compatibleSinceVersion": "1354",
    "dependencies": [
-    {
-     "name": "structs",
-     "optional": false,
-     "version": "338.v848422169819"
-    },
     {
      "name": "configuration-as-code",
      "optional": true,
@@ -622,9 +517,9 @@ updateCenter.post(
      "version": "2.30.1.78.1-248.ve27176eb_46cb_"
     },
     {
-     "name": "metainf-services",
+     "name": "structs",
      "optional": false,
-     "version": "1.11"
+     "version": "338.v848422169819"
     }
    ],
    "developers": [
@@ -643,13 +538,18 @@ updateCenter.post(
    "sha1": "dWQ/iZTsSQ68VE99w3/O5eliv88=",
    "sha256": "lphsQTbiloZXLi2D3pEnpIOUyNNFQW2zqfVSESmPHa8=",
    "title": "Credentials Plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/credentials_1380.va_435002fa_924.hpi",
+   "url": "https://kves13.github.io/plugins/credentials_1380.va_435002fa_924.hpi",
    "version": "1380.va_435002fa_924",
    "wiki": "https://github.com/jenkinsci/credentials-plugin/blob/master/docs/RE"
   },
   "credentials-binding": {
    "buildDate": "Jul 03, 2024",
    "dependencies": [
+    {
+     "name": "workflow-step-api",
+     "optional": false,
+     "version": "657.v03b_e8115821b_"
+    },
     {
      "name": "credentials",
      "optional": false,
@@ -661,19 +561,14 @@ updateCenter.post(
      "version": "179.vc5cb_98f6db_38"
     },
     {
-     "name": "workflow-step-api",
+     "name": "ssh-credentials",
      "optional": false,
-     "version": "657.v03b_e8115821b_"
+     "version": "337.v395d2403ccd4"
     },
     {
      "name": "structs",
      "optional": false,
      "version": "337.v1b_04ea_4df7c8"
-    },
-    {
-     "name": "ssh-credentials",
-     "optional": false,
-     "version": "337.v395d2403ccd4"
     }
    ],
    "developers": [],
@@ -689,7 +584,7 @@ updateCenter.post(
    "sha1": "TAjNH6KSPzPFzP4i6wOiJ01UST8=",
    "sha256": "VkG98O20CBp7suYChRxDOVc56zCqhw6YDR59EuEcY5U=",
    "title": "Credentials Binding Plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/credentials-binding_681.vf91669a_32e45.hpi",
+   "url": "https://kves13.github.io/plugins/credentials-binding_681.vf91669a_32e45.hpi",
    "version": "681.vf91669a_32e45",
    "wiki": "https://github.com/jenkinsci/credentials-binding-plugin"
   },
@@ -731,7 +626,7 @@ updateCenter.post(
    "sha1": "f9WKoS3CDUlZHXg4rOuVZjKNX3Q=",
    "sha256": "PewvcKcxFSe6tc8qR8g9w4g6u+PPLe94o3822xkm98M=",
    "title": "Dashboard View",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/dashboard-view_2.521.v339b_a_f4d8da_8.hpi",
+   "url": "https://kves13.github.io/plugins/dashboard-view_2.521.v339b_a_f4d8da_8.hpi",
    "version": "2.521.v339b_a_f4d8da_8",
    "wiki": "https://github.com/jenkinsci/dashboard-view-plugin"
   },
@@ -754,19 +649,13 @@ updateCenter.post(
    "sha1": "jdIPKHao1dU+bOazEa+yKoM3/k8=",
    "sha256": "ylxOLSJ7BOlcFppyHKt+oqNvIZggGE9TTV3+3GsDSyc=",
    "title": "Display URL API",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/display-url-api_2.204.vf6fddd8a_8b_e9.hpi",
+   "url": "https://kves13.github.io/plugins/display-url-api_2.204.vf6fddd8a_8b_e9.hpi",
    "version": "2.204.vf6fddd8a_8b_e9",
    "wiki": "https://github.com/jenkinsci/display-url-api-plugin"
   },
   "durable-task": {
    "buildDate": "Nov 22, 2024",
-   "dependencies": [
-    {
-     "name": "lib-durable-task",
-     "optional": false,
-     "version": "48.v72b_86b_9ca_8e1"
-    }
-   ],
+   "dependencies": [],
    "developers": [],
    "excerpt": "Library offering an extension point for processes which can run outside of Jenkins yet be monitored.",
    "gav": "org.jenkins-ci.plugins:durable-task:581.v299a_5609d767",
@@ -780,7 +669,7 @@ updateCenter.post(
    "sha1": "88rvKPsuHE8XrrI+3EuAR2h7eF0=",
    "sha256": "Gug6cu8+zhrr3jUKcE4CXY9/A14bEC0CRMkmqAb8kWs=",
    "title": "Durable Task Plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/durable-task_581.v299a_5609d767.hpi",
+   "url": "https://kves13.github.io/plugins/durable-task_581.v299a_5609d767.hpi",
    "version": "581.v299a_5609d767",
    "wiki": "https://github.com/jenkinsci/durable-task-plugin"
   },
@@ -788,9 +677,19 @@ updateCenter.post(
    "buildDate": "Oct 28, 2024",
    "dependencies": [
     {
-     "name": "plugin-util-api",
+     "name": "bootstrap5-api",
      "optional": false,
-     "version": "4.1.0"
+     "version": "5.3.3-1"
+    },
+    {
+     "name": "commons-lang3-api",
+     "optional": false,
+     "version": "3.14.0-76.vda_5591261cfe"
+    },
+    {
+     "name": "commons-text-api",
+     "optional": false,
+     "version": "1.12.0-119.v73ef73f2345d"
     },
     {
      "name": "font-awesome-api",
@@ -798,19 +697,14 @@ updateCenter.post(
      "version": "6.5.2-1"
     },
     {
-     "name": "bootstrap5-api",
-     "optional": false,
-     "version": "5.3.3-1"
-    },
-    {
      "name": "jquery3-api",
      "optional": false,
      "version": "3.7.1-2"
     },
     {
-     "name": "echarts-build-trends",
+     "name": "plugin-util-api",
      "optional": false,
-     "version": "4.6.0"
+     "version": "4.1.0"
     },
     {
      "name": "jackson2-api",
@@ -834,19 +728,13 @@ updateCenter.post(
    "sha1": "rl/XlQTUCXsbwnDh8KzlUjtqiF4=",
    "sha256": "y4H7cJVl56JITaF8vaI58qGlFrbtwzj3Le7jUIYXX+Q=",
    "title": "ECharts API Plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/echarts-api_5.5.1-4.hpi",
+   "url": "https://kves13.github.io/plugins/echarts-api_5.5.1-4.hpi",
    "version": "5.5.1-4",
    "wiki": "https://github.com/jenkinsci/echarts-api-plugin"
   },
   "eddsa-api": {
    "buildDate": "May 16, 2024",
-   "dependencies": [
-    {
-     "name": "eddsa",
-     "optional": false,
-     "version": "0.3.0"
-    }
-   ],
+   "dependencies": [],
    "developers": [],
    "excerpt": "The Jenkins Plugins Parent POM Project",
    "gav": "io.jenkins.plugins:eddsa-api:0.3.0-4.v84c6f0f4969e",
@@ -857,7 +745,7 @@ updateCenter.post(
    "sha1": "tmJVMPjSmzcyd2vZ3oXokiXXlrE=",
    "sha256": "q1attx8x5WJ6xnUcOT6GkpFsG4K/a1+DmfmojP2MuUQ=",
    "title": "EDDSA API Plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/eddsa-api_0.3.0-4.v84c6f0f4969e.hpi",
+   "url": "https://kves13.github.io/plugins/eddsa-api_0.3.0-4.v84c6f0f4969e.hpi",
    "version": "0.3.0-4.v84c6f0f4969e",
    "wiki": "https://github.com/jenkinsci/eddsa-api-plugin"
   },
@@ -916,44 +804,13 @@ updateCenter.post(
    "sha1": "Iy1jZN/ixU114xx+u3F1L1AgHOk=",
    "sha256": "FundKmZEWB5I2ggZhCgV2nOOMp6+pl3LMPxazJwgXrA=",
    "title": "Environment Injector Plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/envinject_2.919.v009a_a_1067cd0.hpi",
+   "url": "https://kves13.github.io/plugins/envinject_2.919.v009a_a_1067cd0.hpi",
    "version": "2.919.v009a_a_1067cd0",
    "wiki": "https://github.com/jenkinsci/envinject-plugin"
   },
   "envinject-api": {
    "buildDate": "Apr 10, 2022",
-   "dependencies": [
-    {
-     "name": "envinject-lib",
-     "optional": false,
-     "version": "1.168.v835cb_a_16513d"
-    },
-    {
-     "name": "jenkins-core",
-     "optional": false,
-     "version": "2.332.1"
-    },
-    {
-     "name": "javax.servlet-api",
-     "optional": false,
-     "version": "3.1.0"
-    },
-    {
-     "name": "jcip-annotations",
-     "optional": true,
-     "version": "1.0"
-    },
-    {
-     "name": "animal-sniffer-annotations",
-     "optional": true,
-     "version": "1.21"
-    },
-    {
-     "name": "commons-logging",
-     "optional": false,
-     "version": "1.2"
-    }
-   ],
+   "dependencies": [],
    "developers": [
     {
      "developerId": "oleg_nenashev",
@@ -975,13 +832,23 @@ updateCenter.post(
    "sha1": "0wjSY3xszj//knwMQOs44HR0O/U=",
    "sha256": "Rj79Bwsp0IfS24I3IPa0+rE/Fh1A3O6tq/vPZOSkTGA=",
    "title": "EnvInject API Plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/envinject-api_1.199.v3ce31253ed13.hpi",
+   "url": "https://kves13.github.io/plugins/envinject-api_1.199.v3ce31253ed13.hpi",
    "version": "1.199.v3ce31253ed13",
    "wiki": "https://github.com/jenkinsci/envinject-api-plugin"
   },
   "font-awesome-api": {
    "buildDate": "Sep 08, 2024",
    "dependencies": [
+    {
+     "name": "commons-lang3-api",
+     "optional": false,
+     "version": "3.14.0-76.vda_5591261cfe"
+    },
+    {
+     "name": "commons-text-api",
+     "optional": false,
+     "version": "1.12.0-119.v73ef73f2345d"
+    },
     {
      "name": "plugin-util-api",
      "optional": false,
@@ -1004,7 +871,7 @@ updateCenter.post(
    "sha1": "XqdcUfI+5vvLuC+SGoBJH5C7bzE=",
    "sha256": "bA1bZog3JAP5jCrWPrMmnToEstTfURpuOLIMHKJTtbA=",
    "title": "Font Awesome API Plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/font-awesome-api_6.6.0-2.hpi",
+   "url": "https://kves13.github.io/plugins/font-awesome-api_6.6.0-2.hpi",
    "version": "6.6.0-2",
    "wiki": "https://github.com/jenkinsci/font-awesome-api-plugin"
   },
@@ -1012,14 +879,24 @@ updateCenter.post(
    "buildDate": "Oct 04, 2024",
    "dependencies": [
     {
-     "name": "structs",
-     "optional": false,
-     "version": "338.v848422169819"
+     "name": "configuration-as-code",
+     "optional": true,
+     "version": "1850.va_a_8c31d3158b_"
     },
     {
-     "name": "git-client",
+     "name": "workflow-scm-step",
      "optional": false,
-     "version": "5.0.0"
+     "version": "427.v4ca_6512e7df1"
+    },
+    {
+     "name": "workflow-step-api",
+     "optional": false,
+     "version": "678.v3ee58b_469476"
+    },
+    {
+     "name": "credentials-binding",
+     "optional": false,
+     "version": "681.vf91669a_32e45"
     },
     {
      "name": "credentials",
@@ -1027,9 +904,29 @@ updateCenter.post(
      "version": "1378.v81ef4269d764"
     },
     {
-     "name": "ssh-credentials",
+     "name": "git-client",
      "optional": false,
-     "version": "343.v884f71d78167"
+     "version": "5.0.0"
+    },
+    {
+     "name": "mailer",
+     "optional": false,
+     "version": "472.vf7c289a_4b_420"
+    },
+    {
+     "name": "matrix-project",
+     "optional": true,
+     "version": "822.824.v14451b_c0fd42"
+    },
+    {
+     "name": "parameterized-trigger",
+     "optional": true,
+     "version": "806.vf6fff3e28c3e"
+    },
+    {
+     "name": "promoted-builds",
+     "optional": true,
+     "version": "965.vcda_c6a_e0998f"
     },
     {
      "name": "scm-api",
@@ -1042,49 +939,19 @@ updateCenter.post(
      "version": "1362.v67dc1f0e1b_b_3"
     },
     {
-     "name": "workflow-step-api",
+     "name": "ssh-credentials",
      "optional": false,
-     "version": "678.v3ee58b_469476"
+     "version": "343.v884f71d78167"
     },
     {
-     "name": "workflow-scm-step",
+     "name": "structs",
      "optional": false,
-     "version": "427.v4ca_6512e7df1"
-    },
-    {
-     "name": "matrix-project",
-     "optional": true,
-     "version": "822.824.v14451b_c0fd42"
-    },
-    {
-     "name": "mailer",
-     "optional": false,
-     "version": "472.vf7c289a_4b_420"
-    },
-    {
-     "name": "credentials-binding",
-     "optional": false,
-     "version": "681.vf91669a_32e45"
-    },
-    {
-     "name": "parameterized-trigger",
-     "optional": true,
-     "version": "806.vf6fff3e28c3e"
+     "version": "338.v848422169819"
     },
     {
      "name": "token-macro",
      "optional": true,
      "version": "400.v35420b_922dcb_"
-    },
-    {
-     "name": "promoted-builds",
-     "optional": true,
-     "version": "965.vcda_c6a_e0998f"
-    },
-    {
-     "name": "configuration-as-code",
-     "optional": true,
-     "version": "1850.va_a_8c31d3158b_"
     }
    ],
    "developers": [
@@ -1116,23 +983,13 @@ updateCenter.post(
    "sha1": "gsal836FBMlYpjLYCigA2vsgUC4=",
    "sha256": "54B/RQRJ2wfUJt5WdAKoaP2nKhWsXhlTEgtCIGIiNqU=",
    "title": "Git plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/git_5.5.2.hpi",
+   "url": "https://kves13.github.io/plugins/git_5.5.2.hpi",
    "version": "5.5.2",
    "wiki": "https://github.com/jenkinsci/git-plugin"
   },
   "git-client": {
    "buildDate": "Jun 14, 2024",
    "dependencies": [
-    {
-     "name": "configuration-as-code",
-     "optional": true,
-     "version": "1810.v9b_c30a_249a_4c"
-    },
-    {
-     "name": "gson-api",
-     "optional": false,
-     "version": "2.11.0-41.v019fcf6125dc"
-    },
     {
      "name": "mina-sshd-api-common",
      "optional": false,
@@ -1144,29 +1001,14 @@ updateCenter.post(
      "version": "2.12.1-113.v4d3ea_5eb_7f72"
     },
     {
-     "name": "org.eclipse.jgit",
+     "name": "gson-api",
      "optional": false,
-     "version": "6.10.0.202406032230-r"
+     "version": "2.11.0-41.v019fcf6125dc"
     },
     {
-     "name": "org.eclipse.jgit.http.apache",
-     "optional": false,
-     "version": "6.10.0.202406032230-r"
-    },
-    {
-     "name": "org.eclipse.jgit.http.server",
-     "optional": false,
-     "version": "6.10.0.202406032230-r"
-    },
-    {
-     "name": "org.eclipse.jgit.lfs",
-     "optional": false,
-     "version": "6.10.0.202406032230-r"
-    },
-    {
-     "name": "org.eclipse.jgit.ssh.apache",
-     "optional": false,
-     "version": "6.10.0.202406032230-r"
+     "name": "configuration-as-code",
+     "optional": true,
+     "version": "1810.v9b_c30a_249a_4c"
     },
     {
      "name": "apache-httpcomponents-client-4-api",
@@ -1228,7 +1070,7 @@ updateCenter.post(
    "sha1": "UAUfk+snFTrL1BL3FMzRKQnbWwE=",
    "sha256": "UAkTARupR8nLUuzu6xaR57iGwQMLfZhI0C9scixA4CA=",
    "title": "Jenkins Git client plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/git-client_5.0.0.hpi",
+   "url": "https://kves13.github.io/plugins/git-client_5.0.0.hpi",
    "version": "5.0.0",
    "wiki": "https://github.com/jenkinsci/git-client-plugin"
   },
@@ -1262,9 +1104,14 @@ updateCenter.post(
      "version": "2.12.7-29.v5a_b_e3a_82269a_"
     },
     {
-     "name": "resteasy-client",
+     "name": "workflow-job",
      "optional": false,
-     "version": "3.15.6.Final"
+     "version": "1385.vb_58b_86ea_fff1"
+    },
+    {
+     "name": "workflow-step-api",
+     "optional": false,
+     "version": "657.v03b_e8115821b_"
     },
     {
      "name": "apache-httpcomponents-client-4-api",
@@ -1282,14 +1129,14 @@ updateCenter.post(
      "version": "2.200.vb_9327d658781"
     },
     {
-     "name": "git",
-     "optional": false,
-     "version": "5.2.1"
-    },
-    {
      "name": "git-client",
      "optional": false,
      "version": "4.7.0"
+    },
+    {
+     "name": "git",
+     "optional": false,
+     "version": "5.2.1"
     },
     {
      "name": "jackson2-api",
@@ -1315,21 +1162,6 @@ updateCenter.post(
      "name": "ssh-credentials",
      "optional": true,
      "version": "337.v395d2403ccd4"
-    },
-    {
-     "name": "workflow-job",
-     "optional": false,
-     "version": "1385.vb_58b_86ea_fff1"
-    },
-    {
-     "name": "workflow-step-api",
-     "optional": false,
-     "version": "657.v03b_e8115821b_"
-    },
-    {
-     "name": "pojobuilder",
-     "optional": false,
-     "version": "4.3.0"
     }
    ],
    "developers": [
@@ -1351,19 +1183,13 @@ updateCenter.post(
    "sha1": "0rsKdhDgJo1lwOV37AiAdht6ABg=",
    "sha256": "Bhfd94uJ21pkoXkM7nXZBaY8rk1Gkhoev2fsdY3eNqs=",
    "title": "GitLab Plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/gitlab-plugin_1.8.2.hpi",
+   "url": "https://kves13.github.io/plugins/gitlab-plugin_1.8.2.hpi",
    "version": "1.8.2",
    "wiki": "https://github.com/jenkinsci/gitlab-plugin"
   },
   "gson-api": {
    "buildDate": "May 28, 2024",
-   "dependencies": [
-    {
-     "name": "gson",
-     "optional": false,
-     "version": "2.11.0"
-    }
-   ],
+   "dependencies": [],
    "developers": [],
    "excerpt": "The Jenkins Plugins Parent POM Project",
    "gav": "io.jenkins.plugins:gson-api:2.11.0-41.v019fcf6125dc",
@@ -1374,7 +1200,7 @@ updateCenter.post(
    "sha1": "puOPZYz/KgPNsJZHkzcMifRD8Po=",
    "sha256": "0B3qsYxK3MgLNKn1B1VHOMbUfrR7r4VjX5YRr0tW/SQ=",
    "title": "Gson API Plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/gson-api_2.11.0-41.v019fcf6125dc.hpi",
+   "url": "https://kves13.github.io/plugins/gson-api_2.11.0-41.v019fcf6125dc.hpi",
    "version": "2.11.0-41.v019fcf6125dc",
    "wiki": "https://github.com/jenkinsci/gson-api-plugin"
   },
@@ -1397,7 +1223,7 @@ updateCenter.post(
    "sha1": "ZU3f6kY+onxPNv57bz8/h0/sd2s=",
    "sha256": "xD3AHiAf03o4pjB9rMhKzmDhYI+WYjaR4dvh/cbYqRE=",
    "title": "Instance Identity",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/instance-identity_201.vd2a_b_5a_468a_a_6.hpi",
+   "url": "https://kves13.github.io/plugins/instance-identity_201.vd2a_b_5a_468a_a_6.hpi",
    "version": "201.vd2a_b_5a_468a_a_6",
    "wiki": "https://github.com/jenkinsci/instance-identity-plugin"
   },
@@ -1420,68 +1246,13 @@ updateCenter.post(
    "sha1": "KqttuVcDA7snBH0/UF0u3742ICU=",
    "sha256": "aBqcwwg6CJ1S7zmCBr/FIdqr88aC7wpXvnPg/t3GLo8=",
    "title": "Ionicons API",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/ionicons-api_74.v93d5eb_813d5f.hpi",
+   "url": "https://kves13.github.io/plugins/ionicons-api_74.v93d5eb_813d5f.hpi",
    "version": "74.v93d5eb_813d5f",
    "wiki": "https://github.com/jenkinsci/ionicons-api-plugin"
   },
   "jackson2-api": {
    "buildDate": "Mar 18, 2024",
    "dependencies": [
-    {
-     "name": "jackson-databind",
-     "optional": false,
-     "version": "2.17.0"
-    },
-    {
-     "name": "jackson-datatype-jsr310",
-     "optional": false,
-     "version": "2.17.0"
-    },
-    {
-     "name": "jackson-datatype-jdk8",
-     "optional": false,
-     "version": "2.17.0"
-    },
-    {
-     "name": "jackson-datatype-json-org",
-     "optional": false,
-     "version": "2.17.0"
-    },
-    {
-     "name": "jackson-module-parameter-names",
-     "optional": false,
-     "version": "2.17.0"
-    },
-    {
-     "name": "jackson-core",
-     "optional": false,
-     "version": "2.17.0"
-    },
-    {
-     "name": "jackson-annotations",
-     "optional": false,
-     "version": "2.17.0"
-    },
-    {
-     "name": "jackson-module-jaxb-annotations",
-     "optional": false,
-     "version": "2.17.0"
-    },
-    {
-     "name": "jackson-dataformat-cbor",
-     "optional": false,
-     "version": "2.17.0"
-    },
-    {
-     "name": "jackson-dataformat-xml",
-     "optional": false,
-     "version": "2.17.0"
-    },
-    {
-     "name": "jackson-dataformat-yaml",
-     "optional": false,
-     "version": "2.17.0"
-    },
     {
      "name": "javax-activation-api",
      "optional": false,
@@ -1493,14 +1264,14 @@ updateCenter.post(
      "version": "2.3.9-1"
     },
     {
-     "name": "snakeyaml-api",
-     "optional": false,
-     "version": "2.2-111.vc6598e30cc65"
-    },
-    {
      "name": "json-api",
      "optional": false,
      "version": "20231013-17.v1c97069404b_e"
+    },
+    {
+     "name": "snakeyaml-api",
+     "optional": false,
+     "version": "2.2-111.vc6598e30cc65"
     }
    ],
    "developers": [
@@ -1529,24 +1300,13 @@ updateCenter.post(
    "sha1": "yJMgXl+1GAiX9sDB5u46B0vR+Nc=",
    "sha256": "Xi2RlyTaCkfNAb259hTI/JCGLAnOUG2bLKNAJSutIl4=",
    "title": "Jackson 2 API Plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/jackson2-api_2.17.0-379.v02de8ec9f64c.hpi",
+   "url": "https://kves13.github.io/plugins/jackson2-api_2.17.0-379.v02de8ec9f64c.hpi",
    "version": "2.17.0-379.v02de8ec9f64c",
    "wiki": "https://github.com/jenkinsci/jackson2-api-plugin"
   },
   "jakarta-activation-api": {
    "buildDate": "Mar 04, 2024",
-   "dependencies": [
-    {
-     "name": "jakarta.activation-api",
-     "optional": false,
-     "version": "2.1.3"
-    },
-    {
-     "name": "angus-activation",
-     "optional": false,
-     "version": "2.0.2"
-    }
-   ],
+   "dependencies": [],
    "developers": [],
    "excerpt": "Plugin providing the Jakarta Activation API for other plugins",
    "gav": "io.jenkins.plugins:jakarta-activation-api:2.1.3-1",
@@ -1557,7 +1317,7 @@ updateCenter.post(
    "sha1": "Vj3GxlcmS8xs34KXs9vvlFJMj0M=",
    "sha256": "3cPfXYw5oqIIZh1pJ3EgsREzc7BNBuIlBhW+KmVAS4M=",
    "title": "Jakarta Activation API",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/jakarta-activation-api_2.1.3-1.hpi",
+   "url": "https://kves13.github.io/plugins/jakarta-activation-api_2.1.3-1.hpi",
    "version": "2.1.3-1",
    "wiki": "https://github.com/jenkinsci/jakarta-activation-api-plugin"
   },
@@ -1568,16 +1328,6 @@ updateCenter.post(
      "name": "jakarta-activation-api",
      "optional": false,
      "version": "2.1.3-1"
-    },
-    {
-     "name": "jakarta.mail-api",
-     "optional": false,
-     "version": "2.1.3"
-    },
-    {
-     "name": "angus-mail",
-     "optional": false,
-     "version": "2.0.3"
     }
    ],
    "developers": [],
@@ -1590,7 +1340,7 @@ updateCenter.post(
    "sha1": "PXjqN4VQMTOUwHdSW4mfcGRNt1g=",
    "sha256": "hRqyL/Bkf02CuqtOUmxtDds+ZK1JacUWEWs3Tvd45Tk=",
    "title": "Jakarta Mail API",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/jakarta-mail-api_2.1.3-1.hpi",
+   "url": "https://kves13.github.io/plugins/jakarta-mail-api_2.1.3-1.hpi",
    "version": "2.1.3-1",
    "wiki": "https://github.com/jenkinsci/jakarta-mail-api-plugin"
   },
@@ -1607,19 +1357,13 @@ updateCenter.post(
    "sha1": "Pf/O6eBowAX5xiZjt7B8A9JD/10=",
    "sha256": "PQ032QqTmJcQn6drSD9gCHzC+xkvlYHRQyvWrlaaKtQ=",
    "title": "Javadoc Plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/javadoc_280.v050b_5c849f69.hpi",
+   "url": "https://kves13.github.io/plugins/javadoc_280.v050b_5c849f69.hpi",
    "version": "280.v050b_5c849f69",
    "wiki": "https://github.com/jenkinsci/javadoc-plugin"
   },
   "javax-activation-api": {
    "buildDate": "May 23, 2024",
-   "dependencies": [
-    {
-     "name": "javax.activation",
-     "optional": false,
-     "version": "1.2.0"
-    }
-   ],
+   "dependencies": [],
    "developers": [],
    "excerpt": "Plugin providing the JavaBeans Activation Framework (JAF) API for other plugins",
    "gav": "io.jenkins.plugins:javax-activation-api:1.2.0-7",
@@ -1630,7 +1374,7 @@ updateCenter.post(
    "sha1": "8BkEq9idqbNMtm8yPGhHE6rw9KI=",
    "sha256": "xgq3JA3e0hnizTACswV53Zk4MsXUaD3KcQ8PQmd2sGM=",
    "title": "JavaBeans Activation Framework (JAF) API",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/javax-activation-api_1.2.0-7.hpi",
+   "url": "https://kves13.github.io/plugins/javax-activation-api_1.2.0-7.hpi",
    "version": "1.2.0-7",
    "wiki": "https://github.com/jenkinsci/javax-activation-api-plugin"
   },
@@ -1638,19 +1382,9 @@ updateCenter.post(
    "buildDate": "Oct 23, 2023",
    "dependencies": [
     {
-     "name": "jaxb-impl",
-     "optional": false,
-     "version": "2.3.9"
-    },
-    {
      "name": "javax-activation-api",
      "optional": false,
      "version": "1.2.0-6"
-    },
-    {
-     "name": "jaxb-api",
-     "optional": false,
-     "version": "2.3.1"
     }
    ],
    "developers": [],
@@ -1663,7 +1397,7 @@ updateCenter.post(
    "sha1": "pUR0K4eHgEzchlzddNqCd0B4lJU=",
    "sha256": "jJ9/mNmWremLel3QzZ0KumYazqG5mjP3V3i6zzmmRlk=",
    "title": "JAXB plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/jaxb_2.3.9-1.hpi",
+   "url": "https://kves13.github.io/plugins/jaxb_2.3.9-1.hpi",
    "version": "2.3.9-1",
    "wiki": "https://github.com/jenkinsci/jaxb-plugin"
   },
@@ -1745,7 +1479,7 @@ updateCenter.post(
    "sha1": "aleuZwyHryzyC7ILhcuzlqcl5bY=",
    "sha256": "FTrbrJ192Imop+eUk06rWJ3JvBjTA5c5u8gvksTcLsI=",
    "title": "Jenkins Multijob plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/jenkins-multijob-plugin_659.v6633374ec624.hpi",
+   "url": "https://kves13.github.io/plugins/jenkins-multijob-plugin_659.v6633374ec624.hpi",
    "version": "659.v6633374ec624",
    "wiki": "https://github.com/jenkinsci/jenkins-multijob-plugin/"
   },
@@ -1761,51 +1495,6 @@ updateCenter.post(
      "name": "jaxb",
      "optional": true,
      "version": "2.3.9-1"
-    },
-    {
-     "name": "jersey-apache-connector",
-     "optional": false,
-     "version": "2.44"
-    },
-    {
-     "name": "jersey-container-servlet",
-     "optional": false,
-     "version": "2.44"
-    },
-    {
-     "name": "jersey-hk2",
-     "optional": false,
-     "version": "2.44"
-    },
-    {
-     "name": "jersey-media-jaxb",
-     "optional": false,
-     "version": "2.44"
-    },
-    {
-     "name": "jersey-media-json-binding",
-     "optional": false,
-     "version": "2.44"
-    },
-    {
-     "name": "jersey-media-json-jackson",
-     "optional": false,
-     "version": "2.44"
-    },
-    {
-     "name": "jersey-media-json-jettison",
-     "optional": false,
-     "version": "2.44"
-    },
-    {
-     "name": "jersey-media-multipart",
-     "optional": false,
-     "version": "2.44"
-    },
-    {
-     "name": "jersey-media-sse",
-     "optional": false,
-     "version": "2.44"
     },
     {
      "name": "apache-httpcomponents-client-4-api",
@@ -1828,19 +1517,96 @@ updateCenter.post(
    "sha1": "CliZ/xDgxCs3m2I/mKOPkVT9wls=",
    "sha256": "qSIpB6iTRJQ8Ma1lIbLN6NJsoU893JDyd3Nnx8ShnEw=",
    "title": "Jersey 2 API",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/jersey2-api_2.44-151.v6df377fff741.hpi",
+   "url": "https://kves13.github.io/plugins/jersey2-api_2.44-151.v6df377fff741.hpi",
    "version": "2.44-151.v6df377fff741",
    "wiki": "https://github.com/jenkinsci/jersey2-api-plugin"
   },
-  "joda-time-api": {
-   "buildDate": "Sep 16, 2024",
+  "job-dsl": {
+   "buildDate": "Oct 25, 2023",
+   "compatibleSinceVersion": "1.81",
    "dependencies": [
     {
-     "name": "joda-time",
+     "name": "configuration-as-code",
+     "optional": true,
+     "version": "1646.v98b_72d209775"
+    },
+    {
+     "name": "branch-api",
      "optional": false,
-     "version": "2.13.0"
+     "version": "2.1105.v472604208c55"
+    },
+    {
+     "name": "cloudbees-folder",
+     "optional": false,
+     "version": "6.815.v0dd5a_cb_40e0e"
+    },
+    {
+     "name": "config-file-provider",
+     "optional": true,
+     "version": "938.ve2b_8a_591c596"
+    },
+    {
+     "name": "script-security",
+     "optional": false,
+     "version": "1251.vfe552ed55f8d"
+    },
+    {
+     "name": "structs",
+     "optional": false,
+     "version": "324.va_f5d6774f3a_d"
+    },
+    {
+     "name": "vsphere-cloud",
+     "optional": true,
+     "version": "2.27"
     }
    ],
+   "developers": [
+    {
+     "developerId": "quidryan",
+     "email": "jryan@netflix.com",
+     "name": "Justin Ryan"
+    },
+    {
+     "developerId": "andrewharmellaw",
+     "email": "andrew@harmel-law.com",
+     "name": "Andrew Harmel-Law"
+    },
+    {
+     "developerId": "daspilker",
+     "email": "mail@daniel-spilker.com",
+     "name": "Daniel Spilker"
+    },
+    {
+     "developerId": "jamietanna",
+     "email": "jenkins@jamietanna.co.uk",
+     "name": "Jamie Tanna"
+    },
+    {
+     "developerId": "sheehan",
+     "email": "mr.sheehan@gmail.com",
+     "name": "Matt Sheehan"
+    }
+   ],
+   "excerpt": "The Jenkins Plugins Parent POM Project",
+   "gav": "org.jenkins-ci.plugins:job-dsl:1.87",
+   "labels": [
+    "builder"
+   ],
+   "name": "job-dsl",
+   "releaseTimestamp": "2023-10-25T13:31:24.00Z",
+   "requiredCore": "2.387.1",
+   "scm": "https://github.com/jenkinsci/job-dsl-plugin",
+   "sha1": "K81cnHVGUPz+jE/qok18G4WVi5A=",
+   "sha256": "PeJCVJZrqZ1RhMncn99VMnHI50AERqa+LOARfnkosSQ=",
+   "title": "Job DSL",
+   "url": "https://kves13.github.io/plugins/job-dsl_1.87.hpi",
+   "version": "1.87",
+   "wiki": "https://github.com/jenkinsci/job-dsl-plugin"
+  },
+  "joda-time-api": {
+   "buildDate": "Sep 16, 2024",
+   "dependencies": [],
    "developers": [],
    "excerpt": "The Jenkins Plugins Parent POM Project",
    "gav": "io.jenkins.plugins:joda-time-api:2.13.0-85.vb_64d1c2921f1",
@@ -1851,19 +1617,13 @@ updateCenter.post(
    "sha1": "QproLWMxoxAa04VR1KImSWXFslQ=",
    "sha256": "XAsJcPyfxgyn7PKQP8h3xX/kRPyl8a5awH+bGUPxzv0=",
    "title": "Joda Time API Plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/joda-time-api_2.13.0-85.vb_64d1c2921f1.hpi",
+   "url": "https://kves13.github.io/plugins/joda-time-api_2.13.0-85.vb_64d1c2921f1.hpi",
    "version": "2.13.0-85.vb_64d1c2921f1",
    "wiki": "https://github.com/jenkinsci/joda-time-api-plugin"
   },
   "jquery": {
    "buildDate": "Oct 22, 2024",
-   "dependencies": [
-    {
-     "name": "stapler-adjunct-jquery",
-     "optional": false,
-     "version": "1.12.4-0"
-    }
-   ],
+   "dependencies": [],
    "developers": [
     {
      "developerId": "kiy0taka",
@@ -1889,13 +1649,24 @@ updateCenter.post(
    "sha1": "113ffQ1NWhHvBgEXXkUjjcH4j7U=",
    "sha256": "nCKNrcJPpq+S1L3y4Rb5M8ZfUc4Prkdv+tMvvX8ZdVg=",
    "title": "jQuery plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/jquery_1.12.4-3.hpi",
+   "url": "https://kves13.github.io/plugins/jquery_1.12.4-3.hpi",
    "version": "1.12.4-3",
    "wiki": "https://github.com/jenkinsci/jquery-plugin"
   },
   "jquery3-api": {
    "buildDate": "Feb 23, 2024",
-   "dependencies": [],
+   "dependencies": [
+    {
+     "name": "commons-lang3-api",
+     "optional": false,
+     "version": "3.13.0-62.v7d18e55f51e2"
+    },
+    {
+     "name": "commons-text-api",
+     "optional": false,
+     "version": "1.11.0-95.v22a_d30ee5d36"
+    }
+   ],
    "developers": [
     {
      "developerId": "uhafner",
@@ -1912,7 +1683,7 @@ updateCenter.post(
    "sha1": "klXi1HiZRaUW51iZiDxRRRZxeYQ=",
    "sha256": "Mi0B4Uo2jjEx/ziNvG/gYquqbLCiu3YbxGUW8ffKEGY=",
    "title": "JQuery3 API Plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/jquery3-api_3.7.1-2.hpi",
+   "url": "https://kves13.github.io/plugins/jquery3-api_3.7.1-2.hpi",
    "version": "3.7.1-2",
    "wiki": "https://github.com/jenkinsci/jquery3-api-plugin"
   },
@@ -1920,19 +1691,14 @@ updateCenter.post(
    "buildDate": "Jan 03, 2024",
    "dependencies": [
     {
-     "name": "jsch",
+     "name": "ssh-credentials",
      "optional": false,
-     "version": "0.2.16"
+     "version": "305.v8f4381501156"
     },
     {
      "name": "trilead-api",
      "optional": false,
      "version": "2.84.v72119de229b_7"
-    },
-    {
-     "name": "ssh-credentials",
-     "optional": false,
-     "version": "305.v8f4381501156"
     }
    ],
    "developers": [
@@ -1970,19 +1736,13 @@ updateCenter.post(
    "sha1": "M6o44X0Xf6hWk0tsLFHSgdKbs4U=",
    "sha256": "8Ot/frrzdPcEDmClbM2K9v5HHog5V986T/8RbdoC3BI=",
    "title": "Jenkins JSch dependency plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/jsch_0.2.16-86.v42e010d9484b_.hpi",
+   "url": "https://kves13.github.io/plugins/jsch_0.2.16-86.v42e010d9484b_.hpi",
    "version": "0.2.16-86.v42e010d9484b_",
    "wiki": "https://github.com/jenkinsci/jsch-plugin"
   },
   "json-api": {
    "buildDate": "Mar 08, 2024",
-   "dependencies": [
-    {
-     "name": "json",
-     "optional": false,
-     "version": "20240303"
-    }
-   ],
+   "dependencies": [],
    "developers": [],
    "excerpt": "The Jenkins Plugins Parent POM Project",
    "gav": "io.jenkins.plugins:json-api:20240303-41.v94e11e6de726",
@@ -1993,18 +1753,13 @@ updateCenter.post(
    "sha1": "jJW0MxpeglO/NxYkCenutBokTQg=",
    "sha256": "1D/5cIrgNU7W/kwXSs9OAL1ATTyTJRhSIDJzUY/5NaY=",
    "title": "JSON Api Plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/json-api_20240303-41.v94e11e6de726.hpi",
+   "url": "https://kves13.github.io/plugins/json-api_20240303-41.v94e11e6de726.hpi",
    "version": "20240303-41.v94e11e6de726",
    "wiki": "https://github.com/jenkinsci/json-api-plugin"
   },
   "json-path-api": {
    "buildDate": "Mar 22, 2024",
    "dependencies": [
-    {
-     "name": "json-path",
-     "optional": false,
-     "version": "2.9.0"
-    },
     {
      "name": "asm-api",
      "optional": false,
@@ -2021,18 +1776,13 @@ updateCenter.post(
    "sha1": "Kr86EY5n7h6VKGE0Q59USybK89g=",
    "sha256": "JoUFqtWcsNkv9MofVnVWxSNRm1IXyj5FkeHUzJsmRvU=",
    "title": "JSON Path API Plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/json-path-api_2.9.0-58.v62e3e85b_a_655.hpi",
+   "url": "https://kves13.github.io/plugins/json-path-api_2.9.0-58.v62e3e85b_a_655.hpi",
    "version": "2.9.0-58.v62e3e85b_a_655",
    "wiki": "https://github.com/jenkinsci/json-path-api-plugin"
   },
   "junit": {
    "buildDate": "Dec 19, 2024",
    "dependencies": [
-    {
-     "name": "parallel-collectors",
-     "optional": false,
-     "version": "2.6.1"
-    },
     {
      "name": "bootstrap5-api",
      "optional": false,
@@ -2059,6 +1809,16 @@ updateCenter.post(
      "version": "3.8.0"
     },
     {
+     "name": "workflow-api",
+     "optional": false,
+     "version": "1291.v51fd2a_625da_7"
+    },
+    {
+     "name": "workflow-step-api",
+     "optional": false,
+     "version": "657.v03b_e8115821b_"
+    },
+    {
      "name": "display-url-api",
      "optional": false,
      "version": "2.200.vb_9327d658781"
@@ -2072,16 +1832,6 @@ updateCenter.post(
      "name": "script-security",
      "optional": false,
      "version": "1335.vf07d9ce377a_e"
-    },
-    {
-     "name": "workflow-api",
-     "optional": false,
-     "version": "1291.v51fd2a_625da_7"
-    },
-    {
-     "name": "workflow-step-api",
-     "optional": false,
-     "version": "657.v03b_e8115821b_"
     }
    ],
    "developers": [],
@@ -2097,7 +1847,7 @@ updateCenter.post(
    "sha1": "trODhrZHq101BOUlDEGsCAalFnc=",
    "sha256": "kj7EfFY56fIvD6QoSI2IdwWkvf0WsjROQAR+0m97sHE=",
    "title": "JUnit Plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/junit_1312.v1a_235a_b_94a_31.hpi",
+   "url": "https://kves13.github.io/plugins/junit_1312.v1a_235a_b_94a_31.hpi",
    "version": "1312.v1a_235a_b_94a_31",
    "wiki": "https://github.com/jenkinsci/junit-plugin"
   },
@@ -2108,6 +1858,26 @@ updateCenter.post(
      "name": "caffeine-api",
      "optional": false,
      "version": "3.1.8-133.v17b_1ff2e0599"
+    },
+    {
+     "name": "workflow-api",
+     "optional": false,
+     "version": "1291.v51fd2a_625da_7"
+    },
+    {
+     "name": "workflow-cps",
+     "optional": true,
+     "version": "3880.vb_ef4b_5cfd270"
+    },
+    {
+     "name": "workflow-durable-task-step",
+     "optional": false,
+     "version": "1331.vc8c2fed35334"
+    },
+    {
+     "name": "workflow-step-api",
+     "optional": false,
+     "version": "657.v03b_e8115821b_"
     },
     {
      "name": "authentication-tokens",
@@ -2125,14 +1895,14 @@ updateCenter.post(
      "version": "6.858.v898218f3609d"
     },
     {
-     "name": "credentials",
-     "optional": false,
-     "version": "1319.v7eb_51b_3a_c97b_"
-    },
-    {
      "name": "credentials-binding",
      "optional": false,
      "version": "657.v2b_19db_7d6e6d"
+    },
+    {
+     "name": "credentials",
+     "optional": false,
+     "version": "1319.v7eb_51b_3a_c97b_"
     },
     {
      "name": "durable-task",
@@ -2170,26 +1940,6 @@ updateCenter.post(
      "version": "60.v7290fc0eb_b_cd"
     },
     {
-     "name": "workflow-api",
-     "optional": false,
-     "version": "1291.v51fd2a_625da_7"
-    },
-    {
-     "name": "workflow-cps",
-     "optional": true,
-     "version": "3880.vb_ef4b_5cfd270"
-    },
-    {
-     "name": "workflow-durable-task-step",
-     "optional": false,
-     "version": "1331.vc8c2fed35334"
-    },
-    {
-     "name": "workflow-step-api",
-     "optional": false,
-     "version": "657.v03b_e8115821b_"
-    },
-    {
      "name": "kubernetes-credentials",
      "optional": false,
      "version": "0.11"
@@ -2220,7 +1970,7 @@ updateCenter.post(
    "sha1": "NBS1MjgkKmEMQljYmLEXexCgn0c=",
    "sha256": "CoxCs8Jl6qRMOAAnh8Uh6D+asZA1hIVJDkovVjrawiw=",
    "title": "Kubernetes plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/kubernetes_4306.vc91e951ea_eb_d.hpi",
+   "url": "https://kves13.github.io/plugins/kubernetes_4306.vc91e951ea_eb_d.hpi",
    "version": "4306.vc91e951ea_eb_d",
    "wiki": "https://github.com/jenkinsci/kubernetes-plugin"
   },
@@ -2229,24 +1979,9 @@ updateCenter.post(
    "compatibleSinceVersion": "6.8.1",
    "dependencies": [
     {
-     "name": "kubernetes-client",
+     "name": "okhttp-api",
      "optional": false,
-     "version": "6.10.0"
-    },
-    {
-     "name": "openshift-client",
-     "optional": false,
-     "version": "6.10.0"
-    },
-    {
-     "name": "volumesnapshot-client",
-     "optional": false,
-     "version": "6.10.0"
-    },
-    {
-     "name": "jackson2-api",
-     "optional": false,
-     "version": "2.15.3-372.v309620682326"
+     "version": "4.11.0-157.v6852a_a_fa_ec11"
     },
     {
      "name": "bouncycastle-api",
@@ -2254,9 +1989,9 @@ updateCenter.post(
      "version": "2.30.1.77-225.v26ea_c9455fd9"
     },
     {
-     "name": "okhttp-api",
+     "name": "jackson2-api",
      "optional": false,
-     "version": "4.11.0-157.v6852a_a_fa_ec11"
+     "version": "2.15.3-372.v309620682326"
     }
    ],
    "developers": [],
@@ -2269,7 +2004,7 @@ updateCenter.post(
    "sha1": "opfy9h5FSY2/0thDXqgKla2xA3g=",
    "sha256": "Am0NDBHTOSQ1VPouOoLAU5gwJLFMUuBHAu7g/lahsug=",
    "title": "Kubernetes Client API Plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/kubernetes-client-api_6.10.0-240.v57880ce8b_0b_2.hpi",
+   "url": "https://kves13.github.io/plugins/kubernetes-client-api_6.10.0-240.v57880ce8b_0b_2.hpi",
    "version": "6.10.0-240.v57880ce8b_0b_2",
    "wiki": "https://github.com/jenkinsci/kubernetes-client-api-plugin"
   },
@@ -2278,24 +2013,9 @@ updateCenter.post(
    "compatibleSinceVersion": "190",
    "dependencies": [
     {
-     "name": "kubernetes-client-api",
-     "optional": false,
-     "version": "6.10.0-240.v57880ce8b_0b_2"
-    },
-    {
-     "name": "jackson2-api",
-     "optional": false,
-     "version": "2.17.0-379.v02de8ec9f64c"
-    },
-    {
      "name": "apache-httpcomponents-client-4-api",
      "optional": false,
      "version": "4.5.14-208.v438351942757"
-    },
-    {
-     "name": "credentials",
-     "optional": false,
-     "version": "1378.v81ef4269d764"
     },
     {
      "name": "authentication-tokens",
@@ -2303,9 +2023,14 @@ updateCenter.post(
      "version": "1.119.v50285141b_7e1"
     },
     {
-     "name": "plain-credentials",
+     "name": "credentials",
+     "optional": false,
+     "version": "1378.v81ef4269d764"
+    },
+    {
+     "name": "docker-commons",
      "optional": true,
-     "version": "183.va_de8f1dd5a_2b_"
+     "version": "439.va_3cb_0a_6a_fb_29"
     },
     {
      "name": "google-oauth-plugin",
@@ -2313,9 +2038,19 @@ updateCenter.post(
      "version": "1.330.vf5e86021cb_ec"
     },
     {
-     "name": "docker-commons",
+     "name": "jackson2-api",
+     "optional": false,
+     "version": "2.17.0-379.v02de8ec9f64c"
+    },
+    {
+     "name": "kubernetes-client-api",
+     "optional": false,
+     "version": "6.10.0-240.v57880ce8b_0b_2"
+    },
+    {
+     "name": "plain-credentials",
      "optional": true,
-     "version": "439.va_3cb_0a_6a_fb_29"
+     "version": "183.va_de8f1dd5a_2b_"
     }
    ],
    "developers": [
@@ -2334,7 +2069,7 @@ updateCenter.post(
    "sha1": "jeJeczOIpuz0qL1ZBLR/xW5+X6c=",
    "sha256": "FcinMqFGkthuTp4x4aIJLyfEWPSJRrVIl+zhEFFDO48=",
    "title": "Kubernetes Credentials Plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/kubernetes-credentials_190.v03c305394deb_.hpi",
+   "url": "https://kves13.github.io/plugins/kubernetes-credentials_190.v03c305394deb_.hpi",
    "version": "190.v03c305394deb_",
    "wiki": "https://github.com/jenkinsci/kubernetes-credentials-plugin"
   },
@@ -2342,9 +2077,9 @@ updateCenter.post(
    "buildDate": "Sep 30, 2024",
    "dependencies": [
     {
-     "name": "display-url-api",
+     "name": "jakarta-mail-api",
      "optional": false,
-     "version": "2.204.vf6fddd8a_8b_e9"
+     "version": "2.1.3-1"
     },
     {
      "name": "instance-identity",
@@ -2352,9 +2087,9 @@ updateCenter.post(
      "version": "185.v303dc7c645f9"
     },
     {
-     "name": "jakarta-mail-api",
+     "name": "display-url-api",
      "optional": false,
-     "version": "2.1.3-1"
+     "version": "2.204.vf6fddd8a_8b_e9"
     }
    ],
    "developers": [],
@@ -2367,7 +2102,7 @@ updateCenter.post(
    "sha1": "LUoJ3Jr39pswIwF0TbeaR7tQ//A=",
    "sha256": "KKpOo2XKDO2rXXnp916fzbADwxAN/SNn9OLJUBLHjGg=",
    "title": "Jenkins Mailer Plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/mailer_488.v0c9639c1a_eb_3.hpi",
+   "url": "https://kves13.github.io/plugins/mailer_488.v0c9639c1a_eb_3.hpi",
    "version": "488.v0c9639c1a_eb_3",
    "wiki": "https://github.com/jenkinsci/mailer-plugin"
   },
@@ -2376,14 +2111,14 @@ updateCenter.post(
    "compatibleSinceVersion": "3.2",
    "dependencies": [
     {
-     "name": "configuration-as-code",
-     "optional": true,
-     "version": "1836.vccda_4a_122a_a_e"
-    },
-    {
      "name": "ionicons-api",
      "optional": false,
      "version": "74.v93d5eb_813d5f"
+    },
+    {
+     "name": "configuration-as-code",
+     "optional": true,
+     "version": "1836.vccda_4a_122a_a_e"
     },
     {
      "name": "cloudbees-folder",
@@ -2404,13 +2139,18 @@ updateCenter.post(
    "sha1": "fOqLCDGmz1+JD0+E23Ynj6Ye1gw=",
    "sha256": "ib2elFYwAPWvCcyjy4AXxWohbRtL2ZmveFvdkgJJ0BQ=",
    "title": "Matrix Authorization Strategy Plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/matrix-auth_3.2.3.hpi",
+   "url": "https://kves13.github.io/plugins/matrix-auth_3.2.3.hpi",
    "version": "3.2.3",
    "wiki": "https://github.com/jenkinsci/matrix-auth-plugin"
   },
   "matrix-project": {
    "buildDate": "Oct 07, 2024",
    "dependencies": [
+    {
+     "name": "ionicons-api",
+     "optional": false,
+     "version": "74.v93d5eb_813d5f"
+    },
     {
      "name": "junit",
      "optional": false,
@@ -2420,11 +2160,6 @@ updateCenter.post(
      "name": "script-security",
      "optional": false,
      "version": "1336.vf33a_a_9863911"
-    },
-    {
-     "name": "ionicons-api",
-     "optional": false,
-     "version": "74.v93d5eb_813d5f"
     }
    ],
    "developers": [],
@@ -2440,7 +2175,7 @@ updateCenter.post(
    "sha1": "fy+/Om4Rl4Uu5f90TkRJFmgN1Qs=",
    "sha256": "wCpyR1CHrzr2vNypZQ1nMlPwPYzwU/Z6YPqE3p7G+IQ=",
    "title": "Matrix Project Plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/matrix-project_839.vff91cd7e3a_b_2.hpi",
+   "url": "https://kves13.github.io/plugins/matrix-project_839.vff91cd7e3a_b_2.hpi",
    "version": "839.vff91cd7e3a_b_2",
    "wiki": "https://github.com/jenkinsci/matrix-project-plugin"
   },
@@ -2448,164 +2183,9 @@ updateCenter.post(
    "buildDate": "Oct 23, 2024",
    "dependencies": [
     {
-     "name": "javadoc",
+     "name": "commons-lang3-api",
      "optional": false,
-     "version": "280.v050b_5c849f69"
-    },
-    {
-     "name": "mailer",
-     "optional": false,
-     "version": "472.vf7c289a_4b_420"
-    },
-    {
-     "name": "junit",
-     "optional": false,
-     "version": "1296.vb_f538b_c88630"
-    },
-    {
-     "name": "maven-agent",
-     "optional": false,
-     "version": "1.14"
-    },
-    {
-     "name": "maven-interceptor",
-     "optional": false,
-     "version": "1.14"
-    },
-    {
-     "name": "maven2.1-interceptor",
-     "optional": false,
-     "version": "1.2"
-    },
-    {
-     "name": "maven3-agent",
-     "optional": false,
-     "version": "1.14"
-    },
-    {
-     "name": "maven31-agent",
-     "optional": false,
-     "version": "1.14"
-    },
-    {
-     "name": "maven32-agent",
-     "optional": false,
-     "version": "1.14"
-    },
-    {
-     "name": "maven33-agent",
-     "optional": false,
-     "version": "1.14"
-    },
-    {
-     "name": "maven35-agent",
-     "optional": false,
-     "version": "1.14"
-    },
-    {
-     "name": "maven3-interceptor",
-     "optional": false,
-     "version": "1.14"
-    },
-    {
-     "name": "maven31-interceptor",
-     "optional": false,
-     "version": "1.14"
-    },
-    {
-     "name": "maven32-interceptor",
-     "optional": false,
-     "version": "1.14"
-    },
-    {
-     "name": "maven33-interceptor",
-     "optional": false,
-     "version": "1.14"
-    },
-    {
-     "name": "maven35-interceptor",
-     "optional": false,
-     "version": "1.14"
-    },
-    {
-     "name": "maven3-interceptor-commons",
-     "optional": false,
-     "version": "1.14"
-    },
-    {
-     "name": "maven-core",
-     "optional": false,
-     "version": "3.8.3"
-    },
-    {
-     "name": "maven-compat",
-     "optional": false,
-     "version": "3.8.3"
-    },
-    {
-     "name": "maven-repository-metadata",
-     "optional": false,
-     "version": "3.8.3"
-    },
-    {
-     "name": "maven-resolver-provider",
-     "optional": false,
-     "version": "3.8.3"
-    },
-    {
-     "name": "maven-embedder",
-     "optional": false,
-     "version": "3.8.3"
-    },
-    {
-     "name": "plexus-cipher",
-     "optional": false,
-     "version": "2.0"
-    },
-    {
-     "name": "maven-resolver-api",
-     "optional": false,
-     "version": "1.7.3"
-    },
-    {
-     "name": "maven-resolver-impl",
-     "optional": false,
-     "version": "1.7.3"
-    },
-    {
-     "name": "maven-resolver-spi",
-     "optional": false,
-     "version": "1.7.3"
-    },
-    {
-     "name": "maven-resolver-util",
-     "optional": false,
-     "version": "1.7.3"
-    },
-    {
-     "name": "maven-resolver-transport-wagon",
-     "optional": false,
-     "version": "1.7.3"
-    },
-    {
-     "name": "maven-resolver-connector-basic",
-     "optional": false,
-     "version": "1.7.3"
-    },
-    {
-     "name": "org.eclipse.sisu.plexus",
-     "optional": false,
-     "version": "0.3.5"
-    },
-    {
-     "name": "wagon-http",
-     "optional": false,
-     "version": "3.5.3"
-    },
-    {
-     "name": "jsoup",
-     "optional": false,
-     "version": "1.18.1"
+     "version": "3.16.0-82.ve2b_07d659d95"
     },
     {
      "name": "apache-httpcomponents-client-4-api",
@@ -2613,74 +2193,24 @@ updateCenter.post(
      "version": "4.5.14-208.v438351942757"
     },
     {
+     "name": "javadoc",
+     "optional": false,
+     "version": "280.v050b_5c849f69"
+    },
+    {
      "name": "jsch",
      "optional": false,
      "version": "0.2.16-86.v42e010d9484b_"
     },
     {
-     "name": "wagon-file",
+     "name": "junit",
      "optional": false,
-     "version": "3.5.3"
+     "version": "1296.vb_f538b_c88630"
     },
     {
-     "name": "wagon-ftp",
+     "name": "mailer",
      "optional": false,
-     "version": "3.5.3"
-    },
-    {
-     "name": "wagon-ssh",
-     "optional": false,
-     "version": "3.5.3"
-    },
-    {
-     "name": "wagon-ssh-external",
-     "optional": false,
-     "version": "3.5.3"
-    },
-    {
-     "name": "wagon-provider-api",
-     "optional": false,
-     "version": "3.5.3"
-    },
-    {
-     "name": "maven-reporting-api",
-     "optional": false,
-     "version": "3.1.1"
-    },
-    {
-     "name": "plexus-classworlds",
-     "optional": false,
-     "version": "2.6.0"
-    },
-    {
-     "name": "plexus-utils",
-     "optional": false,
-     "version": "3.4.1"
-    },
-    {
-     "name": "plexus-component-annotations",
-     "optional": false,
-     "version": "2.1.1"
-    },
-    {
-     "name": "lib-jenkins-maven-artifact-manager",
-     "optional": false,
-     "version": "1.2"
-    },
-    {
-     "name": "lib-jenkins-maven-embedder",
-     "optional": false,
-     "version": "3.15"
-    },
-    {
-     "name": "wagon-webdav-jackrabbit",
-     "optional": false,
-     "version": "3.5.3"
-    },
-    {
-     "name": "commons-lang3-api",
-     "optional": false,
-     "version": "3.16.0-82.ve2b_07d659d95"
+     "version": "472.vf7c289a_4b_420"
     },
     {
      "name": "token-macro",
@@ -2701,43 +2231,13 @@ updateCenter.post(
    "sha1": "gkoXtiQFzdzT9PezSeVOFAKCiXo=",
    "sha256": "IA+Sx2bATZtgm3QlU+EwQds+JoDgumVaHG5AXlg8ScY=",
    "title": "Maven Integration plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/maven-plugin_3.24.hpi",
+   "url": "https://kves13.github.io/plugins/maven-plugin_3.24.hpi",
    "version": "3.24",
    "wiki": "https://github.com/jenkinsci/maven-plugin"
   },
   "metrics": {
    "buildDate": "Oct 24, 2024",
    "dependencies": [
-    {
-     "name": "metrics-core",
-     "optional": false,
-     "version": "4.2.21"
-    },
-    {
-     "name": "metrics-servlet",
-     "optional": false,
-     "version": "4.2.21"
-    },
-    {
-     "name": "metrics-healthchecks",
-     "optional": false,
-     "version": "4.2.21"
-    },
-    {
-     "name": "metrics-jvm",
-     "optional": false,
-     "version": "4.2.21"
-    },
-    {
-     "name": "metrics-jmx",
-     "optional": false,
-     "version": "4.2.21"
-    },
-    {
-     "name": "metrics-json",
-     "optional": false,
-     "version": "4.2.21"
-    },
     {
      "name": "ionicons-api",
      "optional": false,
@@ -2770,18 +2270,13 @@ updateCenter.post(
    "sha1": "BLUR4YAovb7k18jH6z31UK2pseE=",
    "sha256": "IRgf/c7TlxnNZGz8cFrQ3EkPTzv1KbFEL8VJxQ6rPzk=",
    "title": "Metrics Plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/metrics_4.2.21-458.vcf496cb_839e4.hpi",
+   "url": "https://kves13.github.io/plugins/metrics_4.2.21-458.vcf496cb_839e4.hpi",
    "version": "4.2.21-458.vcf496cb_839e4",
    "wiki": "https://github.com/jenkinsci/metrics-plugin"
   },
   "mina-sshd-api-common": {
    "buildDate": "Dec 12, 2024",
    "dependencies": [
-    {
-     "name": "sshd-common",
-     "optional": false,
-     "version": "2.14.0"
-    },
     {
      "name": "eddsa-api",
      "optional": true,
@@ -2809,7 +2304,7 @@ updateCenter.post(
    "sha1": "IZPERoK0wF9min0cLhtOnSuxU2I=",
    "sha256": "GtK2kK4OVEMnEnuLnsiFhsf93AgmaAiN07RVSt4JHtU=",
    "title": "Mina SSHD API :: Common",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/mina-sshd-api-common_2.14.0-136.v4d2b_0853615e.hpi",
+   "url": "https://kves13.github.io/plugins/mina-sshd-api-common_2.14.0-136.v4d2b_0853615e.hpi",
    "version": "2.14.0-136.v4d2b_0853615e",
    "wiki": "https://github.com/jenkinsci/mina-sshd-api-plugin"
   },
@@ -2820,21 +2315,6 @@ updateCenter.post(
      "name": "mina-sshd-api-common",
      "optional": false,
      "version": "2.14.0-136.v4d2b_0853615e"
-    },
-    {
-     "name": "sshd-core",
-     "optional": false,
-     "version": "2.14.0"
-    },
-    {
-     "name": "mina-core",
-     "optional": false,
-     "version": "2.0.26"
-    },
-    {
-     "name": "sshd-mina",
-     "optional": false,
-     "version": "2.14.0"
     },
     {
      "name": "ssh-credentials",
@@ -2858,49 +2338,13 @@ updateCenter.post(
    "sha1": "UlBKrCrdA6q206dryYRILZRUO+c=",
    "sha256": "Qdvuqs84wvsKM5Z+yEUvu7s9fuMPE9a4pWo9quFqCY8=",
    "title": "Mina SSHD API :: Core",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/mina-sshd-api-core_2.14.0-136.v4d2b_0853615e.hpi",
+   "url": "https://kves13.github.io/plugins/mina-sshd-api-core_2.14.0-136.v4d2b_0853615e.hpi",
    "version": "2.14.0-136.v4d2b_0853615e",
    "wiki": "https://github.com/jenkinsci/mina-sshd-api-plugin"
   },
   "okhttp-api": {
    "buildDate": "Jan 29, 2024",
-   "dependencies": [
-    {
-     "name": "okio",
-     "optional": false,
-     "version": "3.5.0"
-    },
-    {
-     "name": "okhttp",
-     "optional": false,
-     "version": "4.11.0"
-    },
-    {
-     "name": "logging-interceptor",
-     "optional": false,
-     "version": "4.11.0"
-    },
-    {
-     "name": "kotlin-stdlib-common",
-     "optional": false,
-     "version": "1.9.22"
-    },
-    {
-     "name": "kotlin-stdlib-jdk8",
-     "optional": false,
-     "version": "1.9.22"
-    },
-    {
-     "name": "kotlin-stdlib",
-     "optional": false,
-     "version": "1.9.22"
-    },
-    {
-     "name": "kotlin-stdlib-jdk7",
-     "optional": false,
-     "version": "1.9.22"
-    }
-   ],
+   "dependencies": [],
    "developers": [],
    "excerpt": "The Jenkins Plugins Parent POM Project",
    "gav": "io.jenkins.plugins:okhttp-api:4.11.0-172.vda_da_1feeb_c6e",
@@ -2911,7 +2355,7 @@ updateCenter.post(
    "sha1": "LQDObmEWWsY5KP4qJl3yn4BLTMA=",
    "sha256": "aBldaBDsq6/YFsWtZEVBiIdpPX1f139RN5a6qvC1kzA=",
    "title": "OkHttp Plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/okhttp-api_4.11.0-172.vda_da_1feeb_c6e.hpi",
+   "url": "https://kves13.github.io/plugins/okhttp-api_4.11.0-172.vda_da_1feeb_c6e.hpi",
    "version": "4.11.0-172.vda_da_1feeb_c6e",
    "wiki": "https://github.com/jenkinsci/okhttp-api-plugin"
   },
@@ -2954,9 +2398,494 @@ updateCenter.post(
    "sha1": "5xxyPKqvXHO79bz7OmVaLee1rhI=",
    "sha256": "p3GlzHfhYnCTivKOMRlw7sEyywZmtrmvN0Iq5gbFqvM=",
    "title": "Jenkins Parameterized Trigger plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/parameterized-trigger_806.vf6fff3e28c3e.hpi",
+   "url": "https://kves13.github.io/plugins/parameterized-trigger_806.vf6fff3e28c3e.hpi",
    "version": "806.vf6fff3e28c3e",
    "wiki": "https://github.com/jenkinsci/parameterized-trigger-plugin"
+  },
+  "pipeline-build-step": {
+   "buildDate": "Dec 14, 2023",
+   "dependencies": [
+    {
+     "name": "workflow-api",
+     "optional": false,
+     "version": "1283.v99c10937efcb_"
+    },
+    {
+     "name": "workflow-step-api",
+     "optional": false,
+     "version": "639.v6eca_cd8c04a_a_"
+    },
+    {
+     "name": "workflow-support",
+     "optional": false,
+     "version": "865.v43e78cc44e0d"
+    },
+    {
+     "name": "script-security",
+     "optional": false,
+     "version": "1275.v23895f409fb_d"
+    },
+    {
+     "name": "structs",
+     "optional": false,
+     "version": "325.vcb_307d2a_2782"
+    }
+   ],
+   "developers": [],
+   "excerpt": "The Jenkins Plugins Parent POM Project",
+   "gav": "org.jenkins-ci.plugins:pipeline-build-step:540.vb_e8849e1a_b_d8",
+   "labels": [
+    "misc"
+   ],
+   "name": "pipeline-build-step",
+   "releaseTimestamp": "2023-12-14T23:02:28.00Z",
+   "requiredCore": "2.387.3",
+   "scm": "https://github.com/jenkinsci/pipeline-build-step-plugin",
+   "sha1": "vFsiJUPlKYGGcIvk8FCcrfyKpi0=",
+   "sha256": "Cnd/koLHJvXSVHgeqsvfLOuBNCmz1+pU4Oc5hH8BS1o=",
+   "title": "Pipeline: Build Step",
+   "url": "https://kves13.github.io/plugins/pipeline-build-step_540.vb_e8849e1a_b_d8.hpi",
+   "version": "540.vb_e8849e1a_b_d8",
+   "wiki": "https://github.com/jenkinsci/pipeline-build-step-plugin"
+  },
+  "pipeline-groovy-lib": {
+   "buildDate": "Oct 22, 2024",
+   "dependencies": [
+    {
+     "name": "workflow-api",
+     "optional": false,
+     "version": "1291.v51fd2a_625da_7"
+    },
+    {
+     "name": "workflow-cps",
+     "optional": false,
+     "version": "3889.v937e0b_3412d3"
+    },
+    {
+     "name": "workflow-multibranch",
+     "optional": true,
+     "version": "773.vc4fe1378f1d5"
+    },
+    {
+     "name": "workflow-scm-step",
+     "optional": false,
+     "version": "427.v4ca_6512e7df1"
+    },
+    {
+     "name": "workflow-step-api",
+     "optional": false,
+     "version": "657.v03b_e8115821b_"
+    },
+    {
+     "name": "branch-api",
+     "optional": true,
+     "version": "2.1128.v717130d4f816"
+    },
+    {
+     "name": "cloudbees-folder",
+     "optional": false,
+     "version": "6.858.v898218f3609d"
+    },
+    {
+     "name": "scm-api",
+     "optional": false,
+     "version": "676.v886669a_199a_a_"
+    },
+    {
+     "name": "script-security",
+     "optional": false,
+     "version": "1326.vdb_c154de8669"
+    },
+    {
+     "name": "structs",
+     "optional": false,
+     "version": "337.v1b_04ea_4df7c8"
+    },
+    {
+     "name": "variant",
+     "optional": false,
+     "version": "60.v7290fc0eb_b_cd"
+    }
+   ],
+   "developers": [],
+   "excerpt": "The Jenkins Plugins Parent POM Project",
+   "gav": "io.jenkins.plugins:pipeline-groovy-lib:744.v5b_556ee7c253",
+   "name": "pipeline-groovy-lib",
+   "releaseTimestamp": "2024-10-22T13:21:06.00Z",
+   "requiredCore": "2.414.3",
+   "scm": "https://github.com/jenkinsci/pipeline-groovy-lib-plugin",
+   "sha1": "T442rG/X1jEfyy3cPc/brwXTMw8=",
+   "sha256": "QYLMtXVphjUImQUVlOZgIrWyyFFwW70bovcqxnp/E9o=",
+   "title": "Pipeline: Groovy Libraries",
+   "url": "https://kves13.github.io/plugins/pipeline-groovy-lib_744.v5b_556ee7c253.hpi",
+   "version": "744.v5b_556ee7c253",
+   "wiki": "https://github.com/jenkinsci/pipeline-groovy-lib-plugin"
+  },
+  "pipeline-input-step": {
+   "buildDate": "Apr 17, 2024",
+   "dependencies": [
+    {
+     "name": "workflow-api",
+     "optional": false,
+     "version": "1283.v99c10937efcb_"
+    },
+    {
+     "name": "workflow-step-api",
+     "optional": false,
+     "version": "657.v03b_e8115821b_"
+    },
+    {
+     "name": "workflow-support",
+     "optional": false,
+     "version": "865.v43e78cc44e0d"
+    },
+    {
+     "name": "credentials",
+     "optional": false,
+     "version": "1311.vcf0a_900b_37c2"
+    },
+    {
+     "name": "structs",
+     "optional": false,
+     "version": "337.v1b_04ea_4df7c8"
+    }
+   ],
+   "developers": [],
+   "excerpt": "The Jenkins Plugins Parent POM Project",
+   "gav": "org.jenkins-ci.plugins:pipeline-input-step:495.ve9c153f6067b_",
+   "labels": [
+    "misc"
+   ],
+   "name": "pipeline-input-step",
+   "releaseTimestamp": "2024-04-17T16:40:24.00Z",
+   "requiredCore": "2.440",
+   "scm": "https://github.com/jenkinsci/pipeline-input-step-plugin",
+   "sha1": "yjPYrLdNC8VeKKVUzeH9zVSlAB8=",
+   "sha256": "sWNNsTK4eLbNSc0NoT7VkFhf6jYBxweTHjp78SCFmTA=",
+   "title": "Pipeline: Input Step",
+   "url": "https://kves13.github.io/plugins/pipeline-input-step_495.ve9c153f6067b_.hpi",
+   "version": "495.ve9c153f6067b_",
+   "wiki": "https://github.com/jenkinsci/pipeline-input-step-plugin"
+  },
+  "pipeline-milestone-step": {
+   "buildDate": "Mar 29, 2024",
+   "dependencies": [
+    {
+     "name": "workflow-api",
+     "optional": false,
+     "version": "1213.v646def1087f9"
+    },
+    {
+     "name": "workflow-step-api",
+     "optional": false,
+     "version": "639.v6eca_cd8c04a_a_"
+    }
+   ],
+   "developers": [],
+   "excerpt": "Plugin that provides the milestone step",
+   "gav": "org.jenkins-ci.plugins:pipeline-milestone-step:119.vdfdc43fc3b_9a_",
+   "name": "pipeline-milestone-step",
+   "releaseTimestamp": "2024-03-29T23:14:42.00Z",
+   "requiredCore": "2.361.4",
+   "scm": "https://github.com/jenkinsci/pipeline-milestone-step-plugin",
+   "sha1": "AAEOpxGzkXZ7wuyFzyOykVA84cI=",
+   "sha256": "Bobm8bEb3QNMsa28vm7LZVUcHw4cxDkQZs3g01GXx+w=",
+   "title": "Pipeline: Milestone Step",
+   "url": "https://kves13.github.io/plugins/pipeline-milestone-step_119.vdfdc43fc3b_9a_.hpi",
+   "version": "119.vdfdc43fc3b_9a_",
+   "wiki": "https://github.com/jenkinsci/pipeline-milestone-step-plugin"
+  },
+  "pipeline-model-api": {
+   "buildDate": "Nov 04, 2024",
+   "dependencies": [
+    {
+     "name": "joda-time-api",
+     "optional": false,
+     "version": "2.12.7-29.v5a_b_e3a_82269a_"
+    },
+    {
+     "name": "workflow-step-api",
+     "optional": false,
+     "version": "657.v03b_e8115821b_"
+    },
+    {
+     "name": "jackson2-api",
+     "optional": false,
+     "version": "2.17.0-379.v02de8ec9f64c"
+    },
+    {
+     "name": "structs",
+     "optional": false,
+     "version": "337.v1b_04ea_4df7c8"
+    }
+   ],
+   "developers": [
+    {
+     "developerId": "abayer",
+     "email": "",
+     "name": "Andrew Bayer"
+    }
+   ],
+   "excerpt": "Model API for Declarative Pipeline",
+   "gav": "org.jenkinsci.plugins:pipeline-model-api:2.2218.v56d0cda_37c72",
+   "labels": [
+    "pipeline",
+    "misc"
+   ],
+   "name": "pipeline-model-api",
+   "releaseTimestamp": "2024-11-04T15:00:12.00Z",
+   "requiredCore": "2.426.3",
+   "scm": "https://github.com/jenkinsci/pipeline-model-definition-plugin",
+   "sha1": "2Vv9CQIOUDIw+lnf2QsWcCIJp9c=",
+   "sha256": "BaKJacajfgjNf8FMz+sHTIXDOVJzBdAy2PwGe1FUAhU=",
+   "title": "Pipeline: Model API",
+   "url": "https://kves13.github.io/plugins/pipeline-model-api_2.2218.v56d0cda_37c72.hpi",
+   "version": "2.2218.v56d0cda_37c72",
+   "wiki": "https://github.com/jenkinsci/pipeline-model-definition-plugin"
+  },
+  "pipeline-model-definition": {
+   "buildDate": "Nov 04, 2024",
+   "compatibleSinceVersion": "1.6.0",
+   "dependencies": [
+    {
+     "name": "ionicons-api",
+     "optional": false,
+     "version": "73.vb_f522f227457"
+    },
+    {
+     "name": "pipeline-groovy-lib",
+     "optional": false,
+     "version": "704.vc58b_8890a_384"
+    },
+    {
+     "name": "workflow-api",
+     "optional": false,
+     "version": "1291.v51fd2a_625da_7"
+    },
+    {
+     "name": "workflow-basic-steps",
+     "optional": false,
+     "version": "1058.vcb_fc1e3a_21a_9"
+    },
+    {
+     "name": "workflow-cps",
+     "optional": false,
+     "version": "3961.ve48ee2c44a_b_3"
+    },
+    {
+     "name": "workflow-durable-task-step",
+     "optional": false,
+     "version": "1331.vc8c2fed35334"
+    },
+    {
+     "name": "workflow-multibranch",
+     "optional": false,
+     "version": "773.vc4fe1378f1d5"
+    },
+    {
+     "name": "workflow-scm-step",
+     "optional": false,
+     "version": "427.v4ca_6512e7df1"
+    },
+    {
+     "name": "workflow-support",
+     "optional": false,
+     "version": "907.v6713a_ed8a_573"
+    },
+    {
+     "name": "credentials-binding",
+     "optional": false,
+     "version": "677.vdc9d38cb_254d"
+    },
+    {
+     "name": "credentials",
+     "optional": false,
+     "version": "1337.v60b_d7b_c7b_c9f"
+    },
+    {
+     "name": "mailer",
+     "optional": false,
+     "version": "470.vc91f60c5d8e2"
+    },
+    {
+     "name": "pipeline-input-step",
+     "optional": false,
+     "version": "477.v339683a_8d55e"
+    },
+    {
+     "name": "pipeline-stage-step",
+     "optional": false,
+     "version": "312.v8cd10304c27a_"
+    },
+    {
+     "name": "scm-api",
+     "optional": false,
+     "version": "690.vfc8b_54395023"
+    },
+    {
+     "name": "structs",
+     "optional": false,
+     "version": "337.v1b_04ea_4df7c8"
+    },
+    {
+     "name": "pipeline-model-api",
+     "optional": false,
+     "version": "2.2218.v56d0cda_37c72"
+    },
+    {
+     "name": "pipeline-model-extensions",
+     "optional": false,
+     "version": "2.2218.v56d0cda_37c72"
+    },
+    {
+     "name": "pipeline-stage-tags-metadata",
+     "optional": false,
+     "version": "2.2218.v56d0cda_37c72"
+    }
+   ],
+   "developers": [
+    {
+     "developerId": "abayer",
+     "email": "",
+     "name": "Andrew Bayer"
+    }
+   ],
+   "excerpt": "An opinionated, declarative Pipeline",
+   "gav": "org.jenkinsci.plugins:pipeline-model-definition:2.2218.v56d0cda_37c72",
+   "labels": [
+    "pipeline",
+    "misc"
+   ],
+   "name": "pipeline-model-definition",
+   "releaseTimestamp": "2024-11-04T15:00:12.00Z",
+   "requiredCore": "2.426.3",
+   "scm": "https://github.com/jenkinsci/pipeline-model-definition-plugin",
+   "sha1": "4X2jT5Psv91/iBY9fcw6HKokUjw=",
+   "sha256": "MhW8eYcsfTJ1gQvMvpgRdjL7g/HeR6zpq3/n3UtE6cQ=",
+   "title": "Pipeline: Declarative",
+   "url": "https://kves13.github.io/plugins/pipeline-model-definition_2.2218.v56d0cda_37c72.hpi",
+   "version": "2.2218.v56d0cda_37c72",
+   "wiki": "https://github.com/jenkinsci/pipeline-model-definition-plugin"
+  },
+  "pipeline-model-extensions": {
+   "buildDate": "Nov 04, 2024",
+   "compatibleSinceVersion": "1.2-beta-4",
+   "dependencies": [
+    {
+     "name": "workflow-cps",
+     "optional": false,
+     "version": "3961.ve48ee2c44a_b_3"
+    },
+    {
+     "name": "workflow-job",
+     "optional": false,
+     "version": "1385.vb_58b_86ea_fff1"
+    },
+    {
+     "name": "credentials-binding",
+     "optional": false,
+     "version": "677.vdc9d38cb_254d"
+    },
+    {
+     "name": "credentials",
+     "optional": false,
+     "version": "1337.v60b_d7b_c7b_c9f"
+    },
+    {
+     "name": "pipeline-stage-step",
+     "optional": false,
+     "version": "312.v8cd10304c27a_"
+    },
+    {
+     "name": "pipeline-model-api",
+     "optional": false,
+     "version": "2.2218.v56d0cda_37c72"
+    }
+   ],
+   "developers": [
+    {
+     "developerId": "abayer",
+     "email": "",
+     "name": "Andrew Bayer"
+    }
+   ],
+   "excerpt": "APIs for extension points used in Declarative Pipelines",
+   "gav": "org.jenkinsci.plugins:pipeline-model-extensions:2.2218.v56d0cda_37c72",
+   "name": "pipeline-model-extensions",
+   "releaseTimestamp": "2024-11-04T15:00:12.00Z",
+   "requiredCore": "2.426.3",
+   "scm": "https://github.com/jenkinsci/pipeline-model-definition-plugin",
+   "sha1": "pcMui8KMvRJXjVRYvVdLHMDg5hc=",
+   "sha256": "qu19qA9uTR06pbi2j8rlJwbxzrPvXe+w6I9kQHa+JHw=",
+   "title": "Pipeline: Declarative Extension Points API",
+   "url": "https://kves13.github.io/plugins/pipeline-model-extensions_2.2218.v56d0cda_37c72.hpi",
+   "version": "2.2218.v56d0cda_37c72",
+   "wiki": "https://github.com/jenkinsci/pipeline-model-definition-plugin"
+  },
+  "pipeline-stage-step": {
+   "buildDate": "Mar 29, 2024",
+   "dependencies": [
+    {
+     "name": "workflow-api",
+     "optional": false,
+     "version": "1213.v646def1087f9"
+    },
+    {
+     "name": "workflow-step-api",
+     "optional": false,
+     "version": "639.v6eca_cd8c04a_a_"
+    }
+   ],
+   "developers": [],
+   "excerpt": "The Jenkins Plugins Parent POM Project",
+   "gav": "org.jenkins-ci.plugins:pipeline-stage-step:312.v8cd10304c27a_",
+   "labels": [
+    "pipeline",
+    "misc"
+   ],
+   "name": "pipeline-stage-step",
+   "releaseTimestamp": "2024-03-29T23:02:10.00Z",
+   "requiredCore": "2.361.4",
+   "scm": "https://github.com/jenkinsci/pipeline-stage-step-plugin",
+   "sha1": "erXrnnmNQKLS0WhYILvRgs8nb5Y=",
+   "sha256": "8lTImB3jTBpj9VDF7TdLiFwl2vXfTZlVURmkG3qfk2w=",
+   "title": "Pipeline: Stage Step",
+   "url": "https://kves13.github.io/plugins/pipeline-stage-step_312.v8cd10304c27a_.hpi",
+   "version": "312.v8cd10304c27a_",
+   "wiki": "https://github.com/jenkinsci/pipeline-stage-step-plugin"
+  },
+  "pipeline-stage-tags-metadata": {
+   "buildDate": "Nov 04, 2024",
+   "dependencies": [
+    {
+     "name": "workflow-api",
+     "optional": false,
+     "version": "1291.v51fd2a_625da_7"
+    }
+   ],
+   "developers": [
+    {
+     "developerId": "abayer",
+     "email": "",
+     "name": "Andrew Bayer"
+    }
+   ],
+   "excerpt": "Library plugin for Pipeline stage tag metadata",
+   "gav": "org.jenkinsci.plugins:pipeline-stage-tags-metadata:2.2218.v56d0cda_37c72",
+   "labels": [
+    "pipeline",
+    "misc"
+   ],
+   "name": "pipeline-stage-tags-metadata",
+   "releaseTimestamp": "2024-11-04T15:00:12.00Z",
+   "requiredCore": "2.426.3",
+   "scm": "https://github.com/jenkinsci/pipeline-model-definition-plugin",
+   "sha1": "3DtNEUq9rkl/J0kFYD6VktFEBlI=",
+   "sha256": "4An4LNQO5cAPzpJRMdNosv89rhkpgtseVqQFrqDsXbs=",
+   "title": "Pipeline: Stage Tags Metadata",
+   "url": "https://kves13.github.io/plugins/pipeline-stage-tags-metadata_2.2218.v56d0cda_37c72.hpi",
+   "version": "2.2218.v56d0cda_37c72",
+   "wiki": "https://github.com/jenkinsci/pipeline-model-definition-plugin"
   },
   "plain-credentials": {
    "buildDate": "Jun 19, 2024",
@@ -2977,7 +2906,7 @@ updateCenter.post(
    "sha1": "zIZQ4FkR3g8sXnq/92wR3rbD9MU=",
    "sha256": "lCLqp2XmWR48hFv+ycEF9WAKBYlRopQK7Fvg7XbqgTo=",
    "title": "Plain Credentials Plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/plain-credentials_183.va_de8f1dd5a_2b_.hpi",
+   "url": "https://kves13.github.io/plugins/plain-credentials_183.va_de8f1dd5a_2b_.hpi",
    "version": "183.va_de8f1dd5a_2b_",
    "wiki": "https://github.com/jenkinsci/plain-credentials-plugin"
   },
@@ -2985,24 +2914,14 @@ updateCenter.post(
    "buildDate": "Feb 23, 2024",
    "dependencies": [
     {
-     "name": "codingstyle",
+     "name": "commons-lang3-api",
      "optional": false,
-     "version": "3.42.0"
+     "version": "3.13.0-62.v7d18e55f51e2"
     },
     {
-     "name": "error_prone_annotations",
+     "name": "commons-text-api",
      "optional": false,
-     "version": "2.25.0"
-    },
-    {
-     "name": "j2html",
-     "optional": false,
-     "version": "1.4.0"
-    },
-    {
-     "name": "streamex",
-     "optional": false,
-     "version": "0.8.2"
+     "version": "1.11.0-95.v22a_d30ee5d36"
     },
     {
      "name": "workflow-api",
@@ -3036,7 +2955,7 @@ updateCenter.post(
    "sha1": "8N+f7Em1Sro1TXYJDxvwwUKrLaA=",
    "sha256": "Wp4kUjCA0pSjrtESz/JLjCSglVSwOkGZ1Y+C5VC+hP8=",
    "title": "Plugin Utilities API Plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/plugin-util-api_4.1.0.hpi",
+   "url": "https://kves13.github.io/plugins/plugin-util-api_4.1.0.hpi",
    "version": "4.1.0",
    "wiki": "https://github.com/jenkinsci/plugin-util-api-plugin"
   },
@@ -3068,7 +2987,7 @@ updateCenter.post(
    "sha1": "awYd0kpf+Y7Ko7l75rW3p4KYmYw=",
    "sha256": "2GAfR8Ah+Ma4J1c19cAj/sV7ZRiQKOIauskdQq3QvkI=",
    "title": "Run Condition Plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/run-condition_1.7.hpi",
+   "url": "https://kves13.github.io/plugins/run-condition_1.7.hpi",
    "version": "1.7",
    "wiki": "https://github.com/jenkinsci/run-condition-plugin"
   },
@@ -3097,18 +3016,13 @@ updateCenter.post(
    "sha1": "WgJSnEKqAcqEOtqVxE94I4nicvo=",
    "sha256": "L3RaZjq+kKwrv1YYbxBpJcBL93tImpGLurx5Q4BxSgc=",
    "title": "SCM API Plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/scm-api_696.v778d637b_a_762.hpi",
+   "url": "https://kves13.github.io/plugins/scm-api_696.v778d637b_a_762.hpi",
    "version": "696.v778d637b_a_762",
    "wiki": "https://github.com/jenkinsci/scm-api-plugin/blob/master/docs/consum"
   },
   "script-security": {
    "buildDate": "Nov 13, 2024",
    "dependencies": [
-    {
-     "name": "groovy-sandbox",
-     "optional": false,
-     "version": "1.34"
-    },
     {
      "name": "caffeine-api",
      "optional": false,
@@ -3128,19 +3042,13 @@ updateCenter.post(
    "sha1": "l1npXdcAe3uOUYi/KLgmMAe7Kk8=",
    "sha256": "v3cf2bFP9qbHa1coMrin+lgk6ypuhzkvbrZAIk9UheQ=",
    "title": "Script Security Plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/script-security_1369.v9b_98a_4e95b_2d.hpi",
+   "url": "https://kves13.github.io/plugins/script-security_1369.v9b_98a_4e95b_2d.hpi",
    "version": "1369.v9b_98a_4e95b_2d",
    "wiki": "https://github.com/jenkinsci/script-security-plugin"
   },
   "snakeyaml-api": {
    "buildDate": "Sep 03, 2024",
-   "dependencies": [
-    {
-     "name": "snakeyaml",
-     "optional": false,
-     "version": "2.3"
-    }
-   ],
+   "dependencies": [],
    "developers": [],
    "excerpt": "This plugin packages stock SnakeYAML library",
    "gav": "io.jenkins.plugins:snakeyaml-api:2.3-123.v13484c65210a_",
@@ -3151,7 +3059,7 @@ updateCenter.post(
    "sha1": "8ECVezjia/FhomGe5xCJD5phRsY=",
    "sha256": "1bgaDQz9QR3nba79kbHc3ApXO8W+n/btH0dBH62uE/4=",
    "title": "SnakeYAML API Plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/snakeyaml-api_2.3-123.v13484c65210a_.hpi",
+   "url": "https://kves13.github.io/plugins/snakeyaml-api_2.3-123.v13484c65210a_.hpi",
    "version": "2.3-123.v13484c65210a_",
    "wiki": "https://github.com/jenkinsci/snakeyaml-api-plugin"
   },
@@ -3159,19 +3067,14 @@ updateCenter.post(
    "buildDate": "Feb 19, 2024",
    "dependencies": [
     {
-     "name": "commons-lang3-api",
-     "optional": false,
-     "version": "3.13.0-62.v7d18e55f51e2"
-    },
-    {
      "name": "caffeine-api",
      "optional": false,
      "version": "3.1.8-133.v17b_1ff2e0599"
     },
     {
-     "name": "sonar-ws",
+     "name": "commons-lang3-api",
      "optional": false,
-     "version": "10.1.0.73491"
+     "version": "3.13.0-62.v7d18e55f51e2"
     },
     {
      "name": "okhttp-api",
@@ -3184,14 +3087,14 @@ updateCenter.post(
      "version": "3.22"
     },
     {
-     "name": "configurationslicing",
-     "optional": true,
-     "version": "548.ve92d48e66b_f8"
-    },
-    {
      "name": "workflow-support",
      "optional": true,
      "version": "848.v5a_383b_d14921"
+    },
+    {
+     "name": "configurationslicing",
+     "optional": true,
+     "version": "548.ve92d48e66b_f8"
     },
     {
      "name": "credentials",
@@ -3202,11 +3105,6 @@ updateCenter.post(
      "name": "plain-credentials",
      "optional": false,
      "version": "143.v1b_df8b_d3b_e48"
-    },
-    {
-     "name": "commons-codec",
-     "optional": false,
-     "version": "1.13"
     }
    ],
    "developers": [],
@@ -3223,7 +3121,7 @@ updateCenter.post(
    "sha1": "Hof9lJGWPLd7M8Zbd4b0rZknI4o=",
    "sha256": "pMtu7xju33NQfYfSYJ9rnKPg2cRhCWB7tx4no4LTXTE=",
    "title": "SonarQube Scanner for Jenkins",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/sonar_2.17.2.hpi",
+   "url": "https://kves13.github.io/plugins/sonar_2.17.2.hpi",
    "version": "2.17.2",
    "wiki": "https://github.com/jenkinsci/sonarqube-plugin"
   },
@@ -3231,6 +3129,16 @@ updateCenter.post(
    "buildDate": "Nov 26, 2024",
    "compatibleSinceVersion": "334.v7732563deee1",
    "dependencies": [
+    {
+     "name": "bouncycastle-api",
+     "optional": false,
+     "version": "2.30.1.78.1-248.ve27176eb_46cb_"
+    },
+    {
+     "name": "credentials",
+     "optional": false,
+     "version": "1371.vfee6b_095f0a_3"
+    },
     {
      "name": "trilead-api",
      "optional": true,
@@ -3240,16 +3148,6 @@ updateCenter.post(
      "name": "variant",
      "optional": false,
      "version": "60.v7290fc0eb_b_cd"
-    },
-    {
-     "name": "credentials",
-     "optional": false,
-     "version": "1371.vfee6b_095f0a_3"
-    },
-    {
-     "name": "bouncycastle-api",
-     "optional": false,
-     "version": "2.30.1.78.1-248.ve27176eb_46cb_"
     }
    ],
    "developers": [
@@ -3278,7 +3176,7 @@ updateCenter.post(
    "sha1": "KcpolRIKq6YeIsUoaTOH+UWUhe8=",
    "sha256": "l5TvGG7zNzVSKxkVytlfXREZbJv5yk0ORuCx7wRko+c=",
    "title": "SSH Credentials Plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/ssh-credentials_349.vb_8b_6b_9709f5b_.hpi",
+   "url": "https://kves13.github.io/plugins/ssh-credentials_349.vb_8b_6b_9709f5b_.hpi",
    "version": "349.vb_8b_6b_9709f5b_",
    "wiki": "https://github.com/jenkinsci/ssh-credentials-plugin"
   },
@@ -3295,7 +3193,7 @@ updateCenter.post(
    "sha1": "6K9qjPCCLfjiTPLOO+4b0O9jIRI=",
    "sha256": "fK6BGjl4j1ipVHdGMfCiedS/XjJnKDcmioU4Imeor2Y=",
    "title": "Structs Plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/structs_338.v848422169819.hpi",
+   "url": "https://kves13.github.io/plugins/structs_338.v848422169819.hpi",
    "version": "338.v848422169819",
    "wiki": "https://github.com/jenkinsci/structs-plugin"
   },
@@ -3308,9 +3206,9 @@ updateCenter.post(
      "version": "2.8.0-5.v07cb_a_1ca_738c"
     },
     {
-     "name": "structs",
-     "optional": false,
-     "version": "325.vcb_307d2a_2782"
+     "name": "workflow-api",
+     "optional": true,
+     "version": "1283.v99c10937efcb_"
     },
     {
      "name": "workflow-job",
@@ -3318,14 +3216,14 @@ updateCenter.post(
      "version": "1326.ve643e00e9220"
     },
     {
-     "name": "workflow-api",
-     "optional": true,
-     "version": "1283.v99c10937efcb_"
-    },
-    {
      "name": "workflow-step-api",
      "optional": false,
      "version": "639.v6eca_cd8c04a_a_"
+    },
+    {
+     "name": "structs",
+     "optional": false,
+     "version": "325.vcb_307d2a_2782"
     }
    ],
    "developers": [
@@ -3349,7 +3247,7 @@ updateCenter.post(
    "sha1": "BahiOb55UmqR6kJDdVaiJAa7Fko=",
    "sha256": "gicmCIpYk/JIt7uhrqku9t8VNLZKzAoj4vyXbbM0Ocg=",
    "title": "Token Macro Plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/token-macro_400.v35420b_922dcb_.hpi",
+   "url": "https://kves13.github.io/plugins/token-macro_400.v35420b_922dcb_.hpi",
    "version": "400.v35420b_922dcb_",
    "wiki": "https://github.com/jenkinsci/token-macro-plugin"
   },
@@ -3358,24 +3256,14 @@ updateCenter.post(
    "compatibleSinceVersion": "2.0.0",
    "dependencies": [
     {
-     "name": "trilead-ssh2",
+     "name": "eddsa-api",
      "optional": false,
-     "version": "build-217-jenkins-274.276.v58da_75159cb_7"
-    },
-    {
-     "name": "trilead-putty-extension",
-     "optional": false,
-     "version": "1.2"
+     "version": "0.3.0-4.v84c6f0f4969e"
     },
     {
      "name": "gson-api",
      "optional": false,
      "version": "2.10.1-15.v0d99f670e0a_7"
-    },
-    {
-     "name": "eddsa-api",
-     "optional": false,
-     "version": "0.3.0-4.v84c6f0f4969e"
     }
    ],
    "developers": [
@@ -3399,7 +3287,7 @@ updateCenter.post(
    "sha1": "6aPCNcDEbD6RgutQ6cFbUZDjzOk=",
    "sha256": "JbiFi1lbddsQJI+KLf2+3wSdQ1b5scCWVz+EXJqWLk0=",
    "title": "Trilead API Plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/trilead-api_2.147.vb_73cc728a_32e.hpi",
+   "url": "https://kves13.github.io/plugins/trilead-api_2.147.vb_73cc728a_32e.hpi",
    "version": "2.147.vb_73cc728a_32e",
    "wiki": "https://github.com/jenkinsci/trilead-api-plugin"
   },
@@ -3416,9 +3304,88 @@ updateCenter.post(
    "sha1": "JAmYIHZo2nr+CQGU+IcuxAuX+ZY=",
    "sha256": "rL8a67lgfv4FGLM8nd6b1QwD1qGg+mIlWGXzz5QfpFg=",
    "title": "Variant Plugin",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/variant_60.v7290fc0eb_b_cd.hpi",
+   "url": "https://kves13.github.io/plugins/variant_60.v7290fc0eb_b_cd.hpi",
    "version": "60.v7290fc0eb_b_cd",
    "wiki": "https://github.com/jenkinsci/variant-plugin"
+  },
+  "workflow-aggregator": {
+   "buildDate": "Jul 03, 2024",
+   "dependencies": [
+    {
+     "name": "pipeline-groovy-lib",
+     "optional": false,
+     "version": "656.va_a_ceeb_6ffb_f7"
+    },
+    {
+     "name": "workflow-basic-steps",
+     "optional": false,
+     "version": "1017.vb_45b_302f0cea_"
+    },
+    {
+     "name": "workflow-cps",
+     "optional": false,
+     "version": "3659.v582dc37621d8"
+    },
+    {
+     "name": "workflow-durable-task-step",
+     "optional": false,
+     "version": "1246.v5524618ea_097"
+    },
+    {
+     "name": "workflow-job",
+     "optional": false,
+     "version": "1295.v395eb_7400005"
+    },
+    {
+     "name": "workflow-multibranch",
+     "optional": false,
+     "version": "746.v05814d19c001"
+    },
+    {
+     "name": "pipeline-build-step",
+     "optional": false,
+     "version": "491.v1fec530da_858"
+    },
+    {
+     "name": "pipeline-input-step",
+     "optional": false,
+     "version": "468.va_5db_051498a_4"
+    },
+    {
+     "name": "pipeline-milestone-step",
+     "optional": false,
+     "version": "111.v449306f708b_7"
+    },
+    {
+     "name": "pipeline-stage-step",
+     "optional": false,
+     "version": "305.ve96d0205c1c6"
+    },
+    {
+     "name": "pipeline-model-definition",
+     "optional": false,
+     "version": "2.2131.vb_9788088fdb_5"
+    }
+   ],
+   "developers": [],
+   "excerpt": "The Jenkins Plugins Parent POM Project",
+   "gav": "org.jenkins-ci.plugins.workflow:workflow-aggregator:600.vb_57cdd26fdd7",
+   "labels": [
+    "misc",
+    "cli",
+    "trigger",
+    "slaves"
+   ],
+   "name": "workflow-aggregator",
+   "releaseTimestamp": "2024-07-03T22:05:52.00Z",
+   "requiredCore": "2.361.4",
+   "scm": "https://github.com/jenkinsci/workflow-aggregator-plugin",
+   "sha1": "TEDvqfoSbu4wid5L2yz284gbOZk=",
+   "sha256": "35uRHR81rc33EEa3erac6rxhLQbD5VvsAceh7/CyRxE=",
+   "title": "Pipeline",
+   "url": "https://kves13.github.io/plugins/workflow-aggregator_600.vb_57cdd26fdd7.hpi",
+   "version": "600.vb_57cdd26fdd7",
+   "wiki": "https://github.com/jenkinsci/workflow-aggregator-plugin"
   },
   "workflow-api": {
    "buildDate": "Aug 13, 2024",
@@ -3447,23 +3414,75 @@ updateCenter.post(
    "sha1": "17uiaJ7WW5P/wydGpzVyeKuLcmo=",
    "sha256": "LGN5LsetrSd9Bwr9ZclVAXnefDaQqew53l25lp1gNh4=",
    "title": "Pipeline: API",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/workflow-api_1336.vee415d95c521.hpi",
+   "url": "https://kves13.github.io/plugins/workflow-api_1336.vee415d95c521.hpi",
    "version": "1336.vee415d95c521",
    "wiki": "https://github.com/jenkinsci/workflow-api-plugin"
   },
-  "workflow-durable-task-step": {
-   "buildDate": "Nov 07, 2024",
-   "compatibleSinceVersion": "2.40",
+  "workflow-basic-steps": {
+   "buildDate": "Apr 26, 2024",
    "dependencies": [
+    {
+     "name": "jakarta-mail-api",
+     "optional": false,
+     "version": "2.1.3-1"
+    },
+    {
+     "name": "workflow-api",
+     "optional": false,
+     "version": "1213.v646def1087f9"
+    },
+    {
+     "name": "workflow-durable-task-step",
+     "optional": false,
+     "version": "1246.v5524618ea_097"
+    },
     {
      "name": "workflow-step-api",
      "optional": false,
-     "version": "657.v03b_e8115821b_"
+     "version": "639.v6eca_cd8c04a_a_"
     },
     {
-     "name": "durable-task",
+     "name": "apache-httpcomponents-client-4-api",
      "optional": false,
-     "version": "550.v0930093c4b_a_6"
+     "version": "4.5.14-150.v7a_b_9d17134a_5"
+    },
+    {
+     "name": "mailer",
+     "optional": false,
+     "version": "448.v5b_97805e3767"
+    },
+    {
+     "name": "structs",
+     "optional": false,
+     "version": "324.va_f5d6774f3a_d"
+    }
+   ],
+   "developers": [],
+   "excerpt": "The Jenkins Plugins Parent POM Project",
+   "gav": "org.jenkins-ci.plugins.workflow:workflow-basic-steps:1058.vcb_fc1e3a_21a_9",
+   "labels": [
+    "pipeline",
+    "misc"
+   ],
+   "name": "workflow-basic-steps",
+   "releaseTimestamp": "2024-04-26T12:01:02.00Z",
+   "requiredCore": "2.361.4",
+   "scm": "https://github.com/jenkinsci/workflow-basic-steps-plugin",
+   "sha1": "ausuQbrYtYG6sAu2FeJ4Pwu7q6k=",
+   "sha256": "HRe+zQN0jMbM4AnLug7TWijRcEH3LAVrLqoDYVVBN08=",
+   "title": "Pipeline: Basic Steps",
+   "url": "https://kves13.github.io/plugins/workflow-basic-steps_1058.vcb_fc1e3a_21a_9.hpi",
+   "version": "1058.vcb_fc1e3a_21a_9",
+   "wiki": "https://github.com/jenkinsci/workflow-basic-steps-plugin"
+  },
+  "workflow-cps": {
+   "buildDate": "Dec 02, 2024",
+   "compatibleSinceVersion": "2.18",
+   "dependencies": [
+    {
+     "name": "ionicons-api",
+     "optional": false,
+     "version": "73.vb_f522f227457"
     },
     {
      "name": "workflow-api",
@@ -3471,9 +3490,86 @@ updateCenter.post(
      "version": "1291.v51fd2a_625da_7"
     },
     {
+     "name": "workflow-scm-step",
+     "optional": false,
+     "version": "427.v4ca_6512e7df1"
+    },
+    {
+     "name": "workflow-step-api",
+     "optional": false,
+     "version": "657.v03b_e8115821b_"
+    },
+    {
+     "name": "workflow-support",
+     "optional": false,
+     "version": "907.v6713a_ed8a_573"
+    },
+    {
+     "name": "scm-api",
+     "optional": false,
+     "version": "690.vfc8b_54395023"
+    },
+    {
+     "name": "script-security",
+     "optional": false,
+     "version": "1369.v9b_98a_4e95b_2d"
+    },
+    {
+     "name": "structs",
+     "optional": false,
+     "version": "337.v1b_04ea_4df7c8"
+    },
+    {
+     "name": "support-core",
+     "optional": true,
+     "version": "1427.v083f1d9372a_f"
+    }
+   ],
+   "developers": [],
+   "excerpt": "The Jenkins Plugins Parent POM Project",
+   "gav": "org.jenkins-ci.plugins.workflow:workflow-cps:4000.v5198556e9cea_",
+   "labels": [
+    "misc"
+   ],
+   "name": "workflow-cps",
+   "releaseTimestamp": "2024-12-02T23:18:40.00Z",
+   "requiredCore": "2.426.3",
+   "scm": "https://github.com/jenkinsci/workflow-cps-plugin",
+   "sha1": "gNYAbNDkjAb+Utbw5jyQ5V0AlJg=",
+   "sha256": "1po8PxJ2A5Qw7eUh6STua+AJkVpeqzFz84FiN9QxiZ0=",
+   "title": "Pipeline: Groovy",
+   "url": "https://kves13.github.io/plugins/workflow-cps_4000.v5198556e9cea_.hpi",
+   "version": "4000.v5198556e9cea_",
+   "wiki": "https://github.com/jenkinsci/workflow-cps-plugin"
+  },
+  "workflow-durable-task-step": {
+   "buildDate": "Nov 07, 2024",
+   "compatibleSinceVersion": "2.40",
+   "dependencies": [
+    {
+     "name": "workflow-api",
+     "optional": false,
+     "version": "1291.v51fd2a_625da_7"
+    },
+    {
+     "name": "workflow-step-api",
+     "optional": false,
+     "version": "657.v03b_e8115821b_"
+    },
+    {
      "name": "workflow-support",
      "optional": false,
      "version": "865.v43e78cc44e0d"
+    },
+    {
+     "name": "durable-task",
+     "optional": false,
+     "version": "550.v0930093c4b_a_6"
+    },
+    {
+     "name": "scm-api",
+     "optional": false,
+     "version": "689.v237b_6d3a_ef7f"
     },
     {
      "name": "script-security",
@@ -3484,11 +3580,6 @@ updateCenter.post(
      "name": "structs",
      "optional": false,
      "version": "337.v1b_04ea_4df7c8"
-    },
-    {
-     "name": "scm-api",
-     "optional": false,
-     "version": "689.v237b_6d3a_ef7f"
     }
    ],
    "developers": [],
@@ -3505,7 +3596,7 @@ updateCenter.post(
    "sha1": "2BfZrcwXcnCAq1lyY4JSlkdKH5A=",
    "sha256": "VCnp26FmBf9+kcWq6Ri3ScT7exshThib0eOENZR8zp8=",
    "title": "Pipeline: Nodes and Processes",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/workflow-durable-task-step_1378.v6a_3e903058a_3.hpi",
+   "url": "https://kves13.github.io/plugins/workflow-durable-task-step_1378.v6a_3e903058a_3.hpi",
    "version": "1378.v6a_3e903058a_3",
    "wiki": "https://github.com/jenkinsci/workflow-durable-task-step-plugin"
   },
@@ -3519,14 +3610,14 @@ updateCenter.post(
      "version": "56.v1b_1c8c49374e"
     },
     {
-     "name": "workflow-step-api",
-     "optional": false,
-     "version": "657.v03b_e8115821b_"
-    },
-    {
      "name": "workflow-api",
      "optional": false,
      "version": "1283.v99c10937efcb_"
+    },
+    {
+     "name": "workflow-step-api",
+     "optional": false,
+     "version": "657.v03b_e8115821b_"
     },
     {
      "name": "workflow-support",
@@ -3547,9 +3638,86 @@ updateCenter.post(
    "sha1": "qjCp+oQnOPh9vs8A60D1zK80KTg=",
    "sha256": "ytLa4Co4b5hXbp9X8gyQQIZeEBd9alvOGwDjfa3OQyQ=",
    "title": "Pipeline: Job",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/workflow-job_1400.v7fd111b_ec82f.hpi",
+   "url": "https://kves13.github.io/plugins/workflow-job_1400.v7fd111b_ec82f.hpi",
    "version": "1400.v7fd111b_ec82f",
    "wiki": "https://github.com/jenkinsci/workflow-job-plugin"
+  },
+  "workflow-multibranch": {
+   "buildDate": "Jun 17, 2024",
+   "dependencies": [
+    {
+     "name": "ionicons-api",
+     "optional": false,
+     "version": "70.v2959a_b_74e3cf"
+    },
+    {
+     "name": "workflow-api",
+     "optional": false,
+     "version": "1291.v51fd2a_625da_7"
+    },
+    {
+     "name": "workflow-cps",
+     "optional": false,
+     "version": "3894.vd0f0248b_a_fc4"
+    },
+    {
+     "name": "workflow-job",
+     "optional": false,
+     "version": "1400.v7fd111b_ec82f"
+    },
+    {
+     "name": "workflow-scm-step",
+     "optional": false,
+     "version": "427.v4ca_6512e7df1"
+    },
+    {
+     "name": "workflow-step-api",
+     "optional": false,
+     "version": "657.v03b_e8115821b_"
+    },
+    {
+     "name": "workflow-support",
+     "optional": false,
+     "version": "896.v175a_a_9c5b_78f"
+    },
+    {
+     "name": "branch-api",
+     "optional": false,
+     "version": "2.1163.va_f1064e4a_a_f3"
+    },
+    {
+     "name": "cloudbees-folder",
+     "optional": false,
+     "version": "6.928.v7c780211d66e"
+    },
+    {
+     "name": "scm-api",
+     "optional": false,
+     "version": "690.vfc8b_54395023"
+    },
+    {
+     "name": "script-security",
+     "optional": false,
+     "version": "1335.vf07d9ce377a_e"
+    }
+   ],
+   "developers": [],
+   "excerpt": "The Jenkins Plugins Parent POM Project",
+   "gav": "org.jenkins-ci.plugins.workflow:workflow-multibranch:783.787.v50539468395f",
+   "labels": [
+    "misc",
+    "scm-related"
+   ],
+   "name": "workflow-multibranch",
+   "releaseTimestamp": "2024-06-17T13:56:34.00Z",
+   "requiredCore": "2.452.1",
+   "scm": "https://github.com/jenkinsci/workflow-multibranch-plugin",
+   "sha1": "oWx26j45MSgb53trDSWPPx4pyYc=",
+   "sha256": "nAu2QroE74UE2ECBm/ziypkH35ij+0ydeGJkmfaGEdo=",
+   "title": "Pipeline: Multibranch",
+   "url": "https://kves13.github.io/plugins/workflow-multibranch_783.787.v50539468395f.hpi",
+   "version": "783.787.v50539468395f",
+   "wiki": "https://github.com/jenkinsci/workflow-multibranch-plugin"
   },
   "workflow-scm-step": {
    "buildDate": "Mar 15, 2024",
@@ -3574,7 +3742,7 @@ updateCenter.post(
    "sha1": "BSBH6xKocVxSPxde6sHXU2jSNdk=",
    "sha256": "SgbEZn4bxDfokQer2aMWra9R/KT9UE0SpSUZR3fTStg=",
    "title": "Pipeline: SCM Step",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/workflow-scm-step_427.v4ca_6512e7df1.hpi",
+   "url": "https://kves13.github.io/plugins/workflow-scm-step_427.v4ca_6512e7df1.hpi",
    "version": "427.v4ca_6512e7df1",
    "wiki": "https://github.com/jenkinsci/workflow-scm-step-plugin"
   },
@@ -3600,7 +3768,7 @@ updateCenter.post(
    "sha1": "rCbVeqkitth5SmwqG/tiHWjotmk=",
    "sha256": "QORQEzoJW7nM8Fi2vyz6Pwk4qYifXklNYd+wrepRiz0=",
    "title": "Pipeline: Step API",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/workflow-step-api_678.v3ee58b_469476.hpi",
+   "url": "https://kves13.github.io/plugins/workflow-step-api_678.v3ee58b_469476.hpi",
    "version": "678.v3ee58b_469476",
    "wiki": "https://github.com/jenkinsci/workflow-step-api-plugin"
   },
@@ -3609,14 +3777,19 @@ updateCenter.post(
    "compatibleSinceVersion": "3.0",
    "dependencies": [
     {
-     "name": "workflow-step-api",
+     "name": "caffeine-api",
      "optional": false,
-     "version": "678.v3ee58b_469476"
+     "version": "3.1.8-133.v17b_1ff2e0599"
     },
     {
      "name": "workflow-api",
      "optional": false,
      "version": "1322.v857eeeea_9902"
+    },
+    {
+     "name": "workflow-step-api",
+     "optional": false,
+     "version": "678.v3ee58b_469476"
     },
     {
      "name": "scm-api",
@@ -3627,16 +3800,6 @@ updateCenter.post(
      "name": "script-security",
      "optional": false,
      "version": "1341.va_2819b_414686"
-    },
-    {
-     "name": "caffeine-api",
-     "optional": false,
-     "version": "3.1.8-133.v17b_1ff2e0599"
-    },
-    {
-     "name": "jboss-marshalling-river",
-     "optional": false,
-     "version": "2.2.1.Final"
     }
    ],
    "developers": [],
@@ -3652,7 +3815,7 @@ updateCenter.post(
    "sha1": "WyrcH/tfTra2GuMAmAIhAmvGJ/M=",
    "sha256": "Lfx/nJhOK/zSdTsmr7w/myPHKg3YucJUUHzXd6IUctU=",
    "title": "Pipeline: Supporting APIs",
-   "url": "https://hub.unix7.org/file/denergy/jenkins/plugins/workflow-support_936.v9fa_77211ca_e1.hpi",
+   "url": "https://kves13.github.io/plugins/workflow-support_936.v9fa_77211ca_e1.hpi",
    "version": "936.v9fa_77211ca_e1",
    "wiki": "https://github.com/jenkinsci/workflow-support-plugin"
   }
@@ -3662,10 +3825,10 @@ updateCenter.post(
   "certificates": [
    "MIIDBjCCAe6gAwIBAgIHBijUtVrizzANBgkqhkiG9w0BAQsFADAQMQ4wDAYDVQQDEwVJbnRlcjAeFw0yNDEyMDkxMTMxNDFaFw0zNDEyMDkxMTMxNDFaMBUxEzARBgNVBAMTCmplbmtpbnMtdWMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDNSE93BRZlCFQv1XO/f1DV/GcetxHWatUUWgNJd9ne1vDzdZmiKMr3sKG+CfwfJx5hiyUsy4YYpIH3XN/cTC3k99fxdAK2qAftZflzQgzfG+LCYhhRm3I5V2rr0D/zCeZEMsRnEK3CHXTS9gV57rk9xR+clkdq+L/vg9FsBMuEeQtWNztFaTdtMy6IAaTNcEhRvl+bWjfWjP3KAa35PSbt8aaPYb9GuuxQsWADIXXpeWlYJaJW5KsIxgjOu5FMTCf6BPHi3NlSs9qg9olST/cyMbofYdrMWAMqk1R+UJhwU1wi5pWISYs06PU4DuE8IlS5nRHz3ItGL9DiC4wLPJcBAgMBAAGjYDBeMA4GA1UdDwEB/wQEAwIHgDAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBT6hih1G4Kriq8GlXLWk2OECQxfhDANBgkqhkiG9w0BAQsFAAOCAQEAl+eE+0ZYovNslDHeDi3d0VDS1hWnNkwMp6ul9tYugbE5PpTxwcKOAPdPMmis9JyauqZkAmXe0yHr5iR1PKoRjbB6095++/GTvNQs4ZADLacvyHdmjB8l4i4w51ksPIp/kkRcVVSgsU31DObfFDjqX/jKHksbh0Sfmn5Eg79+yFdfS9B9l6Na35DomdquXMnUXDFHcoTH1HVQZGCC1Wcj6xfrMQeO+XtGxxHUXuN0dcaJ9EG6BGvETcE4WCH45qNy6Jv9lQBON5KJWthdY4ITj6TAiAnzkr+GKFT4EGaVGW3oBHXa/CUcsrtVyQ4GSQ0fTFMLp1fyz5WL3cKhNgBhTA=="
   ],
-  "correct_digest": "g3jzRE+xzUZTjIL58gkVxzxvAws=",
-  "correct_digest512": "aeee66b9cde91ab0508de1cc69d5793e8a0eac02a248ad3de9e4c6becce37e5cd4efcc7bc735a3ea1d3cc21388c2cdc6aa02574c745c09468b219ad67b337c8a",
-  "correct_signature": "jFNae4jw5RDefNROJI0JdvK7KUwjfmf4IgXcD6KSO4ZOLB6qQLU72Z0KKOe6xsloez786exJyV1A+KSAK3858huoSOeB/IcUr+O4/iT3YJ4DwNzUUatUF00aPb1DsmaSGNxcQRJwQaaxM3OKBADmlaHmIMbmQk6I7HzkMUw2esGWrpGpHDKpNe7/dchPrfoMsN/ccUFQjpz1Y6vAffQ8hoTc2P/Kd+sTyLJMb8EISdbAQIhiigj4tTO88W2kfbvL7x5z9k1kn1sRyo+y6SJVfvfPUwhsIYSK5DRV/u2gz2VyZVtP0+4PEP4YP96fXtGxqVpU1zJmTPNdvcnTFBR+eA==",
-  "correct_signature512": "47dd73b9a6df84d721a7c6f522e4fb1256a599317d2e31dd485d0b853448cab2000923c2b7fffb90c407d4936a9e3d8543655d7f533f067ef4a8e1323b6b1e90eb6ada7225c8a64445eac9bd02b423979071c486474cc14cd02b8d8eb7cfa463df63c21a67a90ea09dbc9f5e658d01669868be4885447059ac8e8ac40492f58873e9d04b4495d0935a5cd1077f03529c4bc2d9960da9315a3e4d8cb15f3a928cf83fea38ff56ba56f09874d4e61e6b9506054ca83dec4afa33fa5c349451336f401d8ac1f867dedb1147f3104293eced790a7c78048bbbbd2397423c7c4e543f672f73a79d8ee8ef42dbc8c05f052ebe6c6975323039dae9e5ac388ae4e2bff8"
+  "correct_digest": "9G6AzTOZhPG+d1dc98Io1T8vXQY=",
+  "correct_digest512": "462efcd43976e91cf0586f450d9280afd6fcf5065619856eb19bb469439be4dab0da13220c6ca464753b21cc588fb8df9f41a966a02113f14b6a663acc109c71",
+  "correct_signature": "FR/tAaSrX0I/w3QwVkaBJh6e2tZn4wGe4Qre+MSdyXUlRw6KggdtP9UTR1/m+C24Qc3KMG6LUUwr0z6sIqdX+5ifmvb7IWQLXNxKyi4s2J6PZg/FSKxDys48N3VLIuHAcCkKbMPNugJoDxfII39W1Pp3nT0nIbfrg/ycwy5WcAohlAj16CM/p4F7xKU458y2Mun0VviLV5VZWsRf8FCrJ4BrJJ7xcjxZe13IEgo64cNuYqRK6WbmeLQg/SFLGEANs7SXJ0j4PWRJCPwuvBO4lOehDNa5oPe8cwnl1c0Eft7sLjREUqOyJE2KIEvcmUUrkGDf/lH3cp120z9ahq0cgQ==",
+  "correct_signature512": "22202f2916ab8661dd2cf14e86d816dea542a402ebf5e1e2af5b1204d0451860c8daed08f1a13807ae76c5b5fc5eec373c1b09802607777444f99fd78b672ad0fb9aa87e7fdbb5f2af00efff7e70a08b1f1b47c52b289d51aa7824a2011f63cbad20045b575707cdfc8ee87d376772f72618fc4338d86da2f30dff60edb6973d5c41b60f0d57a5c85fb01fbf4b366db31b366f89a37a312c47bacd5c12e060407e6a8dd787658ff70fa289469ae8f299d57d058a59a30b51ee1cf299dbba2eb642faf8e4d271828baefde5344e1a9da0eb30c8c685e4a23995b8df85b6d60471c7fc1cc12c02231b7f1136cd68d962320001952eecf4120a7b2b176df9d58c48"
  }
 }
 );
